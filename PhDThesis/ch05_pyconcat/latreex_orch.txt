@@ -1,0 +1,19 @@
+LaTreeX
+
+~Philharmonia (1348)~
+-Strings~ (400)
+--Violin (100)
+--Viola (100)
+--Cello (100)
+--Double Bass (100)
+-Woodwind~ (400)
+--Flute (100)
+--Oboe (100)
+--Clarinet (100)
+--Bassoon (100)
+-Brass~ (400)
+--Trumpet (100)
+--French Horn (100)
+--Trombone (100)
+--Tuba (100)
+-Percussion (148)

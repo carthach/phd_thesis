@@ -1,0 +1,36 @@
+\select@language {spanish}
+\select@language {spanish}
+\select@language {british}
+\select@language {british}
+\addvspace {10pt}
+\select@language {catalan}
+\addvspace {10pt}
+\select@language {spanish}
+\addvspace {10pt}
+\select@language {british}
+\addvspace {10pt}
+\addvspace {10pt}
+\addvspace {10pt}
+\contentsline {table}{\numberline {3.1}{\ignorespaces Listener Survey Variable Summary}}{42}{table.caption.41}
+\contentsline {table}{\numberline {3.2}{\ignorespaces Overall Similarity Correlation Matrix}}{44}{table.caption.43}
+\contentsline {table}{\numberline {3.3}{\ignorespaces \IeC {\textquotedblleft }Interestingness\IeC {\textquotedblright } Correlation Matrix}}{46}{table.caption.46}
+\addvspace {10pt}
+\contentsline {table}{\numberline {4.1}{\ignorespaces Summary of Existing Concatenative Sound Synthesis Systems}}{69}{table.caption.56}
+\addvspace {10pt}
+\contentsline {table}{\numberline {5.1}{\ignorespaces Onset Detection Algorithm Results}}{78}{table.caption.61}
+\contentsline {table}{\numberline {5.2}{\ignorespaces Extended statistics for each algorithm by dataset}}{79}{table.caption.64}
+\contentsline {table}{\numberline {5.3}{\ignorespaces Mirex 2016 Beat Tracking Results}}{83}{table.caption.68}
+\contentsline {table}{\numberline {5.4}{\ignorespaces Availability of MFCC, BFCC and GFCC Descriptors in Common Audio Labelling Libraries}}{97}{table.caption.76}
+\contentsline {table}{\numberline {5.5}{\ignorespaces BFCC parameters for matching output of \cite {Ellis2005}}}{98}{table.caption.77}
+\contentsline {table}{\numberline {5.6}{\ignorespaces Feature Configurations for Classifier Testing}}{106}{table.caption.88}
+\contentsline {table}{\numberline {5.7}{\ignorespaces Mean Classification Accuracy and 95\% confidence interval for each classifier and feature configuration with the Orchestral Dataset}}{107}{table.caption.89}
+\contentsline {table}{\numberline {5.8}{\ignorespaces Mean Classification Accuracy and 95\% confidence interval for each classifier and feature configuration with the Drum Dataset}}{108}{table.caption.90}
+\addvspace {10pt}
+\addvspace {10pt}
+\addvspace {10pt}
+\addvspace {10pt}
+\addvspace {10pt}
+\addvspace {10pt}
+\addvspace {10pt}
+\addvspace {10pt}
+\addvspace {10pt}

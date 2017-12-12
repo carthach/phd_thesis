@@ -1,0 +1,168 @@
+This is BibTeX, Version 0.99d (TeX Live 2017)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: /Users/carthach/Google Drive/Phd_Work/Thesis/PhDThesis/.texpadtmp/Carthach_PhDThesis.aux
+A level-1 auxiliary file: ch00/1_titlePage.aux
+A level-1 auxiliary file: ch00/preliminarystuff.aux
+A level-1 auxiliary file: ch00/mathSymbols.aux
+A level-1 auxiliary file: ch01_introduction/ch01_introduction.aux
+A level-1 auxiliary file: ch02_dancemusic/ch02_dancemusic.aux
+A level-1 auxiliary file: ch03_symbolic/ch03_symbolic.aux
+A level-1 auxiliary file: ch04_sota/ch04_sota.aux
+A level-1 auxiliary file: ch05_pyconcat/ch05_pyconcat.aux
+A level-1 auxiliary file: ch06_rhythmcat/ch06_rhythmcat.aux
+A level-1 auxiliary file: ch07_evaluation/ch07_evaluation.aux
+A level-1 auxiliary file: ch08_conclusions/ch08_conclusions.aux
+A level-1 auxiliary file: ch99/appendix.aux
+The style file: ../apa_jserra2.bst
+Reallocated field_info (elt_size=4) to 14312 items from 5000.
+Database file #1: ../library.bib.bib
+Repeated entry---line 4945 of file ../library.bib.bib
+ : @article{Rodgers2003
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 6489 of file ../library.bib.bib
+ : @article{Wang2006
+ :                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 6598 of file ../library.bib.bib
+ : @inproceedings{schwarz2005
+ :                           ,
+I'm skipping whatever remains of this entry
+Reallocated str_pool (elt_size=1) to 130000 items from 65000.
+Repeated entry---line 6962 of file ../library.bib.bib
+ : @article{Eyben2010
+ :                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 7002 of file ../library.bib.bib
+ : @article{Hove2014
+ :                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 7023 of file ../library.bib.bib
+ : @misc{Brossier2006
+ :                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 7165 of file ../library.bib.bib
+ : @article{Bock2013
+ :                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 7421 of file ../library.bib.bib
+ : @article{Ariza2009
+ :                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 7705 of file ../library.bib.bib
+ : @inproceedings{Pachet2002
+ :                          ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 7775 of file ../library.bib.bib
+ : @article{Glover2011
+ :                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 8471 of file ../library.bib.bib
+ : @inproceedings{Duxbury2002
+ :                           ,
+I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "Papadopoulos199"
+Warning--I didn't find a database entry for "Schwarz2006a"
+Name 1 in "{Chih-Wei Hsu, Chih-Chung Chang}, and Chih-Jen Lin" has a comma at the end for entry Chang2008
+while executing---line 1403 of file ../apa_jserra2.bst
+Name 1 in "{Chih-Wei Hsu, Chih-Chung Chang}, and Chih-Jen Lin" has a comma at the end for entry Chang2008
+while executing---line 1403 of file ../apa_jserra2.bst
+Warning--missing publisher in Bartok1993
+Warning--there's a number but no volume in Bates2009
+Warning--empty journal in Bello2005
+Warning--can't use both volume and number fields in bernstein
+Warning--missing publisher in bernstein
+Warning--there's a number but no volume in Bird2016
+Warning--can't use both volume and number fields in Ob1995
+Warning--can't use both author and editor fields in Brooks1993
+Name 1 in "{Chih-Wei Hsu, Chih-Chung Chang}, and Chih-Jen Lin" has a comma at the end for entry Chang2008
+while executing---line 1470 of file ../apa_jserra2.bst
+Name 1 in "{Chih-Wei Hsu, Chih-Chung Chang}, and Chih-Jen Lin" has a comma at the end for entry Chang2008
+while executing---line 1470 of file ../apa_jserra2.bst
+Warning--can't use both volume and number fields in Chomsky1957
+Warning--missing publisher in Chomsky1957
+Warning--empty journal in Collins2006
+Warning--empty journal in Cope2000
+Warning--there's a number but no volume in Duxbury2002
+Warning--there's a number but no volume in Eigenfeldt2016a
+Warning--missing publisher in Gerhard2003
+Warning--there's a number but no volume in Gomez2007
+Warning--can't use both volume and number fields in Gurney1996
+Warning--there's a number but no volume in Haworth2015
+Warning--empty journal in Hockman2007
+Warning--there's a number but no volume in Hockman2012
+Warning--missing publisher in Holmes2008
+Warning--empty journal in Johnson-Roberson2017
+Warning--empty journal in Scipy2014
+Warning--there's a number but no volume in Jorda1991
+Warning--empty journal in keith1991polychords
+Warning--can't use both volume and number fields in Kobayashi
+Warning--there's a number but no volume in Korzeniowski2014
+Warning--missing publisher in Lerch2012
+Warning--missing publisher in Lochhead2002
+Warning--there's a number but no volume in Mandel2005
+Warning--there's a number but no volume in Mcfee2015
+Warning--there's a number but no volume in McGranahan2010
+Warning--missing publisher in Metzer2003
+Warning--there's a number but no volume in Miller2010
+Warning--empty journal in Miron2017a
+Warning--there's a number but no volume in Miron2017a
+Warning--there's a number but no volume in Monteiro2011
+Warning--missing publisher in Nierhaus2009
+Warning--missing publisher in Reich2011
+Warning--there's a number but no volume in Risset1999
+Warning--empty journal in Roads1985
+Warning--can't use both volume and number fields in Roads1996
+Warning--missing publisher in Roads2004
+Warning--missing publisher in Russell2002
+Warning--missing publisher in Sethares2007
+Warning--there's a number but no volume in Shao2009
+Warning--missing publisher in Sicko2010
+Warning--missing publisher in Siek2002
+Warning--missing school in Tamagawa1988
+Warning--there's a number but no volume in Tihelka2010
+Warning--missing publisher in Weihs2009
+Warning--there's a number but no volume in Wiggins2012a
+Warning--there's a number but no volume in Zapata2012
+You've used 386 entries,
+            2821 wiz_defined-function locations,
+            2803 strings with 67878 characters,
+and the built_in function-call counts, 214666 in all, are:
+= -- 17983
+> -- 7888
+< -- 377
++ -- 2903
+- -- 2508
+* -- 14786
+:= -- 33442
+add.period$ -- 1168
+call.type$ -- 386
+change.case$ -- 2857
+chr.to.int$ -- 377
+cite$ -- 439
+duplicate$ -- 16198
+empty$ -- 16406
+format.name$ -- 3490
+if$ -- 42992
+int.to.chr$ -- 10
+int.to.str$ -- 1
+missing$ -- 3213
+newline$ -- 1902
+num.names$ -- 1548
+pop$ -- 6579
+preamble$ -- 1
+purify$ -- 2378
+quote$ -- 0
+skip$ -- 6788
+stack$ -- 0
+substring$ -- 9664
+swap$ -- 8322
+text.length$ -- 116
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 3303
+warning$ -- 53
+while$ -- 1702
+width$ -- 0
+write$ -- 4886
+(There were 15 error messages)
