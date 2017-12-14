@@ -1,4 +1,4 @@
-\begin{thebibliography}{386}
+\begin{thebibliography}{416}
 \providecommand{\natexlab}[1]{#1}
 
 \bibitem[{Abdulla(2002)}]{Abdulla2002}
@@ -99,6 +99,19 @@ Balestri, M., Pacchiotti, A., Quazza, S., Salza, P.~L., \& Sandri, S. (1999).
 \newblock In \emph{Sixth European Conference on Speech Communication and
   Technology}.
 
+\bibitem[{Barbosa et~al.(2015)Barbosa, Malloch, Wanderley, \&
+  Huot}]{Barbosa2015}
+Barbosa, J., Malloch, J., Wanderley, M.~M., \& Huot, S. (2015).
+\newblock {What does " Evaluation " mean for the NIME community?}
+\newblock \emph{NIME 2015 - 15th International Conference on New Interfaces for
+  Musical Expression}, p.~6.
+
+\bibitem[{Barreiro(2010)}]{Barreiro2010}
+Barreiro, D.~L. (2010).
+\newblock {Considerations on the handling of space in multichannel
+  electroacoustic works}.
+\newblock \emph{Organised Sound}, \emph{15}(3), 290--296.
+
 \bibitem[{Bart{\'{o}}k(1993)}]{Bartok1993}
 Bart{\'{o}}k, B. (1993).
 \newblock {Hungarian Folk Music}.
@@ -115,18 +128,18 @@ Battier, M. (2007).
   acousmatic music}.
 \newblock \emph{Organised Sound}, \emph{12}(03), 189--202.
 
-\bibitem[{Bello \& Daudet(2005)}]{Bello2005b}
-Bello, J. \& Daudet, L. (2005).
-\newblock {A tutorial on onset detection in music signals}.
-\newblock \emph{IEEE Transactions on Audio, Speech, and Language Processing},
-  \emph{13}(5), 1035--1047.
-
 \bibitem[{Bello et~al.(2005)Bello, Daudet, Abdallah, Duxbury, Davies, Sandler,
   \& Member}]{Bello2005}
 Bello, J.~P., Daudet, L., Abdallah, S., Duxbury, C., Davies, M., Sandler,
   M.~B., \& Member, S. (2005).
 \newblock {A Tutorial on Onset Detection in Music Signals}.
 \newblock \emph{13}(5), 1035--1047.
+
+\bibitem[{Bello et~al.(2004)Bello, Duxbury, Davies, \& Sandler}]{Bello2004}
+Bello, J.~P., Duxbury, C., Davies, M., \& Sandler, M. (2004).
+\newblock {On the use of phase and energy for musical onset detection in the
+  complex domain}.
+\newblock \emph{IEEE Signal Processing Letters}, \emph{11}(6), 553--556.
 
 \bibitem[{Benward \& Saker(2008)}]{Benward2008}
 Benward, B. \& Saker, M. (2008).
@@ -210,8 +223,8 @@ B{\"{o}}ck, S., Krebs, F., \& Schedl, M. (2012).
 \bibitem[{B{\"{o}}ck \& Widmer(2013)}]{Bock2013}
 B{\"{o}}ck, S. \& Widmer, G. (2013).
 \newblock {Maximum filter vibrato suppression for onset detection}.
-\newblock \emph{Proc. of the 16th Int. Conference on Digital Audio Effects},
-  pp. 1--7.
+\newblock \emph{Proc. of the 16th Int. Conf. on Digital Audio {\ldots}}, pp.
+  1--7.
 
 \bibitem[{Bogdanov et~al.(2013)Bogdanov, Wack, G{\'{o}}mez, Gulati, Herrera,
   Mayor, Roma, Salamon, Zapata, \& Serra}]{Bogdanov2013}
@@ -261,9 +274,7 @@ Brooks, F., Hopkins, A., Neumann, P., \& Wright, W. (1993).
 
 \bibitem[{Brossier(2006)}]{Brossier2006}
 Brossier, P. (2006).
-\newblock \emph{{Automatic annotation of musical audio for interactive
-  applications}}.
-\newblock Ph.D. thesis, Queen Mary, University of London.
+\newblock {Automatic annotation of musical audio for interactive applications}.
 
 \bibitem[{Brossier et~al.(2004)Brossier, Bello, \& Plumbley}]{Brossier2004a}
 Brossier, P., Bello, J.~P., \& Plumbley, M.~D. (2004).
@@ -450,9 +461,15 @@ Conkie, A. (1999).
 \newblock \emph{The Journal of the Acoustical Society of America},
   \emph{105}(2), 978.
 
-\bibitem[{Cooper et~al.(2006)Cooper, Foote, Pampalk, \&
+\bibitem[{Cooper et~al.(2006{\natexlab{a}})Cooper, Foote, Pampalk, \&
+  Tzanetakis}]{cooper2006visualization}
+Cooper, M., Foote, J., Pampalk, E., \& Tzanetakis, G. (2006{\natexlab{a}}).
+\newblock {Visualization in audio-based music information retrieval}.
+\newblock \emph{Computer Music Journal}, \emph{30}(2), 42--62.
+
+\bibitem[{Cooper et~al.(2006{\natexlab{b}})Cooper, Foote, Pampalk, \&
   Tzanetakis}]{Cooper2006}
-Cooper, M., Foote, J., Pampalk, E., \& Tzanetakis, G. (2006).
+Cooper, M., Foote, J., Pampalk, E., \& Tzanetakis, G. (2006{\natexlab{b}}).
 \newblock {Visualization in Audio-Based Music Information Retrieval}.
 \newblock \emph{Computer Music Journal}, \emph{30}(2), 42--62.
 
@@ -569,6 +586,21 @@ Donnelly, P.~J. \& Sheppard, J.~W. (2016).
 \newblock \emph{Proceedings - 15th IEEE International Conference on Data Mining
   Workshop, ICDMW 2015}, pp. 94--101.
 
+\bibitem[{Duignan et~al.(2004)Duignan, Noble, Barr, \& Biddle}]{Duignan2004}
+Duignan, M., Noble, J., Barr, P., \& Biddle, R. (2004).
+\newblock {Metaphors for electronic music production in Reason and Live}.
+\newblock \emph{Computer Human Interaction}, (January), 111--120.
+
+\bibitem[{Duignan et~al.(2005)Duignan, Noble, \& Biddle}]{Duignan2005}
+Duignan, M., Noble, J., \& Biddle, R. (2005).
+\newblock {A taxonomy of sequencer user-interfaces}.
+\newblock In \emph{International Computer Music Conference}.
+
+\bibitem[{Duignan et~al.(2010)Duignan, Noble, \& Biddle}]{Duignan2010}
+Duignan, M., Noble, J., \& Biddle, R. (2010).
+\newblock {Abstraction and Activity in Computer-Mediated Music Production}.
+\newblock \emph{Computer Music Journal}, \emph{34}(4), 22--33.
+
 \bibitem[{Dupont et~al.(2013)Dupont, Ravet, Picard-Limpens, \&
   Frisson}]{Dupont2013}
 Dupont, S., Ravet, T., Picard-Limpens, C., \& Frisson, C. (2013).
@@ -580,8 +612,7 @@ Dupont, S., Ravet, T., Picard-Limpens, C., \& Frisson, C. (2013).
 \bibitem[{Duxbury et~al.(2002)Duxbury, Sandler, \& Davies}]{Duxbury2002}
 Duxbury, C., Sandler, M., \& Davies, M. (2002).
 \newblock {A hybrid approach to musical note onset detection}.
-\newblock \emph{5th Int. Conference on Digital Audio Effects (DAFx-02),
-  Hamburg, Germany}, (November 2002), 33--38.
+\newblock In \emph{Computer}, pp. 33--38.
 
 \bibitem[{Eigenfeldt(2006)}]{Eigenfeldt2006a}
 Eigenfeldt, A. (2006).
@@ -642,12 +673,11 @@ Ellis, D. P.~W. (2009).
 Essl, K. (1992).
 \newblock {Real Time Composition Library (RTC-lib)}.
 
-\bibitem[{Eyben et~al.(2010)Eyben, B{\"{o}}ck, Schuller, \& Graves}]{Eyben2010}
-Eyben, F., B{\"{o}}ck, S., Schuller, B., \& Graves, A. (2010).
-\newblock {Universal Onset Detection with Bidirectional Long-Short Term Memory
-  Neural Networks}.
-\newblock In \emph{International Society for Music Information Retrieval
-  Conference}, pp. 589--594. Utrecht, Netherlands.
+\bibitem[{Eyben et~al.(2010)Eyben, Sebastian, \& Graves}]{Eyben2010}
+Eyben, F., Sebastian, B., \& Graves, A. (2010).
+\newblock {UNIVERSAL ONSET DETECTION WITH BIDIRECTIONAL LONG SHORT-TERM MEMORY
+  NEURAL NETWORKS}.
+\newblock (Ismir), 589--594.
 
 \bibitem[{Faraldo et~al.(2016)Faraldo, G{\'{o}}mez, Jord{\`{a}}, \&
   Herrera}]{Faraldo2016}
@@ -682,11 +712,28 @@ Fern{\'{a}}ndez, J.~D. \& Vico, F. (2013).
 \newblock \emph{Journal of Artificial Intelligence Research}, \emph{48},
   513--582.
 
+\bibitem[{Fitzgerald(2004)}]{Fitz2004}
+Fitzgerald, D. (2004).
+\newblock {Automatic drum transcription and source separation}.
+\newblock \emph{Dublin Institute of Technology}, p.~3.
+
 \bibitem[{Fletcher \& Munson(1933)}]{Fletcher1933}
 Fletcher, H. \& Munson, W.~A. (1933).
 \newblock {Loudness, Its Definition, Measurement and Calculation}.
 \newblock \emph{Journal of the Acoustical Society of America (JASA)},
   \emph{5}(2), 82.
+
+\bibitem[{Flexer(2015)}]{Flexer2015}
+Flexer, A. (2015).
+\newblock {Improving visualization of high-dimensional music similarity
+  spaces}.
+\newblock \emph{International Society for Music Information Retrieval
+  Conference (ISMIR)}, pp. 547--553.
+
+\bibitem[{Font \& Bandiera(2017)}]{Font2017}
+Font, F. \& Bandiera, G. (2017).
+\newblock {Freesound Explorer: Make Music While Discovering Freesound!}
+\newblock \emph{Web Audio Conference (WAC)}.
 
 \bibitem[{Forman \& Neal(2004)}]{Forman2004}
 Forman, M. \& Neal, M.~A. (2004).
@@ -711,15 +758,44 @@ Frisson, C. (2015).
   similarity)}}.
 \newblock Ph.D. thesis, Universit{\'{e}} de Mons.
 
+\bibitem[{Frisson et~al.(2014{\natexlab{a}})Frisson, Dupont, Yvart, Riche,
+  Siebert, \& Dutoit}]{Frisson2014a}
+Frisson, C., Dupont, S., Yvart, W., Riche, N., Siebert, X., \& Dutoit, T.
+  (2014{\natexlab{a}}).
+\newblock {AudioMetro}.
+\newblock \emph{Proceedings of the 9th Audio Mostly on A Conference on
+  Interaction With Sound - AM '14}, pp. 1--8.
+
 \bibitem[{Frisson et~al.(2010)Frisson, Picard, \& Tardieu}]{Frisson2010}
 Frisson, C., Picard, C., \& Tardieu, D. (2010).
 \newblock {Audiogarden : Towards a Usable Tool for Composite Audio Creation}.
 \newblock \emph{QPSR of the numediart research program}, \emph{3}(2), 33--36.
 
+\bibitem[{Frisson et~al.(2014{\natexlab{b}})Frisson, Yvart, Riche, Siebert, \&
+  Dutoit}]{Frisson2014}
+Frisson, C., Yvart, W., Riche, N., Siebert, X., \& Dutoit, T.
+  (2014{\natexlab{b}}).
+\newblock {a Proximity Grid Optimization Method To Improve Audio Search for
+  Sound Design}.
+\newblock \emph{15th International Society for Music Information Retrieval
+  Conference ( ISMIR 2014 )}, (Ismir), 349--354.
+
 \bibitem[{Fujishima(1999)}]{Fujishima1999}
 Fujishima, T. (1999).
 \newblock {Realtime Chord Recognition of Musical Sound: A System Using Common
   Lisp Music}.
+
+\bibitem[{Gabrielsson(1973{\natexlab{a}})}]{Gabrielsson1973a}
+Gabrielsson, A. (1973{\natexlab{a}}).
+\newblock {Similarity ratings and dimension analyses of auditory rhythm
+  patterns. 1}.
+\newblock \emph{Scandinavian Journal of Psychology}, \emph{14}(1), 138--160.
+
+\bibitem[{Gabrielsson(1973{\natexlab{b}})}]{Gabrielsson1973b}
+Gabrielsson, A. (1973{\natexlab{b}}).
+\newblock {Similarity ratings and dimension analyses of auditory rhythm
+  patterns. 2}.
+\newblock \emph{Scandinavian Journal of Psychology}, \emph{14}(1), 161--176.
 
 \bibitem[{Gerhard(2003)}]{Gerhard2003}
 Gerhard, D. (2003).
@@ -783,6 +859,13 @@ G{\'{o}}mez-Mar{\'{i}}n, D., Jord{\`{a}}, S., \& Herrera, P. (2015).
 \newblock \emph{16th International Society for Music Information Retrieval
   Conference}.
 
+\bibitem[{G{\'{o}}mez-Mar{\'{i}}n et~al.(2016)G{\'{o}}mez-Mar{\'{i}}n,
+  Jord{\`{a}}, \& Herrera}]{Gomez-Marin2016}
+G{\'{o}}mez-Mar{\'{i}}n, D., Jord{\`{a}}, S., \& Herrera, P. (2016).
+\newblock {Rhythm Spaces}.
+\newblock \emph{Proceeedings of the 4th International Workshop on Musical
+  Metacreation}.
+
 \bibitem[{G{\'{o}}mez-Mar{\'{i}}n et~al.(2017)G{\'{o}}mez-Mar{\'{i}}n,
   Jord{\`{a}}, \& Herrera}]{Gomez-Marin2017}
 G{\'{o}}mez-Mar{\'{i}}n, D., Jord{\`{a}}, S., \& Herrera, P. (2017).
@@ -817,6 +900,12 @@ Grekow, J. (2017).
 Grill, T. (2004).
 \newblock {C++ layer for Pure Data {\&} Max/MSP externals}.
 \newblock In \emph{2nd International Linux Audio Conference}.
+
+\bibitem[{Grill(2012)}]{Grill2012}
+Grill, T. (2012).
+\newblock {Constructing high-level perceptual audio descriptors for textural
+  sounds}.
+\newblock In \emph{9th Sound and Music Computing Conference 2012}, p. 235.
 
 \bibitem[{Grzywczak \& Gwardys(2014)}]{Grzywczak2014}
 Grzywczak, D. \& Gwardys, G. (2014).
@@ -878,6 +967,12 @@ Hagberg, A.~A., Schult, D.~A., \& Swart, P.~J. (2008).
 \newblock In G.~Varoquaux, T.~Vaught, \& J.~Millman (Eds.) \emph{Proceedings of
   the 7th Python in Science Conference}, pp. 11--15. Pasadena, CA USA.
 
+\bibitem[{Hamel \& Eck(2010)}]{Hamel2010}
+Hamel, P. \& Eck, D. (2010).
+\newblock {Learning Features from Music Audio with Deep Belief Networks}.
+\newblock \emph{International Society for Music Information Retrieval
+  Conference (ISMIR)}, (Ismir), 339--344.
+
 \bibitem[{Harvey(2000)}]{Harvey2000}
 Harvey, J. (2000).
 \newblock {Spectralism}.
@@ -894,6 +989,11 @@ Haworth, C. (2015).
   Methods Introduction}.
 \newblock \emph{The Electroacoustic Music Studies Network Conference,}, (June),
   1--10.
+
+\bibitem[{Helander(2014)}]{Helander2014}
+Helander, M.~G. (2014).
+\newblock \emph{{Handbook of human-computer interaction}}.
+\newblock Elsevier.
 
 \bibitem[{Herrera et~al.(2003)Herrera, Dehamel, \& Gouyon}]{Herrera2003}
 Herrera, P., Dehamel, A., \& Gouyon, F. (2003).
@@ -917,6 +1017,21 @@ Herrera-Boyer, P., Peeters, G., \& Dubnov, S. (2003).
 Hiller, L.~A. \& Isaacson, L.~M. (1979).
 \newblock \emph{{Experimental Music; Composition with an electronic computer}}.
 \newblock Greenwood Publishing Group Inc.
+
+\bibitem[{Hiraga et~al.(2004)Hiraga, Bresin, Hirata, \& Katayose}]{Hiraga2004}
+Hiraga, R., Bresin, R., Hirata, K., \& Katayose, H. (2004).
+\newblock {Rencon 2004: Turing Test for Musical Expression}.
+\newblock \emph{Proceedings of the International Conference on New Interfaces
+  for Musical Expression}, pp. 120--123.
+
+\bibitem[{Hoashi et~al.(2009)Hoashi, Hamawaki, Ishizaki, Takishima, Katto,
+  Kddi, \& {Keiichiro Hoashi Shuhei Hamawaki}}]{Hoashi2009}
+Hoashi, K., Hamawaki, S., Ishizaki, H., Takishima, Y., Katto, J., Kddi, R., \&
+  {Keiichiro Hoashi Shuhei Hamawaki}, H. I. Y. T. J.~K. (2009).
+\newblock {Usability evaluation of visualization interfaces for content-based
+  music retrieval systems}.
+\newblock \emph{International Society for Music Information Retrieval
+  Conference (ISMIR'09)}, (Ismir), 207--212.
 
 \bibitem[{Hockman(2007)}]{Hockman2007}
 Hockman, J. (2007).
@@ -974,11 +1089,16 @@ Hoskinson, R. \& Pai, D.~K. (2007).
   \emph{16}(1), 84--99.
 
 \bibitem[{Hove et~al.(2014)Hove, Marie, Bruce, \& Trainor}]{Hove2014}
-Hove, M.~J., Marie, C., Bruce, I.~C., \& Trainor, L.~J. (2014).
+Hove, M., Marie, C., Bruce, I., \& Trainor, L. (2014).
 \newblock {Superior time perception for lower musical pitch explains why
-  bass-ranged instruments lay down musical rhythms}.
-\newblock \emph{Proceedings of the National Academy of Sciences},
-  \emph{111}(28), 10383--10388.
+  bass-ranged instruments lay down musical rhythms.}
+\newblock \emph{Proc Natl Acad Sci U S A}, \emph{111}, 10383 -- 8.
+
+\bibitem[{Hsu \& Sosnick(2009)}]{Hsu2009}
+Hsu, W. \& Sosnick, M. (2009).
+\newblock {Evaluating interactive music systems: An HCI approach}.
+\newblock In \emph{Proceedings of New Interfaces for Musical Expression}, pp.
+  25--28.
 
 \bibitem[{Hulshof et~al.(2016)Hulshof, Siebert, \& Melot}]{Hulshof2016}
 Hulshof, C., Siebert, X., \& Melot, H. (2016).
@@ -1082,11 +1202,29 @@ Kaliakatsos-Papakostas, M.~a., Floros, A., \& Vrahatis, M.~N. (2013).
 Keith, M. (1991).
 \newblock {From polychords to polya: adventures in musical combinatorics}.
 
-\bibitem[{Kim et~al.(2006)Kim, Moreau, \& Sikora}]{Kim2006}
-Kim, H.~G., Moreau, N., \& Sikora, T. (2006).
+\bibitem[{Kiefer et~al.(2008)Kiefer, Collins, \& Fitzpatrick}]{Kiefer2008a}
+Kiefer, C., Collins, N., \& Fitzpatrick, G. (2008).
+\newblock {HCI Methodology For Evaluating Musical Controllers: A Case Study}.
+\newblock \emph{Proceedings of the 2008 International Conference on New
+  Interfaces for Musical Expression (NIME-08)}, pp. 87--90.
+
+\bibitem[{Kim et~al.(2006{\natexlab{a}})Kim, Moreau, \& Sikora}]{Kim2006}
+Kim, H.~G., Moreau, N., \& Sikora, T. (2006{\natexlab{a}}).
 \newblock \emph{{MPEG-7 audio and beyond: Audio content indexing and
   retrieval}}.
 \newblock John Wiley {\&} Sons.
+
+\bibitem[{Kim et~al.(2006{\natexlab{b}})Kim, Williamson, \&
+  Pilli}]{kim2006towards}
+Kim, Y.~E., Williamson, D.~S., \& Pilli, S. (2006{\natexlab{b}}).
+\newblock {Towards Quantifying the" Album Effect" in Artist Identification.}
+\newblock In \emph{ISMIR}, pp. 393--394.
+
+\bibitem[{Kim-Boyle(2006)}]{Kim-Boyle2006}
+Kim-Boyle, D. (2006).
+\newblock {Spectral and Granular Spatialization with Boids}.
+\newblock \emph{Proceedings of the 2006 International Computer Music
+  Conference}, (Reynolds 1987), 139--142.
 
 \bibitem[{Kl{\"{u}}gel et~al.(2014)Kl{\"{u}}gel, Becker, \& Groh}]{Klugel2014}
 Kl{\"{u}}gel, N., Becker, T., \& Groh, G. (2014).
@@ -1228,14 +1366,6 @@ Logan, B. (2000).
 \newblock \emph{International Symposium on Music Information Retrieval},
   \emph{28}, 11p.
 
-\bibitem[{Loughran et~al.(2004)Loughran, Walker, O'Neill, \&
-  O'Farrell}]{Loughran2004}
-Loughran, R., Walker, J., O'Neill, M., \& O'Farrell, M. (2004).
-\newblock {The Use of Mel-frequency Cepstral Coefficients in Musical Instrument
-  Identification}.
-\newblock \emph{Proceedings of the International Computer Music Conference},
-  pp. 42--43.
-
 \bibitem[{Lyons(2015)}]{Lyons2015}
 Lyons, J. (2015).
 \newblock {Mel Frequency Cepstral Coefficient (MFCC) tutorial [Practical
@@ -1248,8 +1378,14 @@ Maestre, E., Hazan, A., Ramirez, R., \& Perez, A. (2006).
 \newblock \emph{Proceedings of the International Computer Music Conference},
   \emph{2006}, 163--166.
 
-\bibitem[{Mandel \& Ellis(2005)}]{Mandel2005}
-Mandel, M.~I. \& Ellis, D. P.~W. (2005).
+\bibitem[{Mandel \& Ellis(2005{\natexlab{a}})}]{mandel2005song}
+Mandel, M.~I. \& Ellis, D. (2005{\natexlab{a}}).
+\newblock {Song-Level Features and Support Vector Machines for Music
+  Classification.}
+\newblock In \emph{ISMIR}, vol. 2005, pp. 594--599.
+
+\bibitem[{Mandel \& Ellis(2005{\natexlab{b}})}]{Mandel2005}
+Mandel, M.~I. \& Ellis, D. P.~W. (2005{\natexlab{b}}).
 \newblock {Song-level features and support vector machines for music
   classification}.
 \newblock \emph{Proceedings of the 6th International Symposium in Music
@@ -1282,6 +1418,12 @@ Marti, U. (2015).
 Martin, D. (1999).
 \newblock {Power play and party politics: The significance of raving}.
 \newblock \emph{The Journal of Popular Culture}, \emph{32}(4), 77--99.
+
+\bibitem[{Mart{\'{i}}n(2017)}]{Martin2017}
+Mart{\'{i}}n, S.~O. (2017).
+\newblock \emph{{Knowledge Extraction and Representation Learning for Music
+  Recommendation and Classification}}.
+\newblock Ph.D. thesis, Universitat Pompeu Fabra.
 
 \bibitem[{Masood et~al.(2015)Masood, Gupta, \& Khan}]{Masood2015}
 Masood, S., Gupta, S., \& Khan, S. (2015).
@@ -1407,7 +1549,7 @@ Miranda, E.~R. \& Biles, A.~J. (2007).
 \bibitem[{Miron(2017)}]{Miron2017a}
 Miron, M. (2017).
 \newblock {Monaural score-informed source separation for classical music using
-  convolutional neural networks MONAURAL SCORE-INFORMED SOURCE SEPARATION FOR}.
+  convolutional neural networks}.
 \newblock (October).
 
 \bibitem[{Miron et~al.(2013)Miron, Davies, \& Gouyon}]{Miron2013}
@@ -1415,6 +1557,14 @@ Miron, M., Davies, M. E.~P., \& Gouyon, F. (2013).
 \newblock {An open-source drum transcription system for Pure Data and Max MSP}.
 \newblock \emph{ICASSP, IEEE International Conference on Acoustics, Speech and
   Signal Processing - Proceedings}, pp. 221--225.
+
+\bibitem[{Miron et~al.(2017)Miron, {Janer Mestres}, \& {G{\'{o}}mez
+  Guti{\'{e}}rrez}}]{Miron2017}
+Miron, M., {Janer Mestres}, J., \& {G{\'{o}}mez Guti{\'{e}}rrez}, E. (2017).
+\newblock {Generating data to train convolutional neural networks for classical
+  music source separation}.
+\newblock In \emph{Proceedings of the 14th Sound and Music Computing
+  Conference}. Espoo, Finland.
 
 \bibitem[{Mongillo(2009)}]{Mongillo2009}
 Mongillo, D. (2009).
@@ -1479,6 +1629,15 @@ Nzewi, M., Anyahuru, I., \& Ohiaraumunna, T. (2008).
 \newblock In \emph{Late-Breaking Demo Session of the International Society for
   Music Information Retrieval Conference (ISMIR)}. M{\'{a}}laga, Spain.
 
+\bibitem[{{{\'{O}} Nuan{\'{a}}in} et~al.(2016{\natexlab{a}}){{\'{O}}
+  Nuan{\'{a}}in}, Herrera, \& Jord{\`{a}}}]{Nuanain2016c}
+{{\'{O}} Nuan{\'{a}}in}, C., Herrera, P., \& Jord{\`{a}}, S.
+  (2016{\natexlab{a}}).
+\newblock {An Evaluation Framework and Case Study for Rhythmic Concatenative
+  Synthesis}.
+\newblock In \emph{Proceedings of the 17th International Society for Music
+  Information Retrieval Conference}. New York, USA.
+
 \bibitem[{{{\'{O}} Nuan{\'{a}}in} et~al.(2017{\natexlab{a}}){{\'{O}}
   Nuan{\'{a}}in}, Herrera, \& Jord{\`{a}}}]{ONuanain2017a}
 {{\'{O}} Nuan{\'{a}}in}, C., Herrera, P., \& Jord{\`{a}}, S.
@@ -1487,27 +1646,35 @@ Nzewi, M., Anyahuru, I., \& Ohiaraumunna, T. (2008).
   Implementation, and Evaluation}.
 \newblock \emph{Computer Music Journal}, \emph{41}(2), 21--37.
 
-\bibitem[{{{\'{O}} Nuan{\'{a}}in} et~al.(2016{\natexlab{a}}){{\'{O}}
+\bibitem[{{{\'{O}} Nuan{\'{a}}in} et~al.(2017{\natexlab{b}}){{\'{O}}
+  Nuan{\'{a}}in}, Herrera, \& Jord{\`{a}}}]{Nuanain2017b}
+{{\'{O}} Nuan{\'{a}}in}, C., Herrera, P., \& Jord{\`{a}}, S.
+  (2017{\natexlab{b}}).
+\newblock {Rhythmic Concatenative Synthesis for Electronic Music: Techniques,
+  Implementation, and Evaluation}.
+\newblock \emph{Computer Music Journal}, \emph{41}(2), 21--37.
+
+\bibitem[{{{\'{O}} Nuan{\'{a}}in} et~al.(2016{\natexlab{b}}){{\'{O}}
   Nuan{\'{a}}in}, Jord{\`{a}}, \& Herrera}]{Nuanain2016a}
 {{\'{O}} Nuan{\'{a}}in}, C., Jord{\`{a}}, S., \& Herrera, P.
-  (2016{\natexlab{a}}).
+  (2016{\natexlab{b}}).
 \newblock {An Interactive Software Instrument for Real-time Rhythmic
   Concatenative Synthesis}.
 \newblock In \emph{New Interfaces for Musical Expression}. Brisbane, Australia.
 
-\bibitem[{{{\'{O}} Nuan{\'{a}}in} et~al.(2016{\natexlab{b}}){{\'{O}}
+\bibitem[{{{\'{O}} Nuan{\'{a}}in} et~al.(2016{\natexlab{c}}){{\'{O}}
   Nuan{\'{a}}in}, Jord{\`{a}}, \& Herrera}]{Nuanain2016b}
 {{\'{O}} Nuan{\'{a}}in}, C., Jord{\`{a}}, S., \& Herrera, P.
-  (2016{\natexlab{b}}).
+  (2016{\natexlab{c}}).
 \newblock {Towards User-Tailored Creative Applications of Concatenative
   Synthesis in Electronic Dance Music}.
 \newblock In \emph{International Workshop on Musical Metacreation (MUME)}.
   Paris, France.
 
-\bibitem[{{{\'{O}} Nuan{\'{a}}in} et~al.(2017{\natexlab{b}}){{\'{O}}
+\bibitem[{{{\'{O}} Nuan{\'{a}}in} et~al.(2017{\natexlab{c}}){{\'{O}}
   Nuan{\'{a}}in}, Jord{\`{a}}, \& Herrera}]{Nuanain2017}
 {{\'{O}} Nuan{\'{a}}in}, C., Jord{\`{a}}, S., \& Herrera, P.
-  (2017{\natexlab{b}}).
+  (2017{\natexlab{c}}).
 \newblock {k -Best Hidden Markov Model Decoding for Unit Selection in
   Concatenative Sound Synthesis}.
 \newblock In \emph{Proceedings of the 13th International Symposium on Computer
@@ -1567,6 +1734,13 @@ Pachet, F. (2002).
 Pachet, F. (2008).
 \newblock {The Future of Content is in Ourselves}.
 \newblock \emph{Computers in Entertainment (CIE)}, \emph{6}(3), 1--20.
+
+\bibitem[{Pachet \& Roy(2015)}]{Pachet2015}
+Pachet, F. \& Roy, P. (2015).
+\newblock {(Manufac) Turing Tests for Music}.
+\newblock In \emph{Proceedings of the 29th Conference on Artificial
+  Intelligence (AAAI 2015), Workshop on ``Beyond the Turing Test''}. Austin,
+  Texas USA.
 
 \bibitem[{Pachet et~al.(2008)Pachet, Roy, \& Ghedini}]{Pachet2008a}
 Pachet, F., Roy, P., \& Ghedini, F. (2008).
@@ -1720,6 +1894,11 @@ Reid, G. (2002).
 \newblock {Synth Secrets: Practical Bass Drum Synthesis}.
 \newblock \emph{Sound on Sound, July}.
 
+\bibitem[{Reynolds(1987)}]{Reynolds1987}
+Reynolds, C.~W. (1987).
+\newblock {Flocks, herds and schools: A distributed behavioral model}.
+\newblock \emph{ACM SIGGRAPH computer graphics}, \emph{21}(4), 25--34.
+
 \bibitem[{Reynolds(2013)}]{Reynolds2013}
 Reynolds, S. (2013).
 \newblock \emph{{Energy Flash: A Journey Through Rave Music and Dance
@@ -1767,6 +1946,17 @@ Rodgers, T. (2003).
   production}.
 \newblock \emph{Organised Sound}, \emph{8}(03), 313--320.
 
+\bibitem[{Rogers et~al.(2011)Rogers, Sharp, \& Preece}]{Rogers2011}
+Rogers, Y., Sharp, H., \& Preece, J. (2011).
+\newblock \emph{{Interaction design: beyond human-computer interaction}}.
+\newblock John Wiley {\&} Sons.
+
+\bibitem[{Roma \& Herrera(2010)}]{Roma2010}
+Roma, G. \& Herrera, P. (2010).
+\newblock {Graph grammar representation for collaborative sample-based music
+  creation}.
+\newblock \emph{Proceedings of the 5th Audio Mostly Conference}.
+
 \bibitem[{Romero et~al.(2008)Romero, Machado, \& Ashlock}]{Romero2008}
 Romero, J.~J., Machado, P., \& Ashlock, D. (2008).
 \newblock {The Art of Artificial Evolution: A Handbook on Evolutionary Art and
@@ -1777,13 +1967,6 @@ Romero, J.~J., Machado, P., \& Ashlock, D. (2008).
 Ross, A. (2007).
 \newblock \emph{{The rest is noise: Listening to the twentieth century}}.
 \newblock Macmillan.
-
-\bibitem[{Roy et~al.(2007)Roy, Pachet, \& Krakowski}]{Roy2007b}
-Roy, P., Pachet, F., \& Krakowski, S. (2007).
-\newblock {Analytical Features for the classification of Percussive Sounds: the
-  case of the pandeiro}.
-\newblock In \emph{10th Int. Conference on Digital Audio Effects (DAFx-07)},
-  pp. 1--8.
 
 \bibitem[{Russ(2004)}]{Russ2004}
 Russ, M. (2004).
@@ -1854,7 +2037,9 @@ Schwarz, D. (2003).
 
 \bibitem[{Schwarz(2005)}]{Schwarz2005}
 Schwarz, D. (2005).
-\newblock {Corpus-Based Sound Synthesis Survey}.
+\newblock {Current Research In Concatenative Sound Synthesis}.
+\newblock In \emph{Proceedings of the International Computer Music Conference},
+  pp. 9--12.
 
 \bibitem[{Schwarz(2006)}]{Schwarz2006b}
 Schwarz, D. (2006).
@@ -2008,6 +2193,12 @@ Stevens, S.~S. (1975).
 \newblock \emph{{Psychophysics}}.
 \newblock Transaction Publishers.
 
+\bibitem[{Stevens et~al.(1937)Stevens, Volkmann, \& Newman}]{Stevens1937}
+Stevens, S.~S., Volkmann, J., \& Newman, E.~B. (1937).
+\newblock {A scale for the measurement of the psychological magnitude pitch}.
+\newblock \emph{The Journal of the Acoustical Society of America}, \emph{8}(3),
+  185--190.
+
 \bibitem[{Stoll(2013)}]{Stoll2013}
 Stoll, T. (2013).
 \newblock {CorpusDB: Software for Analysis, Storage, and Manipulation of Sound
@@ -2075,21 +2266,6 @@ Tihelka, D., Kala, J., \& Matou{\v{s}}ek, J. (2010).
 \newblock {Enhancements of Viterbi search for fast unit selection synthesis}.
 \newblock \emph{Interspeech}, (September), 174--177.
 
-\bibitem[{Tindale et~al.(2004{\natexlab{a}})Tindale, Kapur, \&
-  Fujinaga}]{Tindale2004}
-Tindale, A., Kapur, A., \& Fujinaga, I. (2004{\natexlab{a}}).
-\newblock {Towards Timbre Recognition of Percussive Sounds}.
-\newblock \emph{International Computer Music Conference Proceedings},
-  \emph{2004}.
-
-\bibitem[{Tindale et~al.(2004{\natexlab{b}})Tindale, Kapur, Tzanetakis, \&
-  Fujinaga}]{Tindale2004a}
-Tindale, A., Kapur, A., Tzanetakis, G., \& Fujinaga, I. (2004{\natexlab{b}}).
-\newblock {Retrieval of percussion gestures using timbre classification
-  techniques}.
-\newblock \emph{Proceedings of the International Conference on Music
-  Information Retrieval}, pp. 541--545.
-
 \bibitem[{Tokui(2008)}]{Tokui2008}
 Tokui, N. (2008).
 \newblock {Massh!: a web-based collective music mashup system}.
@@ -2145,12 +2321,6 @@ Truax, B. (2005).
 \newblock \emph{Journal of the Acoustical Society of America}, \emph{117}(4),
   2415.
 
-\bibitem[{Tzanetakis et~al.(2001)Tzanetakis, Essl, \& Cook}]{Tzanetakis2001}
-Tzanetakis, G., Essl, G., \& Cook, P. (2001).
-\newblock {Automatic musical genre classification of audio signals}.
-\newblock In \emph{Proceedings of the Second International Symposium on Music
-  Information Retrieval}, p. 6 total pages.
-
 \bibitem[{Valero \& Alias(2012)}]{Valero2012}
 Valero, X. \& Alias, F. (2012).
 \newblock {Gammatone cepstral coefficients: Biologically inspired features for
@@ -2200,11 +2370,12 @@ Vogl, R., Leimeister, M., {{\'{O}} Nuan{\'{a}}in}, C., Jord{\`{a}}, S., Hlatky,
 \newblock \emph{Journal of the Audio Engineering Society}, \emph{64}(7),
   503--513.
 
-\bibitem[{Wang \& Brown(2006)}]{Wang2006}
-Wang, D. \& Brown, G.~J. (2006).
-\newblock \emph{{Computational auditory scene analysis: Principles, algorithms,
-  and applications}}.
-\newblock Wiley-IEEE press.
+\bibitem[{Wang et~al.(2006)Wang, Wang, He, \& Hsu}]{Wang2006}
+Wang, J.-C., Wang, J.-F., He, K.~W., \& Hsu, C.-S. (2006).
+\newblock {Environmental Sound Classification using Hybrid SVM/KNN Classifier
+  and MPEG-7 Audio Low-Level Descriptor}.
+\newblock \emph{The 2006 IEEE International Joint Conference on Neural Network
+  Proceedings}, pp. 1731--1735.
 
 \bibitem[{Weihs \& Jannach(2009)}]{Weihs2009}
 Weihs, C. \& Jannach, D. (2009).
@@ -2238,6 +2409,12 @@ Wiggins, G.~A., Pearce, M.~T., \& M{\"{u}}llensiefen, D. (2012).
 \newblock {Computational Modeling of Music Cognition and Musical Creativity}.
 \newblock \emph{The Oxford Handbook of Computer Music}, (January).
 
+\bibitem[{Wilson(2008)}]{Wilson2008}
+Wilson, S. (2008).
+\newblock {Spatial Swarm Granulation}.
+\newblock \emph{Proceedings of the 2008 International Computer Music
+  Conference}, pp. 4--7.
+
 \bibitem[{Winer(2012)}]{Winer2012}
 Winer, E. (2012).
 \newblock \emph{{The audio expert: everything you need to know about audio}}.
@@ -2260,6 +2437,11 @@ Xu, C., Maddage, N.~C., Shao, X., Cao, F., \& Tian, Q. (2003).
 \newblock {Musical Gnere Classification Using Support Vector Machines}.
 \newblock In \emph{Acoustics, Speech, and Signal Processing, 2003 (ICASSP'03)},
   pp. 429--432.
+
+\bibitem[{Yen(1971)}]{Yen1971}
+Yen, J.~Y. (1971).
+\newblock {Finding the K Shortest Loopless Paths in a Network}.
+\newblock \emph{Management Science}, \emph{17}(11), 712--716.
 
 \bibitem[{Young et~al.(2002)Young, Evermann, Gales, Hain, Kershaw, Liu, Moore,
   Odell, Ollason, Povey, \& Others}]{Young2002}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.11.21)  12 DEC 2017 03:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.11.21)  14 DEC 2017 04:04
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1336,54 +1336,54 @@ Sidefootvsep and sidefootheight: 13.6pt and 594.32022pt
 \glo@acronym@file=\write6
 \openout6 = `Carthach_PhDThesis.acn'.
 
-Package glossaries Info: Writing glossary file Carthach_PhDThesis.acn on input line 461.
+Package glossaries Info: Writing glossary file Carthach_PhDThesis.acn on input line 460.
 \glo@MU@file=\write7
 \openout7 = `Carthach_PhDThesis.gom'.
 
-Package glossaries Info: Writing glossary file Carthach_PhDThesis.gom on input line 461.
+Package glossaries Info: Writing glossary file Carthach_PhDThesis.gom on input line 460.
 \glo@NOLIST@file=\write8
 \openout8 = `Carthach_PhDThesis.gox'.
 
-Package glossaries Info: Writing glossary file Carthach_PhDThesis.gox on input line 461.
+Package glossaries Info: Writing glossary file Carthach_PhDThesis.gox on input line 460.
 \glo@ragaCMD@file=\write9
 \openout9 = `Carthach_PhDThesis.goc'.
 
-Package glossaries Info: Writing glossary file Carthach_PhDThesis.goc on input line 461.
+Package glossaries Info: Writing glossary file Carthach_PhDThesis.goc on input line 460.
 \glo@ragaHMD@file=\write10
 \openout10 = `Carthach_PhDThesis.goh'.
 
-Package glossaries Info: Writing glossary file Carthach_PhDThesis.goh on input line 461.
+Package glossaries Info: Writing glossary file Carthach_PhDThesis.goh on input line 460.
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'spanish'.
- (/Users/carthach/Google Drive/Phd_Work/Thesis/PhDThesis/.texpadtmp/Carthach_PhDThesis.aux (/Users/carthach/Google Drive/Phd_Work/Thesis/PhDThesis/.texpadtmp/ch00/1_titlePage.aux)
+ (/Users/carthach/Google Drive/Code/phd_thesis/PhDThesis/.texpadtmp/Carthach_PhDThesis.aux (/Users/carthach/Google Drive/Code/phd_thesis/PhDThesis/.texpadtmp/ch00/1_titlePage.aux)
 LaTeX Info: Redefining \. on input line 37.
 LaTeX Info: Redefining \% on input line 37.
 LaTeX Info: Redefining \. on input line 41.
 LaTeX Info: Redefining \% on input line 41.
- (/Users/carthach/Google Drive/Phd_Work/Thesis/PhDThesis/.texpadtmp/ch00/preliminarystuff.aux
+ (/Users/carthach/Google Drive/Code/phd_thesis/PhDThesis/.texpadtmp/ch00/preliminarystuff.aux
 LaTeX Info: Redefining \. on input line 17.
 LaTeX Info: Redefining \% on input line 17.
-) (/Users/carthach/Google Drive/Phd_Work/Thesis/PhDThesis/.texpadtmp/ch00/mathSymbols.aux) (/Users/carthach/Google Drive/Phd_Work/Thesis/PhDThesis/.texpadtmp/ch01_introduction/ch01_introduction.aux) (/Users/carthach/Google Drive/Phd_Work/Thesis/PhDThesis/.texpadtmp/ch02_dancemusic/ch02_dancemusic.aux
+) (/Users/carthach/Google Drive/Code/phd_thesis/PhDThesis/.texpadtmp/ch00/mathSymbols.aux) (/Users/carthach/Google Drive/Code/phd_thesis/PhDThesis/.texpadtmp/ch01_introduction/ch01_introduction.aux) (/Users/carthach/Google Drive/Code/phd_thesis/PhDThesis/.texpadtmp/ch02_dancemusic/ch02_dancemusic.aux
 
 LaTeX Warning: Label `fig:roland' multiply defined.
 
 
 LaTeX Warning: Label `fig:roland' multiply defined.
 
-) (/Users/carthach/Google Drive/Phd_Work/Thesis/PhDThesis/.texpadtmp/ch03_symbolic/ch03_symbolic.aux
+) (/Users/carthach/Google Drive/Code/phd_thesis/PhDThesis/.texpadtmp/ch03_symbolic/ch03_symbolic.aux
 
 LaTeX Warning: Label `fig:genetic' multiply defined.
 
-) (/Users/carthach/Google Drive/Phd_Work/Thesis/PhDThesis/.texpadtmp/ch04_sota/ch04_sota.aux
+) (/Users/carthach/Google Drive/Code/phd_thesis/PhDThesis/.texpadtmp/ch04_sota/ch04_sota.aux
 
 LaTeX Warning: Label `fig:Ng1' multiply defined.
 
 
 LaTeX Warning: Label `sub@fig:Ng1' multiply defined.
 
-) (/Users/carthach/Google Drive/Phd_Work/Thesis/PhDThesis/.texpadtmp/ch05_pyconcat/ch05_pyconcat.aux
+) (/Users/carthach/Google Drive/Code/phd_thesis/PhDThesis/.texpadtmp/ch05_pyconcat/ch05_pyconcat.aux
 
 LaTeX Warning: Label `eq:Precision' multiply defined.
 
@@ -1399,42 +1399,42 @@ LaTeX Warning: Label `eq:High Frequency Content' multiply defined.
 
 LaTeX Warning: Label `eq:Precision' multiply defined.
 
-) (/Users/carthach/Google Drive/Phd_Work/Thesis/PhDThesis/.texpadtmp/ch06_rhythmcat/ch06_rhythmcat.aux
+) (/Users/carthach/Google Drive/Code/phd_thesis/PhDThesis/.texpadtmp/ch06_rhythmcat/ch06_rhythmcat.aux
 
-LaTeX Warning: Label `fig:dimension_reductions' multiply defined.
+LaTeX Warning: Label `fig:rhythmcat_proto1' multiply defined.
 
-) (/Users/carthach/Google Drive/Phd_Work/Thesis/PhDThesis/.texpadtmp/ch07_evaluation/ch07_evaluation.aux) (/Users/carthach/Google Drive/Phd_Work/Thesis/PhDThesis/.texpadtmp/ch08_conclusions/ch08_conclusions.aux) (/Users/carthach/Google Drive/Phd_Work/Thesis/PhDThesis/.texpadtmp/ch99/appendix.aux))
+) (/Users/carthach/Google Drive/Code/phd_thesis/PhDThesis/.texpadtmp/ch07_evaluation/ch07_evaluation.aux) (/Users/carthach/Google Drive/Code/phd_thesis/PhDThesis/.texpadtmp/ch08_conclusions/ch08_conclusions.aux) (/Users/carthach/Google Drive/Code/phd_thesis/PhDThesis/.texpadtmp/ch99/appendix.aux))
 \openout1 = `Carthach_PhDThesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 463.
-LaTeX Font Info:    ... okay on input line 463.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 463.
-LaTeX Font Info:    ... okay on input line 463.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 463.
-LaTeX Font Info:    ... okay on input line 463.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 463.
-LaTeX Font Info:    ... okay on input line 463.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 463.
-LaTeX Font Info:    ... okay on input line 463.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 463.
-LaTeX Font Info:    ... okay on input line 463.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 463.
-LaTeX Font Info:    ... okay on input line 463.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 463.
-LaTeX Font Info:    ... okay on input line 463.
-LaTeX Font Info:    Try loading font information for T1+ptm on input line 463.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 462.
+LaTeX Font Info:    ... okay on input line 462.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 462.
+LaTeX Font Info:    ... okay on input line 462.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 462.
+LaTeX Font Info:    ... okay on input line 462.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 462.
+LaTeX Font Info:    ... okay on input line 462.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 462.
+LaTeX Font Info:    ... okay on input line 462.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 462.
+LaTeX Font Info:    ... okay on input line 462.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 462.
+LaTeX Font Info:    ... okay on input line 462.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 462.
+LaTeX Font Info:    ... okay on input line 462.
+LaTeX Font Info:    Try loading font information for T1+ptm on input line 462.
  (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 ) (/usr/local/texlive/2017/texmf-dist/tex/latex/ucs/ucsencs.def
 File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
 )
 isodate: babel.sty has been loaded
-LaTeX Info: Redefining \. on input line 463.
-LaTeX Info: Redefining \% on input line 463.
-LaTeX Info: Redefining \. on input line 463.
-LaTeX Info: Redefining \% on input line 463.
-LaTeX Info: Redefining \l on input line 463.
-LaTeX Info: Redefining \L on input line 463.
+LaTeX Info: Redefining \. on input line 462.
+LaTeX Info: Redefining \% on input line 462.
+LaTeX Info: Redefining \. on input line 462.
+LaTeX Info: Redefining \% on input line 462.
+LaTeX Info: Redefining \l on input line 462.
+LaTeX Info: Redefining \L on input line 462.
 (/usr/local/texlive/2017/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count326
@@ -1461,8 +1461,8 @@ Package grfext Info: Graphics extension search list:
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
 \AtBeginShipoutBox=\box47
-Package backref Info: ** backref set up for natbib ** on input line 463.
-Package hyperref Info: Link coloring ON on input line 463.
+Package backref Info: ** backref set up for natbib ** on input line 462.
+Package hyperref Info: Link coloring ON on input line 462.
  (/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
  (/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
@@ -1472,11 +1472,11 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 Redoing nameref's sectioning
 Redoing nameref's label
-LaTeX Info: Redefining \nameref on input line 463.
-LaTeX Info: Redefining \ref on input line 463.
-LaTeX Info: Redefining \pageref on input line 463.
-LaTeX Info: Redefining \nameref on input line 463.
-(/Users/carthach/Google Drive/Phd_Work/Thesis/PhDThesis/.texpadtmp/Carthach_PhDThesis.out) (/Users/carthach/Google Drive/Phd_Work/Thesis/PhDThesis/.texpadtmp/Carthach_PhDThesis.out)
+LaTeX Info: Redefining \nameref on input line 462.
+LaTeX Info: Redefining \ref on input line 462.
+LaTeX Info: Redefining \pageref on input line 462.
+LaTeX Info: Redefining \nameref on input line 462.
+(/Users/carthach/Google Drive/Code/phd_thesis/PhDThesis/.texpadtmp/Carthach_PhDThesis.out) (/Users/carthach/Google Drive/Code/phd_thesis/PhDThesis/.texpadtmp/Carthach_PhDThesis.out)
 \@outlinefile=\write11
 \openout11 = `Carthach_PhDThesis.out'.
 
@@ -1488,7 +1488,7 @@ Package caption Info: End \AtBeginDocument code.
 \openout2 = `ch00/1_titlePage.aux'.
 
  (./ch00/1_titlePage.tex
-<ch00/figures/logo_upf_color.png, id=389, 1806.75pt x 602.25pt>
+<ch00/figures/logo_upf_color.png, id=446, 1806.75pt x 602.25pt>
 File: ch00/figures/logo_upf_color.png Graphic file (type png)
 <use ch00/figures/logo_upf_color.png>
 Package pdftex.def Info: ch00/figures/logo_upf_color.png  used on input line 10. on input line 10.
@@ -1521,7 +1521,7 @@ File: omsptm.fd
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10.95> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 21.
-<ch00/figures/creative-commons.png, id=408, 803.0pt x 281.05pt>
+<ch00/figures/creative-commons.png, id=464, 803.0pt x 281.05pt>
 File: ch00/figures/creative-commons.png Graphic file (type png)
 <use ch00/figures/creative-commons.png>
 Package pdftex.def Info: ch00/figures/creative-commons.png  used on input line 31. on input line 31.
@@ -1653,9 +1653,9 @@ Package babel Info: Redefining spanish shorthand "?
 
 
 ]))
-LaTeX Info: Redefining \. on input line 479.
-LaTeX Info: Redefining \% on input line 479.
- [14] (/Users/carthach/Google Drive/Phd_Work/Thesis/PhDThesis/.texpadtmp/Carthach_PhDThesis.toc
+LaTeX Info: Redefining \. on input line 478.
+LaTeX Info: Redefining \% on input line 478.
+ [14] (/Users/carthach/Google Drive/Code/phd_thesis/PhDThesis/.texpadtmp/Carthach_PhDThesis.toc
 LaTeX Info: Redefining \. on input line 2.
 LaTeX Info: Redefining \% on input line 2.
 LaTeX Info: Redefining \. on input line 3.
@@ -1686,7 +1686,7 @@ Overfull \hbox (0.71149pt too wide) detected at line 14
  []
 
 
-Overfull \hbox (8.61734pt too wide) detected at line 15
+Overfull \hbox (3.6241pt too wide) detected at line 15
  []
  []
 
@@ -1694,22 +1694,21 @@ Overfull \hbox (8.61734pt too wide) detected at line 15
 
 
 ] [16]
-Overfull \hbox (0.24127pt too wide) in paragraph at lines 135--135
+Overfull \hbox (0.24127pt too wide) in paragraph at lines 138--138
  [][] [][][]\T1/ptm/b/n/10.95 Implementing User-Tailored Con-cat-en-at-ive Syn-thesis Sys-tems for Elec- 
  []
 
-) [17] [18
-
-]
+[17]) [18]
 \openout2 = `ch00/mathSymbols.aux'.
 
  (./ch00/mathSymbols.tex) [19
 
 
+
 ] [20
 
 
-] (/Users/carthach/Google Drive/Phd_Work/Thesis/PhDThesis/.texpadtmp/Carthach_PhDThesis.lof
+] (/Users/carthach/Google Drive/Code/phd_thesis/PhDThesis/.texpadtmp/Carthach_PhDThesis.lof
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 LaTeX Info: Redefining \. on input line 2.
@@ -1721,16 +1720,19 @@ Overfull \hbox (9.76904pt too wide) in paragraph at lines 49--49
  [][] [][][]\T1/ptm/m/n/10.95 Annotated Wave-form, Spec-tro-gram and Drum Tran-scrip-tion of ``My Sound'' 
  []
 
-[21]) [22] (/Users/carthach/Google Drive/Phd_Work/Thesis/PhDThesis/.texpadtmp/Carthach_PhDThesis.lot
+[21]
+Underfull \vbox (badness 2856) has occurred while \output is active []
+
+ [22]) [23] [24
+
+] (/Users/carthach/Google Drive/Code/phd_thesis/PhDThesis/.texpadtmp/Carthach_PhDThesis.lot
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 LaTeX Info: Redefining \. on input line 2.
 LaTeX Info: Redefining \% on input line 2.
 LaTeX Info: Redefining \. on input line 8.
 LaTeX Info: Redefining \% on input line 8.
-) [23
-
-] [24
+) [25] [26
 
 ]
 \openout2 = `ch01_introduction/ch01_introduction.aux'.
@@ -1754,7 +1756,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 ]
-<ch02_dancemusic/figures/ishkur.png, id=931, 1072.005pt x 778.91pt>
+<ch02_dancemusic/figures/ishkur.png, id=1029, 1072.005pt x 778.91pt>
 File: ch02_dancemusic/figures/ishkur.png Graphic file (type png)
 <use ch02_dancemusic/figures/ishkur.png>
 Package pdftex.def Info: ch02_dancemusic/figures/ishkur.png  used on input line 15. on input line 15.
@@ -1762,7 +1764,7 @@ Package pdftex.def Info: Requested size: 372.0pt x 270.2812pt on input line 15.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 17.
  [8 <./ch02_dancemusic/figures/ishkur.png>]
-<ch02_dancemusic/figures/roland.jpg, id=944, 1927.2pt x 1084.05pt>
+<ch02_dancemusic/figures/roland.jpg, id=1042, 1927.2pt x 1084.05pt>
 File: ch02_dancemusic/figures/roland.jpg Graphic file (type jpg)
 <use ch02_dancemusic/figures/roland.jpg>
 Package pdftex.def Info: ch02_dancemusic/figures/roland.jpg  used on input line 31. on input line 31.
@@ -1771,7 +1773,7 @@ Package pdftex.def Info: Requested size: 372.0pt x 209.24681pt on input line 31.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [9 <./ch02_dancemusic/figures/roland.jpg>] [10] [11]
-<ch02_dancemusic/figures/berghain.jpg, id=1014, 1284.8pt x 803.0pt>
+<ch02_dancemusic/figures/berghain.jpg, id=1112, 1284.8pt x 803.0pt>
 File: ch02_dancemusic/figures/berghain.jpg Graphic file (type jpg)
 <use ch02_dancemusic/figures/berghain.jpg>
 Package pdftex.def Info: ch02_dancemusic/figures/berghain.jpg  used on input line 57. on input line 57.
@@ -1779,7 +1781,7 @@ Package pdftex.def Info: Requested size: 372.0pt x 232.49644pt on input line 57.
  [12 <./ch02_dancemusic/figures/berghain.jpg>] [13]
 LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <14.4> not available
 (Font)              Font shape `T1/ptm/b/it' tried instead on input line 79.
-<ch02_dancemusic/figures/warp.jpg, id=1038, 481.8pt x 480.79625pt>
+<ch02_dancemusic/figures/warp.jpg, id=1136, 481.8pt x 480.79625pt>
 File: ch02_dancemusic/figures/warp.jpg Graphic file (type jpg)
 <use ch02_dancemusic/figures/warp.jpg>
 Package pdftex.def Info: ch02_dancemusic/figures/warp.jpg  used on input line 87. on input line 87.
@@ -1788,7 +1790,7 @@ Package pdftex.def Info: Requested size: 223.20227pt x 222.73158pt on input line
 \openout2 = `ch03_symbolic/ch03_symbolic.aux'.
 
  (./ch03_symbolic/ch03_symbolic.tex
-<ch03_symbolic/figures/illiac.jpg, id=1084, 1117.17375pt x 275.0275pt>
+<ch03_symbolic/figures/illiac.jpg, id=1183, 1117.17375pt x 275.0275pt>
 File: ch03_symbolic/figures/illiac.jpg Graphic file (type jpg)
 <use ch03_symbolic/figures/illiac.jpg>
 Package pdftex.def Info: ch03_symbolic/figures/illiac.jpg  used on input line 11. on input line 11.
@@ -1821,7 +1823,7 @@ Overfull \hbox (3.33029pt too wide) in paragraph at lines 68--68
  []
 
 [21]
-<ch03_symbolic/figures/metricalhierarchy.jpg, id=1239, 767.86874pt x 304.13625pt>
+<ch03_symbolic/figures/metricalhierarchy.jpg, id=1337, 767.86874pt x 304.13625pt>
 File: ch03_symbolic/figures/metricalhierarchy.jpg Graphic file (type jpg)
 <use ch03_symbolic/figures/metricalhierarchy.jpg>
 Package pdftex.def Info: ch03_symbolic/figures/metricalhierarchy.jpg  used on input line 84. on input line 84.
@@ -1830,29 +1832,29 @@ Package pdftex.def Info: Requested size: 372.0pt x 147.34348pt on input line 84.
 Underfull \vbox (badness 2460) has occurred while \output is active []
 
  [22 <./ch03_symbolic/figures/metricalhierarchy.jpg>] [23] [24]
-<ch03_symbolic/figures/selection.png, id=1282, 254.1495pt x 107.6823pt>
+<ch03_symbolic/figures/selection.png, id=1380, 254.1495pt x 107.6823pt>
 File: ch03_symbolic/figures/selection.png Graphic file (type png)
 <use ch03_symbolic/figures/selection.png>
 Package pdftex.def Info: ch03_symbolic/figures/selection.png  used on input line 140. on input line 140.
 Package pdftex.def Info: Requested size: 334.79773pt x 141.865pt on input line 140.
-<ch03_symbolic/figures/genjam.png, id=1293, 585.18625pt x 425.59pt>
+<ch03_symbolic/figures/genjam.png, id=1391, 585.18625pt x 425.59pt>
 File: ch03_symbolic/figures/genjam.png Graphic file (type png)
 <use ch03_symbolic/figures/genjam.png>
 Package pdftex.def Info: ch03_symbolic/figures/genjam.png  used on input line 156. on input line 156.
 Package pdftex.def Info: Requested size: 297.60114pt x 216.44408pt on input line 156.
  [25 <./ch03_symbolic/figures/selection.png>]
-<ch03_symbolic/figures/tr-808.png, id=1304, 903.375pt x 401.5pt>
+<ch03_symbolic/figures/tr-808.png, id=1402, 903.375pt x 401.5pt>
 File: ch03_symbolic/figures/tr-808.png Graphic file (type png)
 <use ch03_symbolic/figures/tr-808.png>
 Package pdftex.def Info: ch03_symbolic/figures/tr-808.png  used on input line 172. on input line 172.
 Package pdftex.def Info: Requested size: 279.0pt x 123.9981pt on input line 172.
  [26 <./ch03_symbolic/figures/genjam.png>]
-<ch03_symbolic/figures/reps.png, id=1316, 311.1625pt x 335.2525pt>
+<ch03_symbolic/figures/reps.png, id=1414, 311.1625pt x 335.2525pt>
 File: ch03_symbolic/figures/reps.png Graphic file (type png)
 <use ch03_symbolic/figures/reps.png>
 Package pdftex.def Info: ch03_symbolic/figures/reps.png  used on input line 188. on input line 188.
 Package pdftex.def Info: Requested size: 204.60114pt x 220.44373pt on input line 188.
-<ch03_symbolic/figures/necklace.jpg, id=1328, 1284.8pt x 967.615pt>
+<ch03_symbolic/figures/necklace.jpg, id=1426, 1284.8pt x 967.615pt>
 File: ch03_symbolic/figures/necklace.jpg Graphic file (type jpg)
 <use ch03_symbolic/figures/necklace.jpg>
 Package pdftex.def Info: ch03_symbolic/figures/necklace.jpg  used on input line 200. on input line 200.
@@ -1861,12 +1863,12 @@ Package pdftex.def Info: Requested size: 372.0pt x 280.15823pt on input line 200
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [27 <./ch03_symbolic/figures/tr-808.png>]
-<ch03_symbolic/figures/xronomorph.png, id=1351, 1165.35374pt x 722.7pt>
+<ch03_symbolic/figures/xronomorph.png, id=1449, 1165.35374pt x 722.7pt>
 File: ch03_symbolic/figures/xronomorph.png Graphic file (type png)
 <use ch03_symbolic/figures/xronomorph.png>
 Package pdftex.def Info: ch03_symbolic/figures/xronomorph.png  used on input line 211. on input line 211.
 Package pdftex.def Info: Requested size: 372.0pt x 230.69528pt on input line 211.
-<ch03_symbolic/figures/necklace2.jpg, id=1352, 642.4pt x 375.4025pt>
+<ch03_symbolic/figures/necklace2.jpg, id=1450, 642.4pt x 375.4025pt>
 File: ch03_symbolic/figures/necklace2.jpg Graphic file (type jpg)
 <use ch03_symbolic/figures/necklace2.jpg>
 Package pdftex.def Info: ch03_symbolic/figures/necklace2.jpg  used on input line 217. on input line 217.
@@ -1879,24 +1881,24 @@ Overfull \hbox (4.041pt too wide) in paragraph at lines 241--242
 []\T1/ptm/b/n/10.95 Hamming Dis-tance:[] \T1/ptm/m/n/10.95 The ham-ming dis-tance counts the num-ber of po-s-i-tions in which
  []
 
-<ch03_symbolic/figures/hamming_comparison.png, id=1387, 266.9975pt x 123.46124pt>
+<ch03_symbolic/figures/hamming_comparison.png, id=1484, 266.9975pt x 123.46124pt>
 File: ch03_symbolic/figures/hamming_comparison.png Graphic file (type png)
 <use ch03_symbolic/figures/hamming_comparison.png>
 Package pdftex.def Info: ch03_symbolic/figures/hamming_comparison.png  used on input line 247. on input line 247.
 Package pdftex.def Info: Requested size: 167.39886pt x 77.40797pt on input line 247.
 [31 <./ch03_symbolic/figures/hamming_comparison.png>]
-<ch03_symbolic/figures/swap_vs_hamming.png, id=1406, 646.415pt x 178.6675pt>
+<ch03_symbolic/figures/swap_vs_hamming.png, id=1504, 646.415pt x 178.6675pt>
 File: ch03_symbolic/figures/swap_vs_hamming.png Graphic file (type png)
 <use ch03_symbolic/figures/swap_vs_hamming.png>
 Package pdftex.def Info: ch03_symbolic/figures/swap_vs_hamming.png  used on input line 271. on input line 271.
 Package pdftex.def Info: Requested size: 241.79773pt x 66.83112pt on input line 271.
-<ch03_symbolic/figures/ioi_comparison.png, id=1409, 290.08376pt x 120.45pt>
+<ch03_symbolic/figures/ioi_comparison.png, id=1507, 290.08376pt x 120.45pt>
 File: ch03_symbolic/figures/ioi_comparison.png Graphic file (type png)
 <use ch03_symbolic/figures/ioi_comparison.png>
 Package pdftex.def Info: ch03_symbolic/figures/ioi_comparison.png  used on input line 285. on input line 285.
 Package pdftex.def Info: Requested size: 148.79773pt x 61.78523pt on input line 285.
  [32 <./ch03_symbolic/figures/swap_vs_hamming.png> <./ch03_symbolic/figures/ioi_comparison.png>]
-<ch03_symbolic/figures/chronotonic.png, id=1455, 467.7475pt x 194.7275pt>
+<ch03_symbolic/figures/chronotonic.png, id=1553, 467.7475pt x 194.7275pt>
 File: ch03_symbolic/figures/chronotonic.png Graphic file (type png)
 <use ch03_symbolic/figures/chronotonic.png>
 Package pdftex.def Info: ch03_symbolic/figures/chronotonic.png  used on input line 306. on input line 306.
@@ -1905,18 +1907,18 @@ Package pdftex.def Info: Requested size: 241.79773pt x 100.66461pt on input line
 Underfull \vbox (badness 1515) has occurred while \output is active []
 
  [34] [35]
-<ch03_symbolic/figures/simpleGA.png, id=1523, 714.67pt x 441.65pt>
+<ch03_symbolic/figures/simpleGA.png, id=1620, 714.67pt x 441.65pt>
 File: ch03_symbolic/figures/simpleGA.png Graphic file (type png)
 <use ch03_symbolic/figures/simpleGA.png>
 Package pdftex.def Info: ch03_symbolic/figures/simpleGA.png  used on input line 348. on input line 348.
 Package pdftex.def Info: Requested size: 372.0pt x 229.88844pt on input line 348.
  [36 <./ch03_symbolic/figures/simpleGA.png>]
-<ch03_symbolic/figures/gendrum.png, id=1546, 885.3075pt x 160.6pt>
+<ch03_symbolic/figures/gendrum.png, id=1644, 885.3075pt x 160.6pt>
 File: ch03_symbolic/figures/gendrum.png Graphic file (type png)
 <use ch03_symbolic/figures/gendrum.png>
 Package pdftex.def Info: ch03_symbolic/figures/gendrum.png  used on input line 362. on input line 362.
 Package pdftex.def Info: Requested size: 372.0pt x 67.48338pt on input line 362.
-<ch03_symbolic/figures/ga_algorithm.png, id=1547, 629.9535pt x 516.7305pt>
+<ch03_symbolic/figures/ga_algorithm.png, id=1645, 629.9535pt x 516.7305pt>
 File: ch03_symbolic/figures/ga_algorithm.png Graphic file (type png)
 <use ch03_symbolic/figures/ga_algorithm.png>
 Package pdftex.def Info: ch03_symbolic/figures/ga_algorithm.png  used on input line 376. on input line 376.
@@ -1925,30 +1927,30 @@ Package pdftex.def Info: Requested size: 297.60114pt x 244.11702pt on input line
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [38 <./ch03_symbolic/figures/ga_algorithm.png>]
-<ch03_symbolic/figures/shortest_path.png, id=1566, 1028.84375pt x 355.3275pt>
+<ch03_symbolic/figures/shortest_path.png, id=1664, 1028.84375pt x 355.3275pt>
 File: ch03_symbolic/figures/shortest_path.png Graphic file (type png)
 <use ch03_symbolic/figures/shortest_path.png>
 Package pdftex.def Info: ch03_symbolic/figures/shortest_path.png  used on input line 403. on input line 403.
 Package pdftex.def Info: Requested size: 279.0pt x 96.35718pt on input line 403.
  [39 <./ch03_symbolic/figures/shortest_path.png>]
-<ch03_symbolic/figures/best_average_fitness.pdf, id=1589, pagebox=cropbox, 564.06357pt x 391.05785pt>
+<ch03_symbolic/figures/best_average_fitness.pdf, id=1688, pagebox=cropbox, 564.06357pt x 391.05785pt>
 File: ch03_symbolic/figures/best_average_fitness.pdf Graphic file (type pdf)
 <use ch03_symbolic/figures/best_average_fitness.pdf>
 Package pdftex.def Info: ch03_symbolic/figures/best_average_fitness.pdf  used on input line 425. on input line 425.
 Package pdftex.def Info: Requested size: 372.0pt x 257.91399pt on input line 425.
  [40 <./ch03_symbolic/figures/best_average_fitness.pdf>]
-<ch03_symbolic/figures/patterns.png, id=1645, 406.51875pt x 313.17pt>
+<ch03_symbolic/figures/patterns.png, id=1743, 406.51875pt x 313.17pt>
 File: ch03_symbolic/figures/patterns.png Graphic file (type png)
 <use ch03_symbolic/figures/patterns.png>
 Package pdftex.def Info: ch03_symbolic/figures/patterns.png  used on input line 453. on input line 453.
 Package pdftex.def Info: Requested size: 223.20227pt x 171.94775pt on input line 453.
  [41]
-<ch03_symbolic/figures/total_likert.pdf, id=1659, pagebox=cropbox, 489.25284pt x 344.87157pt>
+<ch03_symbolic/figures/total_likert.pdf, id=1756, pagebox=cropbox, 489.25284pt x 344.87157pt>
 File: ch03_symbolic/figures/total_likert.pdf Graphic file (type pdf)
 <use ch03_symbolic/figures/total_likert.pdf>
 Package pdftex.def Info: ch03_symbolic/figures/total_likert.pdf  used on input line 489. on input line 489.
 Package pdftex.def Info: Requested size: 279.0pt x 196.66302pt on input line 489.
-<ch03_symbolic/figures/separate_likerts.pdf, id=1660, pagebox=cropbox, 570.93298pt x 376.20236pt>
+<ch03_symbolic/figures/separate_likerts.pdf, id=1757, pagebox=cropbox, 570.93298pt x 376.20236pt>
 File: ch03_symbolic/figures/separate_likerts.pdf Graphic file (type pdf)
 <use ch03_symbolic/figures/separate_likerts.pdf>
 Package pdftex.def Info: ch03_symbolic/figures/separate_likerts.pdf  used on input line 495. on input line 495.
@@ -1960,19 +1962,19 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./ch03_symbolic/figures/separate_likerts.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 >]
-<ch03_symbolic/figures/measure_bar.pdf, id=1759, pagebox=cropbox, 639.40756pt x 339.85281pt>
+<ch03_symbolic/figures/measure_bar.pdf, id=1856, pagebox=cropbox, 639.40756pt x 339.85281pt>
 File: ch03_symbolic/figures/measure_bar.pdf Graphic file (type pdf)
 <use ch03_symbolic/figures/measure_bar.pdf>
 Package pdftex.def Info: ch03_symbolic/figures/measure_bar.pdf  used on input line 529. on input line 529.
 Package pdftex.def Info: Requested size: 279.0pt x 148.2963pt on input line 529.
  [44 <./ch03_symbolic/figures/measure_bar.pdf>]
-<ch03_symbolic/figures/reps_bar.pdf, id=1808, pagebox=cropbox, 639.40756pt x 339.66461pt>
+<ch03_symbolic/figures/reps_bar.pdf, id=1906, pagebox=cropbox, 639.40756pt x 339.66461pt>
 File: ch03_symbolic/figures/reps_bar.pdf Graphic file (type pdf)
 <use ch03_symbolic/figures/reps_bar.pdf>
 Package pdftex.def Info: ch03_symbolic/figures/reps_bar.pdf  used on input line 539. on input line 539.
 Package pdftex.def Info: Requested size: 279.0pt x 148.21417pt on input line 539.
  [45 <./ch03_symbolic/figures/reps_bar.pdf>]
-<ch03_symbolic/figures/interestingness.png, id=1854, 419.5675pt x 187.70125pt>
+<ch03_symbolic/figures/interestingness.png, id=1953, 419.5675pt x 187.70125pt>
 File: ch03_symbolic/figures/interestingness.png Graphic file (type png)
 <use ch03_symbolic/figures/interestingness.png>
 Package pdftex.def Info: ch03_symbolic/figures/interestingness.png  used on input line 587. on input line 587.
@@ -1983,7 +1985,7 @@ Overfull \hbox (7.06384pt too wide) in paragraph at lines 621--621
  []
 
 [48]
-<ch03_symbolic/figures/offBeatness.jpg, id=1910, 345.29pt x 367.3725pt>
+<ch03_symbolic/figures/offBeatness.jpg, id=2007, 345.29pt x 367.3725pt>
 File: ch03_symbolic/figures/offBeatness.jpg Graphic file (type jpg)
 <use ch03_symbolic/figures/offBeatness.jpg>
 Package pdftex.def Info: ch03_symbolic/figures/offBeatness.jpg  used on input line 631. on input line 631.
@@ -1994,7 +1996,7 @@ Overfull \hbox (11.60732pt too wide) in paragraph at lines 639--640
  []
 
 [49 <./ch03_symbolic/figures/offBeatness.jpg>]
-<ch03_symbolic/figures/gendrum2.png, id=1940, 884.30376pt x 193.72375pt>
+<ch03_symbolic/figures/gendrum2.png, id=2037, 884.30376pt x 193.72375pt>
 File: ch03_symbolic/figures/gendrum2.png Graphic file (type png)
 <use ch03_symbolic/figures/gendrum2.png>
 Package pdftex.def Info: ch03_symbolic/figures/gendrum2.png  used on input line 660. on input line 660.
@@ -2011,7 +2013,7 @@ Overfull \hbox (2.34338pt too wide) in paragraph at lines 674--675
 \openout2 = `ch04_sota/ch04_sota.aux'.
 
  (./ch04_sota/ch04_sota.tex
-<ch04_sota/figures/picasso.png, id=2002, 730.73pt x 548.0475pt>
+<ch04_sota/figures/picasso.png, id=2100, 730.73pt x 548.0475pt>
 File: ch04_sota/figures/picasso.png Graphic file (type png)
 <use ch04_sota/figures/picasso.png>
 Package pdftex.def Info: ch04_sota/figures/picasso.png  used on input line 17. on input line 17.
@@ -2023,41 +2025,39 @@ Package pdftex.def Info: Requested size: 334.79773pt x 251.1014pt on input line 
 Underfull \vbox (badness 2165) has occurred while \output is active []
 
  [56 <./ch04_sota/figures/picasso.png>] [57]
-<ch04_sota/figures/wolfecastle.png, id=2106, 1307.88625pt x 893.3375pt>
+<ch04_sota/figures/wolfecastle.png, id=2205, 1307.88625pt x 893.3375pt>
 File: ch04_sota/figures/wolfecastle.png Graphic file (type png)
 <use ch04_sota/figures/wolfecastle.png>
 Package pdftex.def Info: ch04_sota/figures/wolfecastle.png  used on input line 42. on input line 42.
 Package pdftex.def Info: Requested size: 372.0pt x 254.08585pt on input line 42.
  [58 <./ch04_sota/figures/wolfecastle.png>] [59] [60] [61]
-<ch04_sota/figures/costs.png, id=2290, 545.03625pt x 242.9075pt>
+<ch04_sota/figures/costs.png, id=2388, 545.03625pt x 242.9075pt>
 File: ch04_sota/figures/costs.png Graphic file (type png)
 <use ch04_sota/figures/costs.png>
 Package pdftex.def Info: ch04_sota/figures/costs.png  used on input line 107. on input line 107.
 Package pdftex.def Info: Requested size: 223.20227pt x 99.4741pt on input line 107.
  [62] [63 <./ch04_sota/figures/costs.png>]
-
-Package natbib Warning: Citation `Schwarz2006a' on page 64 undefined on input line 121.
-
-<ch04_sota/figures/catart.png, id=2334, 1059.96pt x 783.92876pt>
+<ch04_sota/figures/catart.png, id=2434, 1059.96pt x 783.92876pt>
 File: ch04_sota/figures/catart.png Graphic file (type png)
 <use ch04_sota/figures/catart.png>
 Package pdftex.def Info: ch04_sota/figures/catart.png  used on input line 126. on input line 126.
 Package pdftex.def Info: Requested size: 334.79773pt x 247.60872pt on input line 126.
-<ch04_sota/figures/eargram.png, id=2335, 873.2625pt x 668.4975pt>
+<ch04_sota/figures/eargram.png, id=2435, 873.2625pt x 668.4975pt>
 File: ch04_sota/figures/eargram.png Graphic file (type png)
 <use ch04_sota/figures/eargram.png>
 Package pdftex.def Info: ch04_sota/figures/eargram.png  used on input line 132. on input line 132.
 Package pdftex.def Info: Requested size: 334.79773pt x 256.29619pt on input line 132.
-<ch04_sota/figures/audiogarden.png, id=2347, 505.89pt x 388.45125pt>
+<ch04_sota/figures/audiogarden.png, id=2447, 505.89pt x 388.45125pt>
 File: ch04_sota/figures/audiogarden.png Graphic file (type png)
 <use ch04_sota/figures/audiogarden.png>
 Package pdftex.def Info: ch04_sota/figures/audiogarden.png  used on input line 145. on input line 145.
 Package pdftex.def Info: Requested size: 334.79773pt x 257.07802pt on input line 145.
-<ch04_sota/figures/audioguide.png, id=2348, 460.72125pt x 411.5375pt>
+<ch04_sota/figures/audioguide.png, id=2448, 460.72125pt x 411.5375pt>
 File: ch04_sota/figures/audioguide.png Graphic file (type png)
 <use ch04_sota/figures/audioguide.png>
 Package pdftex.def Info: ch04_sota/figures/audioguide.png  used on input line 151. on input line 151.
 Package pdftex.def Info: Requested size: 334.79773pt x 299.05722pt on input line 151.
+
 
 LaTeX Warning: Float too large for page by 44.93498pt on input line 157.
 
@@ -2082,7 +2082,7 @@ Overfull \hbox (45.43065pt too wide) in paragraph at lines 171--208
 
 
 ]
-<ch05_pyconcat/figures/unit_plot.png, id=2471, 579.3645pt x 627.0627pt>
+<ch05_pyconcat/figures/unit_plot.png, id=2571, 579.3645pt x 627.0627pt>
 File: ch05_pyconcat/figures/unit_plot.png Graphic file (type png)
 <use ch05_pyconcat/figures/unit_plot.png>
 Package pdftex.def Info: ch05_pyconcat/figures/unit_plot.png  used on input line 23. on input line 23.
@@ -2090,45 +2090,49 @@ Package pdftex.def Info: Requested size: 279.0pt x 301.9722pt on input line 23.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [72 <./ch05_pyconcat/figures/unit_plot.png>] [73] [74] [75] [76]
+ [72 <./ch05_pyconcat/figures/unit_plot.png>] [73] [74]
+
+Package natbib Warning: Citation `Bello2005b' on page 75 undefined on input line 78.
+
+
+Underfull \vbox (badness 1533) has occurred while \output is active []
+
+ [75] [76]
 Overfull \hbox (2.51912pt too wide) in paragraph at lines 125--126
 []\T1/ptm/m/it/10.95 False Pos-it-ive: \T1/ptm/m/n/10.95 An on-set es-tim-a-tion out-side the tol-er-ance win-dow for any ground
  []
 
 [77]
-<ch05_pyconcat/figures/onset_total_boxplots.pdf, id=2619, pagebox=cropbox, 390.73793pt x 266.68005pt>
+<ch05_pyconcat/figures/onset_total_boxplots.pdf, id=2720, pagebox=cropbox, 390.73793pt x 266.68005pt>
 File: ch05_pyconcat/figures/onset_total_boxplots.pdf Graphic file (type pdf)
 <use ch05_pyconcat/figures/onset_total_boxplots.pdf>
 Package pdftex.def Info: ch05_pyconcat/figures/onset_total_boxplots.pdf  used on input line 175. on input line 175.
 Package pdftex.def Info: Requested size: 279.0pt x 190.42656pt on input line 175.
- [78] [79]
-<ch05_pyconcat/figures/onset_running_times.pdf, id=2642, pagebox=cropbox, 387.53848pt x 266.68005pt>
+ [78 <./ch05_pyconcat/figures/onset_total_boxplots.pdf>]
+<ch05_pyconcat/figures/onset_running_times.pdf, id=2776, pagebox=cropbox, 387.53848pt x 266.68005pt>
 File: ch05_pyconcat/figures/onset_running_times.pdf Graphic file (type pdf)
 <use ch05_pyconcat/figures/onset_running_times.pdf>
 Package pdftex.def Info: ch05_pyconcat/figures/onset_running_times.pdf  used on input line 227. on input line 227.
 Package pdftex.def Info: Requested size: 279.0pt x 191.99321pt on input line 227.
- [80 <./ch05_pyconcat/figures/onset_total_boxplots.pdf>]
-<ch05_pyconcat/figures/joplin.png, id=2708, 781.92125pt x 482.80376pt>
+ [79 <./ch05_pyconcat/figures/onset_running_times.pdf>] [80]
+<ch05_pyconcat/figures/joplin.png, id=2851, 781.92125pt x 482.80376pt>
 File: ch05_pyconcat/figures/joplin.png Graphic file (type png)
 <use ch05_pyconcat/figures/joplin.png>
 Package pdftex.def Info: ch05_pyconcat/figures/joplin.png  used on input line 243. on input line 243.
 Package pdftex.def Info: Requested size: 334.79773pt x 206.7249pt on input line 243.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [81 <./ch05_pyconcat/figures/onset_running_times.pdf>] [82 <./ch05_pyconcat/figures/joplin.png>]
+ [81] [82 <./ch05_pyconcat/figures/joplin.png>]
 Overfull \hbox (19.71712pt too wide) in paragraph at lines 271--293
  [][] 
  []
 
 [83]
-<ch05_pyconcat/figures/spectrum_subtraction.png, id=2834, 1147.28625pt x 743.77875pt>
+<ch05_pyconcat/figures/spectrum_subtraction.png, id=2936, 1147.28625pt x 743.77875pt>
 File: ch05_pyconcat/figures/spectrum_subtraction.png Graphic file (type png)
 <use ch05_pyconcat/figures/spectrum_subtraction.png>
-Package pdftex.def Info: ch05_pyconcat/figures/spectrum_subtraction.png  used on input line 334. on input line 334.
-Package pdftex.def Info: Requested size: 279.0pt x 180.87115pt on input line 334.
+Package pdftex.def Info: ch05_pyconcat/figures/spectrum_subtraction.png  used on input line 336. on input line 336.
+Package pdftex.def Info: Requested size: 279.0pt x 180.87115pt on input line 336.
  [84]
-Overfull \hbox (3.88725pt too wide) in paragraph at lines 348--349
+Overfull \hbox (3.88725pt too wide) in paragraph at lines 351--352
 []\T1/ptm/m/n/10.95 This we can en-vis-age as par-tic-u-larly use-ful in con-cat-en-at-ive syn-thesis of drum rhythms.
  []
 
@@ -2136,342 +2140,404 @@ Overfull \hbox (3.88725pt too wide) in paragraph at lines 348--349
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [85 <./ch05_pyconcat/figures/spectrum_subtraction.png>]
-<ch05_pyconcat/figures/fletcher_munson.png, id=2881, 395.4775pt x 316.18124pt>
+<ch05_pyconcat/figures/fletcher_munson.png, id=2992, 395.4775pt x 316.18124pt>
 File: ch05_pyconcat/figures/fletcher_munson.png Graphic file (type png)
 <use ch05_pyconcat/figures/fletcher_munson.png>
-Package pdftex.def Info: ch05_pyconcat/figures/fletcher_munson.png  used on input line 384. on input line 384.
-Package pdftex.def Info: Requested size: 279.0pt x 223.06218pt on input line 384.
+Package pdftex.def Info: ch05_pyconcat/figures/fletcher_munson.png  used on input line 379. on input line 379.
+Package pdftex.def Info: Requested size: 279.0pt x 223.06218pt on input line 379.
  [86]
 Underfull \vbox (badness 6808) has occurred while \output is active []
 
  [87 <./ch05_pyconcat/figures/fletcher_munson.png>] [88]
-Overfull \hbox (22.6114pt too wide) in paragraph at lines 434--434
+Overfull \hbox (22.6114pt too wide) in paragraph at lines 429--429
 []\T1/ptm/m/n/10.95 ``\T1/ptm/m/it/10.95 That at-trib-ute of aud-it-ory sen-sa-tion which en-ables a listener to judge that two nonidentical
  []
 
 [89] [90]
-<ch05_pyconcat/figures/spectral_features.pdf, id=3032, pagebox=cropbox, 592.47409pt x 642.54428pt>
+<ch05_pyconcat/figures/spectral_features.pdf, id=3143, pagebox=cropbox, 592.47409pt x 642.54428pt>
 File: ch05_pyconcat/figures/spectral_features.pdf Graphic file (type pdf)
 <use ch05_pyconcat/figures/spectral_features.pdf>
-Package pdftex.def Info: ch05_pyconcat/figures/spectral_features.pdf  used on input line 470. on input line 470.
-Package pdftex.def Info: Requested size: 316.20227pt x 342.91951pt on input line 470.
+Package pdftex.def Info: ch05_pyconcat/figures/spectral_features.pdf  used on input line 465. on input line 465.
+Package pdftex.def Info: Requested size: 316.20227pt x 342.91951pt on input line 465.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [91 <./ch05_pyconcat/figures/spectral_features.pdf>]
-<ch05_pyconcat/figures/scale.pdf, id=3096, pagebox=cropbox, 390.73793pt x 266.68005pt>
+<ch05_pyconcat/figures/scale.pdf, id=3208, pagebox=cropbox, 390.73793pt x 266.68005pt>
 File: ch05_pyconcat/figures/scale.pdf Graphic file (type pdf)
 <use ch05_pyconcat/figures/scale.pdf>
-Package pdftex.def Info: ch05_pyconcat/figures/scale.pdf  used on input line 489. on input line 489.
-Package pdftex.def Info: Requested size: 297.60114pt x 203.12248pt on input line 489.
+Package pdftex.def Info: ch05_pyconcat/figures/scale.pdf  used on input line 484. on input line 484.
+Package pdftex.def Info: Requested size: 297.60114pt x 203.12248pt on input line 484.
  [92] [93 <./ch05_pyconcat/figures/scale.pdf>]
-<ch05_pyconcat/figures/mfcc_diagram.pdf, id=3183, pagebox=cropbox, 592.83984pt x 424.83719pt>
+<ch05_pyconcat/figures/mfcc_diagram.pdf, id=3298, pagebox=cropbox, 592.83984pt x 424.83719pt>
 File: ch05_pyconcat/figures/mfcc_diagram.pdf Graphic file (type pdf)
 <use ch05_pyconcat/figures/mfcc_diagram.pdf>
-Package pdftex.def Info: ch05_pyconcat/figures/mfcc_diagram.pdf  used on input line 528. on input line 528.
-Package pdftex.def Info: Requested size: 334.79773pt x 239.92973pt on input line 528.
- [94 <./ch05_pyconcat/figures/mfcc_diagram.pdf>]
-<ch05_pyconcat/figures/wave_spec_mfcc_bfcc.pdf, id=3239, pagebox=cropbox, 715.06473pt x 497.45535pt>
+Package pdftex.def Info: ch05_pyconcat/figures/mfcc_diagram.pdf  used on input line 523. on input line 523.
+Package pdftex.def Info: Requested size: 334.79773pt x 239.92973pt on input line 523.
+ [94]
+<ch05_pyconcat/figures/wave_spec_mfcc_bfcc.pdf, id=3333, pagebox=cropbox, 715.06473pt x 497.45535pt>
 File: ch05_pyconcat/figures/wave_spec_mfcc_bfcc.pdf Graphic file (type pdf)
 <use ch05_pyconcat/figures/wave_spec_mfcc_bfcc.pdf>
-Package pdftex.def Info: ch05_pyconcat/figures/wave_spec_mfcc_bfcc.pdf  used on input line 552. on input line 552.
-Package pdftex.def Info: Requested size: 536.29724pt x 373.09059pt on input line 552.
- [95] [96 <./ch05_pyconcat/figures/wave_spec_mfcc_bfcc.pdf>]
-LaTeX Font Info:    Try loading font information for T1+pcr on input line 625.
+Package pdftex.def Info: ch05_pyconcat/figures/wave_spec_mfcc_bfcc.pdf  used on input line 547. on input line 547.
+Package pdftex.def Info: Requested size: 536.29724pt x 373.09059pt on input line 547.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [95 <./ch05_pyconcat/figures/mfcc_diagram.pdf>] [96 <./ch05_pyconcat/figures/wave_spec_mfcc_bfcc.pdf>]
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 620.
  (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
-)
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [97]
-<ch05_pyconcat/figures/matlab_bark.png, id=3400, 562.1pt x 421.575pt>
+) [97]
+<ch05_pyconcat/figures/matlab_bark.png, id=3512, 562.1pt x 421.575pt>
 File: ch05_pyconcat/figures/matlab_bark.png Graphic file (type png)
 <use ch05_pyconcat/figures/matlab_bark.png>
-Package pdftex.def Info: ch05_pyconcat/figures/matlab_bark.png  used on input line 637. on input line 637.
-Package pdftex.def Info: Requested size: 372.0pt x 278.9994pt on input line 637.
- [98]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [99 <./ch05_pyconcat/figures/matlab_bark.png (PNG copy)>]
-<ch05_pyconcat/figures/tristimulus.pdf, id=3485, pagebox=cropbox, 357.53577pt x 239.73564pt>
+Package pdftex.def Info: ch05_pyconcat/figures/matlab_bark.png  used on input line 632. on input line 632.
+Package pdftex.def Info: Requested size: 372.0pt x 278.9994pt on input line 632.
+ [98] [99 <./ch05_pyconcat/figures/matlab_bark.png (PNG copy)>]
+<ch05_pyconcat/figures/tristimulus.pdf, id=3593, pagebox=cropbox, 357.53577pt x 239.73564pt>
 File: ch05_pyconcat/figures/tristimulus.pdf Graphic file (type pdf)
 <use ch05_pyconcat/figures/tristimulus.pdf>
-Package pdftex.def Info: ch05_pyconcat/figures/tristimulus.pdf  used on input line 675. on input line 675.
-Package pdftex.def Info: Requested size: 279.0pt x 187.07718pt on input line 675.
+Package pdftex.def Info: ch05_pyconcat/figures/tristimulus.pdf  used on input line 670. on input line 670.
+Package pdftex.def Info: Requested size: 279.0pt x 187.07718pt on input line 670.
 
-Overfull \hbox (16.55621pt too wide) in paragraph at lines 684--685
-[]\T1/ptm/m/n/10.95 Pitch Track-ing: Re-turn-ing units that the same pitch or transforming/post-processing
+Overfull \hbox (6.90945pt too wide) in paragraph at lines 679--680
+[]\T1/ptm/m/n/10.95 Pitch Track-ing: Re-turn-ing units that con-tain the same pitch, or transforming/post-
  []
 
-[100]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [101 <./ch05_pyconcat/figures/tristimulus.pdf>] [102]
-<ch05_pyconcat/figures/orch_distribution.pdf, id=3595, pagebox=cropbox, 343.99515pt x 340.42181pt>
+[100] [101 <./ch05_pyconcat/figures/tristimulus.pdf>] [102]
+<ch05_pyconcat/figures/orch_distribution.pdf, id=3707, pagebox=cropbox, 343.99515pt x 340.42181pt>
 File: ch05_pyconcat/figures/orch_distribution.pdf Graphic file (type pdf)
 <use ch05_pyconcat/figures/orch_distribution.pdf>
-Package pdftex.def Info: ch05_pyconcat/figures/orch_distribution.pdf  used on input line 723. on input line 723.
-Package pdftex.def Info: Requested size: 297.60114pt x 294.52834pt on input line 723.
+Package pdftex.def Info: ch05_pyconcat/figures/orch_distribution.pdf  used on input line 718. on input line 718.
+Package pdftex.def Info: Requested size: 297.60114pt x 294.52834pt on input line 718.
  [103 <./ch05_pyconcat/figures/orch_distribution.pdf>]
-<ch05_pyconcat/figures/drum_distribution.pdf, id=3733, pagebox=cropbox, 482.28181pt x 111.60696pt>
+<ch05_pyconcat/figures/drum_distribution.pdf, id=3845, pagebox=cropbox, 482.28181pt x 111.60696pt>
 File: ch05_pyconcat/figures/drum_distribution.pdf Graphic file (type pdf)
 <use ch05_pyconcat/figures/drum_distribution.pdf>
-Package pdftex.def Info: ch05_pyconcat/figures/drum_distribution.pdf  used on input line 744. on input line 744.
-Package pdftex.def Info: Requested size: 372.0pt x 86.09088pt on input line 744.
+Package pdftex.def Info: ch05_pyconcat/figures/drum_distribution.pdf  used on input line 739. on input line 739.
+Package pdftex.def Info: Requested size: 372.0pt x 86.09088pt on input line 739.
 LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <10.95> not available
-(Font)              Font shape `T1/ptm/b/it' tried instead on input line 754.
+(Font)              Font shape `T1/ptm/b/it' tried instead on input line 749.
  [104 <./ch05_pyconcat/figures/drum_distribution.pdf>]
-Overfull \hbox (6.91951pt too wide) in paragraph at lines 758--759
-[]\T1/ptm/b/n/10.95 Support Vec-tor Ma-chines[] [][][]\T1/ptm/m/n/10.95 Sup-port Vec-tor Ma-chines[][] ([][][]SVM[][]) as a clas-si-fic-a-tion mech-
- []
-
-<ch05_pyconcat/figures/neural_network.pdf, id=3843, pagebox=cropbox, 830.85413pt x 728.82701pt>
+<ch05_pyconcat/figures/neural_network.pdf, id=3953, pagebox=cropbox, 830.85413pt x 728.82701pt>
 File: ch05_pyconcat/figures/neural_network.pdf Graphic file (type pdf)
 <use ch05_pyconcat/figures/neural_network.pdf>
-Package pdftex.def Info: ch05_pyconcat/figures/neural_network.pdf  used on input line 764. on input line 764.
-Package pdftex.def Info: Requested size: 297.60114pt x 261.05412pt on input line 764.
+Package pdftex.def Info: ch05_pyconcat/figures/neural_network.pdf  used on input line 759. on input line 759.
+Package pdftex.def Info: Requested size: 297.60114pt x 261.05412pt on input line 759.
 
 Underfull \vbox (badness 2418) has occurred while \output is active []
 
  [105 <./ch05_pyconcat/figures/neural_network.pdf>] [106]
-<ch05_pyconcat/figures/drum_confusion.pdf, id=3895, pagebox=cropbox, 335.53802pt x 294.56479pt>
+<ch05_pyconcat/figures/drum_confusion.pdf, id=4009, pagebox=cropbox, 335.53802pt x 294.56479pt>
 File: ch05_pyconcat/figures/drum_confusion.pdf Graphic file (type pdf)
 <use ch05_pyconcat/figures/drum_confusion.pdf>
-Package pdftex.def Info: ch05_pyconcat/figures/drum_confusion.pdf  used on input line 866. on input line 866.
-Package pdftex.def Info: Requested size: 297.60114pt x 261.26288pt on input line 866.
+Package pdftex.def Info: ch05_pyconcat/figures/drum_confusion.pdf  used on input line 861. on input line 861.
+Package pdftex.def Info: Requested size: 297.60114pt x 261.26288pt on input line 861.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [107] [108] [109 <./ch05_pyconcat/figures/drum_confusion.pdf>]
-<ch05_pyconcat/figures/kdTree.png, id=3990, 697.60625pt x 350.30875pt>
+<ch05_pyconcat/figures/kdTree.png, id=4102, 697.60625pt x 350.30875pt>
 File: ch05_pyconcat/figures/kdTree.png Graphic file (type png)
 <use ch05_pyconcat/figures/kdTree.png>
-Package pdftex.def Info: ch05_pyconcat/figures/kdTree.png  used on input line 908. on input line 908.
-Package pdftex.def Info: Requested size: 372.0pt x 186.80128pt on input line 908.
- [110] [111 <./ch05_pyconcat/figures/kdTree.png>] [112] [113]
-Overfull \hbox (7.02295pt too wide) in paragraph at lines 977--978
+Package pdftex.def Info: ch05_pyconcat/figures/kdTree.png  used on input line 903. on input line 903.
+Package pdftex.def Info: Requested size: 372.0pt x 186.80128pt on input line 903.
+ [110] [111 <./ch05_pyconcat/figures/kdTree.png>] [112]
+Overfull \hbox (7.02295pt too wide) in paragraph at lines 958--959
 []\T1/ptm/m/it/10.95 Evaluation \T1/ptm/m/n/10.95 - Given an ob-serv-able se-quence of emis-sions $\OML/ztmcm/m/it/10.95 O \OT1/ztmcm/m/n/10.95 = (\OML/ztmcm/m/it/10.95 O[]; \OT1/ztmcm/m/n/10.95 0[]\OML/ztmcm/m/it/10.95 ; O\OT1/ztmcm/m/n/10.95 3\OML/ztmcm/m/it/10.95 ; :::; O[]\OT1/ztmcm/m/n/10.95 )$\T1/ptm/m/n/10.95 ,
  []
 
-
-Overfull \hbox (1.53712pt too wide) in paragraph at lines 979--980
+[113]
+Overfull \hbox (1.53712pt too wide) in paragraph at lines 960--961
 []\T1/ptm/m/it/10.95 Decoding \T1/ptm/m/n/10.95 - Given an ob-serv-able se-quence of emis-sions $\OML/ztmcm/m/it/10.95 O \OT1/ztmcm/m/n/10.95 = (\OML/ztmcm/m/it/10.95 O[]; \OT1/ztmcm/m/n/10.95 0[]\OML/ztmcm/m/it/10.95 ; O\OT1/ztmcm/m/n/10.95 3\OML/ztmcm/m/it/10.95 ; :::; O[]\OT1/ztmcm/m/n/10.95 )$\T1/ptm/m/n/10.95 ,
+ []
+
+
+Overfull \hbox (1.97159pt too wide) in paragraph at lines 967--968
+[]\T1/ptm/m/n/10.95 The Vi-terbi al-gorithm solves the de-cod-ing prob-lem in [][][]HMM[][]s ([][][]Ra-biner[][], [][]1989[][]), namely,
  []
 
 [114]
 \c@inlinelisti=\count334
 \enitdp@inlinelist=\count335
- [115]
-Underfull \vbox (badness 5147) has occurred while \output is active []
+<ch05_pyconcat/figures/regular_viterbi.pdf, id=4214, pagebox=cropbox, 670.61644pt x 334.24875pt>
+File: ch05_pyconcat/figures/regular_viterbi.pdf Graphic file (type pdf)
+<use ch05_pyconcat/figures/regular_viterbi.pdf>
+Package pdftex.def Info: ch05_pyconcat/figures/regular_viterbi.pdf  used on input line 1046. on input line 1046.
+Package pdftex.def Info: Requested size: 316.20227pt x 157.60185pt on input line 1046.
+ [115] [116 <./ch05_pyconcat/figures/regular_viterbi.pdf>] [117] [118]
+<ch05_pyconcat/figures/parallel_viterbi.pdf, id=4312, pagebox=cropbox, 843.76332pt x 390.73839pt>
+File: ch05_pyconcat/figures/parallel_viterbi.pdf Graphic file (type pdf)
+<use ch05_pyconcat/figures/parallel_viterbi.pdf>
+Package pdftex.def Info: ch05_pyconcat/figures/parallel_viterbi.pdf  used on input line 1110. on input line 1110.
+Package pdftex.def Info: Requested size: 372.0pt x 172.27122pt on input line 1110.
 
- [116] [117] [118]
-<ch05_pyconcat/figures/wiki_hmm.png, id=4182, 462.528pt x 346.896pt>
-File: ch05_pyconcat/figures/wiki_hmm.png Graphic file (type png)
-<use ch05_pyconcat/figures/wiki_hmm.png>
-Package pdftex.def Info: ch05_pyconcat/figures/wiki_hmm.png  used on input line 1105. on input line 1105.
-Package pdftex.def Info: Requested size: 279.0pt x 209.26135pt on input line 1105.
- [119]
-Overfull \hbox (22.66931pt too wide) in paragraph at lines 1123--1124
-[]\T1/ptm/m/n/10.95 <TODO - EX-PLAIN DRAW-BACKS AND MO-TIV-ATE PRUN-ING STRATEGIES> 
+Overfull \hbox (5.11874pt too wide) in paragraph at lines 1126--1127
+[]\T1/ptm/m/n/10.95 Shortest path al-gorithms aim to solve the prob-lem of find-ing the the path between
  []
 
-
+[119]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [120 <./ch05_pyconcat/figures/wiki_hmm.png>] [121]) [122]
+ [120 <./ch05_pyconcat/figures/parallel_viterbi.pdf>]
+Overfull \hbox (3.86154pt too wide) in paragraph at lines 1135--1136
+[]\T1/ptm/m/n/10.95 Next cre-ate the ne-ces-sary $\OML/ztmcm/m/it/10.95 n[] \OMS/ztmcm/m/n/10.95 ^^C \OML/ztmcm/m/it/10.95 T$ \T1/ptm/m/n/10.95 edges and cal-cu-late the ap-pro-pri-ate edge weights
+ []
+
+<ch05_pyconcat/figures/wiki_hmm.png, id=4389, 355.5684pt x 268.1217pt>
+File: ch05_pyconcat/figures/wiki_hmm.png Graphic file (type png)
+<use ch05_pyconcat/figures/wiki_hmm.png>
+Package pdftex.def Info: ch05_pyconcat/figures/wiki_hmm.png  used on input line 1154. on input line 1154.
+Package pdftex.def Info: Requested size: 241.79773pt x 182.33261pt on input line 1154.
+[121]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [122 <./ch05_pyconcat/figures/wiki_hmm.png>] [123] [124]
+<ch05_pyconcat/figures/running_time.png, id=4450, 578.16pt x 397.485pt>
+File: ch05_pyconcat/figures/running_time.png Graphic file (type png)
+<use ch05_pyconcat/figures/running_time.png>
+Package pdftex.def Info: ch05_pyconcat/figures/running_time.png  used on input line 1227. on input line 1227.
+Package pdftex.def Info: Requested size: 334.79773pt x 230.17148pt on input line 1227.
+ [125 <./ch05_pyconcat/figures/running_time.png>]
+<ch05_pyconcat/figures/equivalence.png, id=4457, 602.7318pt x 435.0654pt>
+File: ch05_pyconcat/figures/equivalence.png Graphic file (type png)
+<use ch05_pyconcat/figures/equivalence.png>
+Package pdftex.def Info: ch05_pyconcat/figures/equivalence.png  used on input line 1241. on input line 1241.
+Package pdftex.def Info: Requested size: 334.79773pt x 241.6633pt on input line 1241.
+<ch05_pyconcat/figures/fundamental.png, id=4459, 547.0839pt x 397.485pt>
+File: ch05_pyconcat/figures/fundamental.png Graphic file (type png)
+<use ch05_pyconcat/figures/fundamental.png>
+Package pdftex.def Info: ch05_pyconcat/figures/fundamental.png  used on input line 1253. on input line 1253.
+Package pdftex.def Info: Requested size: 334.79773pt x 243.25395pt on input line 1253.
+ [126 <./ch05_pyconcat/figures/equivalence.png>]
+<ch05_pyconcat/figures/mfccs.png, id=4469, 462.528pt x 346.896pt>
+File: ch05_pyconcat/figures/mfccs.png Graphic file (type png)
+<use ch05_pyconcat/figures/mfccs.png>
+Package pdftex.def Info: ch05_pyconcat/figures/mfccs.png  used on input line 1263. on input line 1263.
+Package pdftex.def Info: Requested size: 334.79773pt x 251.10939pt on input line 1263.
+) [127 <./ch05_pyconcat/figures/fundamental.png>] [128 <./ch05_pyconcat/figures/mfccs.png>]
 \openout2 = `ch06_rhythmcat/ch06_rhythmcat.aux'.
 
- (./ch06_rhythmcat/ch06_rhythmcat.tex [123
+ (./ch06_rhythmcat/ch06_rhythmcat.tex [129
 
 
 
 
 ]
-
-Package natbib Warning: Citation `Schwarz2006a' on page 124 undefined on input line 46.
-
-<ch06_rhythmcat/figures/feature_axis_combos.pdf, id=4244, pagebox=cropbox, 496.53317pt x 700.36032pt>
-File: ch06_rhythmcat/figures/feature_axis_combos.pdf Graphic file (type pdf)
-<use ch06_rhythmcat/figures/feature_axis_combos.pdf>
-Package pdftex.def Info: ch06_rhythmcat/figures/feature_axis_combos.pdf  used on input line 50. on input line 50.
-Package pdftex.def Info: Requested size: 372.0pt x 524.70256pt on input line 50.
 
 Class memoir Warning: The material used in the headers is too large
 (27.2pt) for the given head height (13.6pt), it is recommended to
 either increase the head height or redesign the header
-(in both cases you will find help in the memoir manual). on input line 62.
+(in both cases you will find help in the memoir manual). on input line 53.
 
 
-Overfull \vbox (13.59999pt too high) has occurred while \output is active []
-
- [124] [125 <./ch06_rhythmcat/figures/feature_axis_combos.pdf>]
-Overfull \vbox (13.59999pt too high) has occurred while \output is active []
-
- [126]
-<ch06_rhythmcat/figures/dimension_reductions.pdf, id=4384, pagebox=cropbox, 427.76816pt x 580.02934pt>
-File: ch06_rhythmcat/figures/dimension_reductions.pdf Graphic file (type pdf)
-<use ch06_rhythmcat/figures/dimension_reductions.pdf>
-Package pdftex.def Info: ch06_rhythmcat/figures/dimension_reductions.pdf  used on input line 90. on input line 90.
-Package pdftex.def Info: Requested size: 372.0pt x 504.42674pt on input line 90.
- [127]
-Overfull \vbox (13.59999pt too high) has occurred while \output is active []
-
- [128 <./ch06_rhythmcat/figures/dimension_reductions.pdf>]
-File: ch06_rhythmcat/figures/dimension_reductions.pdf Graphic file (type pdf)
-<use ch06_rhythmcat/figures/dimension_reductions.pdf>
-Package pdftex.def Info: ch06_rhythmcat/figures/dimension_reductions.pdf  used on input line 127. on input line 127.
-Package pdftex.def Info: Requested size: 372.0pt x 504.42674pt on input line 127.
- [129]
 Overfull \vbox (13.59999pt too high) has occurred while \output is active []
 
  [130]
-<ch05_pyconcat/figures/rhythmcat_flowchart.png, id=4461, 258.9675pt x 576.1525pt>
-File: ch05_pyconcat/figures/rhythmcat_flowchart.png Graphic file (type png)
-<use ch05_pyconcat/figures/rhythmcat_flowchart.png>
-Package pdftex.def Info: ch05_pyconcat/figures/rhythmcat_flowchart.png  used on input line 165. on input line 165.
-Package pdftex.def Info: Requested size: 186.0pt x 413.82726pt on input line 165.
- [131]
-Overfull \vbox (13.59999pt too high) has occurred while \output is active []
-
- [132 <./ch05_pyconcat/figures/rhythmcat_flowchart.png>]
-Overfull \hbox (2.80742pt too wide) in paragraph at lines 189--190
-[]\T1/ptm/m/n/10.95 Another use-ful single-valued spec-tral fea-ture is the spec-tral flat-ness. It is defined
+Overfull \hbox (4.6184pt too wide) in paragraph at lines 54--54
+[][] [][][][][]$\T1/ptm/m/n/9 http : / / daily . redbullmusicacademy . com / 2016 / 08 / modeselektor-[]on-[]the-[]life-[]and-[]death-[]of-[]50weapons$[][]| 
  []
 
-[133]
-<ch05_pyconcat/figures/rhythmcat.png, id=4523, 1027.84pt x 786.94pt>
+
+Overfull \hbox (1.83704pt too wide) in paragraph at lines 54--55
+[]\T1/ptm/m/n/10.95 In the early days, Ber-lin techno vet-er-ans Ap-parat and Mod-eselektor[][][][][] de-veloped
+ []
+
+[131]
+<ch06_rhythmcat/figures/feature_axis_combos.pdf, id=4563, pagebox=cropbox, 496.53317pt x 700.36032pt>
+File: ch06_rhythmcat/figures/feature_axis_combos.pdf Graphic file (type pdf)
+<use ch06_rhythmcat/figures/feature_axis_combos.pdf>
+Package pdftex.def Info: ch06_rhythmcat/figures/feature_axis_combos.pdf  used on input line 70. on input line 70.
+Package pdftex.def Info: Requested size: 372.0pt x 524.70256pt on input line 70.
+
+Overfull \vbox (13.59999pt too high) has occurred while \output is active []
+
+ [132] [133 <./ch06_rhythmcat/figures/feature_axis_combos.pdf>]
+Overfull \hbox (16.85144pt too wide) in paragraph at lines 91--92
+\T1/ptm/m/n/10.95 for di-men-sional re-duc-tions in-clud-ing `clas-sical' or [][][]Prin-cipal Co-ordin-ate Ana-lysis[][] ([][][]PCoA[][]),
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (13.59999pt too high) has occurred while \output is active []
+
+ [134]
+<ch06_rhythmcat/figures/dimension_reductions.pdf, id=4727, pagebox=cropbox, 427.76816pt x 580.02934pt>
+File: ch06_rhythmcat/figures/dimension_reductions.pdf Graphic file (type pdf)
+<use ch06_rhythmcat/figures/dimension_reductions.pdf>
+Package pdftex.def Info: ch06_rhythmcat/figures/dimension_reductions.pdf  used on input line 107. on input line 107.
+Package pdftex.def Info: Requested size: 372.0pt x 504.42674pt on input line 107.
+ [135]
+Overfull \vbox (13.59999pt too high) has occurred while \output is active []
+
+ [136 <./ch06_rhythmcat/figures/dimension_reductions.pdf>] [137]
+<ch06_rhythmcat/figures/rhythmcat_proto1.png, id=4803, 351.714pt x 264.99pt>
+File: ch06_rhythmcat/figures/rhythmcat_proto1.png Graphic file (type png)
+<use ch06_rhythmcat/figures/rhythmcat_proto1.png>
+Package pdftex.def Info: ch06_rhythmcat/figures/rhythmcat_proto1.png  used on input line 150. on input line 150.
+Package pdftex.def Info: Requested size: 372.0pt x 280.29367pt on input line 150.
+
+Overfull \vbox (13.59999pt too high) has occurred while \output is active []
+
+ [138 <./ch06_rhythmcat/figures/rhythmcat_proto1.png>]
+<ch06_rhythmcat/figures/rhythmcat_proto2.png, id=4824, 664.4825pt x 508.90125pt>
+File: ch06_rhythmcat/figures/rhythmcat_proto2.png Graphic file (type png)
+<use ch06_rhythmcat/figures/rhythmcat_proto2.png>
+Package pdftex.def Info: ch06_rhythmcat/figures/rhythmcat_proto2.png  used on input line 164. on input line 164.
+Package pdftex.def Info: Requested size: 372.0pt x 284.9051pt on input line 164.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [139 <./ch06_rhythmcat/figures/rhythmcat_proto2.png>]
+<ch05_pyconcat/figures/rhythmcat_flowchart.png, id=4862, 258.9675pt x 576.1525pt>
+File: ch05_pyconcat/figures/rhythmcat_flowchart.png Graphic file (type png)
+<use ch05_pyconcat/figures/rhythmcat_flowchart.png>
+Package pdftex.def Info: ch05_pyconcat/figures/rhythmcat_flowchart.png  used on input line 203. on input line 203.
+Package pdftex.def Info: Requested size: 223.20227pt x 496.60678pt on input line 203.
+
+Overfull \vbox (13.59999pt too high) has occurred while \output is active []
+
+ [140] [141 <./ch05_pyconcat/figures/rhythmcat_flowchart.png>]
+Overfull \vbox (13.59999pt too high) has occurred while \output is active []
+
+ [142]
+<ch05_pyconcat/figures/rhythmcat.png, id=4912, 1027.84pt x 786.94pt>
 File: ch05_pyconcat/figures/rhythmcat.png Graphic file (type png)
 <use ch05_pyconcat/figures/rhythmcat.png>
-Package pdftex.def Info: ch05_pyconcat/figures/rhythmcat.png  used on input line 213. on input line 213.
-Package pdftex.def Info: Requested size: 372.0pt x 284.81116pt on input line 213.
-
+Package pdftex.def Info: ch05_pyconcat/figures/rhythmcat.png  used on input line 250. on input line 250.
+Package pdftex.def Info: Requested size: 462.52373pt x 354.11972pt on input line 250.
+ [143]
 Overfull \vbox (13.59999pt too high) has occurred while \output is active []
 
- [134] [135 <./ch05_pyconcat/figures/rhythmcat.png>]
+ [144 <./ch05_pyconcat/figures/rhythmcat.png>] [145]
 Overfull \vbox (13.59999pt too high) has occurred while \output is active []
 
- [136] (/usr/local/texlive/2017/texmf-dist/tex/latex/ucs/data/uni-34.def
+ [146]
+
+LaTeX Warning: Command \textquoteright invalid in math mode on input line 308.
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/ucs/data/uni-34.def
 File: uni-34.def 2013/05/13 UCS: Unicode data U+2200..U+22FF
-)
-Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on input line 262.
- [137])
+) [147]
+Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on input line 321.
+
 Overfull \vbox (13.59999pt too high) has occurred while \output is active []
 
- [138]
-\openout2 = `ch07_evaluation/ch07_evaluation.aux'.
-
- (./ch07_evaluation/ch07_evaluation.tex [139
-
-
+ [148]) [149] [150
 
 
 ]
-Overfull \hbox (3.19759pt too wide) in paragraph at lines 21--22
-\T1/ptm/m/n/10.95 eval-u-ated its abil-ity to gen-er-ate new loops based on acous-tic drum sounds. We gathered
- []
+\openout2 = `ch07_evaluation/ch07_evaluation.aux'.
+
+ (./ch07_evaluation/ch07_evaluation.tex [151
 
 
-LaTeX Warning: Reference `distrib1' on page 140 undefined on input line 25.
-
-
-LaTeX Warning: Reference `distrib2' on page 140 undefined on input line 25.
-
-<ch07_evaluation/figures/corpus_distribution.png, id=4592, 362.3136pt x 217.7736pt>
+] [152]
+<ch07_evaluation/figures/corpus_distribution.png, id=5051, 362.3136pt x 217.7736pt>
 File: ch07_evaluation/figures/corpus_distribution.png Graphic file (type png)
 <use ch07_evaluation/figures/corpus_distribution.png>
-Package pdftex.def Info: ch07_evaluation/figures/corpus_distribution.png  used on input line 30. on input line 30.
-Package pdftex.def Info: Requested size: 279.0pt x 167.69615pt on input line 30.
-<ch07_evaluation/figures/target_distribution.png, id=4593, 362.3136pt x 217.7736pt>
+Package pdftex.def Info: ch07_evaluation/figures/corpus_distribution.png  used on input line 36. on input line 36.
+Package pdftex.def Info: Requested size: 279.0pt x 167.69615pt on input line 36.
+<ch07_evaluation/figures/target_distribution.png, id=5052, 362.3136pt x 217.7736pt>
 File: ch07_evaluation/figures/target_distribution.png Graphic file (type png)
 <use ch07_evaluation/figures/target_distribution.png>
-Package pdftex.def Info: ch07_evaluation/figures/target_distribution.png  used on input line 36. on input line 36.
-Package pdftex.def Info: Requested size: 279.0pt x 167.69615pt on input line 36.
-[140]
-Overfull \hbox (3.49423pt too wide) in paragraph at lines 55--56
+Package pdftex.def Info: ch07_evaluation/figures/target_distribution.png  used on input line 42. on input line 42.
+Package pdftex.def Info: Requested size: 279.0pt x 167.69615pt on input line 42.
+
+Underfull \vbox (badness 1694) has occurred while \output is active []
+
+ [153]
+Overfull \hbox (3.49423pt too wide) in paragraph at lines 61--62
 \T1/ptm/m/n/10.95 more sim-ilar pat-terns by ob-serving the mod-er-ate neg-at-ive cor-rel-a-tion ($\OML/ztmcm/m/it/10.95 ^^Z \OT1/ztmcm/m/n/10.95 = \OMS/ztmcm/m/n/10.95 ^^@\OT1/ztmcm/m/n/10.95 0\OML/ztmcm/m/it/10.95 :\OT1/ztmcm/m/n/10.95 516\OML/ztmcm/m/it/10.95 ; p \OT1/ztmcm/m/n/10.95 =
  []
 
-[141 <./ch07_evaluation/figures/corpus_distribution.png> <./ch07_evaluation/figures/target_distribution.png>]
-<ch07_evaluation/figures/overall_correlation.png, id=4615, 625.33624pt x 494.84875pt>
+<ch07_evaluation/figures/overall_correlation.png, id=5067, 625.33624pt x 494.84875pt>
 File: ch07_evaluation/figures/overall_correlation.png Graphic file (type png)
 <use ch07_evaluation/figures/overall_correlation.png>
-Package pdftex.def Info: ch07_evaluation/figures/overall_correlation.png  used on input line 60. on input line 60.
-Package pdftex.def Info: Requested size: 279.0pt x 220.78464pt on input line 60.
-<ch07_evaluation/figures/kick_snare_correlation.png, id=4616, 625.33624pt x 494.84875pt>
+Package pdftex.def Info: ch07_evaluation/figures/overall_correlation.png  used on input line 66. on input line 66.
+Package pdftex.def Info: Requested size: 279.0pt x 220.78464pt on input line 66.
+<ch07_evaluation/figures/kick_snare_correlation.png, id=5068, 625.33624pt x 494.84875pt>
 File: ch07_evaluation/figures/kick_snare_correlation.png Graphic file (type png)
 <use ch07_evaluation/figures/kick_snare_correlation.png>
-Package pdftex.def Info: ch07_evaluation/figures/kick_snare_correlation.png  used on input line 66. on input line 66.
-Package pdftex.def Info: Requested size: 279.0pt x 220.78464pt on input line 66.
-<ch07_evaluation/figures/new_retrieval_plot.png, id=4619, 481.8pt x 481.8pt>
+Package pdftex.def Info: ch07_evaluation/figures/kick_snare_correlation.png  used on input line 72. on input line 72.
+Package pdftex.def Info: Requested size: 279.0pt x 220.78464pt on input line 72.
+[154 <./ch07_evaluation/figures/corpus_distribution.png> <./ch07_evaluation/figures/target_distribution.png>] [155 <./ch07_evaluation/figures/overall_correlation.png> <./ch07_evaluation/figures/kick_snare_correlation.png>]
+<ch07_evaluation/figures/new_retrieval_plot.png, id=5084, 481.8pt x 481.8pt>
 File: ch07_evaluation/figures/new_retrieval_plot.png Graphic file (type png)
 <use ch07_evaluation/figures/new_retrieval_plot.png>
-Package pdftex.def Info: ch07_evaluation/figures/new_retrieval_plot.png  used on input line 86. on input line 86.
-Package pdftex.def Info: Requested size: 223.20227pt x 223.19658pt on input line 86.
- [142] [143 <./ch07_evaluation/figures/overall_correlation.png> <./ch07_evaluation/figures/kick_snare_correlation.png>]
-<ch07_evaluation/figures/correlation_matrix.png, id=4633, 457.71pt x 303.1325pt>
+Package pdftex.def Info: ch07_evaluation/figures/new_retrieval_plot.png  used on input line 92. on input line 92.
+Package pdftex.def Info: Requested size: 223.20227pt x 223.19658pt on input line 92.
+ [156 <./ch07_evaluation/figures/new_retrieval_plot.png>]
+<ch07_evaluation/figures/correlation_matrix.png, id=5097, 457.71pt x 303.1325pt>
 File: ch07_evaluation/figures/correlation_matrix.png Graphic file (type png)
 <use ch07_evaluation/figures/correlation_matrix.png>
-Package pdftex.def Info: ch07_evaluation/figures/correlation_matrix.png  used on input line 115. on input line 115.
-Package pdftex.def Info: Requested size: 279.0pt x 184.78104pt on input line 115.
- [144 <./ch07_evaluation/figures/new_retrieval_plot.png>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [145 <./ch07_evaluation/figures/correlation_matrix.png>]
-<ch07_evaluation/figures/berlin.jpg, id=4652, 963.6pt x 1284.8pt>
+Package pdftex.def Info: ch07_evaluation/figures/correlation_matrix.png  used on input line 121. on input line 121.
+Package pdftex.def Info: Requested size: 279.0pt x 184.78104pt on input line 121.
+ [157 <./ch07_evaluation/figures/correlation_matrix.png>] [158]
+<ch07_evaluation/figures/berlin.jpg, id=5123, 963.6pt x 1284.8pt>
 File: ch07_evaluation/figures/berlin.jpg Graphic file (type jpg)
 <use ch07_evaluation/figures/berlin.jpg>
-Package pdftex.def Info: ch07_evaluation/figures/berlin.jpg  used on input line 133. on input line 133.
-Package pdftex.def Info: Requested size: 148.79773pt x 198.39697pt on input line 133.
-<ch07_evaluation/figures/wordcloud.png, id=4656, 770.88pt x 481.8pt>
+Package pdftex.def Info: ch07_evaluation/figures/berlin.jpg  used on input line 139. on input line 139.
+Package pdftex.def Info: Requested size: 148.79773pt x 198.39697pt on input line 139.
+<ch07_evaluation/figures/wordcloud.png, id=5127, 770.88pt x 481.8pt>
 File: ch07_evaluation/figures/wordcloud.png Graphic file (type png)
 <use ch07_evaluation/figures/wordcloud.png>
-Package pdftex.def Info: ch07_evaluation/figures/wordcloud.png  used on input line 157. on input line 157.
-Package pdftex.def Info: Requested size: 316.20227pt x 197.62013pt on input line 157.
- [146 <./ch07_evaluation/figures/berlin.jpg>] [147 <./ch07_evaluation/figures/wordcloud.png>] [148]
-Overfull \hbox (5.1026pt too wide) in paragraph at lines 213--213
+Package pdftex.def Info: ch07_evaluation/figures/wordcloud.png  used on input line 163. on input line 163.
+Package pdftex.def Info: Requested size: 316.20227pt x 197.62013pt on input line 163.
+ [159 <./ch07_evaluation/figures/berlin.jpg>] [160 <./ch07_evaluation/figures/wordcloud.png>] [161]
+Overfull \hbox (5.1026pt too wide) in paragraph at lines 215--215
 []\T1/ptm/m/it/10.95 ^^PIt's kind of good to see a dif-fer-ent in-ter-face and not al-ways fol-low the same timeline,...,
  []
 
-[149] [150]
-Underfull \hbox (badness 10000) in paragraph at lines 249--249
-[]
+[162] [163]
+Underfull \hbox (badness 10000) in paragraph at lines 253--253
+
  []
 
-[151]) [152]
+
+Underfull \hbox (badness 10000) in paragraph at lines 253--253
+
+ []
+
+) [164]
 \openout2 = `ch08_conclusions/ch08_conclusions.aux'.
 
- (./ch08_conclusions/ch08_conclusions.tex) [153
+ (./ch08_conclusions/ch08_conclusions.tex
+LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <12> not available
+(Font)              Font shape `T1/ptm/b/it' tried instead on input line 17.
+ [165
 
 
 
 
-] [154
-
-
-]
+] [166] [167]) [168]
 \openout2 = `ch99/appendix.aux'.
 
- (./ch99/appendix.tex [155
+ (./ch99/appendix.tex [169
 
 
-] [156]
-<ch99/figures/survey_landing.png, id=4725, 1017.8025pt x 934.49126pt>
+
+
+] [170]
+<ch99/figures/survey_landing.png, id=5221, 1017.8025pt x 934.49126pt>
 File: ch99/figures/survey_landing.png Graphic file (type png)
 <use ch99/figures/survey_landing.png>
 Package pdftex.def Info: ch99/figures/survey_landing.png  used on input line 63. on input line 63.
 Package pdftex.def Info: Requested size: 436.65019pt x 400.91083pt on input line 63.
-<ch99/figures/survey_page.png, id=4726, 1217.54875pt x 935.495pt>
+<ch99/figures/survey_page.png, id=5222, 1217.54875pt x 935.495pt>
 File: ch99/figures/survey_page.png Graphic file (type png)
 <use ch99/figures/survey_page.png>
 Package pdftex.def Info: ch99/figures/survey_page.png  used on input line 71. on input line 71.
 Package pdftex.def Info: Requested size: 436.65019pt x 335.49324pt on input line 71.
- [157
+ [171
 
-] [158 <./ch99/figures/survey_landing.png>] [159 <./ch99/figures/survey_page.png>] [160
+] [172 <./ch99/figures/survey_landing.png>] [173 <./ch99/figures/survey_page.png>] [174
 
-] [161]
+] [175]
 
-LaTeX Warning: Reference `sec:corpus_carnatic_music_corpus' on page 162 undefined on input line 115.
+LaTeX Warning: Reference `sec:corpus_carnatic_music_corpus' on page 176 undefined on input line 115.
 
 
 Overfull \hbox (1.37956pt too wide) in paragraph at lines 115--118
@@ -2479,12 +2545,12 @@ Overfull \hbox (1.37956pt too wide) in paragraph at lines 115--118
  []
 
 
-LaTeX Warning: Reference `sec:corpus_carnatic_music_corpus' on page 162 undefined on input line 118.
+LaTeX Warning: Reference `sec:corpus_carnatic_music_corpus' on page 176 undefined on input line 118.
 
 
-LaTeX Warning: Reference `sec:corpus_carnatic_music_corpus' on page 162 undefined on input line 121.
+LaTeX Warning: Reference `sec:corpus_carnatic_music_corpus' on page 176 undefined on input line 121.
 
-[162] [163
+[176] [177
 
 ] (/usr/local/texlive/2017/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
@@ -2508,31 +2574,31 @@ Overfull \hbox (2.18967pt too wide) in paragraph at lines 250--251
 []\T1/ptm/m/n/10.95 Documentation - [][]$http : / / pyconcat . readthedocs . io / en / latest / source / PyConcat . html$[][] 
  []
 
-[164]
-<ch99/figures/combined.png, id=4849, 1231.60126pt x 702.625pt>
+[178]
+<ch99/figures/combined.png, id=5346, 1231.60126pt x 702.625pt>
 File: ch99/figures/combined.png Graphic file (type png)
 <use ch99/figures/combined.png>
-Package pdftex.def Info: ch99/figures/combined.png  used on input line 276. on input line 276.
-Package pdftex.def Info: Requested size: 334.79773pt x 190.99782pt on input line 276.
-<ch99/figures/atomix.png, id=4850, 778.91pt x 584.1825pt>
+Package pdftex.def Info: ch99/figures/combined.png  used on input line 271. on input line 271.
+Package pdftex.def Info: Requested size: 334.79773pt x 190.99782pt on input line 271.
+<ch99/figures/atomix.png, id=5347, 778.91pt x 584.1825pt>
 File: ch99/figures/atomix.png Graphic file (type png)
 <use ch99/figures/atomix.png>
-Package pdftex.def Info: ch99/figures/atomix.png  used on input line 284. on input line 284.
-Package pdftex.def Info: Requested size: 334.79773pt x 251.09552pt on input line 284.
-) [165
+Package pdftex.def Info: ch99/figures/atomix.png  used on input line 279. on input line 279.
+Package pdftex.def Info: Requested size: 334.79773pt x 251.09552pt on input line 279.
+) [179
 
-] [166 <./ch99/figures/combined.png> <./ch99/figures/atomix.png>] (/Users/carthach/Google Drive/Phd_Work/Thesis/PhDThesis/.texpadtmp/Carthach_PhDThesis.acr
-Overfull \hbox (8.73302pt too wide) in alignment at lines 2--71
+] [180 <./ch99/figures/combined.png> <./ch99/figures/atomix.png>] (/Users/carthach/Google Drive/Code/phd_thesis/PhDThesis/.texpadtmp/Carthach_PhDThesis.acr
+Overfull \hbox (8.73302pt too wide) in alignment at lines 2--70
 [] [] 
  []
 
 
-Overfull \hbox (8.73302pt too wide) in alignment at lines 71--156
+Overfull \hbox (8.73302pt too wide) in alignment at lines 70--159
 [] [] 
  []
 
 
-Overfull \hbox (8.73302pt too wide) in alignment at lines 156--212
+Overfull \hbox (8.73302pt too wide) in alignment at lines 159--239
 [] [] 
  []
 
@@ -2541,11 +2607,11 @@ Overfull \hbox (8.73302pt too wide) has occurred while \output is active
 [] [] 
  []
 
-[167
+[181
 
 
 ]
-Overfull \hbox (8.73302pt too wide) in alignment at lines 212--225
+Overfull \hbox (8.73302pt too wide) in alignment at lines 239--263
 [] [] 
  []
 
@@ -2554,28 +2620,28 @@ Overfull \hbox (8.73302pt too wide) has occurred while \output is active
 [] [] 
  []
 
-) (/Users/carthach/Google Drive/Phd_Work/Thesis/PhDThesis/.texpadtmp/Carthach_PhDThesis.gim) [168] (/Users/carthach/Google Drive/Phd_Work/Thesis/PhDThesis/.texpadtmp/Carthach_PhDThesis.bbl (/Users/carthach/Google Drive/Phd_Work/Thesis/PhDThesis/.texpadtmp/Carthach_PhDThesis.brf)
+) (/Users/carthach/Google Drive/Code/phd_thesis/PhDThesis/.texpadtmp/Carthach_PhDThesis.gim) [182] (/Users/carthach/Google Drive/Code/phd_thesis/PhDThesis/.texpadtmp/Carthach_PhDThesis.bbl (/Users/carthach/Google Drive/Code/phd_thesis/PhDThesis/.texpadtmp/Carthach_PhDThesis.brf)
 \tf@brf=\write12
 \openout12 = `Carthach_PhDThesis.brf'.
 
- [169
+ [183
 
 
 
-] [170] [171] [172] [173] [174] [175] [176] [177] [178] [179] [180] [181] [182] [183] [184] [185] [186] [187]
+] [184] [185] [186] [187] [188] [189] [190] [191] [192] [193] [194] [195] [196] [197] [198] [199] [200] [201] [202] [203]
 LaTeX Font Info:    Font shape `OMS/ptm/m/it' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 1548.
- [188] [189] [190] [191] [192] [193] [194] [195] [196] [197])
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 1715.
+ [204] [205] [206] [207] [208] [209] [210] [211] [212] [213])
 
 Class memoir Warning: The material used in the headers is too large
 (27.2pt) for the given head height (13.6pt), it is recommended to
 either increase the head height or redesign the header
-(in both cases you will find help in the memoir manual). on input line 541.
+(in both cases you will find help in the memoir manual). on input line 540.
 
 
 Package natbib Warning: There were undefined citations.
 
-[198]
+[214]
 \tf@toc=\write13
 \openout13 = `Carthach_PhDThesis.toc'.
 
@@ -2585,19 +2651,19 @@ Package natbib Warning: There were undefined citations.
 \tf@lot=\write15
 \openout15 = `Carthach_PhDThesis.lot'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 541.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 541.
- (/Users/carthach/Google Drive/Phd_Work/Thesis/PhDThesis/.texpadtmp/Carthach_PhDThesis.aux (/Users/carthach/Google Drive/Phd_Work/Thesis/PhDThesis/.texpadtmp/ch00/1_titlePage.aux)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 540.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 540.
+ (/Users/carthach/Google Drive/Code/phd_thesis/PhDThesis/.texpadtmp/Carthach_PhDThesis.aux (/Users/carthach/Google Drive/Code/phd_thesis/PhDThesis/.texpadtmp/ch00/1_titlePage.aux)
 LaTeX Info: Redefining \. on input line 37.
 LaTeX Info: Redefining \% on input line 37.
 LaTeX Info: Redefining \. on input line 41.
 LaTeX Info: Redefining \% on input line 41.
- (/Users/carthach/Google Drive/Phd_Work/Thesis/PhDThesis/.texpadtmp/ch00/preliminarystuff.aux
+ (/Users/carthach/Google Drive/Code/phd_thesis/PhDThesis/.texpadtmp/ch00/preliminarystuff.aux
 LaTeX Info: Redefining \. on input line 17.
 LaTeX Info: Redefining \% on input line 17.
-) (/Users/carthach/Google Drive/Phd_Work/Thesis/PhDThesis/.texpadtmp/ch00/mathSymbols.aux) (/Users/carthach/Google Drive/Phd_Work/Thesis/PhDThesis/.texpadtmp/ch01_introduction/ch01_introduction.aux) (/Users/carthach/Google Drive/Phd_Work/Thesis/PhDThesis/.texpadtmp/ch02_dancemusic/ch02_dancemusic.aux) (/Users/carthach/Google Drive/Phd_Work/Thesis/PhDThesis/.texpadtmp/ch03_symbolic/ch03_symbolic.aux) (/Users/carthach/Google Drive/Phd_Work/Thesis/PhDThesis/.texpadtmp/ch04_sota/ch04_sota.aux) (/Users/carthach/Google Drive/Phd_Work/Thesis/PhDThesis/.texpadtmp/ch05_pyconcat/ch05_pyconcat.aux) (/Users/carthach/Google Drive/Phd_Work/Thesis/PhDThesis/.texpadtmp/ch06_rhythmcat/ch06_rhythmcat.aux) (/Users/carthach/Google Drive/Phd_Work/Thesis/PhDThesis/.texpadtmp/ch07_evaluation/ch07_evaluation.aux) (/Users/carthach/Google Drive/Phd_Work/Thesis/PhDThesis/.texpadtmp/ch08_conclusions/ch08_conclusions.aux) (/Users/carthach/Google Drive/Phd_Work/Thesis/PhDThesis/.texpadtmp/ch99/appendix.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 541.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 541.
+) (/Users/carthach/Google Drive/Code/phd_thesis/PhDThesis/.texpadtmp/ch00/mathSymbols.aux) (/Users/carthach/Google Drive/Code/phd_thesis/PhDThesis/.texpadtmp/ch01_introduction/ch01_introduction.aux) (/Users/carthach/Google Drive/Code/phd_thesis/PhDThesis/.texpadtmp/ch02_dancemusic/ch02_dancemusic.aux) (/Users/carthach/Google Drive/Code/phd_thesis/PhDThesis/.texpadtmp/ch03_symbolic/ch03_symbolic.aux) (/Users/carthach/Google Drive/Code/phd_thesis/PhDThesis/.texpadtmp/ch04_sota/ch04_sota.aux) (/Users/carthach/Google Drive/Code/phd_thesis/PhDThesis/.texpadtmp/ch05_pyconcat/ch05_pyconcat.aux) (/Users/carthach/Google Drive/Code/phd_thesis/PhDThesis/.texpadtmp/ch06_rhythmcat/ch06_rhythmcat.aux) (/Users/carthach/Google Drive/Code/phd_thesis/PhDThesis/.texpadtmp/ch07_evaluation/ch07_evaluation.aux) (/Users/carthach/Google Drive/Code/phd_thesis/PhDThesis/.texpadtmp/ch08_conclusions/ch08_conclusions.aux) (/Users/carthach/Google Drive/Code/phd_thesis/PhDThesis/.texpadtmp/ch99/appendix.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 540.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 540.
 Package rerunfilecheck Info: File `Carthach_PhDThesis.out' has not changed.
 (rerunfilecheck)             Checksum: <no file>.
 Package rerunfilecheck Info: File `Carthach_PhDThesis.brf' has not changed.
@@ -2609,28 +2675,32 @@ LaTeX Warning: There were undefined references.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 541.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 540.
  )
-(\end occurred inside a group at level 8)
+(\end occurred inside a group at level 10)
 
-### simple group (level 8) entered at line 802 ({)
-### simple group (level 7) entered at line 776 ({)
-### simple group (level 6) entered at line 605 ({)
-### simple group (level 5) entered at line 569 ({)
+### simple group (level 10) entered at line 1015 ({)
+### simple group (level 9) entered at line 828 ({)
+### simple group (level 8) entered at line 797 ({)
+### simple group (level 7) entered at line 771 ({)
+### simple group (level 6) entered at line 600 ({)
+### simple group (level 5) entered at line 564 ({)
 ### simple group (level 4) entered at line 267 ({)
 ### simple group (level 3) entered at line 155 ({)
 ### simple group (level 2) entered at line 508 ({)
 ### simple group (level 1) entered at line 461 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 42223 strings out of 492985
- 700397 string characters out of 6132585
- 913526 words of memory out of 5000000
- 43868 multiletter control sequences out of 15000+600000
- 122816 words of font info for 182 fonts, out of 8000000 for 9000
+ 42801 strings out of 492985
+ 711452 string characters out of 6132585
+ 924982 words of memory out of 5000000
+ 44328 multiletter control sequences out of 15000+600000
+ 126205 words of font info for 186 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 55i,13n,92p,2016b,3660s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{page.\\protect\040\\unhbox\040\\voidb@x\040\\hbox\040{\\protect\040\\relax\040\\protect\040\\edef\040n{sc}\\protect\040\\xdef\040\\T1/ptm/m/n/9\040{\\T1/ptm/m/n/9\040}\\T1/ptm/m/n/9\040\\size@update\040\\enc@update\040\\protect\040\\xdef\040\\T1/ptm/m/n/9\040{\\T1/ptm/m/n/9\040}\\T1/ptm/m/n/9\040\\size@update\040\\enc@update\040\\gdef\04010.95{9}\\gdef\0408{7}\\gdef\0406{5}\\protect\040\\afterassignment\040\\edef\0409{9}\\afterassignment\040\\edef\04011.0pt{11.0pt}\\edef\0401{1}\\let\04011\\def\040\\size@update\040{\\baselineskip\04011.0pt\\relax\040\\baselineskip\0401\\baselineskip\040\\normalbaselineskip\040\\baselineskip\040\\setbox\040\\strutbox\040\\hbox\040{\\vrule\040height.7\\baselineskip\040depth.3\\baselineskip\040width\\z@\040}\\let\040\\size@update\040\\relax\040}\\protect\040\\xdef\040\\T1/ptm/m/n/9\040{\\T1/ptm/m/n/9\040}\\T1/ptm/m/n/9\040\\size@update\040\\enc@update\040\\protect\040\\begingroup\040\\def\040\\MessageBreak\040{\012\(spanish\)\040\040\040\040\040\040\040\040\040\040\040\040\040\040\040\040}\\let\040\\protect\040\\immediate\\write\040\\@unused\040{\012Package\040spanish\040Warning:\040Replacing\040`T1/ptm/m/n'\040by\040\\MessageBreak\040faked\040small\040caps\040on\040input\040line\040631.\012}\\endgroup\040\\uppercase\040{xxiii}}} has been referenced but does not exist, replaced by a fixed one
+ 55i,13n,92p,2016b,4406s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest): name{page.\\protect\040\\unhbox\040\\voidb@x\040\\hbox\040{\\protect\040\\relax\040\\protect\040\\edef\040n{sc}\\protect\040\\xdef\040\\T1/ptm/m/sc/9\040{\\T1/ptm/m/n/9\040}\\T1/ptm/m/sc/9\040\\size@update\040\\enc@update\040\\protect\040\\xdef\040\\T1/ptm/m/sc/9\040{\\T1/ptm/m/n/9\040}\\T1/ptm/m/sc/9\040\\size@update\040\\enc@update\040\\gdef\04010.95{9}\\gdef\0408{7}\\gdef\0406{5}\\protect\040\\afterassignment\040\\edef\0409{9}\\afterassignment\040\\edef\04011.0pt{11.0pt}\\edef\0401{1}\\let\04011\\def\040\\size@update\040{\\baselineskip\04011.0pt\\relax\040\\baselineskip\0401\\baselineskip\040\\normalbaselineskip\040\\baselineskip\040\\setbox\040\\strutbox\040\\hbox\040{\\vrule\040height.7\\baselineskip\040depth.3\\baselineskip\040width\\z@\040}\\let\040\\size@update\040\\relax\040}\\protect\040\\xdef\040\\T1/ptm/m/sc/9\040{\\T1/ptm/m/n/9\040}\\T1/ptm/m/sc/9\040\\size@update\040\\enc@update\040\\protect\040\\begingroup\040\\def\040\\MessageBreak\040{\012\(spanish\)\040\040\040\040\040\040\040\040\040\040\040\040\040\040\040\040}\\let\040\\protect\040\\immediate\\write\040\\@unused\040{\012Package\040spanish\040Warning:\040Replacing\040`T1/ptm/m/n'\040by\040\\MessageBreak\040faked\040small\040caps\040on\040input\040line\040662.\012}\\endgroup\040\\uppercase\040{xxv}}} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{page.\\protect\040\\unhbox\040\\voidb@x\040\\hbox\040{\\protect\040\\relax\040\\protect\040\\edef\040n{sc}\\protect\040\\xdef\040\\T1/ptm/m/n/9\040{\\T1/ptm/m/n/9\040}\\T1/ptm/m/n/9\040\\size@update\040\\enc@update\040\\protect\040\\xdef\040\\T1/ptm/m/n/9\040{\\T1/ptm/m/n/9\040}\\T1/ptm/m/n/9\040\\size@update\040\\enc@update\040\\gdef\04010.95{9}\\gdef\0408{7}\\gdef\0406{5}\\protect\040\\afterassignment\040\\edef\0409{9}\\afterassignment\040\\edef\04011.0pt{11.0pt}\\edef\0401{1}\\let\04011\\def\040\\size@update\040{\\baselineskip\04011.0pt\\relax\040\\baselineskip\0401\\baselineskip\040\\normalbaselineskip\040\\baselineskip\040\\setbox\040\\strutbox\040\\hbox\040{\\vrule\040height.7\\baselineskip\040depth.3\\baselineskip\040width\\z@\040}\\let\040\\size@update\040\\relax\040}\\protect\040\\xdef\040\\T1/ptm/m/n/9\040{\\T1/ptm/m/n/9\040}\\T1/ptm/m/n/9\040\\size@update\040\\enc@update\040\\protect\040\\begingroup\040\\def\040\\MessageBreak\040{\012\(spanish\)\040\040\040\040\040\040\040\040\040\040\040\040\040\040\040\040}\\let\040\\protect\040\\immediate\\write\040\\@unused\040{\012Package\040spanish\040Warning:\040Replacing\040`T1/ptm/m/n'\040by\040\\MessageBreak\040faked\040small\040caps\040on\040input\040line\040662.\012}\\endgroup\040\\uppercase\040{xxv}}} has been referenced but does not exist, replaced by a fixed one
 
 pdfTeX warning (dest): name{Hfootnote.45} has been referenced but does not exist, replaced by a fixed one
 
@@ -2641,10 +2711,10 @@ pdfTeX warning (dest): name{Hfootnote.25} has been referenced but does not exist
 pdfTeX warning (dest): name{Hfootnote.24} has been referenced but does not exist, replaced by a fixed one
 
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on "/Users/carthach/Google Drive/Phd_Work/Thesis/PhDThesis/.texpadtmp/Carthach_PhDThesis.pdf" (224 pages, 9619807 bytes).
+Output written on "/Users/carthach/Google Drive/Code/phd_thesis/PhDThesis/.texpadtmp/Carthach_PhDThesis.pdf" (242 pages, 10181784 bytes).
 PDF statistics:
- 5837 PDF objects out of 6186 (max. 8388607)
- 4824 compressed objects within 49 object streams
- 1132 named destinations out of 1200 (max. 500000)
- 1134 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 6396 PDF objects out of 7423 (max. 8388607)
+ 5334 compressed objects within 54 object streams
+ 1240 named destinations out of 1440 (max. 500000)
+ 1286 words of extra memory for PDF output out of 10000 (max. 10000000)
 

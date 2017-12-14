@@ -18,13 +18,14 @@
 \contentsline {table}{\numberline {4.1}{\ignorespaces Summary of Existing Concatenative Sound Synthesis Systems}}{69}{table.caption.56}
 \addvspace {10pt}
 \contentsline {table}{\numberline {5.1}{\ignorespaces Onset Detection Algorithm Results}}{78}{table.caption.61}
-\contentsline {table}{\numberline {5.2}{\ignorespaces Extended statistics for each algorithm by dataset}}{79}{table.caption.64}
+\contentsline {table}{\numberline {5.2}{\ignorespaces Extended statistics for each algorithm by dataset}}{80}{table.caption.64}
 \contentsline {table}{\numberline {5.3}{\ignorespaces Mirex 2016 Beat Tracking Results}}{83}{table.caption.68}
 \contentsline {table}{\numberline {5.4}{\ignorespaces Availability of MFCC, BFCC and GFCC Descriptors in Common Audio Labelling Libraries}}{97}{table.caption.76}
 \contentsline {table}{\numberline {5.5}{\ignorespaces BFCC parameters for matching output of \cite {Ellis2005}}}{98}{table.caption.77}
 \contentsline {table}{\numberline {5.6}{\ignorespaces Feature Configurations for Classifier Testing}}{106}{table.caption.88}
 \contentsline {table}{\numberline {5.7}{\ignorespaces Mean Classification Accuracy and 95\% confidence interval for each classifier and feature configuration with the Orchestral Dataset}}{107}{table.caption.89}
 \contentsline {table}{\numberline {5.8}{\ignorespaces Mean Classification Accuracy and 95\% confidence interval for each classifier and feature configuration with the Drum Dataset}}{108}{table.caption.90}
+\contentsline {table}{\numberline {5.9}{\ignorespaces BFCC parameters for matching output of \cite {Ellis2005}}}{116}{table.caption.93}
 \addvspace {10pt}
 \addvspace {10pt}
 \addvspace {10pt}

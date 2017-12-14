@@ -47,43 +47,50 @@
 \contentsline {figure}{\numberline {4.5}{\ignorespaces Two numerical solutions}}{66}{figure.caption.54}
 \addvspace {10pt}
 \contentsline {figure}{\numberline {5.1}{\ignorespaces Annotated Waveform, Spectrogram and Drum Transcription of ``My Sound'' by Joey Beltram (R\&S Records)}}{72}{figure.caption.57}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Boxplots of Results for each algorithm and measure.}}{80}{figure.caption.62}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Mean and error of the running times of each algorithm over n=10 runs}}{81}{figure.caption.65}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Boxplots of Results for each algorithm and measure.}}{78}{figure.caption.62}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Mean and error of the running times of each algorithm over n=10 runs}}{79}{figure.caption.65}
 \contentsline {figure}{\numberline {5.4}{\ignorespaces Perceptual and Physical Concepts of Rhythm in a Scott Joplin Ragtime}}{82}{figure.caption.66}
 \contentsline {figure}{\numberline {5.5}{\ignorespaces Spectral Subtraction Algorithm in AudioGuide}}{85}{figure.caption.69}
 \contentsline {figure}{\numberline {5.6}{\ignorespaces Fletcher-Munson Curves}}{87}{figure.caption.70}
 \contentsline {figure}{\numberline {5.7}{\ignorespaces Spectral features of a drum pattern}}{91}{figure.caption.71}
 \contentsline {figure}{\numberline {5.8}{\ignorespaces Perceptual Scales for Audible Range}}{93}{figure.caption.72}
-\contentsline {figure}{\numberline {5.9}{\ignorespaces Signal Flow and Essentia Algorithm Graph for MFCC Computation }}{94}{figure.caption.74}
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Signal Flow and Essentia Algorithm Graph for MFCC Computation }}{95}{figure.caption.74}
 \contentsline {figure}{\numberline {5.10}{\ignorespaces Waveform, Spectrogram, BFCC, MFCC and GFCC impressions of the ``Amen Break'' drum solo from ``Amen Brother''}}{96}{figure.caption.75}
-\contentsline {figure}{\numberline {5.11}{\ignorespaces BFCC outputs with errors for Rastamat and Essentia Implementations}}{99}{figure.caption.78}
+\contentsline {figure}{\numberline {5.11}{\ignorespaces BFCC outputs with errors for Rastamat and our Essentia Implementations}}{99}{figure.caption.78}
 \contentsline {figure}{\numberline {5.12}{\ignorespaces Tristimulus plot for 3 different classes of instruments}}{101}{figure.caption.79}
 \contentsline {figure}{\numberline {5.13}{\ignorespaces Summary Tree of Orchestral Samples for Classification}}{103}{figure.caption.80}
 \contentsline {figure}{\numberline {5.14}{\ignorespaces Summary Tree of Drum Samples for Classification}}{104}{figure.caption.83}
 \contentsline {figure}{\numberline {5.15}{\ignorespaces Input, Hidden and Output Layers for Multilayer Perceptron Classifier}}{105}{figure.caption.87}
 \contentsline {figure}{\numberline {5.16}{\ignorespaces Confusion Matrix for Misclassification in Drum Dataset}}{109}{figure.caption.91}
-\contentsline {figure}{\numberline {5.18}{\ignorespaces Shortest Paths applied to the Wikipedia Viterbi Example}}{120}{figure.caption.93}
+\contentsline {figure}{\numberline {5.18}{\ignorespaces Viterbi decoding of Wikipedia example using our decoder}}{116}{figure.caption.94}
+\contentsline {figure}{\numberline {5.19}{\ignorespaces Viterbi decoding of Wikipedia example using our decoder}}{120}{figure.caption.95}
+\contentsline {figure}{\numberline {5.20}{\ignorespaces Shortest Paths applied to the Wikipedia Viterbi Example}}{122}{figure.caption.96}
+\contentsline {figure}{\numberline {5.21}{\ignorespaces Running Time Comparisons for both Algorithms}}{125}{figure.caption.97}
+\contentsline {figure}{\numberline {5.22}{\ignorespaces Equivalency of Unit Selection Algorithms}}{126}{figure.caption.98}
+\contentsline {figure}{\numberline {5.23}{\ignorespaces Running Time Comparisons for both Algorithms}}{127}{figure.caption.99}
+\contentsline {figure}{\numberline {5.24}{\ignorespaces MFCC plots of k-Best Sequences}}{128}{figure.caption.100}
 \addvspace {10pt}
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Visualisation of all temporal and spectral feature combinations for kick, snare and hat drum sounds}}{125}{figure.caption.97}
-\contentsline {figure}{\numberline {6.2}{\ignorespaces MDS, PCA and t-SNE Dimension Reduction on Kick,Snare and Hat Sounds}}{128}{figure.caption.101}
-\contentsline {figure}{\numberline {6.3}{\ignorespaces MDS, PCA and t-SNE Dimension Reduction on Kick,Snare and Hat Sounds}}{130}{figure.caption.102}
-\contentsline {figure}{\numberline {6.4}{\ignorespaces Block Diagram of Functionality in RhythmCAT System}}{132}{figure.caption.103}
-\contentsline {figure}{\numberline {6.5}{\ignorespaces Main User Interface Showing Panels A-E with Onset Graph}}{135}{figure.caption.105}
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Visualisation of all temporal and spectral feature combinations for kick, snare and hat drum sounds}}{133}{figure.caption.104}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces MDS, PCA and t-SNE Dimension Reduction on Kick,Snare and Hat Sounds}}{136}{figure.caption.105}
+\contentsline {figure}{\numberline {6.3}{\ignorespaces RhythmCAT First Prototype}}{138}{figure.caption.106}
+\contentsline {figure}{\numberline {6.4}{\ignorespaces RhythmCAT First Prototype}}{139}{figure.caption.107}
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Block Diagram of Functionality in RhythmCAT System}}{141}{figure.caption.108}
+\contentsline {figure}{\numberline {6.6}{\ignorespaces Main User Interface Showing Panels A-E with Onset Graph}}{144}{figure.caption.109}
 \addvspace {10pt}
-\contentsline {figure}{\numberline {7.1}{\ignorespaces Two numerical solutions}}{141}{figure.caption.110}
-\contentsline {figure}{\numberline {7.2}{\ignorespaces Two numerical solutions}}{143}{figure.caption.112}
-\contentsline {figure}{\numberline {7.3}{\ignorespaces Central Tendencies of Retrieval Ratings for the Similarity/Distance Categories }}{144}{figure.caption.113}
-\contentsline {figure}{\numberline {7.4}{\ignorespaces Correlations Between Distance and Subjective Ratings of Pattern Similarity, Timbre Similarity and Liking}}{145}{figure.caption.116}
-\contentsline {figure}{\numberline {7.5}{\ignorespaces Testing Station Setup at Red Bull Music Academy in Berlin}}{146}{figure.caption.117}
-\contentsline {figure}{\numberline {7.6}{\ignorespaces Wordcloud of most frequent positive descriptions}}{147}{figure.caption.118}
-\addvspace {10pt}
-\addvspace {10pt}
-\addvspace {10pt}
-\contentsline {figure}{\numberline {B.1}{\ignorespaces Web Survey Landing Page}}{158}{figure.caption.127}
-\contentsline {figure}{\numberline {B.2}{\ignorespaces Web Survey Question Page}}{159}{figure.caption.128}
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Two numerical solutions}}{154}{figure.caption.116}
+\contentsline {figure}{\numberline {7.2}{\ignorespaces Two numerical solutions}}{155}{figure.caption.118}
+\contentsline {figure}{\numberline {7.3}{\ignorespaces Central Tendencies of Retrieval Ratings for the Similarity/Distance Categories }}{156}{figure.caption.119}
+\contentsline {figure}{\numberline {7.4}{\ignorespaces Correlations Between Distance and Subjective Ratings of Pattern Similarity, Timbre Similarity and Liking}}{157}{figure.caption.122}
+\contentsline {figure}{\numberline {7.5}{\ignorespaces Testing Station Setup at Red Bull Music Academy in Berlin}}{159}{figure.caption.123}
+\contentsline {figure}{\numberline {7.6}{\ignorespaces Wordcloud of most frequent positive descriptions}}{160}{figure.caption.124}
 \addvspace {10pt}
 \addvspace {10pt}
 \addvspace {10pt}
-\contentsline {figure}{\numberline {E.1}{\ignorespaces The Snitch Enhanced DJ Assistant Mobile and Plugin Interface}}{166}{figure.caption.135}
-\contentsline {figure}{\numberline {E.2}{\ignorespaces Atomix User Interface}}{166}{figure.caption.136}
+\contentsline {figure}{\numberline {B.1}{\ignorespaces Web Survey Landing Page}}{172}{figure.caption.133}
+\contentsline {figure}{\numberline {B.2}{\ignorespaces Web Survey Question Page}}{173}{figure.caption.134}
+\addvspace {10pt}
+\addvspace {10pt}
+\addvspace {10pt}
+\contentsline {figure}{\numberline {E.1}{\ignorespaces The Snitch Enhanced DJ Assistant Mobile and Plugin Interface}}{180}{figure.caption.141}
+\contentsline {figure}{\numberline {E.2}{\ignorespaces Atomix User Interface}}{180}{figure.caption.142}
 \addvspace {10pt}

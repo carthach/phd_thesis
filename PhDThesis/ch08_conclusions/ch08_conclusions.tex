@@ -1,3 +1,77 @@
 %!TEX root = ../thesis_a4.tex
 \chapter{Conclusions and Future Work}
 \label{chap:conclusions}
+
+In this dissertation we set out to examine computational strategies aimed at a very well-defined objective: the generation of rhythm-centric \textit{loop}s that are symptomatic of modern dance music composition. Dance music is an unfolding musical style and an emerging sociocultural culture and phenomenon that is still very much in its infancy. Only recently has it begun to be treated with the legitimate discourse it deserves in academic narrative and forums. Equally, computational music analysis and research have been slow to respond to its needs for investigation. We hope that we have raised the profile of both these aspects in addition to several contributions to general computation musical analysis and synthesis which we summarise here.
+
+\section{Contributions} 
+
+\subsection{Tools for Symbolic Rhythmic Algorithmic Composition}
+
+The literature abounds with esoteric systems for algorithm composition in the symbolic domain. The unique contribution we offer to this field a highly-specialised genetic algorithm that addresses perceptual aspects of rhythm in addition to documented listener evaluation of its applicability.
+
+\subsection{Evaluation and Expansion of Cepstrum-Based Timbre Analysis}
+
+\acrshort{mfcc}s are frequently assumed to be the \textit{de facto} descriptor for analysing timbre in computer music and \acrshort{mir} literature. In choosing appropriate features for concatenative synthesis tasks, we challenged this assumption and provided experimental evidence that other methods should be given serious consideration. This was achieved through an implementation of the \acrshort{bfcc} method along with two contrasting datasets to confirm its accuracy. While our newly implemented \acrshort{bfcc} extractor improves over the existing \acrshort{mfcc} one, our experiment also demonstrated that the \acrshort{gfcc} is the best performing overall. In the spirit of reproducibility we provide all the data used and the associated scripts for other researchers to validate.
+
+\subsection{\textit{k}-Best Unit Selection}
+
+Unit selection is a vital procedure in concatenative synthesis of sounds from a corpus with a target sound as reference. Viterbi decoding of \acrshort{hmm}-style representations of a concatenative synthesis task provide the means of maximising the similarity of candidate units from the corpus to each unit in the target sound, while ensuring continuity and stability of consecutive candidate units placed in sequence. The drawback of the Viterbi algorithm is that it only outputs one optimised sequence which is not conducive to creative musical application. 
+
+To this end, we proposed the application of two  algorithms from speech processing and graph theory that have hitherto not been investigated in musical concatenative synthesis tasks. These are known as the Parallel \acrshort{lva} and \textit{k}-Shortest paths respectively and we provide reference implementations of both as well as demonstrations of their usage in \textit{k}-Best unit selection of multiple candidates.
+
+\subsection{A New User-Focussed Tool for Rhythmic Concatenative Synthesis}
+
+As well as contributing improvements to the state of the art in the research of concatenative synthesis we also provided a practical realisation of concatenative synthesis methods that addresses the unique requirements of the typical dance music producer. We demonstrated how state of the art methods can be refined and  condensed into a `production ready' system, along with the proposal of a novel graph-based interaction metaphor that can cope with the specificities of rhythm. 
+
+\subsection{An Evaluation Methodology for Concatenative Synthesis}
+
+The final contribution of our thesis concerned the evaluation of concatenative synthesis systems, which we maintain is still under-examined in its academic dissemination. The evaluation conducted in \chapref{chap:evaluation} sought to address this by providing a formal methodological framework that appraised two vital perspectives:
+
+\begin{enumerate}
+  \item Quantitative:
+\begin{enumerate}
+  \item The objective retrieval of returning labelled units in the correct sequence according to a reference loop.
+  \item The corresponding subjective response to the sequences given the reference loop's pattern and timbre.
+\end{enumerate}
+  \item Qualitative: Overall impressions and thematic analysis of the users' experience with using the instrument and interface.
+\end{enumerate}
+
+\section{Future Work}
+
+Throughout the thesis we have alluded to a myriad avenues that constitutes valuable work, but here we summarise three of the most outstanding areas as we see them at the present.
+
+\subsection{Optimisation and Evaluation of \textit{k}-Best Unit Selection}
+
+We are really excited with the novelty and possibilities presented with \textit{k}-Best strategies for unit selection in concatenative synthesis. It is an area of speech and music processing that is under-explored and seldom reported in the literature. Of course the major issue we identified is poor performance and scalability for large corpora. We propose two strategies for resolving this that can constituted a future work:
+
+\begin{enumerate}
+  \item Implementation of the Serial Decoder, which is purported to be more efficient than the Parallel Decoder.
+  \item Pre-pruning of units to eliminate unrelated units to the current context of the target sequence. 
+\end{enumerate}
+
+\subsection{Vertical Concatenative Synthesis}
+
+In \chapref{chap:pyconcat} we briefly outlined the possibilities of \textit{vertical}-oriented concatenative synthesis that considers supplanting units of sound on top of each other in addition to their horizontal concatenation. Of particular interest here is the role that recent improvements in source separation of signals that can also perform \textit{vertical} segmentation of units into constituent elements in the frequency domain for later combination.
+
+\subsection{Feature Implementation and Improvement of RhythmCAT}
+
+The qualitative evaluation of RhythmCAT provided in the previous chapter raised a whole range of interesting possibilities regarding improvements to RhythmCAT. Some of these include:
+
+\begin{itemize}
+  \item Live capture of loops from external instruments and sources.
+  \item Envelope editing and effects processing to transform selected units sonically.
+  \item High-level visualisation and interpolation of \textit{patterns} rather than the lower-level visualisation of individual units and onsets.
+\end{itemize}
+
+\subsection{A Final Reflection} 
+
+A doctoral dissertation is often likened to an apprenticeship, and I can safely conclude that after four-odd years foraging in the depths of academic wilderness I have come out the other side with an immense  appreciation of just how much I have achieved, \textit{yet}, also the slow realisation that I have, perhaps, just scratched the surface.
+
+As computer music practitioners we are among the lucky few to be working on what we truly love, but sometimes we lose sight of the crotchets and quavers as we sift through the ones and zeros. One of my proudest outcomes with this work is that I have discovered some new ways of making music and tools that can help achieve them. This I look forward to most of all.
+
+
+
+
+
+
