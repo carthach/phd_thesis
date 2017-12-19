@@ -722,12 +722,12 @@ To address the requirements in our classification task two distinct datasets wer
 \end{figure}
 
 \paragraph{Orchestral Dataset}
-
-
+\label{sec:orch_dataset}
 
 The orchestral dataset comprises professionally recorded orchestral samples kindly made available for free download by London's Philharmonia Orchestra\footnote{\url{https://www.philharmonia.co.uk/explore/sound_samples}}, and has been used in a number of existing works for both analysis \citep{Hulshof2016, Donnelly2016, Pishdadian2017} and interactive performance \citep{Miller2010}. The total number of sound files exceeds well over 10,000 so we restricted ourselves to the standard instrumentation of the three choirs (strings, woodwinds and brass) as well as percussion, and omitted extended instruments such as guitar or banjo. All 148 percussion samples were selected from the set, and ranged from typical instruments such as the bass drum and cymbals to more exotic items like the washboard and whip. \figref{fig:orch_distribution} shows a tree structure summary of the distribution of the samples across instrumentation and the respective sections. 200 samples from each of the instruments were taken at random, with a wide variety of dynamics and articulations.
 
 \paragraph{Drum Dataset}
+\label{sec:drum_dataset}
 
 The drum dataset was compiled to address better the rhythmic goals of this thesis and comprises over 1000 one shot samples of drum sounds. The samples themselves were sourced from freely availably libraries on the internet including one large repository provided by the popular musician focussed website Music Radar\footnote{\url{http://www.musicradar.com/news/drums/sampleradar-1000-free-drum-samples-229460}}. We have found one article in the literature \citep{Masood2015} that uses Music Radar samples for timbral classification of multiple instruments using a neural network. Our dataset contains a mixture of regular kit sounds and some percussion sounds from acoustic recordings as well as electronic drum machines like the Roland TR range. After verifying the trustworthiness with some random auditioning of the samples, we relied on the existing labelling in the filenames to divide up into appropriate classes for training and testing, which are summarised in the tree in \figref{fig:drum_tree}.
 
@@ -776,7 +776,8 @@ An \acrfull{ann} mimics the pattern recognition capabilities of the human brain,
 Feature Grouping & Features\\
 \tablemid
 Temporal (4) & loudness.mean (1), loudness.var (1)\\
-		& logattacktime.mean (1), logattacktime.var (1)\\Spectral (4) & flatness.mean (1), flatness.var (1)\\
+		& logattacktime.mean (1), logattacktime.var (1)\\
+Spectral (4) & flatness.mean (1), flatness.var (1)\\
 		& logattacktime.mean (1), logattacktime.var (1)\\
 \acrshort{bfcc} (26) & bfcc.mean (13), bfcc.var (13)\\
 \acrshort{gfcc} (26) & gfcc.mean (13), gfcc.var (13)\\

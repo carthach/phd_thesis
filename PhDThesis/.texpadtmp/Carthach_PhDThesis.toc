@@ -15,7 +15,7 @@
 \contentsline {chapter}{List of Tables}{\es@scroman {xxv}}{section*.9}
 \contentsline {chapter}{\chapternumberline {1}Introduction}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}Motivations and The GiantSteps Project}{4}{section.1.1}
-\contentsline {section}{\numberline {1.2}Thesis Outline}{4}{section.1.2}
+\contentsline {section}{\numberline {1.2}Thesis Outline}{5}{section.1.2}
 \contentsline {chapter}{\chapternumberline {2}A Musicological Overview of Electronic Dance Music}{7}{chapter.2}
 \contentsline {section}{\numberline {2.1}House}{8}{section.2.1}
 \contentsline {section}{\numberline {2.2}Techno}{10}{section.2.2}
@@ -28,37 +28,37 @@
 \contentsline {subsubsection}{\numberline {3.2.1.1}Probability Distributions}{19}{subsubsection.3.2.1.1}
 \contentsline {subsubsection}{\numberline {3.2.1.2}Markov Processes}{20}{subsubsection.3.2.1.2}
 \contentsline {subsection}{\numberline {3.2.2}Formal Grammars}{22}{subsection.3.2.2}
-\contentsline {subsection}{\numberline {3.2.3}Genetic Algorithms}{23}{subsection.3.2.3}
+\contentsline {subsection}{\numberline {3.2.3}Genetic Algorithms}{24}{subsection.3.2.3}
 \contentsline {paragraph}{Initiation:}{24}{section*.16}
 \contentsline {paragraph}{Fitness:}{24}{section*.17}
 \contentsline {paragraph}{Selection:}{24}{section*.18}
 \contentsline {subsubsection}{\numberline {3.2.3.1}Evolutionary Music}{25}{subsubsection.3.2.3.1}
-\contentsline {section}{\numberline {3.3}Symbolic Rhythm Generation}{26}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}Representation}{26}{subsection.3.3.1}
-\contentsline {subsection}{\numberline {3.3.2}Measuring Rhythmic Similarity}{28}{subsection.3.3.2}
-\contentsline {subsubsection}{\numberline {3.3.2.1}String Similarity and their Application to Rhythms}{29}{subsubsection.3.3.2.1}
+\contentsline {section}{\numberline {3.3}Symbolic Rhythm Generation}{27}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Representation}{27}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Measuring Rhythmic Similarity}{29}{subsection.3.3.2}
+\contentsline {subsubsection}{\numberline {3.3.2.1}String Similarity and their Application to Rhythms}{31}{subsubsection.3.3.2.1}
 \contentsline {paragraph}{Edit Distance:}{31}{section*.25}
 \contentsline {paragraph}{Hamming Distance:}{31}{section*.26}
 \contentsline {paragraph}{Swap Distance:}{31}{section*.27}
-\contentsline {subsubsection}{\numberline {3.3.2.2}Other Symbolic Rhythmic Descriptors}{32}{subsubsection.3.3.2.2}
-\contentsline {paragraph}{Inter-Onset Interval:}{32}{section*.31}
-\contentsline {paragraph}{Chronotonic Distance:}{33}{section*.32}
+\contentsline {subsubsection}{\numberline {3.3.2.2}Other Symbolic Rhythmic Descriptors}{33}{subsubsection.3.3.2.2}
+\contentsline {paragraph}{Inter-Onset Interval:}{33}{section*.31}
+\contentsline {paragraph}{Chronotonic Distance:}{34}{section*.32}
 \contentsline {section}{\numberline {3.4}A Genetic Algorithm based on Similarity}{34}{section.3.4}
-\contentsline {subsection}{\numberline {3.4.1}Generative Rhythmic Systems}{34}{subsection.3.4.1}
-\contentsline {subsubsection}{\numberline {3.4.1.1}Generative Rhythmic Systems using Similarity Measures}{34}{subsubsection.3.4.1.1}
+\contentsline {subsection}{\numberline {3.4.1}Generative Rhythmic Systems}{35}{subsection.3.4.1}
+\contentsline {subsubsection}{\numberline {3.4.1.1}Generative Rhythmic Systems using Similarity Measures}{35}{subsubsection.3.4.1.1}
 \contentsline {subsubsection}{\numberline {3.4.1.2}Generative Rhythmic Systems using Genetic Algorithms}{35}{subsubsection.3.4.1.2}
-\contentsline {subsection}{\numberline {3.4.2}Developing a Genetic Algorithm that can Generate Rhythm}{35}{subsection.3.4.2}
+\contentsline {subsection}{\numberline {3.4.2}Developing a Genetic Algorithm that can Generate Rhythm}{36}{subsection.3.4.2}
 \contentsline {subsubsection}{\numberline {3.4.2.1}Software Implementation}{36}{subsubsection.3.4.2.1}
 \contentsline {subsubsection}{\numberline {3.4.2.2}Operation and Performance}{40}{subsubsection.3.4.2.2}
-\contentsline {subsection}{\numberline {3.4.3}Listener Evaluation \& Discussion}{40}{subsection.3.4.3}
-\contentsline {subsection}{\numberline {3.4.4}Results}{42}{subsection.3.4.4}
-\contentsline {subsubsection}{\numberline {3.4.4.1}Similarity Ratings}{44}{subsubsection.3.4.4.1}
-\contentsline {subsubsection}{\numberline {3.4.4.2}Subjective \IeC {\textquotedblleft }Interestingness\IeC {\textquotedblright } Evaluation}{45}{subsubsection.3.4.4.2}
-\contentsline {subsection}{\numberline {3.4.5}Improving the System - Adding More Features}{47}{subsection.3.4.5}
-\contentsline {subsubsection}{\numberline {3.4.5.1}Timbre Weighting}{47}{subsubsection.3.4.5.1}
-\contentsline {subsubsection}{\numberline {3.4.5.2}Syncopation}{48}{subsubsection.3.4.5.2}
-\contentsline {subsubsection}{\numberline {3.4.5.3}Density}{50}{subsubsection.3.4.5.3}
-\contentsline {subsection}{\numberline {3.4.6}Conclusions and Closing Remarks}{51}{subsection.3.4.6}
+\contentsline {subsection}{\numberline {3.4.3}Listener Evaluation \& Discussion}{41}{subsection.3.4.3}
+\contentsline {subsection}{\numberline {3.4.4}Results}{43}{subsection.3.4.4}
+\contentsline {subsubsection}{\numberline {3.4.4.1}Similarity Ratings}{43}{subsubsection.3.4.4.1}
+\contentsline {subsubsection}{\numberline {3.4.4.2}Subjective \IeC {\textquotedblleft }Interestingness\IeC {\textquotedblright } Evaluation}{46}{subsubsection.3.4.4.2}
+\contentsline {subsection}{\numberline {3.4.5}Improving the System - Adding More Features}{48}{subsection.3.4.5}
+\contentsline {subsubsection}{\numberline {3.4.5.1}Timbre Weighting}{48}{subsubsection.3.4.5.1}
+\contentsline {subsubsection}{\numberline {3.4.5.2}Syncopation}{49}{subsubsection.3.4.5.2}
+\contentsline {subsubsection}{\numberline {3.4.5.3}Density}{51}{subsubsection.3.4.5.3}
+\contentsline {subsection}{\numberline {3.4.6}Conclusions and Closing Remarks}{52}{subsection.3.4.6}
 \contentsline {chapter}{\chapternumberline {4}State of the Art in Sampling-Based Composition}{55}{chapter.4}
 \contentsline {section}{\numberline {4.1}Artistic Context}{55}{section.4.1}
 \contentsline {subsection}{\numberline {4.1.1}Musique Concr\IeC {\`e}te and Elektronische Musik}{56}{subsection.4.1.1}
@@ -203,4 +203,4 @@
 \contentsline {section}{\numberline {E.2}Atomix}{179}{section.Alph5.2}
 \contentsline {appendix}{\chapternumberline {F}Glossary}{181}{appendix.Alph6}
 \contentsline {section}{\numberline {F.1}Acronyms}{181}{section.Alph6.1}
-\contentsline {chapter}{Bibliography}{183}{section*.145}
+\contentsline {chapter}{Bibliography}{185}{section*.145}

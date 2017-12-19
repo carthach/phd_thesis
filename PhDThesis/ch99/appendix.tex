@@ -110,15 +110,14 @@ Implementation of the methods presented in this thesis are made publicly availab
 Corpora and datasets used throughout the thesis are summarised here and are categorised by those contributed by the authors as well as those that were made available by other researchers.
 
 \subsection*{Author Contributed}
-
 \begin{itemize}
-	\item `Orchestral Timbre' collection used in the classification experiment (\secref{sec:corpus_carnatic_music_corpus}) \\ 
+	\item `Orchestral Timbre' collection used in the classification experiment (\secref{sec:orch_dataset}). \\ 
 	Sound files, extracted features, classifier models and IPython notebooks can be downloaded here:\\
 	\url{http://github.com/carthach/phd_thesis/tree/master/classification/drums/data}
-	\item `Drum Timbre' collection used in the classification experiment (\secref{sec:corpus_carnatic_music_corpus}) \\ 
+	\item `Drum Timbre' collection used in the classification experiment (\secref{sec:drum_dataset}). \\ 
 	Sound files, extracted features, classifier models and IPython notebooks can be downloaded here:\\
 	\url{github.com/carthach/phd_thesis/tree/master/classification/orchestra/data}	
-	\item `Breakbeat' collection used in the evaluation of RhythmCAT(\secref{sec:corpus_carnatic_music_corpus}) \\ 
+	\item `Breakbeat' collection used in the evaluation of RhythmCAT (\secref{sec:break_evaluation}).\\ 
 	Sound files and annotations can be downloaded here:\\
 	\url{http://www.github.com/carthach/thesis/experiments/evaluation/data}	
 %	\item `Dunya Carnatic CC' and `Dunya Hindustani CC' collection in MusicBrainz forms the open-access music corpus (\secref{sec:corpus_open_access_research_corpus}) \\
@@ -176,7 +175,7 @@ Annotations and some audio can be downloaded from here:\\
 
 \section{Description}
 
-The PyConcat \footnote{Not to be confused with \url{https://github.com/thomasballinger/pyconcat} a script for concatenating Python sripts. I really need to come up with more original name for my software.} library is a Python environment for conducting research-oriented concatenative synthesis of signals. It uses feature extraction routines from Essentia and Librosa as well as distance measures from scipy and novel unit selection via \textit{k}-Best Viterbi.
+The PyConcat\footnote{Not to be confused with \url{https://github.com/thomasballinger/pyconcat} a script for concatenating Python sripts. I really need to come up with more original names for my software!} library is a Python environment for conducting research-oriented concatenative synthesis of signals. It uses feature extraction routines from Essentia and Librosa as well as distance measures from scipy and novel unit selection via \textit{k}-Best Viterbi.
 
 The basic pipeline for performing concatenative synthesis with this tool is as follows.
 
@@ -208,6 +207,21 @@ The basic pipeline for performing concatenative synthesis with this tool is as f
 A concatenative synthesis task is performed in stages in accordance with the previous pipeline. Separate statements segment the units and compute features before finally combining a sequence with unit selection. This also allows the flexible separation of unit scale segmentation and features that allow different specifications for target and corpus unit. 
 
 The code snippet below shows an example of extracting units from the target at the beat unit scale while concatenating the top 10 sequences at the onset scale using Viterbi decoding and time-stretching.
+
+\definecolor{mygreen}{rgb}{0,0.6,0}
+\definecolor{mygray}{rgb}{0.5,0.5,0.5}
+\definecolor{mymauve}{rgb}{0.58,0,0.82}
+
+\lstset{ %
+  backgroundcolor=\color{white},   % choose the background color
+  basicstyle=\footnotesize,        % size of fonts used for the code
+  breaklines=true,                 % automatic line breaking only at whitespace
+  captionpos=b,                    % sets the caption-position to bottom
+  commentstyle=\color{mygreen},    % comment style
+  escapeinside={\%*}{*)},          % if you want to add LaTeX within your code
+  keywordstyle=\color{blue},       % keyword style
+  stringstyle=\color{mymauve},     % string literal style
+}
 
 \small
 \begin{lstlisting}[language=Python]

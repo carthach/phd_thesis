@@ -1,4 +1,4 @@
-\begin{thebibliography}{416}
+\begin{thebibliography}{447}
 \providecommand{\natexlab}[1]{#1}
 
 \bibitem[{Abdulla(2002)}]{Abdulla2002}
@@ -61,6 +61,13 @@ Appel, A. (2002).
   Joyce}}.
 \newblock Knopf.
 
+\bibitem[{Arar \& Kapur(2013)}]{Arar2013}
+Arar, R. \& Kapur, A. (2013).
+\newblock {A History of Sequencers: Interfaces for Organizing Pattern-Based
+  Music}.
+\newblock \emph{Proceedings of the Sound and Music Computing Conference},
+  \emph{2}, 383--388.
+
 \bibitem[{Arewa(1979)}]{Arewa1979}
 Arewa, O.~B. (1979).
 \newblock {From JC Bach to hip hop: Musical borrowing, copyright and cultural
@@ -78,6 +85,13 @@ Arom, S. (2004).
 \newblock \emph{{African polyphony and polyrhythm: musical structure and
   methodology}}.
 \newblock Cambridge university press.
+
+\bibitem[{Assayag et~al.(2006)Assayag, Rueda, Laurson, Agon, \&
+  Delerue}]{assayag2006computer}
+Assayag, G., Rueda, C., Laurson, M., Agon, C., \& Delerue, O. (2006).
+\newblock {Computer-assisted composition at IRCAM: From PatchWork to
+  OpenMusic}.
+\newblock \emph{Computer}, \emph{23}(3).
 
 \bibitem[{Atkinson(2007)}]{Atkinson2007}
 Atkinson, R. (2007).
@@ -98,6 +112,13 @@ Balestri, M., Pacchiotti, A., Quazza, S., Salza, P.~L., \& Sandri, S. (1999).
   synthesis system}.
 \newblock In \emph{Sixth European Conference on Speech Communication and
   Technology}.
+
+\bibitem[{Barbieri et~al.(2012)Barbieri, Pachet, Roy, \&
+  Esposti}]{barbieri2012markov}
+Barbieri, G., Pachet, F., Roy, P., \& Esposti, M.~D. (2012).
+\newblock {Markov constraints for generating lyrics with style}.
+\newblock In \emph{Proceedings of the 20th European Conference on Artificial
+  Intelligence}, pp. 115--120. IOS Press.
 
 \bibitem[{Barbosa et~al.(2015)Barbosa, Malloch, Wanderley, \&
   Huot}]{Barbosa2015}
@@ -177,6 +198,29 @@ Biles, J.~A. (1994).
 \newblock {GenJam : A Genetic Algorithm for Generating Jazz Solos}.
 \newblock In \emph{International Computer Music Conference}, pp. 131 -- 137.
 
+\bibitem[{Biles(2001)}]{Biles2001}
+Biles, J.~A. (2001).
+\newblock {Autonomous GenJam: eliminating the fitness bottleneck by eliminating
+  fitness}.
+\newblock In \emph{Proceedings of the 2001 Genetic and Evolutionary Computation
+  Conference Workshop Program}. San Francisco, USA.
+
+\bibitem[{Biles(2002)}]{Biles2002}
+Biles, J.~A. (2002).
+\newblock {GenJam: Evolution of a jazz improviser}.
+\newblock \emph{Creative evolutionary systems}, \emph{168}, 2.
+
+\bibitem[{Biles(2003)}]{Biles2003}
+Biles, J.~A. (2003).
+\newblock {GenJam in perspective: a tentative taxonomy for GA music and art
+  systems}.
+\newblock \emph{Leonardo}, \emph{36}(1), 43--45.
+
+\bibitem[{Biles(2007)}]{Biles2007}
+Biles, J.~A. (2007).
+\newblock {Improvizing with genetic algorithms: GenJam}.
+\newblock In \emph{Evolutionary Computer Music}, pp. 137--169. Springer.
+
 \bibitem[{Bilmes(1993)}]{Bilmes1993}
 Bilmes, J. (1993).
 \newblock {Timing is of the essence: Perceptual and computational techniques
@@ -226,6 +270,21 @@ B{\"{o}}ck, S. \& Widmer, G. (2013).
 \newblock \emph{Proc. of the 16th Int. Conf. on Digital Audio {\ldots}}, pp.
   1--7.
 
+\bibitem[{Boden(1998)}]{Boden1998}
+Boden, M.~A. (1998).
+\newblock {Creativity and artificial intelligence}.
+\newblock \emph{Artificial Intelligence}, \emph{103}(1-2), 347--356.
+
+\bibitem[{Boden(2009)}]{Boden2009}
+Boden, M.~A. (2009).
+\newblock {Computer models of creativity}.
+\newblock \emph{AI Magazine}, \emph{30}(3), 23.
+
+\bibitem[{Boden \& Edmonds(2009)}]{Boden2009a}
+Boden, M.~A. \& Edmonds, E.~A. (2009).
+\newblock {What is generative art?}
+\newblock \emph{Digital Creativity}, \emph{20}(1-2), 21--46.
+
 \bibitem[{Bogdanov et~al.(2013)Bogdanov, Wack, G{\'{o}}mez, Gulati, Herrera,
   Mayor, Roma, Salamon, Zapata, \& Serra}]{Bogdanov2013}
 Bogdanov, D., Wack, N., G{\'{o}}mez, E., Gulati, S., Herrera, P., Mayor, O.,
@@ -234,6 +293,11 @@ Bogdanov, D., Wack, N., G{\'{o}}mez, E., Gulati, S., Herrera, P., Mayor, O.,
   Retrieval}.
 \newblock \emph{International Society for Music Information Retrieval
   Conference (ISMIR 2013)}, pp. 493--498.
+
+\bibitem[{Boone \& Boone(2012)}]{Boone2012}
+Boone, H.~N. \& Boone, D.~A. (2012).
+\newblock {Analyzing Likert Data Likert-Type Versus Likert Scales}.
+\newblock \emph{Journal of Extension}, \emph{50}(2).
 
 \bibitem[{Bradshaw \& Xenakis(1973)}]{Bradshaw1973}
 Bradshaw, M. \& Xenakis, I. (1973).
@@ -492,10 +556,10 @@ Cope, D. (1991).
 Cope, D. (2000).
 \newblock {New directions in music}.
 
-\bibitem[{Cope \& Mayer(1996)}]{Cope1996}
-Cope, D. \& Mayer, M.~J. (1996).
-\newblock \emph{{Experiments in musical intelligence}}, vol.~12.
-\newblock AR editions Madison, WI.
+\bibitem[{Cope(2009)}]{cope2009hidden}
+Cope, D. (2009).
+\newblock \emph{{Hidden structure: music analysis using computers}}.
+\newblock AR Editions, Inc.
 
 \bibitem[{Cox \& Warner(2004)}]{Cox2004}
 Cox, C. \& Warner, D. (2004).
@@ -546,6 +610,11 @@ Degara, N., Rua, E.~A., Pena, A., Torres-Guijarro, S., Davies, M. E.~P., \&
 \newblock {Reliability-informed beat tracking of musical signals}.
 \newblock \emph{IEEE Transactions on Audio, Speech and Language Processing},
   \emph{20}(1), 278--289.
+
+\bibitem[{Deltorn(2017)}]{deltorn2017deep}
+Deltorn, J.-M. (2017).
+\newblock {Deep creations: Intellectual Property and the Automata}.
+\newblock \emph{Frontiers in Digital Humanities}, \emph{4}, 3.
 
 \bibitem[{Deng(2008)}]{Deng2008}
 Deng, J. (2008).
@@ -797,6 +866,16 @@ Gabrielsson, A. (1973{\natexlab{b}}).
   patterns. 2}.
 \newblock \emph{Scandinavian Journal of Psychology}, \emph{14}(1), 161--176.
 
+\bibitem[{Garshol(2003)}]{garshol2003bnf}
+Garshol, L.~M. (2003).
+\newblock {BNF and EBNF: What are they and how do they work}.
+\newblock \emph{acedida pela {\'{u}}ltima vez em}, \emph{16}.
+
+\bibitem[{Gartland-Jones \& Copley(2003)}]{Gartland2003}
+Gartland-Jones, A. \& Copley, P. (2003).
+\newblock {The suitability of genetic algorithms for musical composition}.
+\newblock \emph{Contemporary Music Review}, \emph{22}(3), 43--55.
+
 \bibitem[{Gerhard(2003)}]{Gerhard2003}
 Gerhard, D. (2003).
 \newblock \emph{{Pitch extraction and fundamental frequency: History and
@@ -825,8 +904,13 @@ Gillet, O. \& Ga{\"{e}}l, R. (2006).
 Glover, J., Lazzarini, V., \& Timoney, J. (2011).
 \newblock {Real-time detection of musical onsets with linear prediction and
   sinusoidal modeling}.
-\newblock \emph{EURASIP Journal on Advances in Signal Processing},
-  \emph{2011}(1), 68.
+\newblock \emph{EURASIP Journal on Advances in {\ldots}}, \emph{2011}(1), 68.
+
+\bibitem[{Goldberg(1989)}]{Goldberg1989}
+Goldberg, D.~E. (1989).
+\newblock \emph{{Genetic algorithms in search optimization and machine
+  learning}}.
+\newblock Addison-Wesley Publishing Company.
 
 \bibitem[{G{\'{o}}mez(2006)}]{Gomez2006}
 G{\'{o}}mez, E. (2006).
@@ -1057,6 +1141,10 @@ Hoffman, M., Cook, P.~R., \& Blei, D.~M. (2009).
 \newblock \emph{Proceedings of the 2009 International Computer Music Conference
   (ICMC)}, pp. 16--21.
 
+\bibitem[{Holland(1975)}]{Holland1975}
+Holland, J.~H. (1975).
+\newblock {Adaptation in natural and artificial systems}.
+
 \bibitem[{Holm-Hudson(1997)}]{Holm-Hudson1997}
 Holm-Hudson, K. (1997).
 \newblock {Quotation and Context: Sampling and John Oswald's Plunderphonics}.
@@ -1267,6 +1355,12 @@ Korzeniowski, F., Sebastian, B., \& Widmer, G. (2014).
 \newblock \emph{Proceedings of the 15th International Society for Music
   Information Retrieval Conference (ISMIR 2014)}, (Ismir), 513--518.
 
+\bibitem[{Koza(1992)}]{koza1992genetic}
+Koza, J.~R. (1992).
+\newblock \emph{{Genetic programming: on the programming of computers by means
+  of natural selection}}, vol.~1.
+\newblock MIT press.
+
 \bibitem[{Krey \& Ligges(2010)}]{Krey2010}
 Krey, S. \& Ligges, U. (2010).
 \newblock {SVM based instrument and timbre classification}.
@@ -1289,6 +1383,13 @@ Lakkavalli, V.~R., Arulmozhi, P., \& Ramakrishnan, A.~G. (2010).
   synthesis}.
 \newblock \emph{2010 International Conference on Signal Processing and
   Communications, SPCOM 2010}.
+
+\bibitem[{Lantz(2013)}]{Lantz2013}
+Lantz, B. (2013).
+\newblock {Equidistance of Likert-Type Scales and Validation of Inferential
+  Methods Using Experiments and Simulations}.
+\newblock \emph{Electronic Journal of Business Research Methods}, \emph{11}(1),
+  16--28.
 
 \bibitem[{Laroche(2003)}]{Laroche2003}
 Laroche, J. (2003).
@@ -1377,6 +1478,11 @@ Maestre, E., Hazan, A., Ramirez, R., \& Perez, A. (2006).
   saxophone}.
 \newblock \emph{Proceedings of the International Computer Music Conference},
   \emph{2006}, 163--166.
+
+\bibitem[{Malmberg(2010)}]{Malmberg2010}
+Malmberg, V. (2010).
+\newblock \emph{{Iris: A Circular Polyrhythmic Music Sequencer}}.
+\newblock Ph.D. thesis, Aalto University.
 
 \bibitem[{Mandel \& Ellis(2005{\natexlab{a}})}]{mandel2005song}
 Mandel, M.~I. \& Ellis, D. (2005{\natexlab{a}}).
@@ -1566,6 +1672,11 @@ Miron, M., {Janer Mestres}, J., \& {G{\'{o}}mez Guti{\'{e}}rrez}, E. (2017).
 \newblock In \emph{Proceedings of the 14th Sound and Music Computing
   Conference}. Espoo, Finland.
 
+\bibitem[{Mitchell(1998)}]{Mitchell1998}
+Mitchell, M. (1998).
+\newblock \emph{{An introduction to genetic algorithms}}.
+\newblock MIT press.
+
 \bibitem[{Mongillo(2009)}]{Mongillo2009}
 Mongillo, D. (2009).
 \newblock {The Girl Talk Dilemma: Can Copyright Law Accommodate New Forms of
@@ -1584,6 +1695,11 @@ Morgan, N. \& Legard, P. (2015).
 \newblock \emph{{Parametric composition : computer-assisted strategies for
   human performance}}.
 \newblock Tonality Systems Press.
+
+\bibitem[{Muscutt(2007)}]{Muscutt2007}
+Muscutt, K. (2007).
+\newblock {Composing with Algorithms: An Interview with David Cope}.
+\newblock \emph{Computer Music Journal}, \emph{31}(3), 10--22.
 
 \bibitem[{Neill(2002)}]{Neill2002}
 Neill, B. (2002).
@@ -1735,12 +1851,30 @@ Pachet, F. (2008).
 \newblock {The Future of Content is in Ourselves}.
 \newblock \emph{Computers in Entertainment (CIE)}, \emph{6}(3), 1--20.
 
+\bibitem[{Pachet et~al.(2017)Pachet, Papadopoulos, \& Roy}]{Pachet2017}
+Pachet, F., Papadopoulos, A., \& Roy, P. (2017).
+\newblock {Sampling Variations of Sequences for Structured Music Generation}.
+\newblock \emph{Proceedings of the 18th International Society for Music
+  Information Retrieval Conference (ISMIR)}.
+
+\bibitem[{Pachet \& Roy(2011)}]{Pachet2011}
+Pachet, F. \& Roy, P. (2011).
+\newblock {Markov constraints: steerable generation of Markov sequences}.
+\newblock \emph{Constraints}, \emph{16}(2), 148--172.
+
 \bibitem[{Pachet \& Roy(2015)}]{Pachet2015}
 Pachet, F. \& Roy, P. (2015).
 \newblock {(Manufac) Turing Tests for Music}.
 \newblock In \emph{Proceedings of the 29th Conference on Artificial
   Intelligence (AAAI 2015), Workshop on ``Beyond the Turing Test''}. Austin,
   Texas USA.
+
+\bibitem[{Pachet et~al.(2011)Pachet, Roy, Barbieri, \&
+  Paris}]{pachet2001finite}
+Pachet, F., Roy, P., Barbieri, G., \& Paris, S. C. S.~L. (2011).
+\newblock {Finite-length Markov processes with constraints}.
+\newblock \emph{Proceedings of the Twenty-Second International Joint Conference
+  on Artificial Intelligence}, \emph{6}(1/3).
 
 \bibitem[{Pachet et~al.(2008)Pachet, Roy, \& Ghedini}]{Pachet2008a}
 Pachet, F., Roy, P., \& Ghedini, F. (2008).
@@ -1768,6 +1902,12 @@ Panteli, M., Bogaards, N., \& Honingh, A. (2014).
 \newblock {Modeling Rhythm Similarity for Electronic Dance Music}.
 \newblock In \emph{15th International Society for Music Information Retrieval
   Conference (ISMIR 2014) MODELING}, Ismir, pp. 0--5. Taipei, Taiwan.
+
+\bibitem[{Papadopoulos \& Wiggins(1999)}]{Papadopoulos1999}
+Papadopoulos, G. \& Wiggins, G. (1999).
+\newblock {AI Methods for Algorithmic Composition : A Survey, a Critical View
+  and Future Prospects}.
+\newblock \emph{AISB Symposium on Musical Creativity}, pp. 110--117.
 
 \bibitem[{Papadopoulos \& Peeters(2007)}]{Papadopoulos2007}
 Papadopoulos, H. \& Peeters, G. (2007).
@@ -2037,9 +2177,7 @@ Schwarz, D. (2003).
 
 \bibitem[{Schwarz(2005)}]{Schwarz2005}
 Schwarz, D. (2005).
-\newblock {Current Research In Concatenative Sound Synthesis}.
-\newblock In \emph{Proceedings of the International Computer Music Conference},
-  pp. 9--12.
+\newblock {Corpus-Based Sound Synthesis Survey}.
 
 \bibitem[{Schwarz(2006)}]{Schwarz2006b}
 Schwarz, D. (2006).
@@ -2176,6 +2314,11 @@ Song, C., Simpson, A. J.~R., Harte, C.~A., Pearce, M.~T., \& Sandler, M.~B.
 \newblock {Syncopation and the Score}.
 \newblock \emph{PloS one}, \emph{8}(9), e74692.
 
+\bibitem[{Srinivas \& Patnaik(1994)}]{Srinivas1994}
+Srinivas, M. \& Patnaik, L.~M. (1994).
+\newblock {Genetic Algorithms: A Survey}.
+\newblock \emph{Computer}, \emph{27}(6), 17--26.
+
 \bibitem[{Stark et~al.(2009)Stark, Davies, \& Plumbley}]{Stark2009}
 Stark, A.~M., Davies, M. E.~P., \& Plumbley, M.~D. (2009).
 \newblock {Real-Time Beat-Synchronous Analysis of Musical Audio}.
@@ -2231,6 +2374,16 @@ Tardieu, D. (2008).
   orchestration}}.
 \newblock Ph.D. thesis, Universit{\'{e}} Pierre Et Marie Curie.
 
+\bibitem[{Taube(1991)}]{taube1991common}
+Taube, H. (1991).
+\newblock {Common Music: A music composition language in Common Lisp and CLOS}.
+\newblock \emph{Computer Music Journal}, \emph{15}(2), 21--32.
+
+\bibitem[{Taube(2004)}]{taube2004notes}
+Taube, H. (2004).
+\newblock {Notes from the metalevel: introduction to algorithmic music
+  composition}.
+
 \bibitem[{Terasawa et~al.(2006)Terasawa, Slaney, \& Berger}]{Terasawa2006}
 Terasawa, H., Slaney, M., \& Berger, J. (2006).
 \newblock {Determining the Euclidean distance between two steady state sounds}.
@@ -2265,6 +2418,17 @@ Tian, M. \& Sandler, M.~B. (2016).
 Tihelka, D., Kala, J., \& Matou{\v{s}}ek, J. (2010).
 \newblock {Enhancements of Viterbi search for fast unit selection synthesis}.
 \newblock \emph{Interspeech}, (September), 174--177.
+
+\bibitem[{Tindale(2009)}]{Tindale2009}
+Tindale, A. (2009).
+\newblock \emph{{Advancing the Art of Electronic Percussion}}.
+\newblock Ph.D. thesis, University of Victoria.
+
+\bibitem[{Todd \& Werner(1999)}]{Todd1999}
+Todd, P.~M. \& Werner, G.~M. (1999).
+\newblock {Frankensteinian methods for evolutionary music}.
+\newblock \emph{Musical networks: parallel distributed perception and
+  performace}, pp. 313--340.
 
 \bibitem[{Tokui(2008)}]{Tokui2008}
 Tokui, N. (2008).
@@ -2370,12 +2534,11 @@ Vogl, R., Leimeister, M., {{\'{O}} Nuan{\'{a}}in}, C., Jord{\`{a}}, S., Hlatky,
 \newblock \emph{Journal of the Audio Engineering Society}, \emph{64}(7),
   503--513.
 
-\bibitem[{Wang et~al.(2006)Wang, Wang, He, \& Hsu}]{Wang2006}
-Wang, J.-C., Wang, J.-F., He, K.~W., \& Hsu, C.-S. (2006).
-\newblock {Environmental Sound Classification using Hybrid SVM/KNN Classifier
-  and MPEG-7 Audio Low-Level Descriptor}.
-\newblock \emph{The 2006 IEEE International Joint Conference on Neural Network
-  Proceedings}, pp. 1731--1735.
+\bibitem[{Wang \& Brown(2006)}]{Wang2006}
+Wang, D. \& Brown, G.~J. (2006).
+\newblock \emph{{Computational auditory scene analysis: Principles, algorithms,
+  and applications}}.
+\newblock Wiley-IEEE press.
 
 \bibitem[{Weihs \& Jannach(2009)}]{Weihs2009}
 Weihs, C. \& Jannach, D. (2009).
@@ -2424,6 +2587,12 @@ Winer, E. (2012).
 Winkler, T. (2001).
 \newblock \emph{{Composing interactive music: techniques and ideas using Max}}.
 \newblock MIT press.
+
+\bibitem[{Wirth et~al.(1996)Wirth, Wirth, Wirth, Informaticien, \&
+  Wirth}]{wirth1996compiler}
+Wirth, N., Wirth, N., Wirth, N., Informaticien, S., \& Wirth, N. (1996).
+\newblock \emph{{Compiler construction}}, vol.~1.
+\newblock Addison-Wesley Reading.
 
 \bibitem[{Xiang(2002)}]{Xiang2002}
 Xiang, P. (2002).
