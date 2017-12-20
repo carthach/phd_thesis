@@ -1,4 +1,4 @@
-\begin{thebibliography}{447}
+\begin{thebibliography}{451}
 \providecommand{\natexlab}[1]{#1}
 
 \bibitem[{Abdulla(2002)}]{Abdulla2002}
@@ -49,6 +49,13 @@ An, S.~S., James, D.~L., \& Marschner, S. (2012).
 ANSI (1994).
 \newblock {Psychoacoustic Terminology: Timbre}.
 \newblock \emph{American National Standards Institute}.
+
+\bibitem[{Antonopoulos et~al.(2007)Antonopoulos, Pikrakis, \&
+  Theodoridis}]{antonopoulos2007self}
+Antonopoulos, I., Pikrakis, A., \& Theodoridis, S. (2007).
+\newblock {Self-similarity analysis applied on tempo induction from music
+  recordings}.
+\newblock \emph{Journal of New Music Research}, \emph{36}(1), 27--38.
 
 \bibitem[{Apel(1969)}]{Apel1969}
 Apel, W. (1969).
@@ -149,12 +156,11 @@ Battier, M. (2007).
   acousmatic music}.
 \newblock \emph{Organised Sound}, \emph{12}(03), 189--202.
 
-\bibitem[{Bello et~al.(2005)Bello, Daudet, Abdallah, Duxbury, Davies, Sandler,
-  \& Member}]{Bello2005}
-Bello, J.~P., Daudet, L., Abdallah, S., Duxbury, C., Davies, M., Sandler,
-  M.~B., \& Member, S. (2005).
-\newblock {A Tutorial on Onset Detection in Music Signals}.
-\newblock \emph{13}(5), 1035--1047.
+\bibitem[{Bello \& Daudet(2005)}]{Bello2005}
+Bello, J. \& Daudet, L. (2005).
+\newblock {A tutorial on onset detection in music signals}.
+\newblock \emph{IEEE Transactions on Audio, Speech, and Language Processing},
+  \emph{13}(5), 1035--1047.
 
 \bibitem[{Bello et~al.(2004)Bello, Duxbury, Davies, \& Sandler}]{Bello2004}
 Bello, J.~P., Duxbury, C., Davies, M., \& Sandler, M. (2004).
@@ -267,13 +273,13 @@ B{\"{o}}ck, S., Krebs, F., \& Schedl, M. (2012).
 \bibitem[{B{\"{o}}ck \& Widmer(2013)}]{Bock2013}
 B{\"{o}}ck, S. \& Widmer, G. (2013).
 \newblock {Maximum filter vibrato suppression for onset detection}.
-\newblock \emph{Proc. of the 16th Int. Conf. on Digital Audio {\ldots}}, pp.
-  1--7.
+\newblock \emph{Proc. of the 16th Int. Conference on Digital Audio Effects},
+  pp. 1--7.
 
 \bibitem[{Boden(1998)}]{Boden1998}
 Boden, M.~A. (1998).
 \newblock {Creativity and artificial intelligence}.
-\newblock \emph{Artificial Intelligence}, \emph{103}(1-2), 347--356.
+\newblock \emph{Artificial Intelligence}, \emph{103}(1), 347--356.
 
 \bibitem[{Boden(2009)}]{Boden2009}
 Boden, M.~A. (2009).
@@ -338,7 +344,9 @@ Brooks, F., Hopkins, A., Neumann, P., \& Wright, W. (1993).
 
 \bibitem[{Brossier(2006)}]{Brossier2006}
 Brossier, P. (2006).
-\newblock {Automatic annotation of musical audio for interactive applications}.
+\newblock \emph{{Automatic annotation of musical audio for interactive
+  applications}}.
+\newblock Ph.D. thesis, Queen Mary, University of London.
 
 \bibitem[{Brossier et~al.(2004)Brossier, Bello, \& Plumbley}]{Brossier2004a}
 Brossier, P., Bello, J.~P., \& Plumbley, M.~D. (2004).
@@ -681,7 +689,8 @@ Dupont, S., Ravet, T., Picard-Limpens, C., \& Frisson, C. (2013).
 \bibitem[{Duxbury et~al.(2002)Duxbury, Sandler, \& Davies}]{Duxbury2002}
 Duxbury, C., Sandler, M., \& Davies, M. (2002).
 \newblock {A hybrid approach to musical note onset detection}.
-\newblock In \emph{Computer}, pp. 33--38.
+\newblock \emph{5th Int. Conference on Digital Audio Effects (DAFx-02),
+  Hamburg, Germany}, (November 2002), 33--38.
 
 \bibitem[{Eigenfeldt(2006)}]{Eigenfeldt2006a}
 Eigenfeldt, A. (2006).
@@ -742,11 +751,12 @@ Ellis, D. P.~W. (2009).
 Essl, K. (1992).
 \newblock {Real Time Composition Library (RTC-lib)}.
 
-\bibitem[{Eyben et~al.(2010)Eyben, Sebastian, \& Graves}]{Eyben2010}
-Eyben, F., Sebastian, B., \& Graves, A. (2010).
-\newblock {UNIVERSAL ONSET DETECTION WITH BIDIRECTIONAL LONG SHORT-TERM MEMORY
-  NEURAL NETWORKS}.
-\newblock (Ismir), 589--594.
+\bibitem[{Eyben et~al.(2010)Eyben, B{\"{o}}ck, Schuller, \& Graves}]{Eyben2010}
+Eyben, F., B{\"{o}}ck, S., Schuller, B., \& Graves, A. (2010).
+\newblock {Universal Onset Detection with Bidirectional Long-Short Term Memory
+  Neural Networks}.
+\newblock In \emph{International Society for Music Information Retrieval
+  Conference}, pp. 589--594. Utrecht, Netherlands.
 
 \bibitem[{Faraldo et~al.(2016)Faraldo, G{\'{o}}mez, Jord{\`{a}}, \&
   Herrera}]{Faraldo2016}
@@ -774,6 +784,12 @@ Fathima, R. \& Raseena, P.~E. (2013).
 \newblock {Gammatone Cepstral Coefficient for Speaker Identification}.
 \newblock \emph{International Journal of Advanced Research in Electrical,
   Electronics and Instrumentation Engineering}, \emph{4}(10), 795--798.
+
+\bibitem[{Fels et~al.(2002)Fels, Gadd, \& Mulder}]{fels2002mapping}
+Fels, S., Gadd, A., \& Mulder, A. (2002).
+\newblock {Mapping transparency through metaphor: towards more expressive
+  musical instruments}.
+\newblock \emph{Organised Sound}, \emph{7}(2), 109--126.
 
 \bibitem[{Fern{\'{a}}ndez \& Vico(2013)}]{Fernandez2013}
 Fern{\'{a}}ndez, J.~D. \& Vico, F. (2013).
@@ -1079,6 +1095,12 @@ Helander, M.~G. (2014).
 \newblock \emph{{Handbook of human-computer interaction}}.
 \newblock Elsevier.
 
+\bibitem[{Herman \& Sloop(1998)}]{herman1998politics}
+Herman, A. \& Sloop, J.~M. (1998).
+\newblock {The politics of authenticity in postmodern rock culture: The case of
+  Negativland and $\backslash$textit{\{}the letter U and the numeral 2{\}}}.
+\newblock \emph{Critical Studies in Media Communication}, \emph{15}(1), 1--20.
+
 \bibitem[{Herrera et~al.(2003)Herrera, Dehamel, \& Gouyon}]{Herrera2003}
 Herrera, P., Dehamel, A., \& Gouyon, F. (2003).
 \newblock {Automatic labeling of unpitched percussion sounds}.
@@ -1177,10 +1199,11 @@ Hoskinson, R. \& Pai, D.~K. (2007).
   \emph{16}(1), 84--99.
 
 \bibitem[{Hove et~al.(2014)Hove, Marie, Bruce, \& Trainor}]{Hove2014}
-Hove, M., Marie, C., Bruce, I., \& Trainor, L. (2014).
+Hove, M.~J., Marie, C., Bruce, I.~C., \& Trainor, L.~J. (2014).
 \newblock {Superior time perception for lower musical pitch explains why
-  bass-ranged instruments lay down musical rhythms.}
-\newblock \emph{Proc Natl Acad Sci U S A}, \emph{111}, 10383 -- 8.
+  bass-ranged instruments lay down musical rhythms}.
+\newblock \emph{Proceedings of the National Academy of Sciences},
+  \emph{111}(28), 10383--10388.
 
 \bibitem[{Hsu \& Sosnick(2009)}]{Hsu2009}
 Hsu, W. \& Sosnick, M. (2009).
@@ -1471,6 +1494,11 @@ Logan, B. (2000).
 Lyons, J. (2015).
 \newblock {Mel Frequency Cepstral Coefficient (MFCC) tutorial [Practical
   Cryptography]}.
+
+\bibitem[{Lysloff \& {Gay Jr}(2003)}]{lysloff2003music}
+Lysloff, R. T.~A. \& {Gay Jr}, L.~C. (2003).
+\newblock \emph{{Music and technoculture}}.
+\newblock Wesleyan University Press.
 
 \bibitem[{Maestre et~al.(2006)Maestre, Hazan, Ramirez, \& Perez}]{Maestre2006}
 Maestre, E., Hazan, A., Ramirez, R., \& Perez, A. (2006).
@@ -2177,7 +2205,9 @@ Schwarz, D. (2003).
 
 \bibitem[{Schwarz(2005)}]{Schwarz2005}
 Schwarz, D. (2005).
-\newblock {Corpus-Based Sound Synthesis Survey}.
+\newblock {Current Research In Concatenative Sound Synthesis}.
+\newblock In \emph{Proceedings of the International Computer Music Conference},
+  pp. 9--12.
 
 \bibitem[{Schwarz(2006)}]{Schwarz2006b}
 Schwarz, D. (2006).
@@ -2534,11 +2564,12 @@ Vogl, R., Leimeister, M., {{\'{O}} Nuan{\'{a}}in}, C., Jord{\`{a}}, S., Hlatky,
 \newblock \emph{Journal of the Audio Engineering Society}, \emph{64}(7),
   503--513.
 
-\bibitem[{Wang \& Brown(2006)}]{Wang2006}
-Wang, D. \& Brown, G.~J. (2006).
-\newblock \emph{{Computational auditory scene analysis: Principles, algorithms,
-  and applications}}.
-\newblock Wiley-IEEE press.
+\bibitem[{Wang et~al.(2006)Wang, Wang, He, \& Hsu}]{Wang2006}
+Wang, J.-C., Wang, J.-F., He, K.~W., \& Hsu, C.-S. (2006).
+\newblock {Environmental Sound Classification using Hybrid SVM/KNN Classifier
+  and MPEG-7 Audio Low-Level Descriptor}.
+\newblock \emph{The 2006 IEEE International Joint Conference on Neural Network
+  Proceedings}, pp. 1731--1735.
 
 \bibitem[{Weihs \& Jannach(2009)}]{Weihs2009}
 Weihs, C. \& Jannach, D. (2009).

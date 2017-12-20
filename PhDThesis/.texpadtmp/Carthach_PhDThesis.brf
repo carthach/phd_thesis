@@ -138,9 +138,9 @@
 \backcite {Milne2016}{{28}{3.3.1}{figure.caption.23}}
 \backcite {Toussaint2004}{{29}{3.3.2}{subsection.3.3.2}}
 \backcite {Milne2016}{{30}{3.8}{figure.caption.24}}
-\backcite {Toussaint2013}{{31}{3.3.2.1}{section*.27}}
-\backcite {Toussaint2003}{{31}{3.3.2.1}{figure.caption.28}}
-\backcite {Toussaint2016}{{32}{3.3.2.1}{figure.caption.28}}
+\backcite {Toussaint2013}{{31}{3.3.2.1}{section*.28}}
+\backcite {Toussaint2003}{{32}{3.3.2.1}{section*.28}}
+\backcite {Toussaint2016}{{32}{3.3.2.1}{section*.28}}
 \backcite {Diaz-Banez2004}{{32}{3.3.2.1}{equation.3.3.3}}
 \backcite {Dixon2004}{{33}{3.11}{figure.caption.30}}
 \backcite {Colannino2005}{{33}{3.3.2.1}{figure.caption.29}}
@@ -167,8 +167,8 @@
 \backcite {Puckette1997}{{36}{3.4.2.1}{figure.caption.34}}
 \backcite {Grill}{{36}{3.4.2.1}{figure.caption.34}}
 \backcite {winkler2001composing}{{36}{35}{Hfootnote.35}}
+\backcite {Post2011}{{38}{3.4.2.1}{figure.caption.37}}
 \backcite {Sethares2007}{{38}{36}{Hfootnote.36}}
-\backcite {Post2011}{{39}{3.4.2.1}{figure.caption.37}}
 \backcite {Diaz-Banez2004}{{39}{3.4.2.1}{equation.3.4.4}}
 \backcite {Colannino2005}{{40}{3.16}{figure.caption.38}}
 \backcite {Colannino2005}{{40}{3.4.2.1}{figure.caption.38}}
@@ -203,7 +203,7 @@
 \backcite {Veltkamp2008}{{55}{4}{chapter.4}}
 \backcite {Casey2008a}{{55}{4}{chapter.4}}
 \backcite {Greenberg1971}{{55}{4.1}{section.4.1}}
-\backcite {Lochhead2002}{{55}{4.1}{section.4.1}}
+\backcite {Lochhead2002}{{56}{4.1}{section.4.1}}
 \backcite {Holmes2008}{{56}{4.1.1}{subsection.4.1.1}}
 \backcite {Battier2007a}{{56}{4.1.1}{subsection.4.1.1}}
 \backcite {Collins2011a}{{56}{4.1.1}{subsection.4.1.1}}
@@ -230,7 +230,7 @@
 \backcite {Appel2002}{{57}{44}{Hfootnote.44}}
 \backcite {Cascone2000}{{57}{46}{Hfootnote.46}}
 \backcite {Forman2004}{{58}{4.1.3}{subsection.4.1.3}}
-\backcite {Smith2000}{{58}{4.1.3}{subsection.4.1.3}}
+\backcite {Smith2000}{{59}{4.1.3}{subsection.4.1.3}}
 \backcite {Rodgers2003}{{59}{4.1.3}{subsection.4.1.3}}
 \backcite {Sewell2013}{{59}{4.1.3}{subsection.4.1.3}}
 \backcite {Sewell2014}{{59}{4.1.3}{subsection.4.1.3}}
@@ -249,9 +249,8 @@
 \backcite {Thomson2004}{{60}{4.1.4}{subsection.4.1.4}}
 \backcite {Holm-Hudson1997}{{60}{4.1.4}{subsection.4.1.4}}
 \backcite {Cutler1994}{{60}{4.1.4}{subsection.4.1.4}}
-\backcite {Humphrey2013}{{60}{4.1.4}{subsection.4.1.4}}
-\backcite {McGranahan2010}{{60}{4.1.4}{subsection.4.1.4}}
-\backcite {Gunderson204}{{60}{52}{Hfootnote.52}}
+\backcite {Humphrey2013}{{61}{4.1.4}{subsection.4.1.4}}
+\backcite {McGranahan2010}{{61}{4.1.4}{subsection.4.1.4}}
 \backcite {Mongillo2009}{{61}{4.1.4}{subsection.4.1.4}}
 \backcite {Tokui2008}{{61}{4.1.4}{subsection.4.1.4}}
 \backcite {Davies2013}{{61}{4.1.4}{subsection.4.1.4}}
@@ -262,8 +261,11 @@
 \backcite {Meroo-Peuela2017}{{61}{4.1.4}{subsection.4.1.4}}
 \backcite {Zils2001}{{61}{4.2}{section.4.2}}
 \backcite {Schwarz2000}{{61}{4.2}{section.4.2}}
-\backcite {Bernardes2013}{{61}{4.2}{section.4.2}}
-\backcite {Truax2005}{{61}{4.2}{section.4.2}}
+\backcite {Gunderson204}{{61}{52}{Hfootnote.52}}
+\backcite {herman1998politics}{{61}{53}{Hfootnote.53}}
+\backcite {lysloff2003music}{{61}{53}{Hfootnote.53}}
+\backcite {Bernardes2013}{{62}{4.2}{section.4.2}}
+\backcite {Truax2005}{{62}{4.2}{section.4.2}}
 \backcite {Schwarz2005}{{62}{4.3}{section.4.3}}
 \backcite {Schwarz2006b}{{62}{4.3}{section.4.3}}
 \backcite {Sturm2006}{{62}{4.3}{section.4.3}}
@@ -282,38 +284,38 @@
 \backcite {Schwarz2003}{{63}{4.3.2}{subsection.4.3.2}}
 \backcite {Russell2002}{{63}{4.3.2}{subsection.4.3.2}}
 \backcite {Zils2001}{{63}{4.3.2}{subsection.4.3.2}}
-\backcite {Sturm2004}{{63}{4.3.2}{subsection.4.3.2}}
+\backcite {Sturm2004}{{64}{4.3.2}{subsection.4.3.2}}
 \backcite {Schwarz2006}{{64}{4.3.2}{subsection.4.3.2}}
 \backcite {Jehan2005}{{64}{4.3.2}{figure.caption.53}}
 \backcite {Bernardes2013}{{64}{4.3.2}{figure.caption.53}}
 \backcite {Brent2010}{{64}{4.3.2}{figure.caption.53}}
 \backcite {Frisson2010}{{64}{4.3.2}{figure.caption.53}}
-\backcite {Xiang2002}{{64}{4.3.2}{figure.caption.54}}
 \backcite {Frisson2010}{{66}{4.5}{figure.caption.54}}
 \backcite {Schwarz2012}{{66}{4.5}{figure.caption.54}}
+\backcite {Xiang2002}{{67}{4.3.2}{figure.caption.54}}
 \backcite {Aucouturier2005}{{67}{4.3.2}{figure.caption.54}}
 \backcite {Cardle2003}{{67}{4.3.2}{figure.caption.54}}
 \backcite {Hoskinson2001}{{67}{4.3.2}{figure.caption.54}}
 \backcite {Hoskinson2007}{{67}{4.3.2}{figure.caption.54}}
 \backcite {Hackbarth2010}{{67}{4.3.2}{figure.caption.54}}
 \backcite {OConnell2011}{{67}{4.3.2}{figure.caption.54}}
-\backcite {Schwarz2000}{{69}{\caption@xref {??}{ on input line 178}}{table.caption.56}}
-\backcite {Zils2001}{{69}{\caption@xref {??}{ on input line 179}}{table.caption.56}}
-\backcite {Hoskinson2001}{{69}{\caption@xref {??}{ on input line 181}}{table.caption.56}}
-\backcite {Xiang2002}{{69}{\caption@xref {??}{ on input line 182}}{table.caption.56}}
-\backcite {Kobayashi}{{69}{\caption@xref {??}{ on input line 183}}{table.caption.56}}
-\backcite {Cardle2003}{{69}{\caption@xref {??}{ on input line 184}}{table.caption.56}}
-\backcite {Lazier2003}{{69}{\caption@xref {??}{ on input line 185}}{table.caption.56}}
-\backcite {Sturm2004}{{69}{\caption@xref {??}{ on input line 186}}{table.caption.56}}
-\backcite {Lindemann2007}{{69}{\caption@xref {??}{ on input line 187}}{table.caption.56}}
-\backcite {Aucouturier2005}{{69}{\caption@xref {??}{ on input line 189}}{table.caption.56}}
-\backcite {Simon2005}{{69}{\caption@xref {??}{ on input line 190}}{table.caption.56}}
-\backcite {Jehan2005}{{69}{\caption@xref {??}{ on input line 191}}{table.caption.56}}
-\backcite {Schwarz2006}{{69}{\caption@xref {??}{ on input line 192}}{table.caption.56}}
-\backcite {Frisson2010}{{69}{\caption@xref {??}{ on input line 194}}{table.caption.56}}
-\backcite {Hackbarth2010}{{69}{\caption@xref {??}{ on input line 195}}{table.caption.56}}
-\backcite {OConnell2011}{{69}{\caption@xref {??}{ on input line 196}}{table.caption.56}}
-\backcite {Bernardes2013}{{69}{\caption@xref {??}{ on input line 197}}{table.caption.56}}
+\backcite {Schwarz2000}{{70}{\caption@xref {??}{ on input line 186}}{table.caption.56}}
+\backcite {Zils2001}{{70}{\caption@xref {??}{ on input line 187}}{table.caption.56}}
+\backcite {Hoskinson2001}{{70}{\caption@xref {??}{ on input line 189}}{table.caption.56}}
+\backcite {Xiang2002}{{70}{\caption@xref {??}{ on input line 190}}{table.caption.56}}
+\backcite {Kobayashi}{{70}{\caption@xref {??}{ on input line 191}}{table.caption.56}}
+\backcite {Cardle2003}{{70}{\caption@xref {??}{ on input line 192}}{table.caption.56}}
+\backcite {Lazier2003}{{70}{\caption@xref {??}{ on input line 193}}{table.caption.56}}
+\backcite {Sturm2004}{{70}{\caption@xref {??}{ on input line 194}}{table.caption.56}}
+\backcite {Lindemann2007}{{70}{\caption@xref {??}{ on input line 195}}{table.caption.56}}
+\backcite {Aucouturier2005}{{70}{\caption@xref {??}{ on input line 197}}{table.caption.56}}
+\backcite {Simon2005}{{70}{\caption@xref {??}{ on input line 198}}{table.caption.56}}
+\backcite {Jehan2005}{{70}{\caption@xref {??}{ on input line 199}}{table.caption.56}}
+\backcite {Schwarz2006}{{70}{\caption@xref {??}{ on input line 200}}{table.caption.56}}
+\backcite {Frisson2010}{{70}{\caption@xref {??}{ on input line 202}}{table.caption.56}}
+\backcite {Hackbarth2010}{{70}{\caption@xref {??}{ on input line 203}}{table.caption.56}}
+\backcite {OConnell2011}{{70}{\caption@xref {??}{ on input line 204}}{table.caption.56}}
+\backcite {Bernardes2013}{{70}{\caption@xref {??}{ on input line 205}}{table.caption.56}}
 \backcite {Schwarz2003}{{73}{5.2.1}{subsection.5.2.1}}
 \backcite {Roads1996}{{73}{5.2.1}{subsection.5.2.1}}
 \backcite {Roads2004}{{73}{5.2.1}{subsection.5.2.1}}
@@ -333,6 +335,7 @@
 \backcite {Lacoste2007}{{74}{5.2.2.1}{equation.5.2.2}}
 \backcite {Schluter2013}{{74}{5.2.2.1}{equation.5.2.2}}
 \backcite {Schluter2014}{{74}{5.2.2.1}{equation.5.2.2}}
+\backcite {Bello2005}{{75}{5.2.2.2}{subsubsection.5.2.2.2}}
 \backcite {Dixon2006}{{75}{5.2.2.2}{subsubsection.5.2.2.2}}
 \backcite {Bock2012a}{{75}{5.2.2.2}{subsubsection.5.2.2.2}}
 \backcite {Bock2013}{{75}{5.2.2.2}{subsubsection.5.2.2.2}}
@@ -360,6 +363,7 @@
 \backcite {Ellis2007a}{{81}{5.2.2.5}{figure.caption.66}}
 \backcite {Degara2012}{{81}{5.2.2.5}{figure.caption.66}}
 \backcite {Zapata2014}{{81}{5.2.2.5}{figure.caption.66}}
+\backcite {antonopoulos2007self}{{81}{5.2.2.5}{figure.caption.66}}
 \backcite {Degara2012}{{81}{5.2.2.5}{figure.caption.66}}
 \backcite {Sethares2007}{{82}{5.4}{figure.caption.66}}
 \backcite {Zapata2012}{{82}{5.2.2.5}{figure.caption.66}}
@@ -376,9 +380,9 @@
 \backcite {Hackbarth2010}{{84}{5.2.3.1}{subsubsection.5.2.3.1}}
 \backcite {Coleman2015}{{84}{5.2.3.1}{subsubsection.5.2.3.1}}
 \backcite {Bregman1994}{{84}{5.2.3.2}{subsubsection.5.2.3.2}}
-\backcite {Miron2017a}{{84}{5.2.3.2}{subsubsection.5.2.3.2}}
-\backcite {Wang2006}{{84}{5.2.3.2}{subsubsection.5.2.3.2}}
 \backcite {Hackbarth2010}{{85}{5.5}{figure.caption.69}}
+\backcite {Miron2017a}{{85}{5.2.3.2}{subsubsection.5.2.3.2}}
+\backcite {Wang2006}{{85}{5.2.3.2}{subsubsection.5.2.3.2}}
 \backcite {Fitz2004}{{85}{5.2.3.2}{subsubsection.5.2.3.2}}
 \backcite {Fitz2004}{{85}{5.2.3.2}{subsubsection.5.2.3.2}}
 \backcite {Miron2017a}{{85}{5.2.3.2}{subsubsection.5.2.3.2}}
@@ -412,16 +416,17 @@
 \backcite {Siedenburg2017}{{89}{5.3.2}{subsection.5.3.2}}
 \backcite {McAdams1979}{{89}{5.3.2}{subsection.5.3.2}}
 \backcite {Bregman1994}{{89}{5.3.2}{subsection.5.3.2}}
+\backcite {ansi}{{89}{5.3.2.1}{subsubsection.5.3.2.1}}
 \backcite {Roads1996}{{89}{5.3.2.1}{subsubsection.5.3.2.1}}
 \backcite {Collins2010}{{89}{5.3.2.1}{subsubsection.5.3.2.1}}
 \backcite {Puckette2006}{{90}{5.3.2.1}{equation.5.3.13}}
-\backcite {Weihs2009}{{90}{56}{Hfootnote.56}}
-\backcite {ross2007rest}{{90}{57}{Hfootnote.57}}
-\backcite {Harvey2000}{{90}{57}{Hfootnote.57}}
+\backcite {Weihs2009}{{90}{60}{Hfootnote.60}}
+\backcite {ross2007rest}{{90}{61}{Hfootnote.61}}
+\backcite {Harvey2000}{{90}{61}{Hfootnote.61}}
 \backcite {Schubert2004}{{91}{5.3.2.2}{equation.5.3.14}}
 \backcite {Risset1999}{{92}{5.3.2.3}{equation.5.3.15}}
 \backcite {Reid2002}{{92}{5.3.2.3}{equation.5.3.15}}
-\backcite {Winer2012}{{92}{59}{Hfootnote.59}}
+\backcite {Winer2012}{{92}{63}{Hfootnote.63}}
 \backcite {Roads1996}{{93}{5.3.2.4}{equation.5.3.16}}
 \backcite {Kim2006}{{93}{5.3.2.4}{equation.5.3.16}}
 \backcite {Shao2009}{{94}{5.3.2.4}{equation.5.3.16}}
@@ -430,6 +435,7 @@
 \backcite {Kim2006}{{94}{5.3.2.4}{section*.73}}
 \backcite {Logan2000}{{94}{5.3.2.4}{figure.caption.74}}
 \backcite {Lyons2015}{{94}{5.3.2.4}{figure.caption.74}}
+\backcite {Logan2000}{{95}{5.3.2.4}{figure.caption.75}}
 \backcite {Brossier2006}{{97}{\caption@xref {??}{ on input line 570}}{table.caption.76}}
 \backcite {Lartillot2008}{{97}{\caption@xref {??}{ on input line 571}}{table.caption.76}}
 \backcite {Bullock2007}{{97}{\caption@xref {??}{ on input line 572}}{table.caption.76}}
@@ -449,13 +455,14 @@
 \backcite {Ellis2005}{{98}{5.3.2.5}{table.caption.77}}
 \backcite {Young2002}{{98}{5.3.2.5}{table.caption.77}}
 \backcite {Slaney1998}{{98}{5.3.2.5}{table.caption.77}}
-\backcite {Valero2012}{{98}{5.3.2.6}{subsubsection.5.3.2.6}}
-\backcite {Fathima2013}{{98}{5.3.2.6}{subsubsection.5.3.2.6}}
+\backcite {Herrera2003}{{98}{64}{Hfootnote.64}}
+\backcite {Valero2012}{{99}{5.3.2.6}{subsubsection.5.3.2.6}}
+\backcite {Fathima2013}{{99}{5.3.2.6}{subsubsection.5.3.2.6}}
 \backcite {Patterson1987}{{99}{5.3.2.6}{subsubsection.5.3.2.6}}
 \backcite {Valero2012}{{99}{5.3.2.6}{subsubsection.5.3.2.6}}
 \backcite {Ellis2009}{{99}{5.3.2.6}{equation.5.3.20}}
 \backcite {Slaney1998}{{99}{5.3.2.6}{equation.5.3.20}}
-\backcite {Zhao2013}{{99}{5.3.2.6}{equation.5.3.20}}
+\backcite {Zhao2013}{{100}{5.3.2.6}{equation.5.3.20}}
 \backcite {Abdulla2002}{{100}{5.3.2.6}{equation.5.3.20}}
 \backcite {Schl2007}{{100}{5.3.2.6}{equation.5.3.20}}
 \backcite {Cai2011}{{100}{5.3.2.6}{equation.5.3.20}}
@@ -472,7 +479,7 @@
 \backcite {Chudy2010}{{100}{5.3.2.7}{subsubsection.5.3.2.7}}
 \backcite {Gerhard2003}{{101}{5.3.3.1}{subsubsection.5.3.3.1}}
 \backcite {DeCheveigne2002}{{101}{5.3.3.1}{subsubsection.5.3.3.1}}
-\backcite {Brossier2006}{{101}{5.3.3.1}{subsubsection.5.3.3.1}}
+\backcite {Brossier2006}{{102}{5.3.3.1}{subsubsection.5.3.3.1}}
 \backcite {Fujishima1999}{{102}{5.3.3.2}{subsubsection.5.3.3.2}}
 \backcite {Gomez2004}{{102}{5.3.3.2}{subsubsection.5.3.3.2}}
 \backcite {Orio2006}{{102}{5.3.3.2}{subsubsection.5.3.3.2}}
@@ -488,26 +495,26 @@
 \backcite {Miller2010}{{103}{5.3.4}{section*.81}}
 \backcite {Masood2015}{{104}{5.3.4}{section*.82}}
 \backcite {Pedregosa2012}{{104}{5.3.4.1}{figure.caption.83}}
-\backcite {Herrera2002}{{104}{5.3.4.1}{section*.84}}
-\backcite {Herrera2003}{{104}{5.3.4.1}{section*.84}}
-\backcite {Herrera-Boyer2003}{{104}{5.3.4.1}{section*.84}}
-\backcite {Mandel2005}{{104}{5.3.4.1}{section*.84}}
-\backcite {Wang2006}{{104}{5.3.4.1}{section*.84}}
-\backcite {Somerville2008}{{104}{5.3.4.1}{section*.84}}
-\backcite {Chang2008}{{105}{5.3.4.1}{section*.85}}
-\backcite {Xu2003}{{105}{5.3.4.1}{section*.85}}
-\backcite {Chang2011}{{105}{5.3.4.1}{section*.85}}
-\backcite {Liu2010a}{{105}{5.3.4.1}{section*.85}}
-\backcite {Herrera2002}{{105}{5.3.4.1}{section*.85}}
-\backcite {Herrera2003}{{105}{5.3.4.1}{section*.85}}
-\backcite {Herrera-Boyer2003}{{105}{5.3.4.1}{section*.85}}
-\backcite {Krey2010}{{105}{5.3.4.1}{section*.85}}
-\backcite {Agostini2003}{{105}{5.3.4.1}{section*.85}}
-\backcite {Deng2008}{{105}{5.3.4.1}{section*.85}}
-\backcite {Russell2002}{{106}{5.3.4.1}{figure.caption.87}}
-\backcite {Gurney1996}{{106}{5.3.4.1}{figure.caption.87}}
+\backcite {Herrera2002}{{105}{5.3.4.1}{section*.84}}
+\backcite {Herrera2003}{{105}{5.3.4.1}{section*.84}}
+\backcite {Herrera-Boyer2003}{{105}{5.3.4.1}{section*.84}}
+\backcite {Mandel2005}{{105}{5.3.4.1}{section*.84}}
+\backcite {Wang2006}{{105}{5.3.4.1}{section*.84}}
+\backcite {Somerville2008}{{105}{5.3.4.1}{section*.84}}
+\backcite {Chang2008}{{105}{5.3.4.1}{section*.86}}
+\backcite {Xu2003}{{105}{5.3.4.1}{section*.86}}
+\backcite {Chang2011}{{105}{5.3.4.1}{section*.86}}
+\backcite {Liu2010a}{{106}{5.3.4.1}{section*.86}}
+\backcite {Herrera2002}{{106}{5.3.4.1}{section*.86}}
+\backcite {Herrera2003}{{106}{5.3.4.1}{section*.86}}
+\backcite {Herrera-Boyer2003}{{106}{5.3.4.1}{section*.86}}
+\backcite {Krey2010}{{106}{5.3.4.1}{section*.86}}
+\backcite {Agostini2003}{{106}{5.3.4.1}{section*.86}}
+\backcite {Deng2008}{{106}{5.3.4.1}{section*.86}}
+\backcite {Russell2002}{{106}{5.3.4.1}{section*.87}}
+\backcite {Gurney1996}{{106}{5.3.4.1}{section*.87}}
 \backcite {Schwarz2006b}{{109}{5.4}{section.5.4}}
-\backcite {Schwarz2011}{{109}{5.4.1}{subsection.5.4.1}}
+\backcite {Schwarz2011}{{110}{5.4.1}{subsection.5.4.1}}
 \backcite {Dannenberg2006}{{110}{5.4.1}{equation.5.4.22}}
 \backcite {Maestre2006}{{110}{5.4.1}{equation.5.4.22}}
 \backcite {Sturm2006}{{110}{5.4.1}{equation.5.4.22}}
@@ -526,20 +533,20 @@
 \backcite {Scipy2014}{{111}{5.4.1.1}{figure.caption.92}}
 \backcite {Hunt1996}{{111}{5.4.2}{subsection.5.4.2}}
 \backcite {Schwarz2003}{{111}{5.4.2}{subsection.5.4.2}}
-\backcite {Hunt1996}{{111}{5.4.2}{subsection.5.4.2}}
+\backcite {Hunt1996}{{112}{5.4.2}{subsection.5.4.2}}
 \backcite {Schwarz2003}{{112}{5.4.2}{subsection.5.4.2}}
 \backcite {Nierhaus2009}{{112}{5.4.3}{subsection.5.4.3}}
 \backcite {Zils2001}{{112}{5.4.3}{subsection.5.4.3}}
 \backcite {Nuanain2017}{{113}{5.5}{section.5.5}}
 \backcite {Rabiner1989}{{113}{5.5.1}{subsection.5.5.1}}
-\backcite {Rabiner1989}{{113}{5.5.1}{subsection.5.5.1}}
+\backcite {Rabiner1989}{{114}{5.5.1}{subsection.5.5.1}}
 \backcite {Rabiner1989}{{114}{5.5.2}{subsection.5.5.2}}
 \backcite {Bird2016}{{115}{5.5.2}{equation.5.5.30}}
 \backcite {Gueguen2005}{{115}{5.5.2}{equation.5.5.30}}
 \backcite {Orio2003}{{116}{5.5.3}{subsection.5.5.3}}
-\backcite {Papadopoulos2007}{{117}{5.5.3}{subsection.5.5.3}}
-\backcite {Cho2010}{{117}{5.5.3}{subsection.5.5.3}}
-\backcite {Sheh2003}{{117}{5.5.3}{subsection.5.5.3}}
+\backcite {Papadopoulos2007}{{116}{5.5.3}{subsection.5.5.3}}
+\backcite {Cho2010}{{116}{5.5.3}{subsection.5.5.3}}
+\backcite {Sheh2003}{{116}{5.5.3}{subsection.5.5.3}}
 \backcite {Fernandez2013}{{117}{5.5.3}{subsection.5.5.3}}
 \backcite {Nierhaus2009}{{117}{5.5.3}{subsection.5.5.3}}
 \backcite {Seshadri1994}{{118}{5.5.5}{subsection.5.5.5}}
@@ -559,6 +566,7 @@
 \backcite {Rogers2011}{{130}{6.2.1}{subsection.6.2.1}}
 \backcite {Helander2014}{{130}{6.2.1}{subsection.6.2.1}}
 \backcite {Duignan2010}{{130}{6.2.1}{subsection.6.2.1}}
+\backcite {fels2002mapping}{{130}{6.2.1}{subsection.6.2.1}}
 \backcite {Duignan2004}{{130}{6.2.1}{section*.101}}
 \backcite {Duignan2005}{{130}{6.2.1}{section*.102}}
 \backcite {Jorda2005}{{131}{6.2.1}{section*.103}}
@@ -570,7 +578,7 @@
 \backcite {Wessel1979}{{132}{6.2.2}{figure.caption.104}}
 \backcite {Wessel1976}{{132}{6.2.2}{figure.caption.104}}
 \backcite {frisson2015}{{132}{6.2.2}{figure.caption.104}}
-\backcite {Cooprider2007}{{132}{77}{Hfootnote.77}}
+\backcite {Cooprider2007}{{132}{83}{Hfootnote.83}}
 \backcite {Hackeling2014}{{134}{6.2.2.1}{subsubsection.6.2.2.1}}
 \backcite {Cooper2006}{{134}{6.2.2.1}{subsubsection.6.2.2.1}}
 \backcite {Smith2002a}{{134}{6.2.2.1}{subsubsection.6.2.2.1}}
@@ -608,8 +616,8 @@
 \backcite {Coleman2015}{{146}{6.3.1.5}{section*.114}}
 \backcite {Schwarz2006b}{{146}{6.3.1.5}{section*.114}}
 \backcite {Roma2010}{{147}{6.3.1.5}{section*.115}}
-\backcite {mandel2005song}{{147}{81}{Hfootnote.81}}
-\backcite {kim2006towards}{{147}{81}{Hfootnote.81}}
+\backcite {mandel2005song}{{147}{87}{Hfootnote.87}}
+\backcite {kim2006towards}{{147}{87}{Hfootnote.87}}
 \backcite {Font2017}{{148}{6.3.1.5}{section*.115}}
 \backcite {Barbosa2015}{{151}{7.1}{section.7.1}}
 \backcite {Hsu2009}{{151}{7.1}{section.7.1}}

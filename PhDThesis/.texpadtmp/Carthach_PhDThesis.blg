@@ -14,74 +14,72 @@ A level-1 auxiliary file: ch07_evaluation/ch07_evaluation.aux
 A level-1 auxiliary file: ch08_conclusions/ch08_conclusions.aux
 A level-1 auxiliary file: ch99/appendix.aux
 The style file: ../apa_jserra2.bst
-Reallocated field_info (elt_size=4) to 15776 items from 5000.
+Reallocated field_info (elt_size=4) to 15848 items from 5000.
 Database file #1: ../library.bib.bib
-Repeated entry---line 1831 of file ../library.bib.bib
- : @article{Glover2011
- :                    ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 2200 of file ../library.bib.bib
- : @inproceedings{Eyben2010
- :                         ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 2870 of file ../library.bib.bib
- : @inproceedings{Pachet2002
- :                          ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 3736 of file ../library.bib.bib
- : @article{Bock2013
+Repeated entry---line 3136 of file ../library.bib.bib
+ : @misc{Schwarz2005
  :                  ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4301 of file ../library.bib.bib
+Repeated entry---line 5125 of file ../library.bib.bib
  : @article{Boden1998
  :                   ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4655 of file ../library.bib.bib
- : @article{Bello2005
- :                   ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 5588 of file ../library.bib.bib
- : @inproceedings{schwarz2005
- :                           ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 6374 of file ../library.bib.bib
- : @article{Wang2006
- :                  ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 6535 of file ../library.bib.bib
- : @article{Duxbury2002
- :                     ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 7233 of file ../library.bib.bib
- : @article{Hove2014
- :                  ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 7698 of file ../library.bib.bib
- : @article{Biles2001
- :                   ,
-I'm skipping whatever remains of this entry
-Reallocated str_pool (elt_size=1) to 130000 items from 65000.
-Repeated entry---line 8202 of file ../library.bib.bib
- : @article{Ariza2009
- :                   ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 8531 of file ../library.bib.bib
- : @phdthesis{Brossier2006
- :                        ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 9065 of file ../library.bib.bib
+Repeated entry---line 5299 of file ../library.bib.bib
  : @article{Rodgers2003
  :                     ,
 I'm skipping whatever remains of this entry
+Reallocated str_pool (elt_size=1) to 130000 items from 65000.
+Repeated entry---line 6720 of file ../library.bib.bib
+ : @book{Wang2006
+ :               ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 7264 of file ../library.bib.bib
+ : @article{Biles2001
+ :                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 7818 of file ../library.bib.bib
+ : @article{Ariza2009
+ :                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 8282 of file ../library.bib.bib
+ : @article{Bello2005
+ :                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 8363 of file ../library.bib.bib
+ : @misc{Brossier2006
+ :                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 8511 of file ../library.bib.bib
+ : @article{Glover2011
+ :                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 8776 of file ../library.bib.bib
+ : @inproceedings{Duxbury2002
+ :                           ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 8806 of file ../library.bib.bib
+ : @article{Bock2013
+ :                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 8962 of file ../library.bib.bib
+ : @article{Hove2014
+ :                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 9219 of file ../library.bib.bib
+ : @article{Eyben2010
+ :                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 9280 of file ../library.bib.bib
+ : @inproceedings{Pachet2002
+ :                          ,
+I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "Fitch2013"
-Warning--I didn't find a database entry for "Bello2005b"
 Name 1 in "{Chih-Wei Hsu, Chih-Chung Chang}, and Chih-Jen Lin" has a comma at the end for entry Chang2008
 while executing---line 1403 of file ../apa_jserra2.bst
 Name 1 in "{Chih-Wei Hsu, Chih-Chung Chang}, and Chih-Jen Lin" has a comma at the end for entry Chang2008
 while executing---line 1403 of file ../apa_jserra2.bst
 Warning--missing publisher in Bartok1993
 Warning--there's a number but no volume in Bates2009
-Warning--empty journal in Bello2005
 Warning--can't use both volume and number fields in bernstein
 Warning--missing publisher in bernstein
 Warning--there's a number but no volume in Bird2016
@@ -96,9 +94,8 @@ Warning--missing publisher in Chomsky1957
 Warning--empty journal in Collins2006
 Warning--empty journal in Cope2000
 Warning--there's a number but no volume in Duignan2004
+Warning--there's a number but no volume in Duxbury2002
 Warning--there's a number but no volume in Eigenfeldt2016a
-Warning--empty journal in Eyben2010
-Warning--there's a number but no volume in Eyben2010
 Warning--there's a number but no volume in Frisson2014
 Warning--missing publisher in Gerhard2003
 Warning--there's a number but no volume in Gomez2007
@@ -144,45 +141,45 @@ Warning--there's a number but no volume in Tihelka2010
 Warning--missing publisher in Weihs2009
 Warning--there's a number but no volume in Wiggins2012a
 Warning--there's a number but no volume in Zapata2012
-You've used 447 entries,
+You've used 451 entries,
             2821 wiz_defined-function locations,
-            3100 strings with 76438 characters,
-and the built_in function-call counts, 247471 in all, are:
-= -- 20692
-> -- 9078
-< -- 433
-+ -- 3348
-- -- 2886
-* -- 17083
-:= -- 38615
-add.period$ -- 1353
-call.type$ -- 447
-change.case$ -- 3298
-chr.to.int$ -- 432
-cite$ -- 508
-duplicate$ -- 18699
-empty$ -- 18944
-format.name$ -- 4013
-if$ -- 49474
+            3118 strings with 77327 characters,
+and the built_in function-call counts, 250245 in all, are:
+= -- 20942
+> -- 9158
+< -- 437
++ -- 3376
+- -- 2910
+* -- 17287
+:= -- 39002
+add.period$ -- 1368
+call.type$ -- 451
+change.case$ -- 3327
+chr.to.int$ -- 436
+cite$ -- 510
+duplicate$ -- 18917
+empty$ -- 19168
+format.name$ -- 4053
+if$ -- 50052
 int.to.chr$ -- 16
 int.to.str$ -- 1
-missing$ -- 3718
-newline$ -- 2204
-num.names$ -- 1792
-pop$ -- 7586
+missing$ -- 3758
+newline$ -- 2226
+num.names$ -- 1808
+pop$ -- 7651
 preamble$ -- 1
-purify$ -- 2748
+purify$ -- 2772
 quote$ -- 0
-skip$ -- 7740
+skip$ -- 7829
 stack$ -- 0
-substring$ -- 11115
-swap$ -- 9598
-text.length$ -- 129
+substring$ -- 11286
+swap$ -- 9733
+text.length$ -- 131
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 3834
-warning$ -- 61
-while$ -- 1965
+type$ -- 3870
+warning$ -- 59
+while$ -- 1989
 width$ -- 0
-write$ -- 5660
+write$ -- 5721
 (There were 18 error messages)

@@ -237,14 +237,6 @@ Regardless, the foundations of understanding rhythmic similarity need to begin s
 
 \label{sec:distance_measures}
 
-The primary advantage of the simple binary representation exemplified by the \acrshort{tubs} notation is its malleability for simple bit comparison and string analysis using common algorithms. We summarise a number of them here for clarification, but Toussaint  offers a more thorough synopsis of many of them and their application to rhythm.
-
-\paragraph{Edit Distance:} The edit distance or Levenshtein distance is a widely-used measure of difference between two strings of information. It counts the number of insertions, deletions and substitutions required to transform one string into the other. The  Levenshtein distance between the two strings “kitten” and “sitting” for example returns 3, based on two substitutions and one addition. The edit distance can operate on strings of differing lengths, and is solved using recursion or dynamic programming techniques.
-
-\paragraph{Hamming Distance:} The hamming distance counts the number of positions in which two equal length strings differ. A simple measure that is easy to compute for the machine and easily comprehensible for the human. Hence it is a restricted version of the edit distance, limiting itself solely to substitutions of symbols.
-
-\paragraph{Swap Distance:} As \cite{Toussaint2013} notes, one of the problems with the edit distance and the Hamming distance is that they don’t capture the horizontal aspect of string similarity so well. In \figref{fig:hamming_comparison} for instance, comparing string A to string B and string C both return a distance of 2, even though comparing them horizontally they are clearly very different.
-
 \begin{figure}
 	\begin{center}
 		\includegraphics[width=0.45\textwidth]{ch03_symbolic/figures/hamming_comparison.png}
@@ -252,6 +244,14 @@ The primary advantage of the simple binary representation exemplified by the \ac
 	\caption[Hamming Distance Comparison]{Same Hamming Distance for Three Patterns}
 	\label{fig:hamming_comparison}
 \end{figure}
+
+The primary advantage of the simple binary representation exemplified by the \acrshort{tubs} notation is its malleability for simple bit comparison and string analysis using common algorithms. We summarise a number of them here for clarification, but Toussaint  offers a more thorough synopsis of many of them and their application to rhythm.
+
+\paragraph{Edit Distance:} The edit distance or Levenshtein distance is a widely-used measure of difference between two strings of information. It counts the number of insertions, deletions and substitutions required to transform one string into the other. The  Levenshtein distance between the two strings “kitten” and “sitting” for example returns 3, based on two substitutions and one addition. The edit distance can operate on strings of differing lengths, and is solved using recursion or dynamic programming techniques.
+
+\paragraph{Hamming Distance:} The hamming distance counts the number of positions in which two equal length strings differ. A simple measure that is easy to compute for the machine and easily comprehensible for the human. Hence it is a restricted version of the edit distance, limiting itself solely to substitutions of symbols.
+
+\paragraph{Swap Distance:} As \cite{Toussaint2013} notes, one of the problems with the edit distance and the Hamming distance is that they don’t capture the horizontal aspect of string similarity so well. In \figref{fig:hamming_comparison} for instance, comparing string A to string B and string C both return a distance of 2, even though comparing them horizontally they are clearly very different.
 
 To this effect, Toussaint proposes the use of the swap distance, actually borrowed from similar computations that take place in the realm of bioinformatics, to capture the number of placewise shifts to make one string match the other. as he did in his study of African ternary rhythms \citep{Toussaint2003}. In the simple case of binary encoded rhythms with equal number of onsets or 1s - known as one-to-one mapping - the distance can be computed by summing the absolute differences in their indices \citep{Toussaint2016} - essentially the L1-Norm or ``Manhattan'' distance (\eqnref{eq:swap}) when considering element $a_i$ and $b_i$ from two strings $A$ and $B$.
 
@@ -371,6 +371,10 @@ The instrument also attempts to provide some visual feedback on the evolutionary
 
 As the previous section explains, the instrument is intended as a fully functional drum machine, and hence is polyphonic with the possibility of multiple sounds concurring in time. As seen in the literature, similarity studies are predominantly focused with examining monophonic patterns such as the single sound clave son\footnote{The clave son is a two bar measure of either a 3-2 or 2-3 pattern that is integral in many forms of latin dances \citep{Sethares2007}.}. How we deal with the polyphonic implications in our research is outlined here.
 
+Our first naive implementation of the genetic algorithm converts the 4x16 drum pattern matrix into a single “linear'” 64-digit binary string. Evidently this is a simplistic ``brute force'' approach that does not explicitly take into account any musical or perceptual aspect of the application. Specifically it does not embed any knowledge about the constituent sounds and the separation between them in the genome string. Essentially, we’re treating it as a single sound 64-step pattern, with crossover and mutation happening at the halfway point between the first 16 bits of the kick and snare pattern and the second 16 bits of the cymbals/crashes. 
+
+Another approach is to force some kind of logical separation between the different polyphonic timbres in the pattern. By assigning a separate instance of the genetic algorithm to each timbre an overall mean fitness can be derived from the individual outputs. This we implemented and labelled as ``parallel'' mode. Since the genome pattern length is now split from one single 64-bit string to four concurrent 8-bit strings, the time it takes for the genetic algorithms to reach the target fitness is considerably reduced. Some tweaking of the parameters is required to reduce this convergence time and maintain a healthy level of diversity. Setting the population size parameter to 30 and increasing the mutation rate parameter to between 20\% to 40\% has been found to work well in our experience. \figref{fig:genetic} shows the flowchart and design of the GenDrum instrument and it's encapsulation of the SimpleGA \acrshort{ga} in the aforementioned linear and parallel configurations. Next we turn our attention to the distance measures used to derive the fitness function of these genome patterns.
+
 \begin{figure}
 	\begin{center}
 		\includegraphics[width=0.8\textwidth]{ch03_symbolic/figures/ga_algorithm.png}
@@ -378,10 +382,6 @@ As the previous section explains, the instrument is intended as a fully function
 	\caption[Genetic Algorithm Flowchart]{Genetic Algorithm Flowchart. The target string can either be fed to one single \acrshort{ga} (left) or split by timbre, processed by 4 parallel \acrshort{ga}s then recombined (right).}
 	\label{fig:genetic}
 \end{figure}
-
-Our first naive implementation of the genetic algorithm converts the 4x16 drum pattern matrix into a single “linear'” 64-digit binary string. Evidently this is a simplistic ``brute force'' approach that does not explicitly take into account any musical or perceptual aspect of the application. Specifically it does not embed any knowledge about the constituent sounds and the separation between them in the genome string. Essentially, we’re treating it as a single sound 64-step pattern, with crossover and mutation happening at the halfway point between the first 16 bits of the kick and snare pattern and the second 16 bits of the cymbals/crashes. 
-
-Another approach is to force some kind of logical separation between the different polyphonic timbres in the pattern. By assigning a separate instance of the genetic algorithm to each timbre an overall mean fitness can be derived from the individual outputs. This we implemented and labelled as ``parallel'' mode. Since the genome pattern length is now split from one single 64-bit string to four concurrent 8-bit strings, the time it takes for the genetic algorithms to reach the target fitness is considerably reduced. Some tweaking of the parameters is required to reduce this convergence time and maintain a healthy level of diversity. Setting the population size parameter to 30 and increasing the mutation rate parameter to between 20\% to 40\% has been found to work well in our experience. \figref{fig:genetic} shows the flowchart and design of the GenDrum instrument and it's encapsulation of the SimpleGA \acrshort{ga} in the aforementioned linear and parallel configurations. Next we turn our attention to the distance measures used to derive the fitness function of these genome patterns.
 
 \textit{Hamming Distance}
 
@@ -534,6 +534,10 @@ Score & -0.7134 & 0.4353 & 1.0000\\
 
 \figref{fig:linear_versus_parallel} shows the separated distance and fitness correlations against the scores when we discriminate between linear and parallel pattern strings. The fitness correlation values are 0.525 and 0.480 respectively, and the distance correlation values are -0.852 and -0.576 respectively (p < 0.05). The linear representation scheme appears to correlate better with human judgement.
 
+Post hoc analysis using a t-test and a Kruskal-Wallis non-parameteric \acrshort{anova} H-test compared the two different conditions - linear vs. parallel and hamming vs. directed-swap - and discovered a significant difference for the ratings of the distance measure (p < 0.05), but not in the case of the string representation type. Out of interest, we also examined the participants' musical experience in reading notation or playing a percussive instrument, but they had no significant effect on the ratings (p > 0.05) in both instances.
+
+We can draw some tentative conclusions based on this data. Firstly, the strong correlation between the overall distance and similarity ratings suggest that, even for polyphonic string representations of drum patterns, distances such as the Hamming and directed-swap are useful measures of perceived similarity. Secondly, splitting and recombining the bit strings by timbre, as carried out in the parallel operation, does not seem to offer improvement over the simplistic, long bit string representation. Finally, the more complex directed-swap algorithm, with its ability to capture the ``horizontal'' displacement between two drum patterns, does not appear to reflect an increase in similarity scores in our survey, confirming Toussaint's finding but also extending it to the case of polyphonic patterns.
+
 \begin{figure}
 	\begin{center}
 		\includegraphics[width=0.75\textwidth]{ch03_symbolic/figures/reps_bar.pdf}
@@ -542,9 +546,6 @@ Score & -0.7134 & 0.4353 & 1.0000\\
 	\label{fig:linear_versus_parallel}
 \end{figure}
 
-Post hoc analysis using a t-test and a Kruskal-Wallis non-parameteric \acrshort{anova} H-test compared the two different conditions - linear vs. parallel and hamming vs. directed-swap - and discovered a significant difference for the ratings of the distance measure (p < 0.05), but not in the case of the string representation type. Out of interest, we also examined the participants' musical experience in reading notation or playing a percussive instrument, but they had no significant effect on the ratings (p > 0.05) in both instances.
-
-We can draw some tentative conclusions based on this data. Firstly, the strong correlation between the overall distance and similarity ratings suggest that, even for polyphonic string representations of drum patterns, distances such as the Hamming and directed-swap are useful measures of perceived similarity. Secondly, splitting and recombining the bit strings by timbre, as carried out in the parallel operation, does not seem to offer improvement over the simplistic, long bit string representation. Finally, the more complex directed-swap algorithm, with its ability to capture the ``horizontal'' displacement between two drum patterns, does not appear to reflect an increase in similarity scores in our survey, confirming Toussaint's finding but also extending it to the case of polyphonic patterns.
 
 \subsubsection{Subjective “Interestingness” Evaluation}
 
@@ -582,6 +583,8 @@ Distance & 1.0000 & -0.5419 & 0.2201 \\Fitness & -0.5419 & 1.0000 & 0.2310 \\S
 
 Despite the apparent issues with our method of evaluation, the data and informal feedback does suggest that the genetic algorithm creates “interesting” musical output. Nineteen stimuli out of the 34 analysed registered a mode score value higher than 4 as seen by the 56\% green positive region in \figref{fig:interesting_distribution} (there were two responses for “Strongly Disagree”, but these were the two that were disregarded due to high divergence of opinion). The task ahead is to review the evaluation strategy in order to quantify and explain this aspect in a more coherent and predictable manner, decoupling the interdependency of the questioning between similarity and interdependence.
 
+\subsection{Improving the System - Adding More Features}
+
 \begin{figure}
 	\begin{center}
 		\includegraphics[width=0.85\textwidth]{ch03_symbolic/figures/interestingness.png}
@@ -589,8 +592,6 @@ Despite the apparent issues with our method of evaluation, the data and informal
 	\caption[Distribution of Responses for `Interestingness' in Symbolic Evaluation]{Distribution of Responses for `Interestingness'}
 	\label{fig:interesting_distribution}
 \end{figure}
-		
-\subsection{Improving the System - Adding More Features}
 
 The evaluation shows that our implemented methods do behave predictably in returning increasingly similar patterns to a target as the mean fitness of the genetic algorithm converges on its maximum. It also shows, despite deficiencies in the mode of questioning, that listeners do perceive these patterns favourably, given the sounds used and some localised awareness of style.
 
@@ -694,4 +695,4 @@ But most of all, based on an overall critique of the myriad approaches to genera
 \item The timbral qualities - or the sounds and processing used to derive the patterns - we contend have a profound impact on the perceptual response and aesthetic impression of the loop. Simply assembling rhythms according to perceptual similarity measures using arbitrary sounds (all too frequently coarse \acrshort{midi} approximations) does not always produce the desired results, at least in generative attempts at dance music.
 \end{itemize}
 
-All these factors were carefully considered and it became more apparent that perhaps the symbolic domain was not sufficient for our goals. The focus of the thesis turns to investigating whether these methods can be refined, adapted and extended to systems that generate rhythms using signals and thus connecting time with timbre.
+All these factors were carefully considered and it became more apparent that perhaps the symbolic domain was not sufficient for our goals. The focus of the thesis turns to investigating whether these methods can be refined, adapted and extended to systems that generate rhythms using signals and thus connecting time with timbre.or 
