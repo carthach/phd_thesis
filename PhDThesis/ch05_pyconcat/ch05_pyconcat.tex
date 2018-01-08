@@ -742,11 +742,11 @@ The drum dataset was compiled to address better the rhythmic goals of this thesi
 	\label{fig:drum_tree}
 \end{figure}
 
-For our classification and feature evaluation experiments we compared the performance of the various feature configurations on 3 distinct classifiers. We have relied on the availability of those available with "black-box" functionality in the scikit-learn \citep{Pedregosa2012} library for Python, and apart from some minor adjustment of high-level parameters we have not gone too deep into their inner workings.
+For our classification and feature evaluation experiments we compared the performance of the various feature configurations on 3 distinct classifiers. We have relied on the availability of those available with "black-box" functionality in the scikit-learn library for Python \citep{Pedregosa2012}, and apart from some minor adjustment of high-level parameters we have not gone too deep into their inner workings.
 
 \paragraph{Nearest Neighbours (\textit{k}NN)}
 
-For any experiments involving supervised learning and classification of labelled observations, the \acrfull{knn} classifier should ideally be the first considered. \textit{k}NN invokes a voting based system where $k$ is the number of neighbouring instances that decide which class a new observation belongs to based on some distance metric. \textit{k}NN is attractive due to its conceptual simplicity, and has delivered favourable results in many timbre classification applications \citep{Herrera2002, Herrera2003, Herrera-Boyer2003, Mandel2005, Wang2006, Somerville2008}. Unfortunately it is a lazy form of learning, meaning all computation needs to be carried out when a new observation needs to be classified, thus it might not scale sufficiently depending on the problem application. In our evaluation we choose $k=1$ after  experimenting with $k=3,5$ and not achieving better accuracy.
+For any experiments involving supervised learning and classification of labelled observations, the \acrfull{knn} classifier should ideally be the first considered. \textit{k}NN invokes a voting based system where $k$ is the number of neighbouring instances that decide which class a new observation belongs to based on some distance metric. \textit{k}NN is attractive due to its conceptual simplicity, and has delivered favourable results in many timbre classification applications \citep{Herrera2002, Herrera2003, Herrera-Boyer2003, Cano2004, Cano2005, Mandel2005, Wang2006, Somerville2008}. Unfortunately it is a lazy form of learning, meaning all computation needs to be carried out when a new observation needs to be classified, thus it might not scale sufficiently depending on the problem application. In our evaluation we choose $k=1$ after  experimenting with $k=3,5$ and not achieving better accuracy.
 
 \begin{figure}
 	\begin{center}
@@ -758,11 +758,11 @@ For any experiments involving supervised learning and classification of labelled
 
 \paragraph{Support Vector Machines} 
 
-\acrfull{svm}s as a classification mechanism and in comparison to nearest neighbours methods are significantly more complex in their conception. In a nutshell, an SVM algorithm will try to find an idealised hyperplane that separates instances into multiclasses in multidimensional space \citep{Chang2008}. At lower dimensionality, linear separation is not always possible, so a ``kernel function'' is used to artificially transform the problem set to higher dimensionality for easier separation between the classes \citep{Xu2003}. Luckily the availability of libraries such as LibSVM \citep{Chang2011} (also integrated into scikit-learn) means this algorithm can be easily incorporated into classification experiments. SVM have been used successfully in classification of Western and Chinese classical instruments \citep{Liu2010a}, drum sounds \citep{Herrera2002, Herrera2003} as well as general instrument and timbre classification \citep{Herrera-Boyer2003, Krey2010, Agostini2003, Deng2008}.
+\acrfull{svm}s as a classification mechanism and in comparison to nearest neighbours methods are significantly more complex in their conception. In a nutshell, an SVM algorithm will try to find an idealised hyperplane that separates instances into multiclasses in multidimensional space that is more complex - with `added' dimensions - than the original one \citep{Chang2008}. At lower dimensionality, linear separation is not always possible, so a ``kernel function'' is used to artificially transform the problem set to higher dimensionality for easier separation between the classes \citep{Xu2003}. Luckily the availability of libraries such as LibSVM \citep{Chang2011} (also integrated into scikit-learn) means this algorithm can be easily incorporated into classification experiments. SVM have been used successfully in classification of Western and Chinese classical instruments \citep{Liu2010a}, drum sounds \citep{Herrera2002, Herrera2003} as well as general instrument and timbre classification \citep{Herrera-Boyer2003, Krey2010, Agostini2003, Deng2008}.
 
 \paragraph{Artificial Neural Networks}
 
-An \acrfull{ann} mimics the pattern recognition capabilities of the human brain, specifically through the use of the multilayer perceptron. Multiple layers of digital neurons - \acrshort{tlu}s that ``fire'' a value when a weighted sum of the inputs exceed a threshold value - are arranged in a fully-connected, feedforward (generally cycles aren't used) architecture \citep{Russell2002}. They can be trained to learn from example through the use of ``back-propagation'', a procedure that determines the error and distributes the blame back through the network so the weights can be adjusted to finally settle on minimal error \citep{Gurney1996}.
+An \acrfull{ann} is inspired by the pattern recognition capabilities of the human brain, specifically through the use of the multilayer perceptron. Multiple layers of digital neurons - \acrfull{tlu}s that ``fire'' a value when a weighted sum of the inputs exceed a threshold value - are arranged in a fully-connected, feedforward (generally cycles aren't used) architecture \citep{Russell2002}. They can be trained to learn from example through the use of ``back-propagation'', a procedure that determines the error and distributes the blame back through the network so the weights can be adjusted to finally settle on minimal error \citep{Gurney1996}.
 
 {\renewcommand{\arraystretch}{1.5}
 \begin{table} 
@@ -786,7 +786,7 @@ Spectral (4) & flatness.mean (1), flatness.var (1)\\
 	\par \end{centering} 
 \end{table}
 
-\figref{fig:neural_net} shows an example topology of a network trained with 3 hidden layers of 8 perceptron units for each of the 8 features chosen from the temporal and spectral feature classes (mean and variance for loudness, log-attack time, spectral centroid and flatness). Artificial neural networks are sensitive to feature scaling and disparate ranges, thus we standardised each feature for mean centred at $\mu=0$ and standard deviation at $\sigma=1$. 
+\figref{fig:neural_net} shows an example topology of a network trained with 3 hidden layers of 8 perceptron units for each of the 8 features chosen from the temporal and spectral feature classes (mean and variance for loudness, log-attack time, spectral centroid and flatness). Artificial neural networks are particularly sensitive to feature scaling and disparate ranges, thus we standardised each feature for mean centred at $\mu=0$ and standard deviation at $\sigma=1$ \footnote{The other classifiers used are Min-max normalised.}.
 
 \subsubsection{Results}
 
@@ -823,7 +823,7 @@ MFCC+Temporal+Spectral & 0.89 (+/- 0.02) & 0.93 (+/- 0.03) & 0.93 (+/- 0.03) \\
 	\par \end{centering} 
 \end{table}
 
-\tabref{tab:drum_classification} shows the accuracy results for each classifier applied to the various configurations of descriptors when run on the drum dataset. \acrshort{knn} returned the highest classification accuracy once again with the whole collection of features using \acrshort{gfcc} cepstral analysis.
+\tabref{tab:drum_classification} shows the accuracy results for each classifier applied to the various configurations of descriptors when run on the drum dataset. \acrshort{knn} returned the highest classification accuracy with, once again, the whole collection of features using \acrshort{gfcc} cepstral analysis.
 
 {\renewcommand{\arraystretch}{1.5}
 \begin{table} 

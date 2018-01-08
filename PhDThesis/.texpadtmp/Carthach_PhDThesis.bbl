@@ -1,4 +1,4 @@
-\begin{thebibliography}{451}
+\begin{thebibliography}{453}
 \providecommand{\natexlab}[1]{#1}
 
 \bibitem[{Abdulla(2002)}]{Abdulla2002}
@@ -156,11 +156,12 @@ Battier, M. (2007).
   acousmatic music}.
 \newblock \emph{Organised Sound}, \emph{12}(03), 189--202.
 
-\bibitem[{Bello \& Daudet(2005)}]{Bello2005}
-Bello, J. \& Daudet, L. (2005).
-\newblock {A tutorial on onset detection in music signals}.
-\newblock \emph{IEEE Transactions on Audio, Speech, and Language Processing},
-  \emph{13}(5), 1035--1047.
+\bibitem[{Bello et~al.(2005)Bello, Daudet, Abdallah, Duxbury, Davies, Sandler,
+  \& Member}]{Bello2005}
+Bello, J.~P., Daudet, L., Abdallah, S., Duxbury, C., Davies, M., Sandler,
+  M.~B., \& Member, S. (2005).
+\newblock {A Tutorial on Onset Detection in Music Signals}.
+\newblock \emph{13}(5), 1035--1047.
 
 \bibitem[{Bello et~al.(2004)Bello, Duxbury, Davies, \& Sandler}]{Bello2004}
 Bello, J.~P., Duxbury, C., Davies, M., \& Sandler, M. (2004).
@@ -273,13 +274,13 @@ B{\"{o}}ck, S., Krebs, F., \& Schedl, M. (2012).
 \bibitem[{B{\"{o}}ck \& Widmer(2013)}]{Bock2013}
 B{\"{o}}ck, S. \& Widmer, G. (2013).
 \newblock {Maximum filter vibrato suppression for onset detection}.
-\newblock \emph{Proc. of the 16th Int. Conference on Digital Audio Effects},
-  pp. 1--7.
+\newblock \emph{Proc. of the 16th Int. Conf. on Digital Audio {\ldots}}, pp.
+  1--7.
 
 \bibitem[{Boden(1998)}]{Boden1998}
 Boden, M.~A. (1998).
 \newblock {Creativity and artificial intelligence}.
-\newblock \emph{Artificial Intelligence}, \emph{103}(1), 347--356.
+\newblock \emph{Artificial Intelligence}, \emph{103}(1-2), 347--356.
 
 \bibitem[{Boden(2009)}]{Boden2009}
 Boden, M.~A. (2009).
@@ -344,9 +345,7 @@ Brooks, F., Hopkins, A., Neumann, P., \& Wright, W. (1993).
 
 \bibitem[{Brossier(2006)}]{Brossier2006}
 Brossier, P. (2006).
-\newblock \emph{{Automatic annotation of musical audio for interactive
-  applications}}.
-\newblock Ph.D. thesis, Queen Mary, University of London.
+\newblock {Automatic annotation of musical audio for interactive applications}.
 
 \bibitem[{Brossier et~al.(2004)Brossier, Bello, \& Plumbley}]{Brossier2004a}
 Brossier, P., Bello, J.~P., \& Plumbley, M.~D. (2004).
@@ -387,6 +386,21 @@ Campbell, P.~S. (1997).
 \newblock {Music, the universal language: fact or fallacy?}
 \newblock \emph{International Journal of Music Education}, \emph{os-29}(1),
   32--39.
+
+\bibitem[{Cano \& Koppenberger(2004)}]{Cano2004}
+Cano, P. \& Koppenberger, M. (2004).
+\newblock {Automatic sound annotation}.
+\newblock In \emph{Proceedings of the 2004 14th IEEE Signal Processing Society
+  Workshop Machine Learning for Signal Processing, 2004.}, pp. 391--400.
+
+\bibitem[{Cano et~al.(2005)Cano, Koppenberger, {Le Groux}, Ricard, Wack, \&
+  Herrera}]{Cano2005}
+Cano, P., Koppenberger, M., {Le Groux}, S., Ricard, J., Wack, N., \& Herrera,
+  P. (2005).
+\newblock {Nearest-neighbor automatic sound annotation with a WordNet
+  taxonomy}.
+\newblock \emph{Journal of Intelligent Information Systems}, \emph{24}(2-3),
+  99--111.
 
 \bibitem[{Cardle et~al.(2003)Cardle, Brooks, \& Robinson}]{Cardle2003}
 Cardle, M., Brooks, S., \& Robinson, P. (2003).
@@ -689,8 +703,7 @@ Dupont, S., Ravet, T., Picard-Limpens, C., \& Frisson, C. (2013).
 \bibitem[{Duxbury et~al.(2002)Duxbury, Sandler, \& Davies}]{Duxbury2002}
 Duxbury, C., Sandler, M., \& Davies, M. (2002).
 \newblock {A hybrid approach to musical note onset detection}.
-\newblock \emph{5th Int. Conference on Digital Audio Effects (DAFx-02),
-  Hamburg, Germany}, (November 2002), 33--38.
+\newblock In \emph{Computer}, pp. 33--38.
 
 \bibitem[{Eigenfeldt(2006)}]{Eigenfeldt2006a}
 Eigenfeldt, A. (2006).
@@ -751,12 +764,11 @@ Ellis, D. P.~W. (2009).
 Essl, K. (1992).
 \newblock {Real Time Composition Library (RTC-lib)}.
 
-\bibitem[{Eyben et~al.(2010)Eyben, B{\"{o}}ck, Schuller, \& Graves}]{Eyben2010}
-Eyben, F., B{\"{o}}ck, S., Schuller, B., \& Graves, A. (2010).
-\newblock {Universal Onset Detection with Bidirectional Long-Short Term Memory
-  Neural Networks}.
-\newblock In \emph{International Society for Music Information Retrieval
-  Conference}, pp. 589--594. Utrecht, Netherlands.
+\bibitem[{Eyben et~al.(2010)Eyben, Sebastian, \& Graves}]{Eyben2010}
+Eyben, F., Sebastian, B., \& Graves, A. (2010).
+\newblock {UNIVERSAL ONSET DETECTION WITH BIDIRECTIONAL LONG SHORT-TERM MEMORY
+  NEURAL NETWORKS}.
+\newblock (Ismir), 589--594.
 
 \bibitem[{Faraldo et~al.(2016)Faraldo, G{\'{o}}mez, Jord{\`{a}}, \&
   Herrera}]{Faraldo2016}
@@ -920,7 +932,8 @@ Gillet, O. \& Ga{\"{e}}l, R. (2006).
 Glover, J., Lazzarini, V., \& Timoney, J. (2011).
 \newblock {Real-time detection of musical onsets with linear prediction and
   sinusoidal modeling}.
-\newblock \emph{EURASIP Journal on Advances in {\ldots}}, \emph{2011}(1), 68.
+\newblock \emph{EURASIP Journal on Advances in Signal Processing},
+  \emph{2011}(1), 68.
 
 \bibitem[{Goldberg(1989)}]{Goldberg1989}
 Goldberg, D.~E. (1989).
@@ -1199,11 +1212,10 @@ Hoskinson, R. \& Pai, D.~K. (2007).
   \emph{16}(1), 84--99.
 
 \bibitem[{Hove et~al.(2014)Hove, Marie, Bruce, \& Trainor}]{Hove2014}
-Hove, M.~J., Marie, C., Bruce, I.~C., \& Trainor, L.~J. (2014).
+Hove, M., Marie, C., Bruce, I., \& Trainor, L. (2014).
 \newblock {Superior time perception for lower musical pitch explains why
-  bass-ranged instruments lay down musical rhythms}.
-\newblock \emph{Proceedings of the National Academy of Sciences},
-  \emph{111}(28), 10383--10388.
+  bass-ranged instruments lay down musical rhythms.}
+\newblock \emph{Proc Natl Acad Sci U S A}, \emph{111}, 10383 -- 8.
 
 \bibitem[{Hsu \& Sosnick(2009)}]{Hsu2009}
 Hsu, W. \& Sosnick, M. (2009).
@@ -2205,9 +2217,7 @@ Schwarz, D. (2003).
 
 \bibitem[{Schwarz(2005)}]{Schwarz2005}
 Schwarz, D. (2005).
-\newblock {Current Research In Concatenative Sound Synthesis}.
-\newblock In \emph{Proceedings of the International Computer Music Conference},
-  pp. 9--12.
+\newblock {Corpus-Based Sound Synthesis Survey}.
 
 \bibitem[{Schwarz(2006)}]{Schwarz2006b}
 Schwarz, D. (2006).

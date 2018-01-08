@@ -3,8 +3,8 @@
 % What version of the document are you compiling
 %\def\DRAFTMODE{}   % Uncomment if generating the draft version
 %\def\PRINTVER{}    % Uncomment if generating the final BOOK (print) version (The differences are in 1) Colors of hyperlinks, 2) Bleeds, 3) Trim marks + Size) 4) BnW figures
-\def\PRINTVERLINK{}    % Uncomment if generating the final BOOK (print) version (The differences are in 1) Colors of hyperlinks, 2) Bleeds, 3) Trim marks + Size)\textbf{}
-%\def\WithoutTrimOnline{}
+%\def\PRINTVERLINK{}    % Uncomment if generating the final BOOK (print) version (The differences are in 1) Colors of hyperlinks, 2) Bleeds, 3) Trim marks + Size)\textbf{}
+\def\WithoutTrimOnline{}
 % If both the commands are comments it generates a final PDF version to be distributted electronically.
 
 %% Useful packages
@@ -165,8 +165,8 @@ pdfkeywords=Melody~Motifs~Patterns~Raga~Phrases~Indian~art~music~Hindustani~Carn
 \ifdefined\PRINTVERLINK
 \hypersetup{citecolor=black,linkcolor=black,urlcolor=black}
 \else
-%\hypersetup{citecolor=CiteColor,linkcolor=LinkColor,urlcolor=ExtLinkColor}
-\hypersetup{citecolor=black,linkcolor=black,urlcolor=black}
+\hypersetup{citecolor=CiteColor,linkcolor=LinkColor,urlcolor=ExtLinkColor}
+%\hypersetup{citecolor=black,linkcolor=black,urlcolor=black}
 \fi
 
 %% Format UPF, dues cares. Recordeu que les dimensions d'A4 i B5 son (210mm,297mm) i (176mm,250mm), respectivament.
