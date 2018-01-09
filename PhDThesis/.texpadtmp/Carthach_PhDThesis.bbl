@@ -156,12 +156,11 @@ Battier, M. (2007).
   acousmatic music}.
 \newblock \emph{Organised Sound}, \emph{12}(03), 189--202.
 
-\bibitem[{Bello et~al.(2005)Bello, Daudet, Abdallah, Duxbury, Davies, Sandler,
-  \& Member}]{Bello2005}
-Bello, J.~P., Daudet, L., Abdallah, S., Duxbury, C., Davies, M., Sandler,
-  M.~B., \& Member, S. (2005).
-\newblock {A Tutorial on Onset Detection in Music Signals}.
-\newblock \emph{13}(5), 1035--1047.
+\bibitem[{Bello \& Daudet(2005)}]{Bello2005}
+Bello, J. \& Daudet, L. (2005).
+\newblock {A tutorial on onset detection in music signals}.
+\newblock \emph{IEEE Transactions on Audio, Speech, and Language Processing},
+  \emph{13}(5), 1035--1047.
 
 \bibitem[{Bello et~al.(2004)Bello, Duxbury, Davies, \& Sandler}]{Bello2004}
 Bello, J.~P., Duxbury, C., Davies, M., \& Sandler, M. (2004).
@@ -274,8 +273,8 @@ B{\"{o}}ck, S., Krebs, F., \& Schedl, M. (2012).
 \bibitem[{B{\"{o}}ck \& Widmer(2013)}]{Bock2013}
 B{\"{o}}ck, S. \& Widmer, G. (2013).
 \newblock {Maximum filter vibrato suppression for onset detection}.
-\newblock \emph{Proc. of the 16th Int. Conf. on Digital Audio {\ldots}}, pp.
-  1--7.
+\newblock \emph{Proc. of the 16th Int. Conference on Digital Audio Effects},
+  pp. 1--7.
 
 \bibitem[{Boden(1998)}]{Boden1998}
 Boden, M.~A. (1998).
@@ -345,7 +344,9 @@ Brooks, F., Hopkins, A., Neumann, P., \& Wright, W. (1993).
 
 \bibitem[{Brossier(2006)}]{Brossier2006}
 Brossier, P. (2006).
-\newblock {Automatic annotation of musical audio for interactive applications}.
+\newblock \emph{{Automatic annotation of musical audio for interactive
+  applications}}.
+\newblock Ph.D. thesis, Queen Mary, University of London.
 
 \bibitem[{Brossier et~al.(2004)Brossier, Bello, \& Plumbley}]{Brossier2004a}
 Brossier, P., Bello, J.~P., \& Plumbley, M.~D. (2004).
@@ -703,7 +704,8 @@ Dupont, S., Ravet, T., Picard-Limpens, C., \& Frisson, C. (2013).
 \bibitem[{Duxbury et~al.(2002)Duxbury, Sandler, \& Davies}]{Duxbury2002}
 Duxbury, C., Sandler, M., \& Davies, M. (2002).
 \newblock {A hybrid approach to musical note onset detection}.
-\newblock In \emph{Computer}, pp. 33--38.
+\newblock \emph{5th Int. Conference on Digital Audio Effects (DAFx-02),
+  Hamburg, Germany}, (November 2002), 33--38.
 
 \bibitem[{Eigenfeldt(2006)}]{Eigenfeldt2006a}
 Eigenfeldt, A. (2006).
@@ -764,11 +766,12 @@ Ellis, D. P.~W. (2009).
 Essl, K. (1992).
 \newblock {Real Time Composition Library (RTC-lib)}.
 
-\bibitem[{Eyben et~al.(2010)Eyben, Sebastian, \& Graves}]{Eyben2010}
-Eyben, F., Sebastian, B., \& Graves, A. (2010).
-\newblock {UNIVERSAL ONSET DETECTION WITH BIDIRECTIONAL LONG SHORT-TERM MEMORY
-  NEURAL NETWORKS}.
-\newblock (Ismir), 589--594.
+\bibitem[{Eyben et~al.(2010)Eyben, B{\"{o}}ck, Schuller, \& Graves}]{Eyben2010}
+Eyben, F., B{\"{o}}ck, S., Schuller, B., \& Graves, A. (2010).
+\newblock {Universal Onset Detection with Bidirectional Long-Short Term Memory
+  Neural Networks}.
+\newblock In \emph{International Society for Music Information Retrieval
+  Conference}, pp. 589--594. Utrecht, Netherlands.
 
 \bibitem[{Faraldo et~al.(2016)Faraldo, G{\'{o}}mez, Jord{\`{a}}, \&
   Herrera}]{Faraldo2016}
@@ -1212,10 +1215,11 @@ Hoskinson, R. \& Pai, D.~K. (2007).
   \emph{16}(1), 84--99.
 
 \bibitem[{Hove et~al.(2014)Hove, Marie, Bruce, \& Trainor}]{Hove2014}
-Hove, M., Marie, C., Bruce, I., \& Trainor, L. (2014).
+Hove, M.~J., Marie, C., Bruce, I.~C., \& Trainor, L.~J. (2014).
 \newblock {Superior time perception for lower musical pitch explains why
-  bass-ranged instruments lay down musical rhythms.}
-\newblock \emph{Proc Natl Acad Sci U S A}, \emph{111}, 10383 -- 8.
+  bass-ranged instruments lay down musical rhythms}.
+\newblock \emph{Proceedings of the National Academy of Sciences},
+  \emph{111}(28), 10383--10388.
 
 \bibitem[{Hsu \& Sosnick(2009)}]{Hsu2009}
 Hsu, W. \& Sosnick, M. (2009).
@@ -2217,7 +2221,9 @@ Schwarz, D. (2003).
 
 \bibitem[{Schwarz(2005)}]{Schwarz2005}
 Schwarz, D. (2005).
-\newblock {Corpus-Based Sound Synthesis Survey}.
+\newblock {Current Research In Concatenative Sound Synthesis}.
+\newblock In \emph{Proceedings of the International Computer Music Conference},
+  pp. 9--12.
 
 \bibitem[{Schwarz(2006)}]{Schwarz2006b}
 Schwarz, D. (2006).

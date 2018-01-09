@@ -109,11 +109,11 @@
 \contentsline {paragraph}{Nearest Neighbours (\textit {k}NN)}{104}{section*.84}
 \contentsline {paragraph}{Support Vector Machines}{105}{section*.86}
 \contentsline {paragraph}{Artificial Neural Networks}{106}{section*.87}
-\contentsline {subsubsection}{\numberline {5.3.4.2}Results}{106}{subsubsection.5.3.4.2}
+\contentsline {subsubsection}{\numberline {5.3.4.2}Results}{107}{subsubsection.5.3.4.2}
 \contentsline {section}{\numberline {5.4}Combining Sounds Algorithmically - Unit Selection}{109}{section.5.4}
 \contentsline {subsection}{\numberline {5.4.1}Linear Search}{110}{subsection.5.4.1}
 \contentsline {subsubsection}{\numberline {5.4.1.1}Faster Search with \textit {k}-D Trees}{110}{subsubsection.5.4.1.1}
-\contentsline {subsection}{\numberline {5.4.2}Unit Selection with Viterbi Decoding of Hidden Markov Models}{111}{subsection.5.4.2}
+\contentsline {subsection}{\numberline {5.4.2}Unit Selection with Viterbi Decoding of Hidden Markov Models}{112}{subsection.5.4.2}
 \contentsline {subsection}{\numberline {5.4.3}Constraint Satisfaction}{112}{subsection.5.4.3}
 \contentsline {section}{\numberline {5.5}Extensions to Hidden Markov Model-Based Unit Selection}{113}{section.5.5}
 \contentsline {subsection}{\numberline {5.5.1}Hidden Markov Models}{113}{subsection.5.5.1}
@@ -123,8 +123,8 @@
 \contentsline {subsection}{\numberline {5.5.5}Exploring Alternatives in HMMs}{118}{subsection.5.5.5}
 \contentsline {subsubsection}{\numberline {5.5.5.1}Parallel Decoder}{118}{subsubsection.5.5.5.1}
 \contentsline {subsubsection}{\numberline {5.5.5.2}Serial Decoder}{119}{subsubsection.5.5.5.2}
-\contentsline {subsubsection}{\numberline {5.5.5.3}\textit {k}-Shortest Paths}{119}{subsubsection.5.5.5.3}
-\contentsline {subsubsection}{\numberline {5.5.5.4}\textit {k}-Best Viterbi Decoding}{121}{subsubsection.5.5.5.4}
+\contentsline {subsubsection}{\numberline {5.5.5.3}\textit {k}-Shortest Paths}{120}{subsubsection.5.5.5.3}
+\contentsline {subsubsection}{\numberline {5.5.5.4}\textit {k}-Best Viterbi Decoding}{122}{subsubsection.5.5.5.4}
 \contentsline {section}{\numberline {5.6}Developing a \textit {k}-Best Concatenative Synthesiser}{122}{section.5.6}
 \contentsline {section}{\numberline {5.7}PyConcat - Python Framework for Concatenative Synthesis}{123}{section.5.7}
 \contentsline {subsection}{\numberline {5.7.1}Onset Detection and Segmentation}{123}{subsection.5.7.1}
