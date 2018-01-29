@@ -2,6 +2,18 @@
 \chapter{State of the Art in Sampling-Based Composition}
 \label{chap:sota}
 
+\blockquote{``\textit{It's not where you take things from, it's where you take them to}''}
+
+\begin{flushright}
+(Jean-Luc Godard)
+\end{flushright}
+
+\blockquote{\textit{``Rip it up and start again.''\footnote{Also the title of another Simon Reynolds book on music culture, this time charting the rise of postpunk from 1978-1984 \citep{reynolds2009rip}}}}
+
+\begin{flushright}
+(Edwyn Collins with Orange Juice)
+\end{flushright}
+
 As we move away from the symbolic leanings of the previous chapter and head towards audio content-based approaches to music generation, we pause once again from the deeper technical discourse to establish some context, both artistic and historic, before before providing a thorough definition of a concatenative synthesis - a form of synthesis that is rooted deeply in audio sampling - and its key works from the literature and community.
 
 I use the term ``audio content-based'' here interchangeably here with sampling for good reason. The term actually stems from \acrshort{mir} parlance, used to dermarcate research that deals  directly with audio data and signals from those that analyse notated information and metadata \citep{Veltkamp2008, Casey2008a}. It also enforces the idea that we are working with elements extracted from found and realised objects and artefacts, which we will soon discover has a long and illustrious history as a creative aesthetic.  
@@ -16,7 +28,7 @@ In the visual arts, reusing or adapting existing material is most immediately un
 	\begin{center}
 		\includegraphics[width=0.9\textwidth]{ch04_sota/figures/picasso.png}
 	\end{center}
-	\caption[Cross-referential Cubist Works by Picasso and Braque]{Cross-referential Cubist Works by Picasso and Braque.}
+	\caption[Cross-Referential Cubist Works by Picasso and Braque]{Cross-referential Cubist works by Picasso and Braque.}
 	\label{fig:picasso}
 \end{figure}
 \subsection{Musique Concrète and Elektronische Musik}
@@ -41,7 +53,7 @@ I have used granular synthesis (\figref{fig:wolfcastle}) frequently in my own mu
 	\begin{center}
 		\includegraphics[width=1.0\textwidth]{ch04_sota/figures/wolfecastle.png}
 	\end{center}
-	\caption[Screenshot of my four-channel granular synthesiser for Max]{Screenshot of my four-channel granular synthesiser for Max\footnote{\url{https://github.com/carthach/Wolfcastle}}}
+	\caption[Screenshot of My Four-Channel Granular Synthesiser for Max]{Screenshot of my four-channel granular synthesiser for Max\footnote{\url{https://github.com/carthach/Wolfcastle}}}
 	\label{fig:wolfcastle}
 \end{figure}
 
@@ -56,8 +68,6 @@ Hip-hop producers quickly latched onto the possibilities of these new tools. Art
 As was also identified in \chapref{chap:dancemusic}, the influence of hip-hop production would later inform the sample-heavy arrangements of jungle and drum and bass, in particular with its exhaustive re-rendering of the infamous ``Amen Break'' and James Brown's ``Funky Drummer''. In fact these breaks had already been dissected previously in hip-hop, long before UK producers got their digital surgical scalpels to them. The Amen Break appears on NWA's landmark gangster rap album \textit{Straight Outta Compton} and James Brown's ``Funky Drummer'' shows up on tracks by Run DMC and LL Cool J \citep{Frane2017}, leading \cite{Oliver2015} to observe that ``it is [Funky Drummer] sampled and recontextualized so extensively as to achieve near ubiquity in a wide range of popular music genres''.
 
 Jungle and drum `n' bass was dealt with sufficiently in \chapref{chap:dancemusic} so it is hopefully not necessary to restate its relevance and impact on sample-based composition here. It is prudent to point out though that, since we are edging towards computational models and processes that automate audio content-based composition, that there is already a strong body of work that specifically addresses computational aspects of breakbeat analysis and its sequent generative synthesis. Nick Collins for example, has dedicated much of his academic dissemination to algorithms that can replicate the distinctive stuttering and glitching tropes that pervade in jungle, drum \& bass and post jungle emergent styles like breakcore \citep{Collins2001, Collins2002, Collins2006a}. Hockman has also devoted significant output to \acrshort{mir}-oriented analysis of timbral and rhythmic aspects unique to these styles \citep{Hockman2007, Hockman2012, Hockman2015}.
-
-\pagebreak
 
 \subsection{Plunderphonics and Metamusic}
 
@@ -108,13 +118,16 @@ Formulating the problem in terms of a \acrshort{hmm} enables us to capture two i
 	\begin{center}
 		\includegraphics[width=0.6\textwidth]{ch04_sota/figures/costs.png}
 	\end{center}
-	\caption[Target  and concatenation costs in a text-to-speech Hidden Markov Model compared]{Target ($C^{t}$) and concatenation ($C^{c}$) costs in a \acrshort{tts} \acrshort{hmm} compared.}
+	\caption[Target and Concatenation Costs in a Text-To-Speech HMM Compared]{Target ($C^{t}$) and concatenation ($C^{c}$) costs in a \acrshort{tts} \acrshort{hmm} compared.}
 	\label{fig:target_concat_costs}
 \end{figure}
 
 \subsection{Musical Concatenative Synthesis}
+\label{sec:zilsone}
  
 Schwarz directly applied Hunt’s HMM approach for musical purposes in his Caterpillar \citep{Schwarz2003}. He notes, however, that the HMM approach can be quite rigid for musical purposes since it produces one single optimised sequence without the ability to manipulate the individual units. To address these limitations, he reformulates the task into a constraint satisfaction problem which offers more flexibilities for interaction. A constraint satisfaction problem models a problem as a set of variables, values and a set of constraints that allows us to identify which combinations of variables and values are violations of those constraints, thus allowing us to quickly reduce large portions of the search space \citep{Russell2002}. 
+
+
 
 Constraint satisfaction for concatenative synthesis was first introduced previously by \cite{Zils2001}, in what they describe as musical mosaicking or, to use their portmanteau, musaicing. They define two categories of constraints: segment constraints and sequence constraints. Segment constraints control aspects of individual units (much like the target cost in a \acrshort{hmm}-like system) based on their descriptor values. Sequence constraints apply globally, and affect aspects of time, continuity and overall distributions of units. The constraints can be applied manually by the user, or learned by modelling a target. The musically tailored “Adaptive Search” algorithm performs a heuristic search to minimise the total global cost generated by the constraint problem. One immediate advantage of this approach over the HMM is the ability to run the algorithm several times to generate alternative sequences, whereas the Viterbi process always outputs the most optimal solution.
 
@@ -136,7 +149,7 @@ As concatenative synthesis methods matured, user modalities of interaction and c
    \label{fig:eargram}
 \end{subfigure}
 
-\caption[CataRT and Eargram]{(a) CataRT User Interface (Image from IRCAM), (b) earGram User Interface (Image from  SMC INESCTEC), both showing a clear realisation of an explorable 2D timbre space.}
+\caption[CataRT and Eargram Interfaces]{(a) CataRT \acrshort{gui} (Image from IRCAM), (b) earGram User Interface (Image from  SMC INESCTEC), both showing a clear realisation of an explorable 2D timbre space.}
 \end{figure}
 
 Bernardes takes inspiration from CataRT and also from Tristan Jehan’s Skeleton \citep{Jehan2005} to build his EarGram system for the Pure Data environment \citep{Bernardes2013}. Built on top of William Brent’s excellent feature extraction library timbreID \citep{Brent2010}, it adds a host of interesting features for visualisation and classification.  For instance, as well as the familiar waveform representation and previously described 2D timbre representation (\figref{fig:eargram}) (with various clustering modes and dimensionality reduction implementations), there are similarity matrices that show the temporal relations in the corpus over time. Some unique playback and sequencing modes also exist, such as the infiniteMode, which generates endless playback of sequences, and the soundscapeMap, which features an additional 2D control of parameters pertaining to sound scene design. Another system that adapts a 2D timbre space is Christian Frisson’s AudioGarden \citep{Frisson2010}, which offers two unique mapping procedures. The first of which, “Disc” mode, places units by assigning the length of the audio file to the radius of the unit from the centre, with the angle of rotation corresponding to a principal component of timbre (\acrshort{mfcc}s).  In the other Flower mode, a point of the sound is positioned in the space according to the average \acrshort{mfcc} coefficients of the entire sound file. Segments of the particular sound are arranged in chronological fashion around this centre point.
@@ -168,11 +181,43 @@ Commercial implementations also exist for concatenative synthesis. Of particular
 
 There are many other concatenative systems that are too numerous to discuss in detail here. \tabref{tab:concat_system_summary} compiles a summary of all the systems we came across in our research, with remarks on interaction and visualisation features, support for rhythm, and whether any user evaluation was carried out.
 
+\subsection{Future Directions - Mixing and Source Separation}
+
+Most concatenative synthesis systems we have studied (including those techniques we propose) tend to consider the concatenation process in purely horizontal and temporally inclined terms.  Naturally, it is pertinent to question whether the same process can be accomplished systematically in the vertical dimension characterised by the frequency spectrum. Or, in more simpler terms - can we stack units on top of each other systematically in addition to chaining them in sequence? While not the focus of this thesis (but certainly a promising avenue for further study), we briefly summarise relevant topics of interest and  techniques that are or can be used.
+
+\subsubsection{Vertical Selection with Mixture Models}
+
+\cite{Hoffman2009} have outlined a system that seeks to recreate the target \textit{spectrum} by, as Coleman describes it \citeyearpar{Coleman2010}, \textit{superimposing} (using convolution) a series of spectra from a corpus. To reduce the complexity associated with high dimensionality, a search space reduction with a \acrfull{mcmc} is applied. 
+
+In a version of AudioGuide by Hackbarth \citep{Hackbarth2013}, they also outline the system's facility for enabling ``layered sounds'' and ``vertically stratified complexes'' based on formulas \citep{Tardieu2008}  developed for a prior system in the OpenMusic environment called Orchidée or Automatic Orchestration Tool \citep{Carpentier2010}. The goal of their work is to transfer some of the principles of traditional orchestration (combining and arranging for instruments to create desired blends of timbre) to the realm of computer music by allowing prediction of mixtures as well as concatenations to match a target specification of a sound.
+
+Hackbarth \citep{Hackbarth2010} describes the derived ``Subtractive Spectral Algorithm'' for superimposition. When an appropriate unit is selected from the corpus as a candidate match for the target, its time-varying Mel-amplitudes are subtracted from  the target sound and a `residual' target spectrum remains. The unit selection procedure is performed repeatedly until it halts when the residual target spectrum energy falls below a certain threshold. The resulting units are then mixed together additively. A visual depiction of this over several mixtures can be seen in \figref{fig:spectrum_subtraction}. Clearly the algorithm tends towards selection of louder units initially, with gradually softer ones emerging as the subtracted target energy diminishes. 
+
+\cite{Coleman2015} invokes the term ``mixtures'' to describe concatenative synthesis problems where the corpus might not have all the features to effectively simulate a target, but a carefully selected combination of them might. He uses the analogy of several single notes combining to form a chord, except the synthesis engine would use a weighted combination of superimposed frames mixed together.
+
+\begin{figure}
+	\begin{center}
+		\includegraphics[width=0.75\textwidth]{ch05_pyconcat/figures/spectrum_subtraction}
+	\end{center}
+	\caption[Spectral Subtraction Algorithm in AudioGuide]{Visual depiction of spectral subtraction algorithm in AudioGuide. Image from \cite{Hackbarth2010}.}
+	\label{fig:spectrum_subtraction}
+\end{figure} 
+
+\subsubsection{Vertical Segmentation with Source Separation}
+
+We shall note in \secref{sec:yin}, in the case of the missing fundamental frequency, our auditory system is remarkable in its processing ability and inference engine. More remarkably,  perhaps, is its innate capacity for on the fly separation of real-time audio signals at will, or to give it its technical term, blind source separation. In pyschoacoustic auditory scene analysis research \citep{Bregman1994}, source separation is illustrated usually in terms of the ``Cocktail Party Effect'': how is a human, at a social event, able to separate voices from background noise and home in on particular conversations? In musical source separation this is even more elusive - consider picking out individual instruments in an orchestral passage, especially when, as \cite{Miron2017a} stresses, sources are likely to be correlated in time and frequency. Computational auditory scene analysis seeks to replicate this extraordinary human processing ability through digital signal processing means \citep{Wang2006}.
+
+Initial efforts in computational source separation often involved matrix decomposition methods such as non-negative matrix factorisation, as demonstrated in the work of 
+\cite{Fitz2004}. Fitzgerald's initial focus was on automatic drum transcription via source separation but later gained wider recognition with some some successful demixing and upmixing from mono to stereo of recovered archive Beach Boys recordings \citep{Fitz2004}. More recent state of the art approaches are once again successfully exploiting deep learning methods trained on large sets of musical data in genres like Western classical \citep{Miron2017a, Miron2017}.
+
+Just as a concatenative synthesis system will use onset detection to split larger sound files into smaller units along the time domain, source separation opens up the possibility of theoretically segmenting complex sounds in the frequency domain according to instrument, or more accurately, \textit{streams} that hopefully contain related instruments (all depending of course on the material to be separated and the models upon which the system has been trained).
+
+We envisage this as particularly useful in concatenative synthesis of drum rhythms. Perhaps a producer might want to decompose a number of kits into their constituent parts and mix and match with sounds from other sources. Mixing electronic drum sounds generated by a drum machine with naturally recorded acoustic drum sounds is a common strategy in dance music and source separation could prove invaluable here.
+
+
 \newpage
 \thispagestyle{empty}
 \mbox{}
-
-
 
 \begin{sidewaystable}
 	\begin{threeparttable} 
@@ -210,9 +255,8 @@ There are many other concatenative systems that are too numerous to discuss in d
 			\small
 %			\item[] ABBREVIATIONS: NA=Not applicable; GD=Group Delay, PDE=Probability Density Estimate
 		\end{tablenotes}
-			\caption[Summary of Existing Concatenative Sound Synthesis Systems]{Summary of Existing Concatenative Sound Synthesis Systems}
+			\caption[Summary of Existing Concatenative Sound Synthesis Systems]{Summary of existing concatenative sound synthesis systems}
 			\label{tab:concat_system_summary}
 	\end{threeparttable}
 \end{sidewaystable}
-
  

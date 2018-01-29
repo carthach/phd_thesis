@@ -4,7 +4,7 @@
 
 \section{Introduction}
 
-As we discovered in \chapref{chap:sota} there exists a bewildering number of systems that propose or apply some level of concatenative synthesis technique. However widespread these methods are, some commonality arises across the majority of these when they are examined in closer inspection. Some of the important stages that we identify across this landscape include: 
+As we discovered in \chapref{chap:sota} there exists a bewildering number of systems that propose or apply some level of concatenative synthesis technique. However widespread these methods are, some commonality arises across the majority of these when they are examined in closer inspection. Some of the important common stages that we identify across this landscape include: 
 
 \begin{enumerate}
   \item \textit{Unit Decomposition} - Automatically segmenting larger sound files into constituent units using musically and perceptually relevant criteria.
@@ -16,7 +16,9 @@ This chapter explores in depth these key facets. We describe the most common alg
 
 \section{Unit Decomposition}
 
-Musical signals and sounds convey meaningful information at hierarchical levels of temporal scale. Choosing which level to work with naturally depends on the goals of the composer in tandem with the musical context. \figref{fig:beltram} visually depicts the different levels of scale that we can work with in concatenative synthesis tasks, beginning with the low-level framewise snippets in either the time or frequency domains. Framewise units are most typically used in granular synthesis but combined with feature analysis they are also found in many concatenative systems. Larger units can naturally be extracted uniformly (at regular time intervals), but the most common unit timescale used in concatenative system is as a result of performing some class of onset detection procedure. Onset detection algorithms are used to automatically detect events in audio signals. With an appropriately implemented algorithm and careful adjustment of its parameters based on the program material, the idealised output provides a list of time indices that correspond to the placement of a musical note. At the highest level of scale, we can use more involved and complex feature analysis to extrapolate units based on beat tracking and/or estimated tempo for example.  
+\label{sec:decomposition}
+
+Musical signals and sounds convey meaningful information at hierarchical levels of temporal scale. Choosing which level to work with naturally depends on the goals of the composer in tandem with the musical context. \figref{fig:beltram} visually depicts the different levels of scale that we can work with in concatenative synthesis tasks, beginning with the low-level framewise snippets in either the time or frequency domains. Framewise units are most typically used in granular synthesis, but combined with feature analysis they are also found in many concatenative systems. Larger units can naturally be extracted uniformly (at regular time intervals), but the most common unit timescale used in concatenative system is as a result of performing some class of onset detection procedure. Onset detection algorithms are used to automatically detect events in audio signals. With an appropriately implemented algorithm and careful adjustment of its parameters based on the program material, the idealised output provides a list of time indices that correspond to the placement of a musical note. At the highest level of scale, we can use more involved and complex feature analysis to extrapolate units based on beat tracking and/or estimated tempo, for example.  
 
 \begin{figure}
 	\begin{center}
@@ -30,7 +32,7 @@ Musical signals and sounds convey meaningful information at hierarchical levels 
 
 At the lowest level of unit decomposition is the framewise unit. In granular synthesis many combinations of microsound timescales of typically 20-200 ms are combined to create dense masses of sound “clouds”. Granular synthesis systems typically control the recombination of these sounds in a parametric fashion; the user specifies or manipulates controls determining endmost pitch, length and envelope qualities. As \cite{Schwarz2003} notes, granular synthesis is “rudimentarily data-driven” but can be significantly augmented with pre-feature analysis - what we seek to achieve by performing concatenative synthesis. 
 
-Granular synthesis is generally performed in the time domain, directly moulding and shaping the portions of the waveforms themselves using, for example, an amplitude envelope or windowing function based on Gaussian or linear patterns \citep{Roads1996, Roads2004}. Another option is to take frame sizes of orders of $2^n$ (512, 1024, 2048 etc). and transform them to the frequency domain using a \acrfull{fft}. Resynthesised signals can be reconstructed later in the time domain using the \acrfull{ifft} with overlap and add. While not an overly common approach to concatenative synthesis, it has been alluded to by \cite{Kobayashi}, \cite{Puckette2004}, \cite{An2012}, and some practical artistic applications have been summarised by \cite{Schwarz2006b}. The former describes how \acrshort{ifft} synthesis was used in the theatre piece \textit{La Légende des Siècles} (2002) to assemble \acrshort{fft} frames based on a target specification of pitch and energy. Frame-based segmentation and Fourier resynthesis are available as unit scale options in PyConcat, but have only been used and tested sporadically. The drawbacks of operating at this minuscule order of scale is the sheer level of data handling and computation it entails. Furthermore, if the composer is additionally working in the frequency domain they need to take extra care with continuity and phase, something a \acrshort{hmm} unit selection scheme further on would help address. 
+Granular synthesis is generally performed in the time domain, directly moulding and shaping the portions of the waveforms themselves using, for example, an amplitude envelope or windowing function based on Gaussian or linear patterns \citep{Roads1996, Roads2004}. Another option is to take frame sizes of orders of $2^n$ (512, 1024, 2048 etc). and transform them to the frequency domain using a \acrfull{fft}. Resynthesised signals can be reconstructed later in the time domain using the \acrfull{ifft} with overlap and add. While not an overly common approach to concatenative synthesis, it has been alluded to by \cite{Kobayashi}, \cite{Puckette2004}, \cite{An2012}, and some practical artistic applications have been summarised by \cite{Schwarz2006b}. The former describes how \acrshort{ifft} synthesis was used in the theatre piece \textit{La Légende des Siècles} (2002) to assemble \acrshort{fft} frames based on a target specification of pitch and energy. Frame-based segmentation and Fourier resynthesis are available as unit scale options in PyConcat, but have only been used and tested sporadically. The drawbacks of operating at this minuscule order of scale is the sheer level of data handling and computation it entails. Furthermore, if the composer is additionally working in the frequency domain they need to take extra care with continuity and phase, something a \acrshort{hmm}-based unit selection scheme (\secref{sec:viterbi_unit_selection}) might help address. 
 
 %\begin{figure}
 %	\begin{center}
@@ -77,7 +79,7 @@ The novelty functions returned by those methods described in the previous sectio
 Fixed thresholding retains only those peaks from the novelty function that exceed a constant threshold value. This works well for program material occupying smaller dynamic ranges, as in highly compressed music or percussive recordings. For material that varies in dynamics over time it is rather crude and inflexible - for such scenarios an adaptive thresholding procedure is preferable. Adaptive thresholding essentially computes another function that gives an instantaneous threshold value for each sample of the novelty function based on some analysis of that very function. Standard methods proposed by
 \cite{Bello2005}, \cite{Dixon2006}, \cite{Bock2012a} and \cite{Bock2013}, choose a window of time $w$ around the current novelty function sample and derive a rolling average or low pass filtered version of the function, and reject peaks below some multiple of that threshold function.
 
-Peak picking, as summarised by \cite{Bock2012a} can finally be applied by constraining the novelty function $F(n)$ to a set of criteria as in:
+Peak picking, as summarised by \cite{Bock2012a} can finally be attained by constraining the novelty function $F(n)$ to a set of criteria as in:
 
 \begin{equation}
   \label{eq:peak_picking}
@@ -90,7 +92,7 @@ n-n_{last}>\beta
 
 where $n$ is the current frame number, $w$ is a window of frames around $n$, $\delta$ is a threshold multiplier to be applied to the rolling average and $\beta$ is used to reject potential onsets if they occur within a number of frames of a previously detected onset. Naturally, this set of criteria assumes that the source signal already exists in its entirety as in a pre-recorded sound file.
 
-For real-time onset detection it is more challenging and less accurate as we do not have access to future frames of audio, unless some pre-delay is applied (as is done in look ahead limiters and processors that need some advance information in order to duck the signal). Even if no pre-delay is applied, novelty frames can only be compared to those captured in the past, which at least incurs a delay penalty of $w*N/SR$ milliseconds given frame length $N$ and sample rate $SR$ and frame window $w$.
+For real-time onset detection it is more challenging and less accurate as we do not have access to future frames of audio, unless some pre-delay is utilised (as is done in look ahead limiters and processors that need some advance information in order to duck the signal). Even if no pre-delay is applied, novelty frames can only be compared to those captured in the past, which at least incurs a delay penalty of $w*N/SR$ milliseconds given frame length $N$ and sample rate $SR$ and frame window $w$.
 
 \subsubsection{Evaluation of State of the Art Onset Detection Algorithms}
 
@@ -102,7 +104,7 @@ To evaluate the respective performance of each method, we gathered a number of d
 
 \begin{itemize}
   \item ENST-Drums: Provided by Télécom ParisTech \citep{Gillet2006}, contains an audio-visual annotated dataset of performances by 3 professional drummers using multi-track studio recording in a variety of configurations (single hits, phrases and accompaniments) and a variety of styles including jazz and rock. 
-  \item Modal (Musical Onset Dataset And Library): Hand annotated, contains 501 onsets across 71 files, with a mix of mostly monophonic events \citep{Glover2011}
+  \item Modal (Musical Onset Dataset And Library): Hand annotated, contains 501 onsets across 71 files, with a mix of mostly monophonic events from sources like voices, bass, guitar and percussion. \citep{Glover2011}
   \item JKU: Contains 321 files with 27,774 total onsets. Compiled from a number of different sources by Sebastian Böck for evaluating his SuperFlux algorithm \citep{Bock2013}. The algorithm was developed especially to handle vibrato, and accordingly the dataset contains a large number of samples that purposely address vibrato, such as samples from opera or Western classical string technique.
 \end{itemize}
 
@@ -125,7 +127,7 @@ Onsets were extracted using a batch procedure on all of the audio files with eac
   \item \textit{False Positive:} An onset estimation outside the tolerance window for any ground truth annotation
 \end{itemize}
 
-Scores are computed for each file according to the standard information retrieval fractional measures of precision and recall as well as the F-measure, a derived measure that attempts to consolidate both previous measures for easy comparison of overall algorithms’ performance. Borrowing from the definitions provided in the sci-kit learn documentation\footnote{\url{http://scikit-learn.org/stable/auto_examples/model_selection/plot_precision_recall.html}} but adapted for the specific task of onset detection, we can define them as follows (where $T_p$ signifies true positives - correctly identified onset, and $F_p$ signifies incorrectly identified onsets).
+Scores are computed for each file according to the standard information retrieval fractional measures of precision and recall as well as the F-measure, a derived measure that attempts to consolidate both previous measures for easy comparison of overall algorithms’ performance. Borrowing from the definitions provided in the sci-kit learn python machine learning library documentation\footnote{\url{http://scikit-learn.org/stable/auto_examples/model_selection/plot_precision_recall.html}}, but adapted for the specific task of onset detection, we can define them as follows (where $T_p$ signifies true positives - correctly identified onset, $F_p$ signifies incorrectly identified onsets and $F_n$ indicates onsets not identified).
 
 \begin{itemize}
   \item \textit{Precision:} the fraction of total estimations that are correct:
@@ -174,7 +176,7 @@ Results for all the files from each dataset were collated and statistics compute
 	\begin{center}
 		\includegraphics[width=0.75\textwidth]{ch05_pyconcat/figures/onset_total_boxplots.pdf}
 	\end{center}
-	\caption[Boxplots of Results for each algorithm and measure.]{Boxplots of Results for each algorithm and measure.}
+	\caption[Boxplots of Results for Each Algorithm and Measure in Onset Detection Evaluation]{Boxplots of results for each algorithm and measure in onset detection evaluation}
 	\label{fig:onset_total_boxplots}
 \end{figure}
 
@@ -213,12 +215,12 @@ OnsetRate & ENST-1  & 8813   & 6875  & 560  & 1938  & 0.901     & 0.875  & 0.871
 			\small
 %			\item[] ABBREVIATIONS: NA=Not applicable; GD=Group Delay, PDE=Probability Density Estimate
 		\end{tablenotes}
-			\caption[Extended statistics for each algorithm by dataset]{Extended statistics for each algorithm by dataset}
+			\caption[Extended Statistics for Each Algorithm by Dataset]{Extended statistics for each algorithm by dataset}
 			\label{tab:extended_onset_statistics}
 	\end{threeparttable}
 \end{sidewaystable}
 
-The smaller Modal dataset appears to cause the most difficulty for all algorithms, but relaxing the tolerance time-window constraint from its default of 25ms to 50ms (actually the tolerance time used for \acrshort{mirex} tasks) improves the accuracy for all algorithms by a significant factor, suggesting it could be an issue of ground truth annotation style compared with the other datasets.
+The smaller Modal dataset appears to cause the most difficulty for all algorithms, but relaxing the tolerance time-window constraint from its default of 25ms (the default tolerance in Madmom's evaluation scripts\footnote{\url{https://github.com/CPJKU/madmom/blob/master/madmom/evaluation/onsets.py}}) to 50ms (actually the tolerance time used for \acrshort{mirex} tasks) improves the accuracy for all algorithms by a significant factor, suggesting it could be an issue of ground truth annotation style compared with the other datasets.
 
 In terms of running time and overall algorithm performance, \figref{fig:onset_running_times} compares the averaged time and standard error (not visible due to low variance of < 1.0 s between consecutive runs). Recent trends towards deep learning solutions, while displaying promising returns in terms of accuracy over other supervised learning methods, frequently pale in comparison when considering efficiency and running times of the solution. Even with Madmom's built-in facility for distributing computational loads over multiple processors, the \acrshort{cnn} method performs much slower than the two flux-based approaches. Quite possibly the scale of the datasets is much larger than typical applications for concatenative synthesis, but the comparative performance of onset detection methods is an important point to consider when we look at real-time or at least quasi real time applications in due course.
 
@@ -226,17 +228,15 @@ In terms of running time and overall algorithm performance, \figref{fig:onset_ru
 	\begin{center}
 		\includegraphics[width=0.75\textwidth]{ch05_pyconcat/figures/onset_running_times.pdf}
 	\end{center}
-	\caption[Mean and error of the running times of each algorithm over n=10 runs]{Mean and error of the running times of each algorithm over n=10 runs}
+	\caption[Mean and Error of the running times of each algorithm over n=10 runs]{Mean and error of the running times of each algorithm over n=10 runs}
 	\label{fig:onset_running_times}
 \end{figure}
 
 \subsubsection{Beat Tracking and Tempo Extraction}
 
-It seems, from our impression of the literature, that in concatenative synthesis systems the typical unit length is of the onset (or to give it its perceptual equivalent, the note)  \citep{Schwarz2006, Frisson2010, Bernardes2013} - as extrapolated from a suitable onset detection process in the manner previously described. They are reasonably straightforward to compute and represent musically relevant building blocks for producing larger sequences of sounds. But larger musically relevant unit sizes are also a possibility.  Building on top of state of the art techniques in onset detection, \acrshort{mir} researchers are actively trying to coalesce this research with knowledge of tempo and rhythm to pursue algorithms that can perform automatic beat detection within signals.
+It seems, from our impression of the literature, that in concatenative synthesis systems the typical unit length is of the onset (or to give it its perceptual equivalent, the note)\citep{Schwarz2006, Frisson2010, Bernardes2013} - as extrapolated from a suitable onset detection process in the manner previously described. Units detected via onset detection are reasonably straightforward to compute and represent musically relevant building blocks for producing larger sequences of sounds. But larger musically relevant unit sizes are also a possibility.  Building on top of state of the art techniques in onset detection, \acrshort{mir} researchers are actively trying to coalesce this research with knowledge of tempo and rhythm to pursue algorithms that can perform automatic beat detection within signals. We summarise some of the key works in this area including their respective \acrshort{mirex} results and expose them as possible unit decomposition options within our own framework. 
 
-Considering that most of the time we will be working at the onset scale of segmentation, analysis and selection, an extensive evaluation of state of the art methods in beat detection such as we performed for onset detection is outside of the scope of this thesis, but we do summarise some of the key works in this area including their respective \acrshort{mirex} results and expose them as possible unit decomposition options within our own framework. 
-
-\figref{fig:beat_joplin} consolidates various rhythmic concepts from the onset to the bar level and how they relate to the waveform representation and timeline of a typical musical recording. Beats are defined as the perceptual tactus or dominant metrical pulse level that corresponds to where humans are most likely to tap their foot \citep{Jehan2005, Ellis2007a, Stark2009}. A stream of beats implies a certain tempo or \acrlong{bpm} measure of frequency that allow us to understand and compare the speed of musical works, and beat tracking and tempo detection are considered related tasks \citep{McKinney2007}. As \cite{Korzeniowski2014} note, there are many factors in interesting musical recordings that hinder computational facility to determine beats with ease, such as syncopation, hemiola and any other rudimental technique that seeks to thwart regular pulsation. By using tempo estimation and probabilistic prediction of where beats \textit{should} be when they aren't, beat tracking algorithms try to account for these factors. 
+\figref{fig:beat_joplin} consolidates various rhythmic concepts from the onset to the bar level and how they relate to the waveform representation and timeline of a typical musical recording. Beats are defined as the perceptual tactus or dominant metrical pulse level that corresponds to where humans are most likely to tap their foot \citep{Jehan2005, Ellis2007a, Stark2009}. A stream of beats implies a certain tempo or \acrlong{bpm} measure of frequency that allow us to understand and compare the speed of musical works, and beat tracking and tempo detection are considered related tasks \citep{McKinney2007}. As \cite{Korzeniowski2014} note, there are many factors in real-world musical recordings that hinder computational facility to determine beats with ease, such as syncopation, hemiola and any other rudimental technique that seeks to thwart regular pulsation. By using tempo estimation and probabilistic prediction of where beats \textit{should} be when they aren't, beat tracking algorithms try to account for these factors. 
 
 \begin{figure}
 	\begin{center}
@@ -248,7 +248,7 @@ Considering that most of the time we will be working at the onset scale of segme
 
 \cite{McKinney2007}, provide an excellent summary of the existing state of the art methods at their time of publication, organising the methods by differing implementations of a two-stage process. The process consists initially of the \textit{driving} stage, which produces features directly from the signal. This is followed by \textit{periodicity} stage, which outputs estimates of tempo and/or beats based on the analysis of those features \citep{McKinney2007}.
 
-As was emphasised previously, beat tracking studies typically build on onset detection research, as beats essentially represent a perceptual and synchronous subset of onset locations in time. Thus most features \acrshort{hmm} derived for the driving stage consist of applying an onset detection method to produce candidate onset times \citep{Brossier2006, Dixon2006, Ellis2007a, Degara2012, Zapata2014} but not always. \cite{antonopoulos2007self} for example, use self-similarity of the \acrshort{mfcc} frames as its input. \cite{Degara2012}\footnote{Also one of the beat trackers available in Essentia} build upon their existing offering by integrating multiple input features that include energy flux, spectral flux, difference of Mel bands etc. Multiple candidates arising from the various feature inputs are resolved using a method of query by committee and maximum mutual agreement (MaxMA) proposed by the author previously in other work \citep{Zapata2012, Zapata2014}.
+As was emphasised previously, beat tracking studies typically build on onset detection research, as beats essentially represent a perceptual and synchronous subset of onset locations in time. Thus most features \acrshort{hmm} derived for the driving stage consist of applying an onset detection method to produce candidate onset times \citep{Brossier2006, Dixon2006, Ellis2007a, Degara2012, Zapata2014} but not always. \cite{antonopoulos2007self} for example, use self-similarity of the \acrshort{mfcc} frames as its input. \cite{Degara2012}\footnote{Also one of the beat trackers available in Essentia.} build upon their existing offering by integrating multiple input features that include energy flux, spectral flux, difference of Mel bands etc. Multiple candidates arising from the various feature inputs are resolved using a method of query by committee and maximum mutual agreement (MaxMA) proposed by the author previously in other work \citep{Zapata2012, Zapata2014}.
 
 The periodicity stage, or where the features are filtered to produce beat locations is where the algorithms deviate the most from each other in terms of approach but many methods in the literature at least start from a probabilistic standpoint. Ellis (2006; 2007) uses onset detection followed by autocorrelation to get an initial estimate of the overall tempo of the track. This information is used by the beat-tracking module to compare the idealised beat times against computing the globally optimised set of beat times using \acrshort{ioi}s and dynamic programming in a manner not so far removed from that proposed by \cite{Alonso2007}. Degara also utilises a \acrshort{hmm}-based algorithm, augmented with an intrinsic framework that models sequences of non-beat states as well as beat states.
 
@@ -317,40 +317,9 @@ CD2 & BeatRoot Vamp Plugin          & C.Cannam & 30.34  & 41.5218 & 52.6579 & 41
 
 Beat tracking is a significantly more complex task compared to onset detection, and evidently the results reflect this. Ranges of accuracy vary greatly across the different datasets and, while no single algorithm achieves the highest F-Measure, at least Böck and Korzeniowski’s DBNDownBeatTracker manages to attain the highest mean performance. Once again we see the headway deep learning based methods are making in all manner of pattern recognition and machine learning tasks, as this method relies on a recurrent neural network armed with a bank of resonant comb filters. 
 
-\subsection{Future Directions - Mixing and Source Separation}
-
-Most concatenative synthesis systems we have studied (including those techniques we propose) tend to consider the concatenation process in purely horizontal and temporally inclined terms.  Naturally, it is pertinent to question whether the same process can be applied systematically in the vertical dimension characterised by the frequency spectrum. Or, in more simpler terms - can we stack units on top of each other systematically in addition to chaining them in sequence? While not the focus of this thesis (but certainly a promising avenue for further study), we briefly summarise relevant topics of interest and  techniques that are or can be used.
-
-\subsubsection{Vertical Selection with Mixture Models}
-
-\cite{Hoffman2009} have outlined a system that seeks to recreate the target \textit{spectrum} by, as Coleman describes it \citeyearpar{Coleman2010}, \textit{superimposing} (using convolution) a series of spectra from a corpus. To reduce the complexity associated with high dimensionality, a search space reduction with a \acrfull{mcmc} is applied. 
-
-In a version of AudioGuide by Hackbarth \citep{Hackbarth2013}, they also outline the system's facility for enabling ``layered sounds'' and ``vertically stratified complexes'' based on formulas \citep{Tardieu2008}  developed for a prior system in the OpenMusic environment called Orchidée or Automatic Orchestration Tool \citep{Carpentier2010}. The goal of their work is to transfer some of the principles of traditional orchestration (combining and arranging for instruments to create desired blends of timbre) to the realm of computer music by allowing prediction of mixtures as well as concatenations to match a target specification of a sound.
-
-Hackbarth \citep{Hackbarth2010} describes the derived ``Subtractive Spectral Algorithm'' for superimposition. When an appropriate unit is selected from the corpus as a candidate match for the target, its time-varying Mel-amplitudes are subtracted from the target sound and a `residual' target spectrum remains. The unit selection procedure is performed repeatedly until it halts when the residual target spectrum energy falls below a certain threshold. The resulting units are then mixed together additively. A visual depiction of this over several mixtures can be seen in \figref{fig:spectrum_subtraction}. Clearly the algorithm tends towards selection of louder units initially, with gradually softer ones emerging as the subtracted target energy diminishes. 
-
-\cite{Coleman2015} invokes the term ``mixtures'' to describe concatenative synthesis problems where the corpus might not have all the features to effectively simulate a target, but a carefully selected combination of them might. He uses the analogy of several single notes combining to form a chord, except the synthesis engine would use a weighted combination of superimposed frames mixed together.
-
-\begin{figure}
-	\begin{center}
-		\includegraphics[width=0.75\textwidth]{ch05_pyconcat/figures/spectrum_subtraction}
-	\end{center}
-	\caption[Spectral Subtraction Algorithm in AudioGuide]{Visual depiction of spectral subtraction algorithm in AudioGuide. Image from \cite{Hackbarth2010}.}
-	\label{fig:spectrum_subtraction}
-\end{figure} 
-
-\subsubsection{Vertical Segmentation with Source Separation}
-
-As we highlighted previously in the case of the missing fundamental frequency, our auditory system is remarkable in its processing ability and inference engine. More remarkably,  perhaps, is its innate capacity for on the fly separation of real-time audio signals at will, or to give it its technical term, blind source separation. In pyschoacoustic auditory scene analysis research \citep{Bregman1994}, source separation is illustrated usually in terms of the ``Cocktail Party Effect'': how is a human, at a social event, able to separate voices from background noise and home in on particular conversations? In musical source separation this is even more elusive - consider picking out individual instruments in an orchestral passage, especially when, as \cite{Miron2017a} stresses, sources are likely to be correlated in time and frequency. Computational auditory scene analysis seeks to replicate this extraordinary human processing ability through digital signal processing means \citep{Wang2006}.
-
-Initial efforts in computational source separation often involved matrix decomposition methods such as non-negative matrix factorisation, as demonstrated in the work of 
-\cite{Fitz2004}. Fitzgerald's initial focus was on automatic drum transcription via source separation but later gained wider recognition with some some successful demixing and upmixing from mono to stereo of recovered archive Beach Boys recordings \citep{Fitz2004}. More recent state of the art approaches are once again successfully exploiting deep learning methods trained on large sets of musical data in genres like Western classical \citep{Miron2017a, Miron2017}.
-
-Just as a concatenative synthesis system will use onset detection to split larger sound files into smaller units along the time domain, source separation opens up the possibility of theoretically segmenting complex sounds in the frequency domain according to instrument, or more accurately, \textit{streams} that hopefully contain related instruments (all depending of course on the material to be separated and the models upon which the system has been trained).
-
-We envisage this as particularly useful in concatenative synthesis of drum rhythms. Perhaps a producer might want to decompose a number of kits into their constituent parts and mix and match with sounds from other sources. Mixing electronic drum sounds generated by a drum machine with naturally recorded acoustic drum sounds is a common strategy in dance music and source separation could prove invaluable here.
-
 \section{Describing Sounds with Features}
+
+The previous \secref{sec:decomposition} described the crucial first step in building a concatenative synthesis system, namely segmenting larger sounds into smaller units at a timescale suitable for repurposing. While many timescales are used, we emphasised the particular importance of onset detection and this is the timescale we assume henceforth, unless otherwise specified. This section now turns to the task of analysing these units of sound, and the challenge of choosing the most descriptive set of features for summarising and comparing sounds succinctly.  
 
 \subsection{Temporal Descriptors}
 
@@ -388,7 +357,7 @@ Perceived loudness depends on many factors, and, as the long established  Fletch
 
 Luckily, more pyscho-acoustically aware measures that take into account such subtleties and phenomena are implemented and available as content analysis features. The \acrfull{ebu}, for example, proposes the \acrshort{ebu} R 128 metering standard in an effort to enforce normalisation consistency across differing programme material in broadcasts\footnote{And combat au-fait advertising and music producers exploiting dynamic range compression to make their products stand out from others.} \citep{ebu, Lerch2012}. It consists of a perceptually tuned K-weighting filter followed by mean square power estimated at momentary, short-term and longer-term intervals.
 
-We are using content analysis mainly for our unit selection algorithm to compute similarity between feature vectors so advanced metering standards like the \acrshort{ebu} R 128 are a bit complex for our purposes, and we haven't seen any instances of its usage in synthesis systems. Another, more basic loudness descriptor available in Essentia's library implements Stevens' Power Law. Stevens' Power Law arose out of efforts to improve on the Weber-Fechner pyschophysics laws that relate changes in physical stimuli with perceptual response to those changes \citep{Stevens1975, Reiss2001}. It is elegant:
+We are using content analysis mainly for our unit selection algorithm to compute similarity between feature vectors so advanced metering standards like the \acrshort{ebu} R 128 are a bit complex for our purposes, and we haven't seen any instances of its usage in synthesis systems. Another, more basic loudness descriptor available in Essentia's library implements Stevens' Power Law. Stevens' Power Law arose out of efforts to improve on the Weber-Fechner pyschophysics laws that relate changes in physical stimuli with perceptual response to those changes \citep{Stevens1975, Reiss2001}. Its formulation is elegant (\eqnref{eq:stevens}).
 
 \begin{equation}
 \label{eq:stevens}
@@ -420,7 +389,7 @@ Technically it is resolved by taking the logarithm of the time taken from $t0$ t
 lat = log(t1-t0)
 \end{equation}
 
-Why do we take the logarithm? Well, just like other perceptual responses to physical stimuli  studies have found higher degrees of correlation in studies examining timbre discrimination when the logarithm is applied.\citep{McAdams1995, McAdams1999, Agres2016}. The log attack time is obviously very useful for discriminating sounds that have distinctive attack profiles \citep{Herrera-Boyer2003}, such as the flute versus a snare drum for example, so naturally this feature makes more sense for ``one-shot'' instrumental classification versus excerpts of recordings for the purposes of genre detection.
+The reason for taking the logarithm is justified because, just like other perceptual responses to physical stimuli, studies have found higher degrees of correlation in studies examining timbre discrimination when the logarithm is applied \citep{McAdams1995, McAdams1999, Agres2016}. The log attack time is obviously very useful for discriminating sounds that have distinctive attack profiles \citep{Herrera-Boyer2003}, such as the flute versus a snare drum for example, so naturally this feature makes more sense for ``one-shot'' instrumental classification versus excerpts of recordings for the purposes of genre detection.
 
 \subsection{Spectral and Timbral Descriptors}
 
@@ -464,7 +433,7 @@ where $f(i)$ is the centre frequency of bin $i$, and $m(i)$ is its associated ma
 	\begin{center}
 		\includegraphics[width=0.85\textwidth]{ch05_pyconcat/figures/spectral_features.pdf}
 	\end{center}
-	\caption[Spectral features of a drum pattern]{Symbolic grid representation of drum pattern (top). Waveform with spectral flatness (middle). Audio spectrogram with spectral centroid (bottom).}
+	\caption[Spectral Features of a Drum Pattern]{Symbolic grid representation of drum pattern (top). Waveform with spectral flatness (middle). Audio spectrogram with spectral centroid (bottom).}
 	\label{fig:spectral_features}
 \end{figure}
 
@@ -501,11 +470,19 @@ Depending on when (what era) and where (what culture) you were born in the world
 p = 69 + 12 * \log_2(\frac{f}{440})
 \end{equation}
 
-What is essentially happening here is a type of frequency warping - compressing sound frequency onto a smaller, perceptual scale that is more tuned for human perception and cognition. In fact, there are other frequency warping formula in the literature that serve to warp frequency according to some conceptually pyschoacoustical or perceptual scale. \figref{fig:perceptual_scales} shows a number of perceptual scales and their normalised output with frequency in Hz as input, notice how they all exhibit a sharp rise that flattens out as it approaches the upper bounds of human response to frequency.
+where $p$ is the resulting chromatic pitch and $f$ is the frequency in $Hz$. What is essentially happening here is a type of frequency warping - compressing sound frequency onto a smaller, perceptual scale that is more tuned for human perception and cognition. In fact, there are other frequency warping formula in the literature that serve to warp frequency according to some conceptually pyschoacoustical or perceptual scale. \figref{fig:perceptual_scales} shows a number of perceptual scales and their normalised output with frequency in Hz as input, notice how they all exhibit a sharp rise that flattens out as it approaches the upper bounds of human response to frequency.
 
 Cepstrum analysis has been one of the most dominating analysis techniques in speech processing for a long time. The word cepstrum itself rearranges the first four letters of the word spectrum, and has been described variously as a type of ``spectrum of a spectrum''. Its usage within speech analysis stems from the fact that it allows to separate the two dominant spectra of a vocal sound - the initial glottal impulse excitation and the slower resonance of the vocal tract \citep{Roads1996, Kim2006}.
 
-To compute cepstrum is comparatively straightforward. The \acrshort{fft} of the signal is taken as normal. The magnitude is retained and the log magnitude spectrum is computed. Finally, the inverse \acrshort{fft} (\acrshort{ifft}) is applied to the log magnitude spectrum. However, normally some frequency warping formula is applied to compress the spectrum in some pyschoacoustic and perceptually motivated manner, and it is here we derive the family of features that include \acrfull{mfcc}, \acrfull{bfcc} and \acrshort{gfcc} (Gammatone Frequency Cepstrum Coefficients warped according to Equivalent Rectangular Bands \citep{Shao2009}). \figref{fig:bfcc_mfcc_gfcc_compared} shows the computed coefficients and the ranges of these features side by side for visual comparison.
+To compute cepstrum is comparatively straightforward. The \acrshort{fft} of the signal is taken as normal. The magnitude is retained and the log magnitude spectrum is computed. Finally, the inverse \acrshort{fft} (\acrshort{ifft}) is applied to the log magnitude spectrum. However, normally some frequency warping formula is exercised to compress the spectrum in some pyschoacoustic and perceptually motivated manner, and it is here we derive the family of features that include \acrfull{mfcc}, \acrfull{bfcc} and \acrshort{gfcc} (Gammatone Frequency Cepstrum Coefficients warped according to Equivalent Rectangular Bands \citep{Shao2009}). \figref{fig:bfcc_mfcc_gfcc_compared} shows the computed coefficients and the ranges of these features side by side for visual comparison.
+
+\begin{sidewaysfigure}
+	\begin{center}
+		\includegraphics[scale=0.70]{ch05_pyconcat/figures/wave_spec_mfcc_bfcc.pdf}		
+		\end{center}
+		\caption[Waveform, Spectrogram, BFCC, MFCC and GFCC impressions of the ``Amen Break'' drum solo from ``Amen Brother'']{Waveform of drum break from ``Amen Brother'' (top-left). Power Spectrogram of waveform (top-right). BFCC coefficients 1-13 by frame number (bottom-left). MFCC coefficients 1-13 by frame number (bottom-centre). GFCC coefficients 1-13 by frame number (bottom-right)}
+	\label{fig:bfcc_mfcc_gfcc_compared}
+\end{sidewaysfigure}
 
 \paragraph{MFCCs}
 
@@ -541,14 +518,6 @@ To compute the \acrshort{mfcc}s the following steps are taken \citep{Logan2000, 
 \end{enumerate}
 
 \figref{fig:mfcc_diagram} shows how MFCC extraction is performed in the Essentia environment, showing the signal flow through the various stages, conceptually encapsulated as algorithms. Essentia processes data in a graph-based network, not unlike signal flow languages such as \acrshort{pd} and Max; objects (or algorithms) are connected virtually to each other, and more complex algorithms (composite algorithms) can be assembled by combining other algorithms with processing routines. This is actually the case with the \acrshort{mfcc} algorithm, which as can be seen in the figure receives a spectrum, uses the MelBands algorithm to filter the spectrum, computes the logarithm then finally outputs the \acrshort{mfcc} result from the \acrshort{dct} algorithm. 
-
-\begin{sidewaysfigure}
-	\begin{center}
-		\includegraphics[scale=0.70]{ch05_pyconcat/figures/wave_spec_mfcc_bfcc.pdf}		
-		\end{center}
-		\caption[Waveform, Spectrogram, BFCC, MFCC and GFCC impressions of the ``Amen Break'' drum solo from ``Amen Brother'']{Waveform of drum break from ``Amen Brother'' (top-left). Power Spectrogram of waveform (top-right). BFCC coefficients 1-13 by frame number (bottom-left). MFCC coefficients 1-13 by frame number (bottom-centre). GFCC coefficients 1-13 by frame number (bottom-right)}
-	\label{fig:bfcc_mfcc_gfcc_compared}
-\end{sidewaysfigure}
 
 %\begin{figure}
 %	\begin{center}
@@ -591,11 +560,11 @@ If the \acrshort{mfcc} feature uses the Mel scale for warping the spectrum, then
 b = [26.81*\frac{f}{(1960-f})]-0.53
 \end{equation}
 
-Aside from that the procedure is pretty much the same as for \acrshort{mfcc} computation. Overlapping filterbanks tuned to the bark scale are applied to the spectrum, the logarithm is applied and finally the \acrshort{dct} transform is performed to produce the coefficients.
+Aside from that the procedure is pretty much the same as for \acrshort{mfcc} computation. Overlapping filterbanks tuned to the bark scale are applied to the spectrum, the logarithm is taken and finally the \acrshort{dct} transform is completed to produce the coefficients.
 
 The \acrshort{bfcc} feature has not enjoyed the same level of popularity as its \acrshort{mfcc} counterpart, most probably since it is not available as an extractor in the major feature extraction and analysis environments (\tabref{tab:library_summary}).
 
-The Mel scale is an extremely robust and reliable warping scale for many applications, but it is still prudent to experiment with other feature extractions methods depending on the application area its associated data. We decided to examine the applicability of the Bark scale following the findings of William Brent, who maintains that \acrshort{bfcc}s are the most accurate single feature in his own experiments in percussive timbre identification \citep{Brent2009, Brent2009a}. His TimbreID toolkit, due to its ease of use and implementation within the Pure Data environment has been popular in creative applications, and as a consequence his suggested usage of the \acrshort{bfcc} feature has been taken up in other works \citep{Monteiro2011, Neupert2013, Tomas2014}, including some tailored towards rhythm classification \citep{Miron2013, Vogiatzoglou2016, Jathal2017}, with the latter also reporting slightly better classification results over \acrshort{mfcc}s. Considering the frequent rhythmic purposes of our own research, and the percussive, attack quality of dance-oriented electronic music in general, it suggests applicability in our system.
+The Mel scale is an extremely robust and reliable warping scale for many applications, but it is still prudent to experiment with other feature extractions methods depending on the application area its associated data. We decided to examine the applicability of the Bark scale following the findings of William Brent, who maintains that \acrshort{bfcc}s are the most accurate single feature in his own experiments in percussive timbre identification \citep{Brent2009, Brent2009a}. His TimbreID toolkit, due to its ease of use and implementation within the Pure Data environment has been popular in creative applications. As a consequence his suggested usage of the \acrshort{bfcc} feature has been taken up in other works \citep{Monteiro2011, Neupert2013, Tomas2014}, including some tailored towards rhythm classification \citep{Miron2013, Vogiatzoglou2016, Jathal2017}, with the latter also reporting slightly better classification results over \acrshort{mfcc}s. Considering the frequent rhythmic purposes of our own research, and the percussive, attack quality of dance-oriented electronic music in general, it suggests applicability in our system.
 
 {\renewcommand{\arraystretch}{1.5}
 \begin{table} 
@@ -618,7 +587,7 @@ liftering = 22 \\
 \tablebot
 		\end{tabular}
 		}
-		\caption[BFCC parameters for matching output of \cite{Ellis2005}]{BFCC parameters for matching output of \cite{Ellis2005}}
+		\caption[BFCC Parameters for Matching Output of \cite{Ellis2005}]{BFCC parameters for matching output of \cite{Ellis2005}}
 		\label{tab:bfcc_parameters}
 	\par \end{centering}
 \end{table}
@@ -631,7 +600,7 @@ One of the first stumbling blocks came with the existing BarkBands filter, as it
 	\begin{center}
 		\includegraphics[width=1.0\textwidth]{ch05_pyconcat/figures/matlab_bark.png}
 	\end{center}
-	\caption[BFCC outputs with errors for Rastamat and our Essentia Implementations]{\acrshort{bfcc} outputs with errors for Rastamat and our Essentia Implementations}
+	\caption[BFCC Outputs with Errors for Rastamat and our Essentia Implementations]{\acrshort{bfcc} outputs with errors for Rastamat and our Essentia Implementations}
 	\label{fig:matlab_bark}
 \end{figure}
 
@@ -683,7 +652,9 @@ The features we have previously described and will evaluate in due course are ex
 
 \subsubsection{Fundamental Frequency and Pitch}
 
-\acrfull{f0} detection or pitch tracking attempts to determine the lowest frequency within a signal, with the hopes that this matches the listeners perceptual impression of pitch \citep{Gerhard2003}. Algorithms for pitch detection exist in both the time and frequency domain. Time domain methods usually stem from some sort of autocorrelation of the signal, whereby the signal is compared with itself in increasingly delayed time lags to discover periodic repetitions whose reciprocal corresponds to the fundamental frequency given by $1/f = T$. Due to the harmonic nature of musical signals, autocorrelation methods often return octave errors, where multiples of the actual fundamental frequency are reported instead.
+\label{sec:yin}
+
+\acrfull{f0} detection or pitch tracking attempts to determine the lowest frequency within a signal, with the hopes that this matches the listeners perceptual impression of pitch \citep{Gerhard2003}. Algorithms for pitch detection exist in both the time and frequency domain. Time domain methods usually stem from some sort of autocorrelation of the signal, whereby the signal is compared with itself in increasingly delayed time lags to discover periodic repetitions whose reciprocal corresponds to the fundamental frequency given by $1/f = T$. Due to the harmonic nature of musical signals, autocorrelation methods often return octave errors, where multiples of the actual fundamental frequency are reported incorrectly.
 
 The well-known YIN\footnote{The name is derived from the yin and yang principle of contrary forces in Chinese philosophy, as the algorithm itself is a tradeoff between autocorrelation and cancellation.} algorithm \citep{DeCheveigne2002} addresses these errors and more by adding some correction stages such as absolute thresholding and parabolic interpolation, and is available within Essentia. \cite{Brossier2006} defines a YIN equivalent called PitchYinFFT in the frequency domain, taking advantage of convolution/multiplication equivalency to reduce some of the computation overhead inherent in the time domain method. Given the modular nature of feature extraction in Essentia, and since we are already computing the spectogram for cepstrum analysis, it makes sense that we use this version for our pitch tracking needs.
 
@@ -724,12 +695,12 @@ To address the requirements in our classification task, two distinct datasets we
 \paragraph{Orchestral Dataset}
 \label{sec:orch_dataset}
 
-The orchestral dataset comprises professionally recorded orchestral samples kindly made available for free download by London's Philharmonia Orchestra\footnote{\url{https://www.philharmonia.co.uk/explore/sound_samples}}, and has been used in a number of existing works for both analysis \citep{Hulshof2016, Donnelly2016, Pishdadian2017} and interactive performance \citep{Miller2010}. The total number of sound files exceeds well over 10,000 so we restricted ourselves to the standard instrumentation of the three choirs (strings, woodwinds and brass) as well as percussion, and omitted extended instruments such as guitar or banjo. All 148 percussion samples were selected from the set, and ranged from typical instruments such as the bass drum and cymbals to more exotic items like the washboard and whip. \figref{fig:orch_distribution} shows a tree structure summary of the distribution of the samples across instrumentation and the respective sections. 200 samples from each of the instruments were taken at random, with a wide variety of dynamics and articulations.
+The orchestral dataset comprises professionally recorded orchestral samples kindly made available for free download by London's Philharmonia Orchestra\footnote{\url{https://www.philharmonia.co.uk/explore/sound_samples}}, and has already been used in a number of existing works for both analysis \citep{Hulshof2016, Donnelly2016, Pishdadian2017} and interactive performance \citep{Miller2010}. The total number of sound files exceeds well over 10,000 so we restricted ourselves to the standard instrumentation of the three choirs (strings, woodwinds and brass) as well as percussion, and omitted extended instruments such as guitar or banjo. All 148 percussion samples were selected from the set, and ranged from typical instruments such as the bass drum and cymbals to more exotic items like the washboard and whip. \figref{fig:orch_distribution} shows a tree structure summary of the distribution of the samples across instrumentation and the respective sections. 200 samples from each of the instruments were taken at random, with a wide variety of dynamics and articulations.
 
 \paragraph{Drum Dataset}
 \label{sec:drum_dataset}
 
-The drum dataset was compiled to address better the rhythmic goals of this thesis and comprises over 1000 one shot samples of drum sounds. The samples themselves were sourced from freely availably libraries on the internet including one large repository provided by the popular musician focussed website Music Radar\footnote{\url{http://www.musicradar.com/news/drums/sampleradar-1000-free-drum-samples-229460}}. We have found one article in the literature \citep{Masood2015} that uses Music Radar samples for timbral classification of multiple instruments using a neural network. Our dataset contains a mixture of regular kit sounds and some percussion sounds from acoustic recordings as well as electronic drum machines like the Roland TR range. After verifying the trustworthiness with some random auditioning of the samples, we relied on the existing labelling in the filenames to divide up into appropriate classes for training and testing, which are summarised in the tree in \figref{fig:drum_tree}.
+The drum dataset was compiled to address better the rhythmic goals of this thesis and comprises over 1000 one shot samples of drum sounds. The samples themselves were sourced from freely availably libraries on the internet, including one large repository provided by the popular musician focussed website Music Radar\footnote{\url{http://www.musicradar.com/news/drums/sampleradar-1000-free-drum-samples-229460}}. We have found one article in the literature \citep{Masood2015} that uses Music Radar samples for timbral classification of multiple instruments using a neural network. Our dataset contains a mixture of regular kit sounds and some percussion sounds from acoustic recordings as well as electronic drum machines like the Roland TR range. After verifying the trustworthiness with some random auditioning of the samples, we relied on the existing labelling in the filenames to divide up into appropriate classes for training and testing, which are summarised in the tree in \figref{fig:drum_tree}.
 
 
 \subsubsection{Classifier Summary}
@@ -742,7 +713,7 @@ The drum dataset was compiled to address better the rhythmic goals of this thesi
 	\label{fig:drum_tree}
 \end{figure}
 
-For our classification and feature evaluation experiments we compared the performance of the various feature configurations on 3 distinct classifiers. We have relied on the availability of those available with "black-box" functionality in the scikit-learn library for Python \citep{Pedregosa2012}, and apart from some minor adjustment of high-level parameters we have not gone too deep into their inner workings.
+For our classification and feature evaluation experiments we compared the performance of the various feature configurations on 3 distinct classifiers. We have relied on the availability of those available with "black-box" functionality in the scikit-learn library for Python \citep{Pedregosa2012}, and apart from some minor adjustment of high-level parameters, we have not gone too deep into their inner workings.
 
 \paragraph{Nearest Neighbours (\textit{k}NN)}
 
@@ -758,7 +729,7 @@ For any experiments involving supervised learning and classification of labelled
 
 \paragraph{Support Vector Machines} 
 
-\acrfull{svm}s as a classification mechanism and in comparison to nearest neighbours methods are significantly more complex in their conception. In a nutshell, an SVM algorithm will try to find an idealised hyperplane that separates instances into multiclasses in multidimensional space that is more complex - with `added' dimensions - than the original one \citep{Chang2008}. At lower dimensionality, linear separation is not always possible, so a ``kernel function'' is used to artificially transform the problem set to higher dimensionality for easier separation between the classes \citep{Xu2003}. Luckily the availability of libraries such as LibSVM \citep{Chang2011} (also integrated into scikit-learn) means this algorithm can be easily incorporated into classification experiments. SVM have been used successfully in classification of Western and Chinese classical instruments \citep{Liu2010a}, drum sounds \citep{Herrera2002, Herrera2003} as well as general instrument and timbre classification \citep{Herrera-Boyer2003, Krey2010, Agostini2003, Deng2008}.
+\acrfull{svm}s as a classification mechanism, and in comparison to nearest neighbours methods, are significantly more complex in their conception. In a nutshell, an SVM algorithm will try to find an idealised hyperplane that separates instances into multiclasses in multidimensional space that is more complex - with `added' dimensions - than the original one \citep{Chang2008}. At lower dimensionality, linear separation is not always possible, so a ``kernel function'' is used to artificially transform the problem set to higher dimensionality for easier separation between the classes \citep{Xu2003}. Luckily the availability of libraries such as LibSVM \citep{Chang2011} (also integrated into scikit-learn) means this algorithm can be easily incorporated into classification experiments. SVM have been used successfully in classification of Western and Chinese classical instruments \citep{Liu2010a}, drum sounds \citep{Herrera2002, Herrera2003} as well as general instrument and timbre classification \citep{Herrera-Boyer2003, Krey2010, Agostini2003, Deng2008}.
 
 \paragraph{Artificial Neural Networks}
 
@@ -790,7 +761,7 @@ Spectral (4) & flatness.mean (1), flatness.var (1)\\
 
 \subsubsection{Results}
 
-To determine the interaction and ability of different feature sets  we divided the base level features into temporal, spectral, harmonic and timbral groupings and experimented with a number of combinations of these groupings (\tabref{tab:feature_groupings}).  In terms of preprocessing all features were normalised using min-max normalisation, except for the neural network which seemed to respond better to data standardisation versus normalisation. For each classifier 10-fold cross validation was performed, then the results were aggregated and reported along with their 95\% confidence interval.
+To determine the interaction and ability of different feature sets  we divided the base level features into temporal, spectral, harmonic and timbral groupings and experimented with a number of combinations of these groupings (\tabref{tab:feature_groupings}).  In terms of preprocessing, all features were normalised using min-max normalisation, except for the neural network which seemed to respond better to data standardisation versus normalisation. For each classifier 10-fold cross validation was performed, then the results were aggregated and reported along with their 95\% confidence interval.
 
 \tabref{tab:orch_classification} shows the accuracy results for each classifier applied to the various configurations of descriptors when run on the orchestral dataset. The neural network and SVM returned the highest classification accuracy run on the whole collection of features using \acrshort{gfcc} cepstral analysis.
 
@@ -854,7 +825,7 @@ MFCC+Temporal+Spectral & 0.83 (+/- 0.09) & 0.85 (+/- 0.07) & 0.85 (+/- 0.04) \\
 	\par \end{centering} 
 \end{table}
 
-The accuracy of classification is lower overall for our percussion dataset, which we can attribute as follows. Intuitively, the wider palette of sounds within an orchestra given the timbre of different instruments, dynamic ranges, articulations and so forth are bound to exhibit greater variance in the feature statistics that can aid us in separating the instances into their correct classes more easily. Looking at the confusion matrix (\figref{fig:drum_confusion}) for one of the test validations (GFCC+Temporal+Spectral trained with the \acrshort{svm}) we can see where the trends of the false positives lie. For example we some misclassification between toms and kicks which is to be expected - they are both lower frequency membranes without wires (unlike the snare). Also there is some misclassification of hi-hats and cymbals which are all broadband in their spectral profiles. It is also important to realise that, in drum machines at least, these sounds are generated using the same limit set of modules of oscillators and filters etc., so even the most astute listener would be at pains to discriminate between many synthesised claps, snares, or hi-hats generated by  certain vintage drum machines.
+The accuracy of classification is lower overall for our percussion dataset, which we can attribute as follows. Intuitively, the wider palette of sounds within an orchestra given the timbre of different instruments, dynamic ranges, articulations and so forth are bound to exhibit greater variance in the feature statistics that can aid us in separating the instances into their correct classes more easily. Looking at the confusion matrix (\figref{fig:drum_confusion}) for one of the test validations (GFCC+Temporal+Spectral trained with the \acrshort{svm}) we can see where the trends of the false positives lie. For example we can observe some misclassification between toms and kicks which is to be expected - they are both lower frequency membranes without wires (unlike the snare). Also there is some misclassification of hi-hats and cymbals which are all broadband in their spectral profiles. It is also important to realise that, in drum machines at least, these sounds are generated using the same limit set of modules of oscillators and filters etc., so even the most astute listener would be at pains to discriminate between many synthesised claps, snares, or hi-hats generated by  certain vintage drum machines.
 
 \begin{figure}
 	\begin{center}
@@ -872,25 +843,33 @@ Unit selection solves the problem of determining what sounds to select from the 
 
 \blockcquote[]{Schwarz2006b}{``\textit{[Concatenative sound synthesis uses] a unit selection algorithm that finds the sequence of units that match best the sound or phrase to be synthesized, called the target. The selection is performed according to the descriptors of the units, which are characteristics extracted from the source sounds, or higher level descriptors attributed to them.}''} 
 
- Many unit selection schemata have been proposed and there exists no standard or best method. However some specific procedures have presented themselves repeatedly which we will summarise here:
+ Many unit selection schemata have been proposed and there exists no standard or best method. However some specific procedures have presented themselves repeatedly which we will summarise in the following subsections, including.
+ 
+ \begin{enumerate}
+  \item Linear Search
+  \item \textit{k}-D Trees
+  \item \acrshort{hmm}s and Viterbi Decoding
+  \item Constraint Satisfaction
+\end{enumerate}
+
 
 \subsection{Linear Search}
 
-At the most basic level a linear search criteria for unit selection simply computes the (dis)similarity of every unit in the target sequence with every possible unit in the corpus, according to some distance measure \citep{Schwarz2011}. For example, a weighted variation of Euclidean could be applied (taking care to normalise the feature vectors) that would allow the composer to place emphasis on certain features in the similarity computation as given by \eqnref{eq:linear_search}.
+At the most basic level a linear search criteria for unit selection simply computes the (dis)similarity of every unit in the target sequence with every possible unit in the corpus, according to some distance measure \citep{Schwarz2011}. For example, a weighted variation of Euclidean could be utilised (taking care to normalise the feature vectors) that would allow the composer to place emphasis on certain features in the similarity computation as given by \eqnref{eq:linear_search}.
 
 \begin{equation}
 \label{eq:linear_search}
 d(t^i, c^j) = \sqrt{\sum_{k=0}^{K-1}w_k(t^i_k-c^j_k)^2}
 \end{equation}
 
-Here $d(t^i, c^j)$ refers to the distance or dissimilarity between a target unit $t^i$ and a corpus unit $c^j$, index $k$ represents the individual feature value from the full set of $K$ features and $w_k$ represents a weighting to be applied to that feature during the distance computation. The closest corpus unit $s$ that should be selected for concatenation is then given by \eqnref{eq:linear_search_argmin}.
+Here $d(t^i, c^j)$ refers to the distance or dissimilarity between a target unit $t^i$ and a corpus unit $c^j$, index $k$ represents the individual feature value from the full set of $K$ features and $w_k$ represents a weighting to be attached to that feature during the distance computation. The closest corpus unit $s$ that should be selected for concatenation is then given by \eqnref{eq:linear_search_argmin}.
 
 \begin{equation}
 \label{eq:linear_search_argmin}
 s = \operatorname*{arg\ min}_{0<j<N}\ d(t^i, c^j)
 \end{equation}
 
- It is a conceptually simple and robust technique that has been applied in numerous systems (or at least non-weighted Euclidean) \citep{Dannenberg2006, Maestre2006, Sturm2006, Collins2007,  Stoll2013}. In fact, for ease of implementation, we have applied the linear search method ourselves in developing a real-time system for concatenative synthesis of rhythms as described in \citep{Nuanain2016a, ONuanain2017a}, which we examine in more depth in \chapref{chap:rhythmcat}. The overlying problem with this approach is that it only considers the disparity between the target and the corpus unit, and neglects treating the continuity or context of consecutive units within the output sequence. Depending on the size of the corpus it may also be prohibitively slow (but not in our informal usage, at least not compared to \acrshort{hmm}s), which can be remedied by applying a structure such as a \textit{k}-d Tree.
+ It is a conceptually simple and robust technique that has been corroborated in numerous systems (or at the least regular non-weighted Euclidean distance) \citep{Dannenberg2006, Maestre2006, Sturm2006, Collins2007,  Stoll2013}. In fact, for ease of implementation, we have adopted the linear search method ourselves in developing a real-time system for concatenative synthesis of rhythms as described in \cite{Nuanain2016a, ONuanain2017a}, which we examine in more depth in \chapref{chap:rhythmcat}. The overlying problem with this approach is that it only considers the disparity between the target and the corpus unit, and neglects treating the continuity or context of consecutive units within the output sequence. Depending on the size of the corpus it may also be prohibitively slow (but not in our informal usage, at least not compared to \acrshort{hmm}s), which can be remedied by applying a structure such as a \textit{k}-d Tree.
 
 \subsubsection{Faster Search with \textit{k}-D Trees}
 
@@ -902,20 +881,22 @@ A \textit{k}-D Tree organises points in space with a binary tree by successivly 
 	\begin{center}
 		\includegraphics[width=1.0\textwidth]{ch05_pyconcat/figures/kdTree.png}
 	\end{center}
-	\caption[]{Hyperplane division (left) and binary tree (right) arrangement of 2-dimensional dataset with a \textit{k}-D Tree of depth 4. The origin is the top left and the size of the grid is 128x128 units. Image from Indiana University.}
+	\caption[]{Hyperplane division (left) and binary tree (right) arrangement of 2-dimensional dataset with a \textit{k}-D Tree of depth 4. The origin is the top left and the size of the grid is 128x128 units. Image from Linköping University\protect\footnotemark.}
 	\label{fig:markov_unit}
 \end{figure}
 
-It is important to realise that they are only approximate solutions so they may not return the actual nearest neighbour (which is in an important factor to consider if it is to be used for accurate classification). A new instance may be routed down a branch too hastily based on its proximity in a single dimension even though the closest match based on the combined Euclidean distance may  belong to a different branch. Also, as \cite{Russell2002} stress, \textit{k}-D Trees are only useful so long as the number of examples exceeds the number of dimensions in the problem space, otherwise it is no more efficient than exhaustive, linear scanning. Many \textit{k}-D Tree inspired \acrfull{ann2} algorithms exist for dealing with high dimensionality problem domains, at a possible sacrifice in accuracy (it may not return the exact nearest neighbour). For instance in OpenCV a fast approximate \textit{k}-D Tree is implemented using a Best-Bin-First algorithm \citep{kaehler2016learning}. In PyConcat we avail of the implementation in the SciPy scientific package for python \citep{Scipy2014}.
+\footnotetext{\url{http://www.ida.liu.se/opendsa/OpenDSA/Books/Everything/}}
+
+It is important to realise that they are only approximate solutions so they may not return the actual nearest neighbour (which is an important factor to consider if it is to be used for accurate classification). A new instance may be routed down a branch too hastily, based on its proximity in a single dimension, even though the closest match based on the combined Euclidean distance may  belong to a different branch. Also, as \cite{Russell2002} stress, \textit{k}-D Trees are only useful so long as the number of examples exceeds the number of dimensions in the problem space, otherwise it is no more efficient than exhaustive, linear scanning. Many \textit{k}-D Tree-inspired \acrfull{ann2} algorithms exist for dealing with high dimensionality problem domains, at a possible sacrifice in accuracy (it may not return the exact nearest neighbour). For instance, in OpenCV a fast approximate \textit{k}-D Tree is implemented using a Best-Bin-First algorithm \citep{kaehler2016learning}. In PyConcat we avail of the implementation in the SciPy scientific package for python \citep{Scipy2014}.
 
 \subsection{Unit Selection with Viterbi Decoding of Hidden Markov Models}
 \label{viterbi_unit_selection}
 
-The Viterbi algorithm was first applied by Hunt for the purposes of speech synthesis by performing unit selection of speech phonemes samples from a prior corpus \citep{Hunt1996}. It was then adopted for musical purposes by Diemo Schwarz in his Caterpillar System \citep{Schwarz2003}. By representing a unit selection system as a Hidden Markov Model we can not only consider the disparity between the target and corpus unit (encoded in the emission matrix) but also the “best fit” of continuity between two consecutive units in the output sequence as determined by the transition matrix of the hidden states (\figref{fig:markov_unit}).
+The Viterbi algorithm was first applied by Hunt for the purposes of speech synthesis by performing unit selection of speech phonemes samples from a prior corpus \citep{Hunt1996}. It was then adopted for musical purposes by Schwarz in his Caterpillar System \citep{Schwarz2003}. By representing a unit selection system as a Hidden Markov Model we can not only consider the disparity between the target and corpus unit (encoded in the emission matrix) but also the “best fit” of continuity between two consecutive units in the output sequence, as determined by the transition matrix of the hidden states (\figref{fig:markov_unit}).
 
-As with shortest path problems, unit selection requires finding the \textit{minimisation} of a set of \textit{costs} \citep{Hunt1996}, namely the target cost $C^{t}$ between target and corpus units (\eqnref{eq:target_cost}, which is an identical derivation to \eqnref{eq:linear_search} in the linear search method) and the concatenation cost $C^{c}$ (\eqnref{eq:concatenation_cost}) between the consecutive concatenated units \citep{Schwarz2003}. This is in contrast to usual goal of Markov processes which of course is concerned with \textit{maximisation} of probabilities. 
+As with shortest path problems, unit selection requires finding the \textit{minimisation} of a set of \textit{costs} \citep{Hunt1996}, namely the target cost $C^{t}$ between target and corpus units (\eqnref{eq:target_cost}, which is an identical derivation to \eqnref{eq:linear_search} in the linear search method), and the concatenation cost $C^{c}$ (\eqnref{eq:concatenation_cost}) between the consecutive concatenated units \citep{Schwarz2003}. This is in contrast to the usual goal of Markov processes, which of course is concerned with \textit{maximisation} of probabilities. 
 
-A linear combination is finally performed with weights $w^{t}$ and $w^{c}$ to give the total cost $C$ (\eqnref{eq:total_cost}) . The constituent costs themselves are derived by computing the dissimilarity between the feature vectors of the associated units using a suitable distance metric and a set of $w_k$. The feature sets and accompanying weights can (and typically do) differ for the two different cost functions. 
+A linear combination is finally performed with weights $w^{t}$ and $w^{c}$ to give the total cost $C$ (\eqnref{eq:total_cost}). The constituent costs themselves are derived by computing the dissimilarity between the feature vectors of the associated units using a suitable distance metric and a set of $w_k$. The feature sets and accompanying weights can (and typically do) differ for the two different cost functions. 
 
 \begin{equation}
 \label{eq:target_cost}
@@ -932,13 +913,13 @@ C^{c}(c^j, c^j-1) = \sqrt{\sum_{k=0}^{K-1}w_k(c^j_k-c^{j-1}_k)^2}
 C = w^t.C^t + w^c.C^c
 \end{equation}
 
-One of the motivations for working with more complex unit selection schemes like \acrshort{hmm}s is that we can specify what we consider important for target cost computation separately to the concatenation cost computation by weighting accordingly or even choosing completely different features sets. For example, in speech synthesis we might choose features and weightings for the target cost that prioritises matching of length and linguistic context versus more prosodic configurations for the concatenation cost that encourage stability of energy and pitch.
+One of the motivations for working with more complex unit selection schemes like \acrshort{hmm}s is that we can specify what we consider important for target cost computation separately to the concatenation cost computation, by weighting accordingly or even choosing completely different features sets. For example, in speech synthesis we might choose features and weightings for the target cost that prioritises matching of length and linguistic context versus more prosodic configurations for the concatenation cost that encourage stability of energy and pitch.
 
 \subsection{Constraint Satisfaction}
 
 Schwarz notes, however, that the \acrshort{hmm} approach can be quite rigid for musical purposes because it produces one single optimised sequence without the ability to manipulate the individual units. To address these limitations, he reformulates the task into a constraint-satisfaction problem, which offers more flexibility for interaction. A constraint-satisfaction problem models a problem as a set of variables, values, and a set of constraints that allows us to identify which combinations of variables and values are violations of those constraints, thus allowing us to quickly reduce large portions of the search space \citep{Nierhaus2009}. 
 
-\cite{Zils2001} first introduced constraint satisfaction for concatenative synthesis in what they describe as musical mosaicking - or, to use their portmanteau - musaicing. They define two categories of constraints: segment and sequence constraints. Segment constraints control aspects of individual units (much like the target cost in an \acrshort{hmm}-like system) based on their descriptor values. Sequence constraints apply globally and affect aspects of time, continuity, and overall distributions of units. The constraints can be applied manually by the user or learned by modelling a target. The musically tailored “adaptive search” algorithm performs a heuristic search to minimise the total global cost generated by the constraint problem. One immediate advantage of this approach over the \acrshort{hmm} is the ability to run the algorithm several times to generate alternative sequences, whereas the Viterbi process always outputs the most optimal solution. 
+As explained in \secref{sec:zilsone}, \cite{Zils2001} and later \cite{Aucouturier2006} are credited with applying constraint satisfaction techniques to concatenative sound synthesis, in a procedure they refer to as musaicing. They define two categories of constraints: segment and sequence constraints. Segment constraints control aspects of individual units (much like the target cost in an \acrshort{hmm}-like system) based on their descriptor values. Sequence constraints apply globally and affect aspects of time, continuity, and overall distributions of units. The constraints can be invoked manually by the user or learned by modelling a target. The musically tailored “adaptive search” algorithm performs a heuristic search to minimise the total global cost generated by the constraint problem. One immediate advantage of this approach over the \acrshort{hmm} is the ability to run the algorithm several times to generate alternative sequences, whereas the Viterbi process always outputs the most optimal solution. 
 
 \section{Extensions to Hidden Markov Model-Based Unit Selection}
 
@@ -957,7 +938,7 @@ The subtleties of Hidden Markov Models don’t become immediately clear until we
 \begin{enumerate}
   \item \textit{Evaluation}  - Given an observable sequence of emissions $O = (O_1, 0_2, O3,..., O_T)$, what is the probability that the sequence was generated by a certain model $\lambda$. This is particularly useful when benchmarking or comparing different models. 
 
-\item \textit{Decoding} - Given an observable sequence of emissions $O = (O_1, 0_2, O3,..., O_T)$, what is the most like sequence of hidden states that produced that observation $O$.
+\item \textit{Decoding} - Given an observable sequence of emissions $O = (O_1, 0_2, O3,..., O_T)$, what is the most likely sequence of hidden states that produced that observation $O$.
 
 \item \textit{Learning or Training} - Given a model with its parameters $\lambda = (A, B, \pi)$ and an observable sequence of emissions $O = (O_1, 0_2, O3,..., O_T)$, how do we adjust the parameters to maximise the probability of the observable sequence $O$.
 \end{enumerate}
@@ -971,7 +952,7 @@ The Viterbi algorithm solves the decoding problem in \acrshort{hmm}s \citep{Rabi
 S*=argmax (P(S|O))
 \end{equation}  
 
-A brute force solution applied to a $T$ observations over $N$ states would involve computing all the cartesian products of the possibilities; $N^T$ involving exponential time complexity. Viterbi’s algorithm enables us to reduce this complexity to $O(T.N^2)$, using dynamic programming techniques. Rather than exhaustively computing all the possibilities, we maintain two data structures alpha ($\alpha$) and phi($\phi$). At any point $t$ in the sequence to be decoded, we store the score of the maximum probability for emitting the observed symbol for each hidden state, along with the index or argument of the maximum probable state that led there. To get the optimal state sequence we get the index of the final highest scoring hidden state and backtrack through the $phi$ structure beginning with that index, returning the accumulated list. We can express this formally in the recurrence expression \ref{eq:markovstart}-\ref{eq:markovend}.
+A brute force solution executed on $T$ observations over $N$ states would involve computing all the cartesian products of the possibilities; $N^T$ involving exponential time complexity. Viterbi’s algorithm enables us to reduce this complexity to $O(T.N^2)$, using dynamic programming techniques. Rather than exhaustively computing all the possibilities, we maintain two data structures alpha ($\alpha$) and phi($\phi$). At any point $t$ in the sequence to be decoded, we store the score of the maximum probability for emitting the observed symbol for each hidden state, along with the index or argument of the maximum probable state that led there. To get the optimal state sequence we get the index of the final highest scoring hidden state and backtrack through the $phi$ structure beginning with that index, returning the accumulated list. We can express this formally in the recurrence expression \ref{eq:markovstart}-\ref{eq:markovend}.
 
 In the initialisation of the algorithm we use the initial probabilities and the observed symbol to calculate the starting probabilities of each hidden state in $\alpha$, and, as there can be no previous states, $\phi$ is set to 0.
 
@@ -1008,9 +989,9 @@ When recursion halts, the highest final probability is computed and its index is
 
 \normalsize
 
-The Viterbi algorithm has been around for quite a while now, and implementations exist in many frameworks and programming languages \citep{Bird2016, Gueguen2005}. It is a fundamental technique in bioinformatics and natural language and speech processing. \acrshort{pos} tagging for example, uses a \acrshort{hmm} trained on a large corpus of text with each word labelled with its constituent part of speech (e.g. noun, verb, article etc.). It proves more robust results in identifying new samples of text, as the transition matrix helps determine the context of each word within the sequence. 
+The Viterbi algorithm has been around for quite a while now \citep{Viterbi1967}, and implementations exist in many frameworks and programming languages \citep{Bird2016, Gueguen2005}. It is a fundamental technique in bioinformatics and natural language and speech processing. \acrfull{pos} tagging for example, uses a \acrshort{hmm} trained on a large corpus of text with each word labelled with its constituent part of speech (e.g. noun, verb, article etc.). It proves more robust results in identifying new samples of text, as the transition matrix helps determine the context of each word within the sequence. 
 
-We have provided a reference implementation of the single output probabilistic Viterbi as part of our ongoing \textit{k}-Best Viterbi work\footnote{\url{https://github.com/carthach/kBestViterbi/blob/master/kBestViterbi.py}}. An important caveat in the implementation of \acrshort{hmm} software is the possibility of numerical underflow due to multiplication of ever decreasing minute probabilities, for this reason programmers typically convert to log-space for allowing addition instead, which we also allow the option of.
+%We have provided a reference implementation of the single output probabilistic Viterbi as part of our ongoing \textit{k}-Best Viterbi work. An important caveat in the implementation of \acrshort{hmm} software is the possibility of numerical underflow due to multiplication of ever decreasing minute probabilities, for this reason programmers typically convert to log-space for allowing addition instead, which we also allow the option of.
 
 {\renewcommand{\arraystretch}{1.5}
 \begin{table} 
@@ -1039,7 +1020,9 @@ $B$ = \{ \\
 	\par \end{centering}
 \end{table}
 
-\figref{fig:viterbi_basic} shows a trellis diagram showing the highlighted trace of the decoded path ($S = (0, 0, 1)$), for the observed sequence $O = (0, 1, 2)$ (or `normal', `cold' and `dizzy' to give it its string labels) along with its calculations, computed by the Viterbi algorithm through the state space of the example problem in the Wikipedia article on Viterbi decoding \footnote{\url{https://en.wikipedia.org/wiki/Viterbi_algorithm}}. The parameters of the model are given in \tabref{tab:hmm_parameters}. Notice how the dynamic programming stage intuitively computes and stores the necessary probabilities for each state at each time step through the trellis.
+\figref{fig:viterbi_basic} shows a trellis diagram showing the highlighted trace of the decoded path ($S = (0, 0, 1)$), for the observed sequence $O = (0, 1, 2)$ (or `normal', `cold' and `dizzy' to give it its string labels) along with its calculations, computed by our own reference implementation of the Viterbi algorithm\footnote{\url{https://github.com/carthach/kBestViterbi/blob/master/kBestViterbi.py}}, through the state space of the example problem in the Wikipedia article on Viterbi decoding\footnote{\url{https://en.wikipedia.org/wiki/Viterbi_algorithm}}. The parameters of the model are given in \tabref{tab:hmm_parameters}. Notice how the dynamic programming stage intuitively computes and stores the necessary probabilities for each state at each time step through the trellis.
+
+\subsection{HMMs in Musical Applications}
 
 \begin{figure}
 	\begin{center}
@@ -1049,15 +1032,15 @@ $B$ = \{ \\
 	\label{fig:viterbi_basic}
 \end{figure}
 
-\subsection{HMMs in Musical Applications}
-
 \acrshort{hmm}s' facility for pattern recognition has been exploited for computational musical tasks. Score following, for instance, tries to consolidate the position of a live performance of a musical piece with its score representation automatically \citep{Orio2003}. Using Viterbi decoding, an alignment can be established by extracting features for the observed live performance, and comparing them against idealised features within the model to return the expected location of the performance within the score.
 
 \acrshort{hmm}s also lend themselves quite naturally to the task of chord recognition \citep{Papadopoulos2007, Cho2010, Sheh2003}. The former demonstrate a method whereby they compare the \acrshort{pcp} representation of the signal corresponding to 24 possible chord labels (12 notes for major and minor) indicated by the emission matrix, coupled with the most probable chord sequence defined in the transition matrix, derived from prior musical knowledge or training on musical scores and transcriptions.
 
-Compared to Markov chains, \acrshort{hmm}s have been exploited somewhat less in generative or compositional applications (apart from concatenative synthesis, which we will describe presently). Some methods however are summarised in \citep{Fernandez2013} and \citep{Nierhaus2009}, with the latter making the observation that “when applied to algorithmic composition, \acrshort{hmm}s are appropriate to add elements to an existing composition”. 
+Compared to Markov chains, \acrshort{hmm}s have been exploited somewhat less in generative or compositional applications (apart from concatenative synthesis, as we shall discover). Some methods however are summarised in \cite{Fernandez2013} and \cite{Nierhaus2009}, with the latter making the observation that “when applied to algorithmic composition, \acrshort{hmm}s are appropriate to add elements to an existing composition”. 
 
 \subsection{Adjusting Viterbi to Handle Unit Selection in Concatenative Synthesis}
+
+\label{sec:viterbi_unit_selection}
 
 As already stated, Markov systems try to maximise probabilities while concatenative synthesis systems try to minimise cost. The costs should be pre-computed by calculating the target cost $C^{t}$ for every target unit $t_i$ and database unit $c_j$, and the concatenation cost $C^{c}$ for every combination of unit $c_j$. These costs form the emission matrix $A$ and transition matrix $B$ parameters for our \acrshort{hmm} respectively. We can then discard the initial probability matrix $\pi$ and reformulate the Viterbi algorithm with the necessary changes for cost minimisation as in expression \ref{eq:concat_start}-\ref{eq:concat_end}. Note that the recursion and termination steps now use the $min$ and $argmin$ function and sum the final costs. 
 
@@ -1085,49 +1068,51 @@ As already stated, Markov systems try to maximise probabilities while concatenat
 
 \subsection{Exploring Alternatives in HMMs}
 
-One of the most thorough and cited articles dealing with \textit{k}-Best or, ``List Decoding'' as the author describes it, has been provided by \citep{Seshadri1994} who proposes two different methods to extend the regular Viterbi algorithm to multiple output. These methods he clarrifies  as operating in parallel or serial.  We summarise these methods here, and provide an implementation of the parallel approach for unit selection and concatenative synthesis.
+The Viterbi algorithm has proved a robust and reliable solution in many problem applications. As we emphasise in this thesis and in \cite{Nuanain2017} however, it only outputs the maximum probability path from the model. This has been observed by other researchers as being restrictive when wanting to explore alternative paths through the system \citep{Schwarz2003, Brown2010}. Rabiner and Juang also observe, in the context of dynamic time warping, that the single solution Viterbi is often too sensitive and it is desirable to produce a ``multiplicity of reasonable candidate paths so that reliable decision processing can be performed" \citep{Rabiner1993}. 
 
-As we were implementing the Parallel Decoder, we begin to notice the comparisons between the search process Viterbi takes through the hidden state space in a \acrshort{hmm} and the way that shortest path algorithms such as Dijkstra's find the path of least resistance through an acyclic directed graph, as we already saw in the computation of the direct-swap distance in \chapref{chap:symbolic}. In fact there are methods in graph research that can retrieve the k-Shortest Paths sequentially. To this end, we also demonstrate a method of reformulating a cost-based \acrshort{hmm} used in concatenative synthesis as a directed acyclic graph in order to avail of shortest path methods.
+One of the most thorough and cited articles dealing with \textit{k}-Best or, ``List Decoding'' as the author describes it, has been provided by \cite{Seshadri1994} who proposes two different methods to extend the regular Viterbi algorithm to multiple output. These methods he clarifies  as operating in parallel or serial modes. We summarise these methods here, and provide an implementation of the parallel approach for unit selection and concatenative synthesis.
+
+As we were implementing the parallel decoder, we began to notice the comparisons between the search process Viterbi takes through the hidden state space in a \acrshort{hmm} and the way that shortest path algorithms such as Dijkstra's find the path of least resistance through an acyclic directed graph, as we already saw in the computation of the directed-swap distance in \secref{sec:directed_swap}. In fact there are methods in graph research that can retrieve the k-Shortest Paths sequentially. To this end, we also demonstrate a method of reformulating a cost-based \acrshort{hmm} used in concatenative synthesis as a directed acyclic graph in order to avail of shortest path methods.
 
 \subsubsection{Parallel Decoder}
 
-The Parallel decoder \citep{Seshadri1994} or \acrfull{lva} is so-called because, instead of keeping track of the winning path leading into each state at time step $t$, it now stores the top $k$ paths leading into the states in one pass through the state space or trellis. This is distinct from the serial decoder which takes several passes through the trellis in order to return multiple candidates.
+The parallel decoder \citep{Seshadri1994} or \acrfull{lva} is so-called because, instead of keeping track of the winning path leading into each state at time step $t$, it now stores the top $k$ paths leading into the states in one pass through the state space or trellis. This is distinct from the serial decoder which takes several passes through the trellis in order to return multiple candidates.
 
-To convert the regular Viterbi decoder to a \textit{k}-Best Parallel decoder. the following steps are required.
+To convert the regular Viterbi decoder to a \textit{k}-Best parallel decoder. the following steps are required.
 
 \begin{enumerate}
   \item Expand the $\alpha$ and $\phi$ matrices of the \acrshort{hmm} to account for $T*N*K$ entries that correspond to $T$ discrete steps, $N$ states and $K$ sequences.
   \item When computing the probabilities of the transitions from the previous states leading into the current state as per the recursion step in the equation, insert them into a continuously sorting data structure like a priority queue\footnote{ A heap queue is a binary tree with the special condition that every parent has a value less than or equal to that of its children (this is a minimum queue, a maximum is naturally the inverse). The important function in our case is the push function, which adds items to the tree and maintains the sorted heap property in $O(log n)$ time. } (we use Python's \textit{heapq})
-  \item Remember that there is now the possibility of a previous state leading to the current state more than once (because that previous state now also has $k$ previous states that are potentially high probability). Thus we need to another structure (such as a dictionary) to keep track of the ranking of multiple probabilities of the same previous state if it enters the current state more than once.
+  \item Remember that there is now the possibility of a previous state leading to the current state more than once (because that previous state now also has $k$ previous states that are highly probable). Thus we need to another structure (such as a dictionary) to keep track of the ranking of multiple probabilities of the same previous state if it enters the current state more than once.
   \item At the termination step insert the final probabilities into the queue to find the final top \textit{k} scoring paths.
   \item Backtrack as before while taking care to adhere to the ranking of multiple instances of the same previous state.
 \end{enumerate}
 
-Curiously, we couldn't find fully-formed implementations exist for the Parallel decoder, at least not in any usable state of reproducibility, so once again we have implemented and made available ourselves a version in Python. \figref{fig:viterbi_parallel} shows how our newly implemented Parallel decoder computes the first and second highest probability paths (\textit{k} = 2) through the Wikipedia example previously evaluated with the regular Viterbi decoder in \figref{fig:viterbi_parallel}.
+Curiously, we couldn't find any existing fully-formed implementations for the parallel decoder, at least not in any usable state of reproducibility, so once again we have implemented and made available ourselves a version in Python. \figref{fig:viterbi_parallel} shows how our newly implemented parallel decoder computes the first and second highest probability paths (\textit{k} = 2) through the Wikipedia example previously evaluated with the regular Viterbi decoder in \figref{viterbi_basic}.
 
 \begin{figure}
 	\begin{center}
 		\includegraphics[width=1.0\textwidth]{ch05_pyconcat/figures/parallel_viterbi.pdf}
 	\end{center}
-	\caption[Viterbi decoding of Wikipedia example using our decoder]{Viterbi decoding of Wikipedia example using the Parallel decoder. Final delta and phi matrices indicate the top \textit{k} highest scoring probabilities and the state indices that led there. As the two previous states are different we don't need to consider the ranking here. The path is the solid line through the trellis, while \textit{k}=2 is indicated by the dashed line.}
+	\caption[Parallel Viterbi decoding of Wikipedia example using our decoder]{Viterbi decoding of Wikipedia example using the parallel decoder. Final delta and phi matrices indicate the top \textit{k} highest scoring probabilities and the state indices that led there. As the two previous states are different we don't need to consider the ranking here. The path is the solid line through the trellis, while \textit{k}=2 is indicated by the dashed line.}
 	\label{fig:viterbi_parallel}
 \end{figure}
 
 \subsubsection{Serial Decoder}
 
-The Serial Decoder, also proposed by \cite{Seshadri1994}, differs from the Parallel decoder just implemented in that it first computes the single best state sequence using the regular Viterbi decoder, then returns the remaining $k$ one by one. Despite the less efficient connotations that the serial versus parallel labelling musters up, the authors maintain it can perform less computations as ``the $k^{th}$ best candidate is computed only when the previously found \textit{k} - 1 candidates are determined to be in `error''' \citep{Seshadri1994}.
+The Serial Decoder, also proposed by \cite{Seshadri1994}, differs from the parallel decoder just implemented in that it first computes the single best state sequence using the regular Viterbi decoder, then returns the remaining $k$ one by one. Despite the less efficient connotations that the serial versus parallel labelling musters up, the authors maintain it can perform less computations as ``the $k^{th}$ best candidate is computed only when the previously found \textit{k} - 1 candidates are determined to be in `error''' \citep{Seshadri1994}.
 
-We have not implemented the Serial decoder (yet - see \chapref{chap:conclusions} for future work!), as once again no reference code is available and its derivation is a bit harder to decipher from the paper than in the case of its parallel equivalent.
+We have not implemented the Serial decoder (yet - see \chapref{chap:conclusions} for future work!), as once again no reference code is available and its derivation is a bit harder to decipher from its scant treatment in the literature \citep{Seshadri1994, Rabiner1993, Nill1995}, than in the case of its parallel equivalent.
 
 \subsubsection{\textit{k}-Shortest Paths}
 
 We hinted that the traversal of a state space in a \acrshort{hmm} bears considerable resemblance to that of a \acrfull{dag} of vertices, edges and a set of costs to be associated with those edges. This should also be visually apparent from the trellis diagrams presented in \figref{fig:viterbi_basic} and \figref{fig:viterbi_parallel}.
 
-Shortest path algorithms aim to solve the problem of finding the path between two given vertices with the least cost. One of the most well-known algorithms for achieving the shortest path are those by Dijkstra or Bellman and Ford \citep{Russell2002}. Computing the \textit{k}-Shortest paths then entails returning an ordered \textit{list} of the shortest paths between the two desired vertices (from what is often called the \textit{source} to the \textit{sink}).
+Shortest path algorithms aim to solve the problem of finding the path between two given vertices with the least cost. Two well-known algorithms for achieving the shortest path include \cite{dijkstra1959note} and Bellman-Ford \citep{bellman1958routing, ford1956network}. Computing the \textit{k}-Shortest paths then entails returning an ordered \textit{list} of the shortest paths between the two desired vertices (from what is often called the \textit{source} to the \textit{sink}).
 
-One of first algorithms proposed for tackling \textit{k}-Shortest path problems is known as Yen's Algorithm \citep{Yen1971}. Yen's algorithm only operates on simple or loopless graphs (like \acrshort{dag}s or trellis diagram representations of a \acrshort{hmm}) and uses a regular shortest path algorithm such as Dijkstra or Bellman-Ford in order to find the best \textit{k}=1 shortest path initially. Assuming the previous $k-1$ paths have already been found, the algorithm searches the previous path for branches that deviate with higher associated cost. It is for this reason we need to have the best initial shortest path from an existing shortest path algorithm. Thankfully many implementations exist for \textit{k} Shortest Path routing so we don't need to worry about its inner workings too greatly and can rely on its black-box functionality in many graph-based programming libraries. We avail of Yen's Algorithm in Python using the NetworkX \cite{Hagberg2008} graph library. 
+One of the first algorithms proposed for tackling \textit{k}-Shortest path problems is known as Yen's Algorithm \citep{Yen1971}. Yen's algorithm only operates on simple or loopless graphs (like \acrshort{dag}s or trellis diagram representations of a \acrshort{hmm}) and uses a regular shortest path algorithm such as Dijkstra or Bellman-Ford in order to find the best \textit{k}=1 shortest path initially. Assuming the previous $k-1$ paths have already been found, the algorithm searches the previous path for branches that deviate with higher associated cost. It is for this reason we need to have the best initial shortest path from an existing shortest path algorithm. Thankfully, many implementations exist for \textit{k} Shortest Path routing so we don't need to worry about its inner workings too greatly and can rely on its black-box functionality in many graph-based programming libraries. We avail of Yen's Algorithm in Python using the NetworkX \cite{Hagberg2008} graph library. 
 
-With the availability of \textit{k} shortest path routing methods and the already identified similarity between a \acrshort{hmm} trellis and \acrshort{dag} we propose here a way to reformulate a \acrshort{hmm} trellis as a \acrshort{dag} for \textit{k}-Best Viterbi decoding with \textit{k}-shortest paths. The steps taken are as follows:
+With the availability of \textit{k} shortest path routing methods and the already identified similarity between a \acrshort{hmm} trellis and \acrshort{dag}, we propose here a way to reformulate a \acrshort{hmm} trellis as a \acrshort{dag} for \textit{k}-Best Viterbi decoding with \textit{k}-shortest paths. The steps taken are as follows:
 
 \begin{enumerate}
   \item A Hidden Markov Model can be considered as a weighted directed acyclic graph or trellis graph. For a series of $T$ discrete observations and $n$ hidden states, the graph contains $n*T$ nodes and $n^{2}*T$ edges connecting $n$ nodes at $t=i$ with $n$ nodes at $t=i+1$. Edge weights correspond to the joint probability of the transition cost for each pair of nodes and the emission cost of the output symbol.
@@ -1147,7 +1132,7 @@ p = exp(-c)
 \end{equation}
 \end{enumerate}
 
-Suffice it to say step 6 and 7 are not required in unit selection for concatenative synthesis since the state space is already based on cost. \figref{fig:graph_hmm} shows an autogenerated trace of the \textit{k} shortest paths, with $k=2$, applied to a graph reformulation of the Wikipedia \acrshort{hmm} example. The order of the states are reversed, so the two output sequences are actually $S_1 = (0, 0, 1)$ and $S_2 = (0, 1, 1)$ respectively.
+Suffice it to say that step 6 and 7 are not required in unit selection for concatenative synthesis since the state space is already based on cost. \figref{fig:graph_hmm} shows an autogenerated trace of the \textit{k} shortest paths, with $k=2$, applied to a graph reformulation of the Wikipedia \acrshort{hmm} example. The order of the states are reversed, so the two output sequences are actually $S_1 = (0, 0, 1)$ and $S_2 = (0, 1, 1)$ respectively.
  
 \begin{figure}
 	\begin{center}
@@ -1157,23 +1142,19 @@ Suffice it to say step 6 and 7 are not required in unit selection for concatenat
 	\label{fig:graph_hmm}
 \end{figure}
 
-\subsubsection{\textit{k}-Best Viterbi Decoding}
-
-The Viterbi algorithm has proved a robust and reliable solution in many problem applications. As we emphasise in this thesis and \citep{Nuanain2017} however, it only outputs the maximum probability path from the model. This has been observed by other researchers as being restrictive when wanting to explore alternative paths through the system \citep{Schwarz2003, Brown2010}. Rabiner and Juang also observe, in the context of dynamic time warping, that the single solution Viterbi is often too sensitive and it is desirable to produce a ``multiplicity of reasonable candidate paths so that reliable decision processing can be performed" \citep{Rabiner1993}. They outline a procedure for performing \textit{k}-Best decoding using what they term the Parallel Algorithm, which can be summarised as followed.
-
 \section{Developing a \textit{k}-Best Concatenative Synthesiser}
 
-This chapter has hopefully presented a thorough treatise of the technical underpinnings of the key aspects of concatenative synthesis, organised by the conceptual stages of unit decomposition, analysis and unit selection, along with the presentation of two substantial contributions in the case of analysis and unit selection.
-
-Now we turn the effort to putting all these components together to actually create some sounds. This is done in the context of PyConcat, a framework for concatenative synthesis that coalesces the previously described state of the art methods as well as novel ones like \textit{k}-Best unit selection. Some experimental evidence is also exposed that confirms the validity of our contributions. The scope of this chapter is still general to all stylistic intentions. In \chapref{chap:rhythmcat} a system is described that tailors such methods specifically for rhythm-centric dance production as stipulated in the introduction of the thesis.
+This chapter has hopefully presented a thorough treatise of the technical underpinnings of the key aspects of concatenative synthesis, organised by the conceptual stages of unit decomposition, analysis and unit selection, along with the presentation of two substantial contributions. Firstly, we implemented and verified the suitability of different cepstrum methods for timbre classification with two disparate dataset. Secondly, we improved \acrshort{hmm} approaches to unit selection to enable output of multiple candidate sequences using \textit{k}-Best, list decoding or graph based algorithms. Now we turn the effort to putting all these components together to actually create some sounds, coupled with some experimental evidence  that exposes and confirms the validity of our contributions. 
  
 \section{PyConcat - Python Framework for Concatenative Synthesis}
 
-A more detailed technical introduction to the usage of PyConcat is offered in the Appendix along with example code, but this section will give a broad enough insight in order to conduct some studies. To perform a concatenative synthesis task with PyConcat the composer first requires a corpus of interesting sounds and a target sound they wish to emulate the sonic character of. They then provide parameters and issues instructions for performing the three key stages that are required\footnote{In fact, the system is sufficiently decoupled that any of these logical stages can be performed separately for their own purpose. For example the tool can be used solely for slicing sounds, or performing batch feature analysis on a library for the purposes of \acrshort{mir}.}
+PyConcat is devised in the context of this thesis as a framework for \textit{research-oriented} exploration of concatenative synthesis, coalescing the previously described state of the art methods as well as novel ones like \textit{k}-Best unit selection. We stress research-oriented as it does not address user interaction and is not suitable for real time applications. The scope of this chapter is also still general to all stylistic intentions. In \chapref{chap:rhythmcat} a system is described that tailors such methods specifically for rhythm-centric dance production as stipulated in the introduction of the thesis.
+
+To perform a concatenative synthesis task with PyConcat the composer first requires a corpus of interesting sounds and a target sound they wish to emulate the sonic character of. They then provide parameters and issues instructions for performing the three key stages that are required\footnote{In fact, the system is sufficiently decoupled that any of these logical stages can be performed separately for their own purpose. For example the tool can be used solely for slicing sounds, or performing batch feature analysis on a library for the purposes of \acrshort{mir}.}. A more detailed technical introduction to the usage of PyConcat is offered in Appendix \ref{app:pyconcat} along with example code, but this section is intended to give a broad enough insight in order to conduct some preliminary experiments. 
 
 \subsection{Onset Detection and Segmentation}
 
-The composer must choose the unit scale for segmenting sounds into their constituent units. The unit scales need not be the same for the target or corpus. The options we provide include
+The composer must choose the unit scale for segmenting sounds into their constituent units. The unit scales need not be the same for the target and the corpus. The options we provide include
 
 \begin{itemize}
   \item \textbf{Framewise} - slice the samples at uniform length $N$.
@@ -1185,9 +1166,9 @@ The composer must choose the unit scale for segmenting sounds into their constit
 
 \subsection{Feature Extraction}
 
-In order to effectively describe our audio content and produce meaningful similarity measures between constituent units both in the target sequence and the corpus of segmented units we need to choose a suitable set of descriptors. Selecting appropriate features is a trade-off between choosing the richest set capable of succinctly describing the signal, on the one hand, and the expense of storage and computational complexity, on the other. 
+In order to effectively describe our audio content and produce meaningful similarity measures between constituent units, both in the target sequence and the corpus of segmented units, we need to choose a suitable set of descriptors. Selecting appropriate features is a trade-off between choosing the richest set capable of succinctly describing the signal, on the one hand, and the expense of storage and computational complexity, on the other. 
 
-We expose all the features discussed in this chapter as options for analysing sounds so the composer can combine any of the following:
+We expose all the features discussed in this chapter as options for analysing sounds, so the composer can combine any of the following:
 
 \begin{itemize}
 \item \textbf{Temporal:} loudness, attack
@@ -1200,7 +1181,7 @@ We expose all the features discussed in this chapter as options for analysing so
 
 Extracted features for the target units and corpus units and are stored in two matrices $T$ and $C$. Next the distance matrices $A = T * C$  and $E = C * C$ are calculated to avoid unnecessary computation later. Beforehand, however, it is important to perform any normalisation or standardisation and weighting of individual features as required.
 
-A unit selection procedure is applied to return a sequence of corpus indices using:
+A unit selection procedure is engaged to return a sequence of corpus indices using:
 
 \begin{itemize}
 \item \textbf{Linear Search} - return an ordered list of the closest corpus units to each target unit.
@@ -1212,9 +1193,11 @@ A unit selection procedure is applied to return a sequence of corpus indices usi
 
 \subsection{Transformation and Concatenation}
 
-The unit selection stage returns a vector of indices of length $N$ or a matrix of $k*N$ indices  where $N$ is the number of target units and $k$ is the number of sequences from the $k$ best schemes. These indices correspond to individual sound units within our corpus. To produce the final audio representation we simply concatenate the floating point samples uniformly back to back, but there’s no reason why they can’t be overlapped and crossfaded at their boundaries for further smoothing as in \citep{Schwarz2006b}. 
+\label{sec:rubberband}
 
-Unlike other investigators we don't focus on complex post-selection transformations, but if there is a large discrepancy between the lengths of the target units and the corpus units or the pitch needs to be adjusted some time compression or pitch-shifting can be applied, which we facilitate through the a transformation stage utilising the Rubber Band Library\footnote{\url{breakfastquay.com/rubberband/}} which is also used in the systems of \cite{Davies2013} and \cite{Smith2015}.
+The unit selection stage returns a vector of indices of length $N$, or a matrix of $k*N$ indices, where $N$ is the number of target units and $k$ is the number of sequences from the $k$ best schemes. These indices correspond to individual sound units within our corpus. To produce the final audio representation, we simply concatenate the floating point samples uniformly back to back, but there’s no reason why they can’t be overlapped and crossfaded at their boundaries for further smoothing as in \citep{Schwarz2006b}. 
+
+Unlike other investigators \citep{Coleman2010} we don't focus on complex post-selection transformations, but if there is a large discrepancy between the lengths of the target units and the corpus units or its pitch needs to be adjusted, some time compression or pitch-shifting can be applied, which we facilitate through the a transformation stage utilising the Rubber Band Library\footnote{\url{http://www.breakfastquay.com/rubberband/}} which is also used in the systems of \cite{Davies2013} and \cite{Smith2015}.
 
 \section{Analysis of the \textit{k}-Best Unit Selection}
 
@@ -1224,27 +1207,27 @@ In \chapref{chap:evaluation} we shall conduct a stringent and rigorous evaluatio
 
 \begin{figure}
 	\begin{center}
-		\includegraphics[width=0.9\textwidth]{ch05_pyconcat/figures/running_time.png}
+		\includegraphics[width=0.95\textwidth]{ch05_pyconcat/figures/running_time.png}
 	\end{center}
 	\caption[Running Time Comparisons for both Algorithms]{Running Time Comparisons for both Algorithms}
 	\label{fig:running_times}
 \end{figure}
 
-To compare the running times of the two implemented algorithms we took a small recording of the 8 notes of the C major scale being performing on a piano and resynthesised it with itself. \figref{fig:running_times} shows side by side of the running times for both algorithms based on the number of paths returned. Our implementation of the Parallel Decoder outperforms the NetworkX Graph approach considerably. This is mostly due the added layer of complexity of expanding the Hidden Markov Model to a fully connected directed acyclic graph. Others have noted however that NetworkX, on account of being implemented purely in Python, performs slower than other compiled graph libraries such as \textit{graph-tool} or \textit{igraph}.
+To compare the running times of the two implemented algorithms we took a small recording of the 8 notes of the C major scale being performed on a piano and resynthesised it with itself. \figref{fig:running_times} shows side by side of the running times for both algorithms based on the number of paths returned. Our implementation of the parallel decoder outperforms the NetworkX Graph approach considerably. This is mostly due to the added layer of complexity of expanding the Hidden Markov Model to a fully connected directed acyclic graph. Others have noted however that NetworkX, on account of being implemented purely in Python, performs slower than other compiled graph libraries such as \textit{graph-tool} or \textit{igraph}.
 
-It will be worth benchmarking against these implementations or reimplementing completely in C/C++. In any case, it is worth bearing in mind the real culprit in these applications: audio signal processing. The segmentation and analysis of the units took 0.926248 second for all runs.
+It will be worth benchmarking against these implementations or reimplementing completely in C/C++. In any case, it is worth bearing in mind the real culprit in these applications: audio signal processing. The segmentation and analysis of the units took ~10s for all runs.
 
 \subsection{Equivalence and Correctness}
 
 \begin{figure}
 	\begin{center}
-		\includegraphics[width=0.9\textwidth]{ch05_pyconcat/figures/equivalence.png}
+		\includegraphics[width=0.95\textwidth]{ch05_pyconcat/figures/equivalence.png}
 	\end{center}
-	\caption[Equivalency of Unit Selection Algorithms]{Equivalency of Unit Selection Algorithms}
+	\caption[Equivalency of Unit Selection Algorithms]{Equivalency of Unit Selection Algorithms. Graph A (top) shows correct reassembly of target units with the regular Viterbi decoder. Graph B (middle) shows the first 4 paths returned by parallel decoder. Graph C (bottom) shows the first 4 paths returned by the graph-based decoder.}
 	\label{fig:equivalency}
 \end{figure}
 
-\figref{fig:equivalency} shows the optimal sequence generated for regular Viterbi decoding and sequences $1 \leq k \leq 5$ for the Parallel Decoder and Graph Decoder respectively. The single straight line indicates that using the chosen acoustic features and weightings, the baseline Viterbi decoder correctly reassembles its own input. The Parallel and Graph decoders both correctly return this sequence as the first optimal path also (obscured by the subsequent paths in the diagram). Looking at the other returned paths, we see very slight deviations of only one unit per path ($k$ is very small relative to the total possible paths). The possible paths, and their ordering, are identical for both algorithms.
+\figref{fig:equivalency} shows the optimal sequence generated for regular Viterbi decoding and sequences $1 \leq k \leq 5$ for the parallel decoder and graph decoder respectively. The single straight line indicates that using the chosen acoustic features and weightings, the baseline Viterbi decoder correctly reassembles its own input. The parallel and graph decoders both correctly return this sequence as the first optimal path also (obscured by the subsequent paths in the diagram). Looking at the other returned paths, we see very slight deviations of only one unit per path ($k$ is very small relative to the total possible paths). The possible paths, and their ordering, are identical for both algorithms.
 
 \subsection{Pitch and Timbre Preservation}
 
@@ -1252,22 +1235,34 @@ It will be worth benchmarking against these implementations or reimplementing co
 	\begin{center}
 		\includegraphics[width=0.9\textwidth]{ch05_pyconcat/figures/fundamental.png}
 	\end{center}
-	\caption[Running Time Comparisons for both Algorithms]{Running Time Comparisons for both Algorithms}
+	\caption[Fundamental Frequency of 3 different \textit{k}-Best Sequences]{Fundamental Frequency of 3 different \textit{k}-Best Sequences.}
 	\label{fig:fundamental}
 \end{figure}
 
-To study the \acrshort{hmm}’s acoustical output, we selected energy, fundamental frequency ($f0$) and \acrshort{mfcc} features, and chose a weighting scheme that gave preference to the $f0$ in the target cost while giving preference to the \acrshort{mfcc}s in the concatenation cost. This allows us to focus on the specific ability of the target cost in preserving the pitch between each onset in the target sample and the selected units from the corpus, while the concatenation cost attempts to preserve a continuous and coherent evolution of timbre from a variety of timbres in the corpus. We used the same piano scale sample as a target but this time using a corpus of samples from a completely different set of instruments. From a collection of orchestral samples provided freely by the London Philharmonia, 610 violin, viola, clarinet and trumpet samples were gathered with notes ranging from \acrshort{midi} A3 to G7.
+To study the \acrshort{hmm}’s acoustical output, we selected energy, fundamental frequency ($f0$) and \acrshort{mfcc} features, and chose a weighting scheme that gave preference to the $f0$ in the target cost while giving preference to the \acrshort{mfcc}s in the concatenation cost. This allows us to focus on the specific ability of the target cost in preserving the pitch between each onset in the target sample and the selected units from the corpus, while the concatenation cost attempts to preserve a continuous and coherent evolution of timbre from a variety of timbres in the corpus. We used the same piano scale sample as a target, but this time using a corpus of samples from a completely different set of instruments. From a collection of orchestral samples provided freely by the London Philharmonia, 610 violin, viola, clarinet and trumpet samples were gathered with notes ranging from \acrshort{midi} A3 to G7.
 
 \begin{figure}
 	\begin{center}
 		\includegraphics[width=0.9\textwidth]{ch05_pyconcat/figures/mfccs.png}
 	\end{center}
-	\caption[MFCC plots of k-Best Sequences]{MFCC plots of k-Best Sequences}
+	\caption[MFCC plots of 3 different \textit{k}-Best Sequences]{MFCC plots of 3 different \textit{k}-Best Sequences}
 	\label{fig:mfcc_kbest}
 \end{figure}
 
 As we can see from \figref{fig:fundamental}, and after some median filtering to remove spurious spikes, the steady states of each pitch match for generated path 1 and generated path 10 taken as examples.
 
-\acrshort{mfcc} plots are always a bit difficult to decipher, but while it is clear that the \acrshort{mfcc} overall profile of the target (\figref{fig:mfcc_kbest}) contrasts with the targets we can see the eight notes of the sequence reproduced and the difference in attacks that are also present in the plots of the fundamental frequencies. Again, notice lower values of $k$ produce very similar results when the size of the corpus is large, differing only by a couple of units.
+\acrshort{mfcc} plots are always a bit difficult to decipher, but while it is clear that the \acrshort{mfcc} overall profile of the target (\figref{fig:mfcc_kbest}) contrasts with the targets, we can see the eight notes of the sequence reproduced and the difference in attacks that are also present in the plots of the fundamental frequencies. Again, notice lower values of $k$ produce very similar results when the size of the corpus is large, differing only by a couple of units.
+
+\section{Conclusion}
+
+This chapter provided a dense review of the core aspects of concatenative synthesis, summarising how they are used to build cohesive systems and improving on some key facets. Based on our study of the multifarious and heterogenous systematic approaches to concatenative synthesis across the scope of the literature, we distilled the stages to those of decomposition, analysis and recombination. 
+
+Beginning with decomposition, we emphasised the pivotal stage of segmenting collections of sounds into their constituent units for eventual concatenation. Segmentation can operate on different scales, ranging from very short frames of milliseconds to the musical notions  of notes and beats that may or may not adhere to a tempo. Due to its correspondence to the perceptual concept of a note, the onset detector is a particularly appropriate tool for segmenting units in concatenative synthesis. As such, we provided a complete review of the methods used as well as an evaluation of the most outstanding methods on a number of publicly available datasets.
+
+In order to summarise and compare the segmented units of sound adequately, descriptive features encompassing their temporal, spectral and timbral characteristics need to be extracted from the sounds. We presented many common features spanning the domain of \acrshort{mir}, but with the greatest attention on timbre motivated descriptors that apply cepstrum theory, of which the \acrshort{mfcc} has proved the most dominant and pervasive. But other cepstrum extractors exist, and we implemented a version of the \acrshort{bfcc}, based on the Bark perceptual scale. An extensive classification experiment was carried out on two newly compiled corpora, and our results revealed the enhancement of alternative cepstrum features such as our \acrshort{bfcc} and \acrshort{gfcc} for timbre discrimination.
+
+The responsibility of intelligent recombination of segmented and analysed units of sound falls to the task of unit selection. Numerous methods have been proposed and administered for unit selection, but \acrshort{hmm}s offer a strikingly rich impression of the evolution of discrete parts of sound, in particular when analysing the phonetic makeup of speech. Not only does it facilitate matching between target units and units from a corpus, it can also account for the quality of continuity between chosen units for concatenation. Unfortunately, the Viterbi algorithm - used for finding the most probable sequence of states within a model - only returns one single sequence, which for many musical operations is undesirable. To rectify this, we propose the application and implementation of two algorithms that can return lists of potential candidate sequences. 
+
+Finally we discussed the development, usage and evaluation of PyConcat, a programming framework that allows the composer and researcher to explore and experiment with the theoretical offerings discussed throughout the chapter. Some tentative preliminary evidence verifies and validates our claims and methods when synthesising some simple musical targets.
 
  

@@ -2,7 +2,7 @@
 \chapter{Conclusions and Future Work}
 \label{chap:conclusions}
 
-In this dissertation we set out to examine computational strategies aimed at a very well-defined objective: the generation of rhythm-centric \textit{loop}s that are symptomatic of modern dance music composition. Dance music is an unfolding musical style and an emerging sociocultural culture and phenomenon that is still very much in its infancy. Only recently has it begun to be treated with the legitimate discourse it deserves in academic narrative and forums. Equally, computational music analysis and research have been slow to respond to its needs for investigation. We hope that we have raised the profile of both these aspects in addition to several contributions to general computation musical analysis and synthesis which we summarise here.
+In this dissertation we set out to examine computational strategies aimed at a very well-defined objective: the generation of rhythm-centric \textit{loop}s that are symptomatic of modern dance music composition. Dance music is an unfolding musical style and an emerging sociocultural and technological phenomenon that is still very much in its infancy. Only recently has it begun to be treated with the legitimate discourse it deserves in academic narrative and forums. Equally, computational music analysis and research have been slow to respond to its needs for investigation. We hope that we have raised the profile of both these aspects in addition to several contributions to general computation musical analysis and synthesis which we summarise here.
 
 \section{Contributions} 
 
@@ -12,7 +12,7 @@ The literature abounds with esoteric systems for algorithm composition in the sy
 
 \subsection{Evaluation and Expansion of Cepstrum-Based Timbre Analysis}
 
-\acrshort{mfcc}s are frequently assumed to be the \textit{de facto} descriptor for analysing timbre in computer music and \acrshort{mir} literature. In choosing appropriate features for concatenative synthesis tasks, we challenged this assumption and provided experimental evidence that other methods should be given serious consideration. This was achieved through an implementation of the \acrshort{bfcc} method along with two contrasting datasets to confirm its accuracy. While our newly implemented \acrshort{bfcc} extractor improves over the existing \acrshort{mfcc} one, our experiment also demonstrated that the \acrshort{gfcc} is the best performing overall. In the spirit of reproducibility we provide all the data used and the associated scripts for other researchers to validate.
+\acrshort{mfcc}s are frequently assumed to be the \textit{de facto} descriptor for analysing timbre in computer music and \acrshort{mir} literature. In choosing appropriate features for concatenative synthesis tasks, we challenged this assumption and provided experimental evidence that other methods should be given serious consideration. This was achieved through an implementation of the \acrfull{bfcc} method along with two contrasting datasets to confirm its accuracy. While our newly implemented \acrshort{bfcc} extractor improves over the existing \acrshort{mfcc} one, our experiment also demonstrated that the \acrshort{gfcc} is the best performing overall. In the spirit of reproducibility we provide all the data used and the associated scripts for other researchers to verify, validate and recreate our findings confidently.
 
 \subsection{\textit{k}-Best Unit Selection}
 
@@ -39,11 +39,11 @@ The final contribution of our thesis concerned the evaluation of concatenative s
 
 \section{Future Work}
 
-Throughout the thesis we have alluded to a myriad avenues that constitutes valuable work, but here we summarise three of the most outstanding areas as we see them at the present.
+Throughout the thesis we have alluded to a myriad avenues that constitute valuable work, but here we summarise three of the most outstanding areas as we see them at the present.
 
 \subsection{Optimisation and Evaluation of \textit{k}-Best Unit Selection}
 
-We are really excited with the novelty and possibilities presented with \textit{k}-Best strategies for unit selection in concatenative synthesis. It is an area of speech and music processing that is under-explored and seldom reported in the literature. Of course the major issue we identified is poor performance and scalability for large corpora. We propose two strategies for resolving this that can constituted a future work:
+We are really excited with the novelty and possibilities presented with \textit{k}-Best strategies for unit selection in concatenative synthesis. It is an area of speech and music processing that is under-explored and seldom reported in the literature. Of course the major issue we identified is poor performance and scalability for large corpora. We propose two strategies for resolving this that can qualify future work:
 
 \begin{enumerate}
   \item Implementation of the Serial Decoder, which is purported to be more efficient than the Parallel Decoder.

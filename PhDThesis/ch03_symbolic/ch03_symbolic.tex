@@ -10,7 +10,7 @@ As long as computers have been available, a curiosity has prevailed as to whethe
 	\begin{center}
 		\includegraphics[width=\figSizeHundred]{ch03_symbolic/figures/illiac.jpg}
 	\end{center}
-	\caption[Excerpt from the Illiac Suite (Lejaren Hiller)]{Excerpt from the Illiac Suite by Lejaren Hiller. Image from \cite{Morgan2015}}
+	\caption[Excerpt from the \textit{Illiac Suite} (Lejaren Hiller)]{Excerpt from the Illiac Suite by Lejaren Hiller. Image from \cite{Morgan2015}}
 	\label{fig:illiac}
 \end{figure}
 
@@ -140,7 +140,7 @@ To create the offspring, genetic operators are applied to the parent individuals
 	\begin{center}
 		\includegraphics[width=0.9\textwidth]{ch03_symbolic/figures/selection.png}
 	\end{center}
-	\caption[Truncation and Roulette Wheel Selection]{Sorted best to worst list of candidates (left). Truncated selection of top 4 candidates (middle). Probabilistic roulette wheel selection (right). Image from Dissecting Reinforcement Learning\footnote{\url{https://mpatacchiola.github.io/blog/2017/03/14/dissecting-reinforcement-learning-5.html}} }
+	\caption[Truncation and Roulette Wheel Selection in a Genetic Algorithm]{Sorted best to worst list of candidates (left). Truncated selection of top 4 candidates (middle). Probabilistic roulette wheel selection (right). Image from Dissecting Reinforcement Learning\footnote{\url{https://mpatacchiola.github.io/blog/2017/03/14/dissecting-reinforcement-learning-5.html}} }
 	\label{fig:roulette}
 \end{figure}
 
@@ -200,7 +200,7 @@ Continuing in this line, other representational schemes have been devised in att
 	\begin{center}
 		\includegraphics[width=\figSizeHundred]{ch03_symbolic/figures/necklace.jpg}
 	\end{center}
-	\caption[Necklace depictions of some popular rhythms.]{Necklace depictions of some popular rhythms.(Image from Ethan Hein\footnote{\url{http://www.ethanhein.com/wp/2015/beats-and-scales/}})}
+	\caption[Necklace Depictions of Some Popular Rhythms.]{Necklace depictions of some popular rhythms.(Image from Ethan Hein\footnote{\url{http://www.ethanhein.com/wp/2015/beats-and-scales/}})}
 	\label{fig:necklace}
 \end{figure}
 
@@ -287,7 +287,7 @@ Here we summarise other useful descriptors pertinent to symbolic rhythmic analys
 	\begin{center}
 		\includegraphics[width=0.4\textwidth]{ch03_symbolic/figures/ioi_comparison.png}
 	\end{center}
-	\caption[Comparing the identical IOI of two very different rhythms.]{Comparing the identical \acrshort{ioi} of two very different rhythms. Image from \cite{Dixon2004} }
+	\caption[Comparing the identical IOI of Two Very Different Rhythms.]{Comparing the identical \acrshort{ioi} of two very different rhythms. Image from \cite{Dixon2004} }
 	\label{fig:ioi_comparison}
 \end{figure}
 
@@ -347,7 +347,7 @@ We continue with a detailed discussion of the implementation of the distance mea
 	\begin{center}
 		\includegraphics[width=\figSizeHundred]{ch03_symbolic/figures/simpleGA.png}
 	\end{center}
-	\caption[\textit{SimpleGA} Pure Data Help Patch]{\textit{SimpleGA} Pure Data Help Patch}
+	\caption[SimpleGA Pure Data Help Patch]{SimpleGA Pure Data Help Patch}
 	\label{fig:simplega}
 \end{figure}
 
@@ -396,13 +396,15 @@ To derive a fitness function using the Hamming distance (\eqnref{eq:fitness_hamm
 
 \textit{Directed-Swap Distance}
 
+\label{sec:directed_swap}
+
 The Hamming distance takes into account the correct positional scores between two patterns, but it does not give any indicator as to how different a pattern is in terms of the horizontal displacement. Intuitively one would think this horizontal displacement would reflect the important phenomenon of rhythmic syncopation. For example there may exist two different patterns with equal distance, but one pattern has more onsets aligned closer to the original pattern or exhibit a similar distribution of the strong and weak beats in the bar. For these reasons, we decided to test also the directed-swap distance metric as described by \cite{Diaz-Banez2004} in the study of flamenco rhythms, with the hopes that it better captures the spatial comparison between the our generated patterns and the target.
 
 \begin{figure}
 	\begin{center}
 		\includegraphics[width=0.75\textwidth]{ch03_symbolic/figures/shortest_path.png}
 	\end{center}
-	\caption[Solving the directed-swap distance graph for two strings]{Solving the directed-swap distance for strings $A=\{0,2,7,12\}$ and $B=\{1,4,11\}$. Image and example taken from \cite{Colannino2005}}.
+	\caption[Solving the Directed-Swap Distance Graph for Two Strings]{Solving the directed-swap distance for strings $A=\{0,2,7,12\}$ and $B=\{1,4,11\}$. Image and example taken from \cite{Colannino2005}}.
 	\label{fig:dijkstra}
 \end{figure}
 
@@ -497,7 +499,7 @@ Before carrying out the statistical analysis the responses were summarised by co
    \label{fig:like2}
 \end{subfigure}
 
-\caption[Two numerical solutions]{Mean and standard deviation of fitness versus Likert scores for (a) each stimulus (b) measure and string type }
+\caption[Mean and Standard Deviation of Fitness Versus Likert Scores]{Mean and standard deviation of fitness versus Likert scores for (a) each stimulus (b) measure and string type }
 \end{figure}
 \subsubsection{Similarity Ratings}
 
@@ -576,7 +578,7 @@ Another participant made the point that the pattern sequence may have forced som
 Distance & 1.0000 & -0.5419 & 0.2201 \\Fitness & -0.5419 & 1.0000 & 0.2310 \\Score & 0.2201 & 0.2310 & 1.0000 \\
 \tablebot
 		\end{tabular}
-		\caption[“Interestingness” Correlation Matrix]{“Interestingness” Correlation Matrix}
+		\caption[`Interestingness' Correlation Matrix]{`Interestingness' Correlation Matrix}
 		\label{tab:interestingness}
 	\par \end{centering}
 \end{table}
@@ -633,7 +635,7 @@ To expand our system to include knowledge of syncopation, we turned once again t
 	\begin{center}
 		\includegraphics[width=0.3\textwidth]{ch03_symbolic/figures/offBeatness.jpg}
 	\end{center}
-	\caption[Toussaint's Off-beatness measure]{Toussaint's Off-beatness measure. (Image from McGill).}
+	\caption[Toussaint's Off-Beatness Measure]{Toussaint's Off-beatness measure. (Image from McGill).}
 	\label{fig:offbeatness}
 	\end{figure}
 	
@@ -662,7 +664,7 @@ The density of a rhythm is an easy feature to comprehend, \cite{Wiggins2012a} de
 	\begin{center}
 		\includegraphics[width=1.0\textwidth]{ch03_symbolic/figures/gendrum2.png}
 	\end{center}
-	\caption[GenDrum with Expanded Feature Parameter Control]{GenDrum with Expanded Feature Parameter Control on the right}
+	\caption[GenDrum with Expanded Feature Parameter Control]{GenDrum with expanded feature parameter control to the right.}
 	\label{fig:gendrum2}
 \end{figure}
 

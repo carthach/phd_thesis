@@ -1,4 +1,4 @@
-\begin{thebibliography}{453}
+\begin{thebibliography}{476}
 \providecommand{\natexlab}[1]{#1}
 
 \bibitem[{Abdulla(2002)}]{Abdulla2002}
@@ -112,6 +112,12 @@ Aucouturier, J.-J. \& Pachet, F. (2005).
 \newblock \emph{Proceedings of the International Conference on Music
   Information Retrieval}, pp. 412--419.
 
+\bibitem[{Aucouturier \& Pachet(2006)}]{Aucouturier2006}
+Aucouturier, J.~J. \& Pachet, F. (2006).
+\newblock {Jamming with plunderphonics: Interactive concatenative synthesis of
+  music}.
+\newblock \emph{Journal of New Music Research}, \emph{35}(1), 35--50.
+
 \bibitem[{Balestri et~al.(1999)Balestri, Pacchiotti, Quazza, Salza, \&
   Sandri}]{balestri1999choose}
 Balestri, M., Pacchiotti, A., Quazza, S., Salza, P.~L., \& Sandri, S. (1999).
@@ -155,6 +161,11 @@ Battier, M. (2007).
 \newblock {What the GRM brought to music: from musique concr{\`{e}}te to
   acousmatic music}.
 \newblock \emph{Organised Sound}, \emph{12}(03), 189--202.
+
+\bibitem[{Bellman(1958)}]{bellman1958routing}
+Bellman, R. (1958).
+\newblock {On a routing problem}.
+\newblock \emph{Quarterly of applied mathematics}, \emph{16}(1), 87--90.
 
 \bibitem[{Bello \& Daudet(2005)}]{Bello2005}
 Bello, J. \& Daudet, L. (2005).
@@ -241,6 +252,11 @@ Bird, S. (2016).
 \newblock \emph{Proceedings of the COLING/ACL on Interactive presentation
   sessions}, (March), 69--72.
 
+\bibitem[{Bischoff et~al.(1978)Bischoff, Gold, \& Horton}]{bischoff1978music}
+Bischoff, J., Gold, R., \& Horton, J. (1978).
+\newblock {Music for an interactive network of microcomputers}.
+\newblock \emph{Computer Music Journal}, pp. 24--29.
+
 \bibitem[{Black \& Campbell(1995)}]{Ob1995}
 Black, A.~W. \& Campbell, N. (1995).
 \newblock {Optimising selection of units from speech databases for
@@ -305,6 +321,20 @@ Boone, H.~N. \& Boone, D.~A. (2012).
 \newblock {Analyzing Likert Data Likert-Type Versus Likert Scales}.
 \newblock \emph{Journal of Extension}, \emph{50}(2).
 
+\bibitem[{Bown et~al.(2015)Bown, Carey, \& Eigenfeldt}]{Bown2015}
+Bown, O., Carey, B., \& Eigenfeldt, A. (2015).
+\newblock {Manifesto for a Musebot Ensemble: A platform for live interactive
+  performance between multiple autonomous musical agents}.
+\newblock \emph{Proceedings of the 21st Interntaional Symposium on Electronic
+  Art}, (August).
+
+\bibitem[{Bown et~al.(2013)Bown, Eigenfeldt, \& Martin}]{Bown2013}
+Bown, O., Eigenfeldt, A., \& Martin, A. (2013).
+\newblock {The musical metacreation weekend: challenges arising from the live
+  presentation of musically metacreative systems}.
+\newblock \emph{Proceedings of the Artificial Intelligence and Interactive
+  Digital Entertainment (AIIDE'13) Conference. 2013.}, pp. 27--34.
+
 \bibitem[{Bradshaw \& Xenakis(1973)}]{Bradshaw1973}
 Bradshaw, M. \& Xenakis, I. (1973).
 \newblock {Formalized Music: Thought and Mathematics in Composition}.
@@ -313,6 +343,11 @@ Bradshaw, M. \& Xenakis, I. (1973).
 Bradski, G. (2000).
 \newblock {The OpenCV Library}.
 \newblock \emph{Dr Dobbs Journal of Software Tools}, \emph{25}, 120--125.
+
+\bibitem[{Brazil \& Fernstr{\"{o}}m(2002)}]{Brazil2002}
+Brazil, E. \& Fernstr{\"{o}}m, M. (2002).
+\newblock {Enhancing sonic browsing using audio information retrieval}.
+\newblock \emph{International Conference on Auditory Display}, pp. 1--6.
 
 \bibitem[{Bregman(1994)}]{Bregman1994}
 Bregman, A.~S. (1994).
@@ -654,6 +689,11 @@ D{\'{i}}az-B{\'{a}}{\~{n}}ez, J.~M., Farigu, G., G{\'{o}}mez, F., Rappaport,
 \newblock In \emph{Proceedings of BRIDGES: Mathematical Connections in Art,
   Music and Science}. Kansas.
 
+\bibitem[{Dijkstra(1959)}]{dijkstra1959note}
+Dijkstra, E.~W. (1959).
+\newblock {A note on two problems in connexion with graphs}.
+\newblock \emph{Numerische mathematik}, \emph{1}(1), 269--271.
+
 \bibitem[{Dixon(2006)}]{Dixon2006}
 Dixon, S. (2006).
 \newblock {Onset detection revisited}.
@@ -719,11 +759,17 @@ Eigenfeldt, A. (2009).
   generation in Kinetic Engine}.
 \newblock \emph{Applications of Evolutionary Computing}.
 
-\bibitem[{Eigenfeldt(2016)}]{Eigenfeldt2016a}
-Eigenfeldt, A. (2016).
+\bibitem[{Eigenfeldt(2016{\natexlab{a}})}]{Eigenfeldt2016a}
+Eigenfeldt, A. (2016{\natexlab{a}}).
 \newblock {Exploring Moment-form in Generative Music}.
 \newblock \emph{Proceedings of the Sound and Music Computing Conference},
   (August).
+
+\bibitem[{Eigenfeldt(2016{\natexlab{b}})}]{eigenfeldt2016musebots}
+Eigenfeldt, A. (2016{\natexlab{b}}).
+\newblock {Musebots at One Year: A Review}.
+\newblock In \emph{Proceedings of 4th International Workshop on Musical
+  Metacreation, Paris, France}.
 
 \bibitem[{Eigenfeldt et~al.(2016)Eigenfeldt, Bown, Brown, \&
   Gifford}]{Eigenfeldt2016}
@@ -794,6 +840,14 @@ Faraldo, {\'{A}}., Jord{\`{a}}, S., \& Herrera, P. (2017{\natexlab{b}}).
 \newblock In \emph{Ninth European Music Analysis Conference}. Strasbourg,
   France.
 
+\bibitem[{Faraldo et~al.(2017{\natexlab{c}})Faraldo, Jord{\`{a}}, \&
+  Herrera}]{Faraldo2017a}
+Faraldo, {\'{A}}., Jord{\`{a}}, S., \& Herrera, P. (2017{\natexlab{c}}).
+\newblock {The House Harmonic Filler: Interactive Exploration of Chord
+  Sequences by Means of an Intuitive Representation}.
+\newblock \emph{Proceedings of International Conference on Technologies for
+  Music Notation and Representation}.
+
 \bibitem[{Fathima \& Raseena(2013)}]{Fathima2013}
 Fathima, R. \& Raseena, P.~E. (2013).
 \newblock {Gammatone Cepstral Coefficient for Speaker Identification}.
@@ -834,6 +888,11 @@ Flexer, A. (2015).
 Font, F. \& Bandiera, G. (2017).
 \newblock {Freesound Explorer: Make Music While Discovering Freesound!}
 \newblock \emph{Web Audio Conference (WAC)}.
+
+\bibitem[{{Ford Jr}(1956)}]{ford1956network}
+{Ford Jr}, L.~R. (1956).
+\newblock {Network flow theory}.
+\newblock Tech. rep., RAND CORP SANTA MONICA CA.
 
 \bibitem[{Forman \& Neal(2004)}]{Forman2004}
 Forman, M. \& Neal, M.~A. (2004).
@@ -1011,6 +1070,30 @@ Grekow, J. (2017).
   music recordings}.
 \newblock \emph{2017 IEEE International Conference on INnovations in
   Intelligent SysTems and Applications (INISTA)}, pp. 40--44.
+
+\bibitem[{Gresham-Lancaster(1998)}]{Gresham-Lancaster1998}
+Gresham-Lancaster, S. (1998).
+\newblock {The Aesthetics and History of the Hub: The Effects of Changing
+  Technology on Network Computer Music}.
+\newblock \emph{Leonardo Music Journal}, \emph{8}(1), 39--44.
+
+\bibitem[{Grey(1977)}]{Grey1977}
+Grey, J.~M. (1977).
+\newblock {Multidimensional perceptual scaling of musical timbres.}
+\newblock \emph{The Journal of the Acoustical Society of America},
+  \emph{61}(5), 1270--1277.
+
+\bibitem[{Grey \& Gordon(1978)}]{grey1978perceptual}
+Grey, J.~M. \& Gordon, J.~W. (1978).
+\newblock {Perceptual effects of spectral modifications on musical timbres}.
+\newblock \emph{The Journal of the Acoustical Society of America},
+  \emph{63}(5), 1493--1500.
+
+\bibitem[{Grey \& Moorer(1977)}]{grey1977perceptual}
+Grey, J.~M. \& Moorer, J.~A. (1977).
+\newblock {Perceptual evaluations of synthesized musical instrument tones}.
+\newblock \emph{The Journal of the Acoustical Society of America},
+  \emph{62}(2), 454--462.
 
 \bibitem[{Grill(2004)}]{Grill}
 Grill, T. (2004).
@@ -1762,6 +1845,12 @@ Nierhaus, G. (2009).
 \newblock \emph{{Algorithmic composition: Paradigms of automated music
   generation}}.
 
+\bibitem[{Nill \& Sundberg(1995)}]{Nill1995}
+Nill, C. \& Sundberg, C. E.~W. (1995).
+\newblock {List and Soft Symbol Output Viterbi Algorithms: Extensions and
+  Comparisons}.
+\newblock \emph{IEEE Transactions on Communications}, \emph{43}(234), 277--287.
+
 \bibitem[{Nye(2013)}]{Nye2013}
 Nye, S. (2013).
 \newblock {Minimal understandings: The Berlin decade, the minimal continuum,
@@ -1932,6 +2021,13 @@ Paiement, J.-F., Grandvalet, Y., Bengio, S., \& Eck, D. (2007).
 \newblock {A generative model for rhythms}.
 \newblock \emph{NIPS'2007 Music Brain Cognition Workshop}, pp. 1--8.
 
+\bibitem[{Pampalk(2001)}]{Pampalk2001}
+Pampalk, E. (2001).
+\newblock {Islands of Music: Analysis, Organisation, and Visualisat ion of
+  Music Archives}.
+\newblock \emph{Journal of the Austrian Soc. for Artificial Intelligence},
+  \emph{22}(4), 20--23.
+
 \bibitem[{Pampalk et~al.(2005)Pampalk, Flexer, \& Widmer}]{Pampalk2005}
 Pampalk, E., Flexer, A., \& Widmer, G. (2005).
 \newblock {Hierarchical Organization and Description of Music Collections at
@@ -1984,6 +2080,14 @@ Patterson, R., Nimmo-Smith, I., Holdsworth, J., \& Rice, P. (1987).
 \newblock {An Efficient Auditory Filterbank Based On The Gammatone Function}.
 \newblock In \emph{a meeting of the IOC Speech Group on Auditory Modelling at
   RSRE}, December, pp. 14--15. Malvern, UK.
+
+\bibitem[{Pavlidis et~al.(2006)Pavlidis, Tsiafakis, Arnaoutoglou, Balla, \&
+  Chamzas}]{Pavlidis2006}
+Pavlidis, G., Tsiafakis, D., Arnaoutoglou, F., Balla, K., \& Chamzas, C.
+  (2006).
+\newblock {Musical universe}.
+\newblock In \emph{Third International Conference of Museology {\&} Annual
+  Conference of AVICOM}, pp. 1--9. Mytilene.
 
 \bibitem[{Pease \& Colton(2011)}]{Pease2011}
 Pease, A. \& Colton, S. (2011).
@@ -2082,6 +2186,11 @@ Reid, G. (2002).
 Reynolds, C.~W. (1987).
 \newblock {Flocks, herds and schools: A distributed behavioral model}.
 \newblock \emph{ACM SIGGRAPH computer graphics}, \emph{21}(4), 25--34.
+
+\bibitem[{Reynolds(2009)}]{reynolds2009rip}
+Reynolds, S. (2009).
+\newblock \emph{{Rip it up and start again: Postpunk 1978-1984}}.
+\newblock Faber {\&} Faber.
 
 \bibitem[{Reynolds(2013)}]{Reynolds2013}
 Reynolds, S. (2013).
@@ -2221,9 +2330,7 @@ Schwarz, D. (2003).
 
 \bibitem[{Schwarz(2005)}]{Schwarz2005}
 Schwarz, D. (2005).
-\newblock {Current Research In Concatenative Sound Synthesis}.
-\newblock In \emph{Proceedings of the International Computer Music Conference},
-  pp. 9--12.
+\newblock {Corpus-Based Sound Synthesis Survey}.
 
 \bibitem[{Schwarz(2006)}]{Schwarz2006b}
 Schwarz, D. (2006).
@@ -2388,6 +2495,12 @@ Stevens, S.~S., Volkmann, J., \& Newman, E.~B. (1937).
 \newblock \emph{The Journal of the Acoustical Society of America}, \emph{8}(3),
   185--190.
 
+\bibitem[{Stober(2012)}]{Stober2012a}
+Stober, S. (2012).
+\newblock {Adaptive methods for user-centered organization of music
+  collections}.
+\newblock p. 242.
+
 \bibitem[{Stoll(2013)}]{Stoll2013}
 Stoll, T. (2013).
 \newblock {CorpusDB: Software for Analysis, Storage, and Manipulation of Sound
@@ -2531,6 +2644,25 @@ Truax, B. (2005).
 \newblock \emph{Journal of the Acoustical Society of America}, \emph{117}(4),
   2415.
 
+\bibitem[{Tzanetakis \& Cook(2000{\natexlab{a}})}]{tzan2000}
+Tzanetakis, G. \& Cook, P. (2000{\natexlab{a}}).
+\newblock {3D Graphics Tools for Sound Collections}.
+\newblock In \emph{Proceedings of the COST G-6 Conference on Digital Audio
+  Effects (DAFX-00)}. Verona.
+
+\bibitem[{Tzanetakis \& Cook(2001)}]{Tzanetakis2001a}
+Tzanetakis, G. \& Cook, P. (2001).
+\newblock {Marsyas3D: a Prototype Audio Browser-Editor Using a Large Scale
+  Immersive Visual and Audio Display}.
+\newblock \emph{Proceedings of the 2001 International Conference on Auditory
+  Display}, pp. 1--5.
+
+\bibitem[{Tzanetakis \& Cook(2000{\natexlab{b}})}]{Tzanetakis2000}
+Tzanetakis, G. \& Cook, P.~R. (2000{\natexlab{b}}).
+\newblock {Audio information retrieval tools}.
+\newblock \emph{In Proc. International Symposium on Music Information
+  Retrieval. ISMIR}.
+
 \bibitem[{Valero \& Alias(2012)}]{Valero2012}
 Valero, X. \& Alias, F. (2012).
 \newblock {Gammatone cepstral coefficients: Biologically inspired features for
@@ -2551,6 +2683,13 @@ Var{\`{e}}se, E. \& Wen-chung, C. (1966).
 Veltkamp, R.~C., Wiering, F., \& Typke, R. (2008).
 \newblock {Content based music retrieval}.
 \newblock In \emph{Encyclopedia of Multimedia}, pp. 97--98. Springer.
+
+\bibitem[{Viterbi(1967)}]{Viterbi1967}
+Viterbi, A.~J. (1967).
+\newblock {Error Bounds for Convolutional Codes and an Asymptotically Optimum
+  Decoding Algorithm}.
+\newblock \emph{IEEE Transactions on Information Theory}, \emph{13}(2),
+  260--269.
 
 \bibitem[{Vitos(2014)}]{Vitos2014}
 Vitos, B. (2014).

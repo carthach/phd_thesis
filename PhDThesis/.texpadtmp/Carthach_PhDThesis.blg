@@ -14,64 +14,64 @@ A level-1 auxiliary file: ch07_evaluation/ch07_evaluation.aux
 A level-1 auxiliary file: ch08_conclusions/ch08_conclusions.aux
 A level-1 auxiliary file: ch99/appendix.aux
 The style file: ../apa_jserra2.bst
-Reallocated field_info (elt_size=4) to 15896 items from 5000.
+Reallocated field_info (elt_size=4) to 16448 items from 5000.
 Database file #1: ../library.bib.bib
-Repeated entry---line 5041 of file ../library.bib.bib
+Repeated entry---line 313 of file ../library.bib.bib
  : @article{Biles2001
  :                   ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 5386 of file ../library.bib.bib
+Repeated entry---line 1710 of file ../library.bib.bib
+ : @inproceedings{schwarz2005
+ :                           ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2936 of file ../library.bib.bib
  : @article{Boden1998
  :                   ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 5802 of file ../library.bib.bib
- : @article{Rodgers2003
- :                     ,
-I'm skipping whatever remains of this entry
-Reallocated str_pool (elt_size=1) to 130000 items from 65000.
-Repeated entry---line 6312 of file ../library.bib.bib
+Repeated entry---line 4427 of file ../library.bib.bib
  : @book{Wang2006
  :               ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 6365 of file ../library.bib.bib
- : @misc{Schwarz2005
- :                  ,
+Reallocated str_pool (elt_size=1) to 130000 items from 65000.
+Repeated entry---line 6496 of file ../library.bib.bib
+ : @article{Rodgers2003
+ :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 7482 of file ../library.bib.bib
+Repeated entry---line 7664 of file ../library.bib.bib
  : @article{Hove2014
  :                  ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 7739 of file ../library.bib.bib
- : @article{Ariza2009
- :                   ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 8049 of file ../library.bib.bib
- : @article{Glover2011
- :                    ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 8129 of file ../library.bib.bib
- : @inproceedings{Duxbury2002
- :                           ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 8173 of file ../library.bib.bib
- : @article{Bello2005
- :                   ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 8316 of file ../library.bib.bib
- : @misc{Brossier2006
- :                   ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 8481 of file ../library.bib.bib
+Repeated entry---line 7673 of file ../library.bib.bib
  : @article{Bock2013
  :                  ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 8670 of file ../library.bib.bib
- : @article{Eyben2010
+Repeated entry---line 7936 of file ../library.bib.bib
+ : @inproceedings{Duxbury2002
+ :                           ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 8116 of file ../library.bib.bib
+ : @misc{Brossier2006
  :                   ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 9083 of file ../library.bib.bib
+Repeated entry---line 8562 of file ../library.bib.bib
+ : @article{Bello2005
+ :                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 8942 of file ../library.bib.bib
+ : @article{Ariza2009
+ :                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 9169 of file ../library.bib.bib
  : @inproceedings{Pachet2002
  :                          ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 9377 of file ../library.bib.bib
+ : @article{Glover2011
+ :                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 9440 of file ../library.bib.bib
+ : @article{Eyben2010
+ :                   ,
 I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "Fitch2013"
 Name 1 in "{Chih-Wei Hsu, Chih-Chung Chang}, and Chih-Jen Lin" has a comma at the end for entry Chang2008
@@ -84,6 +84,7 @@ Warning--can't use both volume and number fields in bernstein
 Warning--missing publisher in bernstein
 Warning--there's a number but no volume in Bird2016
 Warning--can't use both volume and number fields in Ob1995
+Warning--there's a number but no volume in Bown2015
 Warning--can't use both author and editor fields in Brooks1993
 Name 1 in "{Chih-Wei Hsu, Chih-Chung Chang}, and Chih-Jen Lin" has a comma at the end for entry Chang2008
 while executing---line 1470 of file ../apa_jserra2.bst
@@ -135,51 +136,52 @@ Warning--missing publisher in Sethares2007
 Warning--there's a number but no volume in Shao2009
 Warning--missing publisher in Sicko2010
 Warning--missing publisher in Siek2002
+Warning--empty journal in Stober2012a
 Warning--missing school in Tamagawa1988
 Warning--empty journal in taube2004notes
 Warning--there's a number but no volume in Tihelka2010
 Warning--missing publisher in Weihs2009
 Warning--there's a number but no volume in Wiggins2012a
 Warning--there's a number but no volume in Zapata2012
-You've used 453 entries,
+You've used 476 entries,
             2821 wiz_defined-function locations,
-            3132 strings with 77812 characters,
-and the built_in function-call counts, 251738 in all, are:
-= -- 21066
-> -- 9230
-< -- 439
-+ -- 3402
-- -- 2934
-* -- 17402
-:= -- 39222
-add.period$ -- 1374
-call.type$ -- 453
-change.case$ -- 3347
-chr.to.int$ -- 438
-cite$ -- 512
-duplicate$ -- 19021
-empty$ -- 19272
-format.name$ -- 4085
-if$ -- 50354
-int.to.chr$ -- 16
+            3248 strings with 81371 characters,
+and the built_in function-call counts, 264048 in all, are:
+= -- 22113
+> -- 9646
+< -- 462
++ -- 3557
+- -- 3063
+* -- 18248
+:= -- 41139
+add.period$ -- 1444
+call.type$ -- 476
+change.case$ -- 3509
+chr.to.int$ -- 458
+cite$ -- 537
+duplicate$ -- 19970
+empty$ -- 20218
+format.name$ -- 4279
+if$ -- 52799
+int.to.chr$ -- 19
 int.to.str$ -- 1
-missing$ -- 3779
-newline$ -- 2236
-num.names$ -- 1816
-pop$ -- 7694
+missing$ -- 3964
+newline$ -- 2350
+num.names$ -- 1908
+pop$ -- 8062
 preamble$ -- 1
-purify$ -- 2788
+purify$ -- 2923
 quote$ -- 0
-skip$ -- 7873
+skip$ -- 8247
 stack$ -- 0
-substring$ -- 11362
-swap$ -- 9795
-text.length$ -- 132
+substring$ -- 11936
+swap$ -- 10288
+text.length$ -- 137
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 3888
-warning$ -- 59
-while$ -- 2000
+type$ -- 4092
+warning$ -- 61
+while$ -- 2102
 width$ -- 0
-write$ -- 5747
+write$ -- 6039
 (There were 18 error messages)

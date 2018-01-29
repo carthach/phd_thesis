@@ -175,7 +175,7 @@ Annotations and some audio can be downloaded from here:\\
 
 \section{Description}
 
-The PyConcat\footnote{Not to be confused with \url{https://github.com/thomasballinger/pyconcat} a script for concatenating Python sripts. I really need to come up with more original names for my software!} library is a Python environment for conducting research-oriented concatenative synthesis of signals. It uses feature extraction routines from Essentia and Librosa as well as distance measures from scipy and novel unit selection via \textit{k}-Best Viterbi.
+The PyConcat\footnote{Not to be confused with \url{https://github.com/thomasballinger/pyconcat} a script for concatenating Python scripts.} library is a Python environment for conducting research-oriented concatenative synthesis of signals. It uses feature extraction routines from Essentia and Librosa as well as distance measures from scipy and novel unit selection via \textit{k}-Best Viterbi.
 
 The basic pipeline for performing concatenative synthesis with this tool is as follows.
 
@@ -270,7 +270,7 @@ e.writeAudio(audio, "out.wav")
 
 \section{The Eear - Enhanced DJ Assistant}
 
-The Eear\footnote{\url{http://carthach.github.io/eear/}} was prototyped by members of The GiantSteps team over a 24-hour period at the Sónar Music Hack Day in 2014 and subsequently won the MusicBricks category for best hack. A more refined version of the system was developed for mobile and desktop and selected for presentation at the Music Tech Fest in Slovenia, as well as the late breaking demo session at ISMIR 2015, in Málaga \citep{ONuanain2015}. A lot of the feature extraction and segmentation logic that was described in this thesis was also used to develop this system.
+The Eear\footnote{\url{http://carthach.github.io/eear/}} was prototyped by this author, along with members of The GiantSteps team, over a 24-hour period at the Sónar Music Hack Day in 2014 and subsequently won the MusicBricks category for best hack. A more refined version of the system was developed for mobile and desktop and selected for presentation at the Music Tech Fest in Slovenia, as well as the late breaking demo session at ISMIR 2015, in Málaga \citep{ONuanain2015}. A lot of the feature extraction and segmentation logic that was described in this thesis was also used to develop this system.
 
 The Eear comprises a mobile application (\figref{fig:eear} - left) that uses the microphone of the device to capture live input from any source and perform harmonic analysis (using a rolling average of the \acrshort{hpcp} vector) in order to estimate the current chord or key. This key and scale information is sent via \acrshort{osc} to a \acrshort{vst} plugin (\figref{fig:eear} - right) that allows \acrshort{mpc} style sampling of related sounds filtered by that very same tonal information - thus it selects units that are always `in key' with the live input captured by the mobile.
 

@@ -10,87 +10,88 @@
 \select@language {british}
 \addvspace {10pt}
 \addvspace {10pt}
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Ishkur's Guide to Electronic Music}}{8}{figure.caption.10}
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Roland Electronic Music Instruments}}{9}{figure.caption.11}
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Berghain Club in Berlin}}{12}{figure.caption.12}
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Cover Sleeve for Artificial Intelligence}}{15}{figure.caption.13}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Ishkur's Guide to Electronic Music}}{10}{figure.caption.10}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Roland Electronic Music Instruments}}{11}{figure.caption.11}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Berghain Club in Berlin}}{14}{figure.caption.12}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Cover Sleeve for \textit {Artificial Intelligence} (Warp Records)}}{17}{figure.caption.13}
 \addvspace {10pt}
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Excerpt from the Illiac Suite (Lejaren Hiller)}}{17}{figure.caption.14}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Generative Theory of Tonal Music Metrical Hierarchy Grouping}}{22}{figure.caption.15}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Truncation and Roulette Wheel Selection}}{25}{figure.caption.19}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces GenJam Interactive Architecture}}{26}{figure.caption.20}
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Roland TR-808 Drum Machine}}{27}{figure.caption.21}
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Different Forms of Symbolic Rhythm Representations}}{28}{figure.caption.22}
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Necklace depictions of some popular rhythms.}}{29}{figure.caption.23}
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Two numerical solutions}}{30}{figure.caption.24}
-\contentsline {figure}{\numberline {3.9}{\ignorespaces Hamming Distance Comparison}}{31}{figure.caption.25}
-\contentsline {figure}{\numberline {3.10}{\ignorespaces Swap and Hamming Distance Compared.}}{32}{figure.caption.29}
-\contentsline {figure}{\numberline {3.11}{\ignorespaces Comparing the identical IOI of two very different rhythms.}}{33}{figure.caption.30}
-\contentsline {figure}{\numberline {3.12}{\ignorespaces Chronotic Distance of Clave Son}}{34}{figure.caption.33}
-\contentsline {figure}{\numberline {3.13}{\ignorespaces \textit {SimpleGA} Pure Data Help Patch}}{37}{figure.caption.34}
-\contentsline {figure}{\numberline {3.14}{\ignorespaces GenDrum Main User Interface}}{38}{figure.caption.35}
-\contentsline {figure}{\numberline {3.15}{\ignorespaces Genetic Algorithm Flowchart}}{39}{figure.caption.37}
-\contentsline {figure}{\numberline {3.16}{\ignorespaces Solving the directed-swap distance graph for two strings}}{40}{figure.caption.38}
-\contentsline {figure}{\numberline {3.17}{\ignorespaces Fitness Plots for the Various Configurations of the Genetic Algorithm}}{41}{figure.caption.39}
-\contentsline {figure}{\numberline {3.18}{\ignorespaces Rock, Electronic and Son-Based Pattern Used in Symbolic Listening Survey}}{42}{figure.caption.40}
-\contentsline {figure}{\numberline {3.19}{\ignorespaces Two numerical solutions}}{44}{figure.caption.42}
-\contentsline {figure}{\numberline {3.20}{\ignorespaces Fitness and Distance for Hamming and Swap Distance Metrics}}{45}{figure.caption.44}
-\contentsline {figure}{\numberline {3.21}{\ignorespaces Fitness and Distance for Linear and Parallel String Computation}}{46}{figure.caption.45}
-\contentsline {figure}{\numberline {3.22}{\ignorespaces Distribution of Responses for `Interestingness' in Symbolic Evaluation}}{48}{figure.caption.47}
-\contentsline {figure}{\numberline {3.23}{\ignorespaces Toussaint's Off-beatness measure}}{50}{figure.caption.48}
-\contentsline {figure}{\numberline {3.24}{\ignorespaces GenDrum with Expanded Feature Parameter Control}}{51}{figure.caption.49}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Excerpt from the \textit {Illiac Suite} (Lejaren Hiller)}}{19}{figure.caption.14}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Generative Theory of Tonal Music Metrical Hierarchy Grouping}}{24}{figure.caption.15}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Truncation and Roulette Wheel Selection in a Genetic Algorithm}}{27}{figure.caption.19}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces GenJam Interactive Architecture}}{28}{figure.caption.20}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Roland TR-808 Drum Machine}}{29}{figure.caption.21}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Different Forms of Symbolic Rhythm Representations}}{30}{figure.caption.22}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Necklace Depictions of Some Popular Rhythms.}}{31}{figure.caption.23}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Two numerical solutions}}{32}{figure.caption.24}
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Hamming Distance Comparison}}{33}{figure.caption.25}
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Swap and Hamming Distance Compared.}}{34}{figure.caption.29}
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Comparing the identical IOI of Two Very Different Rhythms.}}{35}{figure.caption.30}
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Chronotic Distance of Clave Son}}{36}{figure.caption.33}
+\contentsline {figure}{\numberline {3.13}{\ignorespaces SimpleGA Pure Data Help Patch}}{39}{figure.caption.34}
+\contentsline {figure}{\numberline {3.14}{\ignorespaces GenDrum Main User Interface}}{40}{figure.caption.35}
+\contentsline {figure}{\numberline {3.15}{\ignorespaces Genetic Algorithm Flowchart}}{41}{figure.caption.37}
+\contentsline {figure}{\numberline {3.16}{\ignorespaces Solving the Directed-Swap Distance Graph for Two Strings}}{42}{figure.caption.38}
+\contentsline {figure}{\numberline {3.17}{\ignorespaces Fitness Plots for the Various Configurations of the Genetic Algorithm}}{43}{figure.caption.39}
+\contentsline {figure}{\numberline {3.18}{\ignorespaces Rock, Electronic and Son-Based Pattern Used in Symbolic Listening Survey}}{44}{figure.caption.40}
+\contentsline {figure}{\numberline {3.19}{\ignorespaces Mean and Standard Deviation of Fitness Versus Likert Scores}}{46}{figure.caption.42}
+\contentsline {figure}{\numberline {3.20}{\ignorespaces Fitness and Distance for Hamming and Swap Distance Metrics}}{47}{figure.caption.44}
+\contentsline {figure}{\numberline {3.21}{\ignorespaces Fitness and Distance for Linear and Parallel String Computation}}{48}{figure.caption.45}
+\contentsline {figure}{\numberline {3.22}{\ignorespaces Distribution of Responses for `Interestingness' in Symbolic Evaluation}}{50}{figure.caption.47}
+\contentsline {figure}{\numberline {3.23}{\ignorespaces Toussaint's Off-Beatness Measure}}{52}{figure.caption.48}
+\contentsline {figure}{\numberline {3.24}{\ignorespaces GenDrum with Expanded Feature Parameter Control}}{53}{figure.caption.49}
 \addvspace {10pt}
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Cross-referential Cubist Works by Picasso and Braque}}{56}{figure.caption.50}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Screenshot of my four-channel granular synthesiser for Max}}{58}{figure.caption.51}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Target and concatenation costs in a text-to-speech Hidden Markov Model compared}}{63}{figure.caption.52}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces CataRT and Eargram}}{65}{figure.caption.53}
-\contentsline {figure}{\numberline {4.5}{\ignorespaces AudioGarden and AudioGuide Interfaces}}{66}{figure.caption.54}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Cross-Referential Cubist Works by Picasso and Braque}}{58}{figure.caption.50}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Screenshot of My Four-Channel Granular Synthesiser for Max}}{61}{figure.caption.51}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Target and Concatenation Costs in a Text-To-Speech HMM Compared}}{65}{figure.caption.52}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces CataRT and Eargram Interfaces}}{67}{figure.caption.53}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces AudioGarden and AudioGuide Interfaces}}{69}{figure.caption.54}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Spectral Subtraction Algorithm in AudioGuide}}{72}{figure.caption.55}
 \addvspace {10pt}
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Annotated Waveform, Spectrogram and Drum Transcription of ``My Sound'' by Joey Beltram (R\&S Records)}}{72}{figure.caption.57}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Boxplots of Results for each algorithm and measure.}}{78}{figure.caption.62}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Mean and error of the running times of each algorithm over n=10 runs}}{79}{figure.caption.65}
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Perceptual and Physical Concepts of Rhythm in a Scott Joplin Ragtime}}{82}{figure.caption.66}
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Spectral Subtraction Algorithm in AudioGuide}}{85}{figure.caption.69}
-\contentsline {figure}{\numberline {5.6}{\ignorespaces Fletcher-Munson Curves}}{87}{figure.caption.70}
-\contentsline {figure}{\numberline {5.7}{\ignorespaces Spectral features of a drum pattern}}{91}{figure.caption.71}
-\contentsline {figure}{\numberline {5.8}{\ignorespaces Perceptual Scales for Audible Range}}{93}{figure.caption.72}
-\contentsline {figure}{\numberline {5.9}{\ignorespaces Signal Flow and Essentia Algorithm Graph for MFCC Computation }}{95}{figure.caption.74}
-\contentsline {figure}{\numberline {5.10}{\ignorespaces Waveform, Spectrogram, BFCC, MFCC and GFCC impressions of the ``Amen Break'' drum solo from ``Amen Brother''}}{96}{figure.caption.75}
-\contentsline {figure}{\numberline {5.11}{\ignorespaces BFCC outputs with errors for Rastamat and our Essentia Implementations}}{99}{figure.caption.78}
-\contentsline {figure}{\numberline {5.12}{\ignorespaces Tristimulus plot for 3 different classes of instruments}}{101}{figure.caption.79}
-\contentsline {figure}{\numberline {5.13}{\ignorespaces Summary Tree of Orchestral Samples for Classification}}{103}{figure.caption.80}
-\contentsline {figure}{\numberline {5.14}{\ignorespaces Summary Tree of Drum Samples for Classification}}{104}{figure.caption.83}
-\contentsline {figure}{\numberline {5.15}{\ignorespaces Input, Hidden and Output Layers for Multilayer Perceptron Classifier}}{105}{figure.caption.85}
-\contentsline {figure}{\numberline {5.16}{\ignorespaces Confusion Matrix for Misclassification in Drum Dataset}}{109}{figure.caption.91}
-\contentsline {figure}{\numberline {5.18}{\ignorespaces Viterbi decoding of Wikipedia example using our decoder}}{117}{figure.caption.94}
-\contentsline {figure}{\numberline {5.19}{\ignorespaces Viterbi decoding of Wikipedia example using our decoder}}{120}{figure.caption.95}
-\contentsline {figure}{\numberline {5.20}{\ignorespaces Shortest Paths applied to the Wikipedia Viterbi Example}}{122}{figure.caption.96}
-\contentsline {figure}{\numberline {5.21}{\ignorespaces Running Time Comparisons for both Algorithms}}{125}{figure.caption.97}
-\contentsline {figure}{\numberline {5.22}{\ignorespaces Equivalency of Unit Selection Algorithms}}{126}{figure.caption.98}
-\contentsline {figure}{\numberline {5.23}{\ignorespaces Running Time Comparisons for both Algorithms}}{127}{figure.caption.99}
-\contentsline {figure}{\numberline {5.24}{\ignorespaces MFCC plots of k-Best Sequences}}{128}{figure.caption.100}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Annotated Waveform, Spectrogram and Drum Transcription of ``My Sound'' by Joey Beltram (R\&S Records)}}{76}{figure.caption.58}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Boxplots of Results for Each Algorithm and Measure in Onset Detection Evaluation}}{82}{figure.caption.63}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Mean and Error of the running times of each algorithm over n=10 runs}}{83}{figure.caption.66}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Perceptual and Physical Concepts of Rhythm in a Scott Joplin Ragtime}}{86}{figure.caption.67}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Fletcher-Munson Curves}}{89}{figure.caption.70}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Spectral Features of a Drum Pattern}}{94}{figure.caption.71}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Perceptual Scales for Audible Range}}{95}{figure.caption.72}
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Waveform, Spectrogram, BFCC, MFCC and GFCC impressions of the ``Amen Break'' drum solo from ``Amen Brother''}}{97}{figure.caption.73}
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Signal Flow and Essentia Algorithm Graph for MFCC Computation }}{98}{figure.caption.75}
+\contentsline {figure}{\numberline {5.10}{\ignorespaces BFCC Outputs with Errors for Rastamat and our Essentia Implementations}}{101}{figure.caption.78}
+\contentsline {figure}{\numberline {5.11}{\ignorespaces Tristimulus plot for 3 different classes of instruments}}{103}{figure.caption.79}
+\contentsline {figure}{\numberline {5.12}{\ignorespaces Summary Tree of Orchestral Samples for Classification}}{105}{figure.caption.80}
+\contentsline {figure}{\numberline {5.13}{\ignorespaces Summary Tree of Drum Samples for Classification}}{106}{figure.caption.83}
+\contentsline {figure}{\numberline {5.14}{\ignorespaces Input, Hidden and Output Layers for Multilayer Perceptron Classifier}}{107}{figure.caption.85}
+\contentsline {figure}{\numberline {5.15}{\ignorespaces Confusion Matrix for Misclassification in Drum Dataset}}{111}{figure.caption.91}
+\contentsline {figure}{\numberline {5.17}{\ignorespaces Viterbi decoding of Wikipedia example using our decoder}}{119}{figure.caption.94}
+\contentsline {figure}{\numberline {5.18}{\ignorespaces Parallel Viterbi decoding of Wikipedia example using our decoder}}{122}{figure.caption.95}
+\contentsline {figure}{\numberline {5.19}{\ignorespaces Shortest Paths applied to the Wikipedia Viterbi Example}}{124}{figure.caption.96}
+\contentsline {figure}{\numberline {5.20}{\ignorespaces Running Time Comparisons for both Algorithms}}{128}{figure.caption.97}
+\contentsline {figure}{\numberline {5.21}{\ignorespaces Equivalency of Unit Selection Algorithms}}{129}{figure.caption.98}
+\contentsline {figure}{\numberline {5.22}{\ignorespaces Fundamental Frequency of 3 different \textit {k}-Best Sequences}}{130}{figure.caption.99}
+\contentsline {figure}{\numberline {5.23}{\ignorespaces MFCC plots of 3 different \textit {k}-Best Sequences}}{130}{figure.caption.100}
 \addvspace {10pt}
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Visualisation of all temporal and spectral feature combinations for kick, snare and hat drum sounds}}{133}{figure.caption.104}
-\contentsline {figure}{\numberline {6.2}{\ignorespaces MDS, PCA and t-SNE Dimension Reduction on Kick,Snare and Hat Sounds}}{136}{figure.caption.105}
-\contentsline {figure}{\numberline {6.3}{\ignorespaces RhythmCAT First Prototype}}{138}{figure.caption.106}
-\contentsline {figure}{\numberline {6.4}{\ignorespaces RhythmCAT First Prototype}}{139}{figure.caption.107}
-\contentsline {figure}{\numberline {6.5}{\ignorespaces Block Diagram of Functionality in RhythmCAT System}}{141}{figure.caption.108}
-\contentsline {figure}{\numberline {6.6}{\ignorespaces Main User Interface Showing Panels A-E with Onset Graph}}{144}{figure.caption.109}
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Visualisation of all temporal and spectral feature combinations for kick, snare and hat drum sounds}}{137}{figure.caption.104}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces MDS, PCA and t-SNE Dimension Reduction on kick,snare and hat sounds}}{140}{figure.caption.105}
+\contentsline {figure}{\numberline {6.3}{\ignorespaces RhythmCAT first prototype}}{142}{figure.caption.106}
+\contentsline {figure}{\numberline {6.4}{\ignorespaces RhythmCAT second prototype}}{143}{figure.caption.107}
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Block diagram of functionality in RhythmCAT system}}{146}{figure.caption.108}
+\contentsline {figure}{\numberline {6.6}{\ignorespaces RhythmCAT user interface}}{148}{figure.caption.109}
+\contentsline {figure}{\numberline {6.7}{\ignorespaces Pitch Quantisation Component for RhythmCAT}}{154}{figure.caption.116}
 \addvspace {10pt}
-\contentsline {figure}{\numberline {7.1}{\ignorespaces Two numerical solutions}}{154}{figure.caption.116}
-\contentsline {figure}{\numberline {7.2}{\ignorespaces Two numerical solutions}}{155}{figure.caption.118}
-\contentsline {figure}{\numberline {7.3}{\ignorespaces Central Tendencies of Retrieval Ratings for the Similarity/Distance Categories }}{156}{figure.caption.119}
-\contentsline {figure}{\numberline {7.4}{\ignorespaces Correlations Between Distance and Subjective Ratings of Pattern Similarity, Timbre Similarity and Liking}}{157}{figure.caption.122}
-\contentsline {figure}{\numberline {7.5}{\ignorespaces Testing Station Setup at Red Bull Music Academy in Berlin}}{159}{figure.caption.123}
-\contentsline {figure}{\numberline {7.6}{\ignorespaces Wordcloud of most frequent positive descriptions}}{160}{figure.caption.124}
-\addvspace {10pt}
-\addvspace {10pt}
-\addvspace {10pt}
-\contentsline {figure}{\numberline {B.1}{\ignorespaces Web Survey Landing Page}}{172}{figure.caption.133}
-\contentsline {figure}{\numberline {B.2}{\ignorespaces Web Survey Question Page}}{173}{figure.caption.134}
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Distribution of Labels in Breakbeat Collection}}{160}{figure.caption.117}
+\contentsline {figure}{\numberline {7.2}{\ignorespaces Scatterplot and Regression Lines of Retrieval Accuracy}}{161}{figure.caption.119}
+\contentsline {figure}{\numberline {7.3}{\ignorespaces Central Tendencies of Retrieval Accuracy Ratings for the Similarity/Distance Categories }}{162}{figure.caption.120}
+\contentsline {figure}{\numberline {7.4}{\ignorespaces Correlations Between Distance and Subjective Ratings of Pattern Similarity, Timbre Similarity and Liking}}{164}{figure.caption.123}
+\contentsline {figure}{\numberline {7.5}{\ignorespaces Testing Station Setup at Red Bull Music Academy in Berlin}}{165}{figure.caption.124}
+\contentsline {figure}{\numberline {7.6}{\ignorespaces Wordcloud of most frequent positive descriptions}}{166}{figure.caption.125}
 \addvspace {10pt}
 \addvspace {10pt}
 \addvspace {10pt}
-\contentsline {figure}{\numberline {E.1}{\ignorespaces The Snitch Enhanced DJ Assistant Mobile and Plugin Interface}}{180}{figure.caption.141}
-\contentsline {figure}{\numberline {E.2}{\ignorespaces Atomix User Interface}}{180}{figure.caption.142}
+\contentsline {figure}{\numberline {B.1}{\ignorespaces Web Survey Landing Page}}{180}{figure.caption.134}
+\contentsline {figure}{\numberline {B.2}{\ignorespaces Web Survey Question Page}}{181}{figure.caption.135}
+\addvspace {10pt}
+\addvspace {10pt}
+\addvspace {10pt}
+\contentsline {figure}{\numberline {E.1}{\ignorespaces The Snitch Enhanced DJ Assistant Mobile and Plugin Interface}}{188}{figure.caption.142}
+\contentsline {figure}{\numberline {E.2}{\ignorespaces Atomix User Interface}}{188}{figure.caption.143}
 \addvspace {10pt}

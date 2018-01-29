@@ -7,7 +7,7 @@
 \BOOKMARK [0][-]{section*.9}{List of Tables}{}% 7
 \BOOKMARK [0][-]{chapter.1}{Introduction}{}% 8
 \BOOKMARK [1][-]{section.1.1}{Motivations and The GiantSteps Project}{chapter.1}% 9
-\BOOKMARK [1][-]{section.1.2}{Thesis Outline}{chapter.1}% 10
+\BOOKMARK [1][-]{section.1.2}{Goals and Outline}{chapter.1}% 10
 \BOOKMARK [0][-]{chapter.2}{A Musicological Overview of Electronic Dance Music}{}% 11
 \BOOKMARK [1][-]{section.2.1}{House}{chapter.2}% 12
 \BOOKMARK [1][-]{section.2.2}{Techno}{chapter.2}% 13
@@ -39,12 +39,12 @@
 \BOOKMARK [1][-]{section.4.3}{Survey of Concatenative Synthesis Systems}{chapter.4}% 39
 \BOOKMARK [2][-]{subsection.4.3.1}{Unit Selection Synthesis of Speech}{section.4.3}% 40
 \BOOKMARK [2][-]{subsection.4.3.2}{Musical Concatenative Synthesis}{section.4.3}% 41
-\BOOKMARK [0][-]{chapter.5}{Specifying and Exploring Concatenative Synthesis}{}% 42
-\BOOKMARK [1][-]{section.5.1}{Introduction}{chapter.5}% 43
-\BOOKMARK [1][-]{section.5.2}{Unit Decomposition}{chapter.5}% 44
-\BOOKMARK [2][-]{subsection.5.2.1}{Framewise Segmentation}{section.5.2}% 45
-\BOOKMARK [2][-]{subsection.5.2.2}{Onset Detection for Unit Decomposition}{section.5.2}% 46
-\BOOKMARK [2][-]{subsection.5.2.3}{Future Directions - Mixing and Source Separation}{section.5.2}% 47
+\BOOKMARK [2][-]{subsection.4.3.3}{Future Directions - Mixing and Source Separation}{section.4.3}% 42
+\BOOKMARK [0][-]{chapter.5}{Specifying and Exploring Concatenative Synthesis}{}% 43
+\BOOKMARK [1][-]{section.5.1}{Introduction}{chapter.5}% 44
+\BOOKMARK [1][-]{section.5.2}{Unit Decomposition}{chapter.5}% 45
+\BOOKMARK [2][-]{subsection.5.2.1}{Framewise Segmentation}{section.5.2}% 46
+\BOOKMARK [2][-]{subsection.5.2.2}{Onset Detection for Unit Decomposition}{section.5.2}% 47
 \BOOKMARK [1][-]{section.5.3}{Describing Sounds with Features}{chapter.5}% 48
 \BOOKMARK [2][-]{subsection.5.3.1}{Temporal Descriptors}{section.5.3}% 49
 \BOOKMARK [2][-]{subsection.5.3.2}{Spectral and Timbral Descriptors}{section.5.3}% 50
@@ -70,41 +70,45 @@
 \BOOKMARK [2][-]{subsection.5.8.1}{Algorithm Performance}{section.5.8}% 70
 \BOOKMARK [2][-]{subsection.5.8.2}{Equivalence and Correctness}{section.5.8}% 71
 \BOOKMARK [2][-]{subsection.5.8.3}{Pitch and Timbre Preservation}{section.5.8}% 72
-\BOOKMARK [0][-]{chapter.6}{Implementing User-Tailored Concatenative Synthesis Systems for Electronic Music}{}% 73
-\BOOKMARK [1][-]{section.6.1}{Introduction}{chapter.6}% 74
-\BOOKMARK [1][-]{section.6.2}{Visualising and Interacting with Sound}{chapter.6}% 75
-\BOOKMARK [2][-]{subsection.6.2.1}{Sound and Music Computing Interface Metaphors}{section.6.2}% 76
-\BOOKMARK [2][-]{subsection.6.2.2}{Timbre Spaces and Dimensionality Reduction Techniques}{section.6.2}% 77
-\BOOKMARK [2][-]{subsection.6.2.3}{A Prototypical Rhythmic Concatenative Synthesiser Interface}{section.6.2}% 78
-\BOOKMARK [1][-]{section.6.3}{RhythmCAT}{chapter.6}% 79
-\BOOKMARK [2][-]{subsection.6.3.1}{Developing the System}{section.6.3}% 80
-\BOOKMARK [0][-]{chapter.7}{Evaluation}{}% 81
-\BOOKMARK [1][-]{section.7.1}{Introduction}{chapter.7}% 82
-\BOOKMARK [1][-]{section.7.2}{System Evaluation}{chapter.7}% 83
-\BOOKMARK [2][-]{subsection.7.2.1}{Evaluation and Experimental Design}{section.7.2}% 84
-\BOOKMARK [1][-]{section.7.3}{User Experience Evaluation}{chapter.7}% 85
-\BOOKMARK [0][-]{chapter.8}{Conclusions and Future Work}{}% 86
-\BOOKMARK [1][-]{section.8.1}{Contributions}{chapter.8}% 87
-\BOOKMARK [2][-]{subsection.8.1.1}{Tools for Symbolic Rhythmic Algorithmic Composition}{section.8.1}% 88
-\BOOKMARK [2][-]{subsection.8.1.2}{Evaluation and Expansion of Cepstrum-Based Timbre Analysis}{section.8.1}% 89
-\BOOKMARK [2][-]{subsection.8.1.3}{k-Best Unit Selection}{section.8.1}% 90
-\BOOKMARK [2][-]{subsection.8.1.4}{A New User-Focussed Tool for Rhythmic Concatenative Synthesis}{section.8.1}% 91
-\BOOKMARK [2][-]{subsection.8.1.5}{An Evaluation Methodology for Concatenative Synthesis}{section.8.1}% 92
-\BOOKMARK [1][-]{section.8.2}{Future Work}{chapter.8}% 93
-\BOOKMARK [2][-]{subsection.8.2.1}{Optimisation and Evaluation of k-Best Unit Selection}{section.8.2}% 94
-\BOOKMARK [2][-]{subsection.8.2.2}{Vertical Concatenative Synthesis}{section.8.2}% 95
-\BOOKMARK [2][-]{subsection.8.2.3}{Feature Implementation and Improvement of RhythmCAT}{section.8.2}% 96
-\BOOKMARK [2][-]{subsection.8.2.4}{A Final Reflection}{section.8.2}% 97
-\BOOKMARK [0][-]{appendix.Alph1}{Publications by the Author}{}% 98
-\BOOKMARK [0][-]{appendix.Alph2}{Listening Survey Web Tool}{}% 99
-\BOOKMARK [0][-]{appendix.Alph3}{Resources}{}% 100
-\BOOKMARK [0][-]{appendix.Alph4}{The PyConcat Library}{}% 101
-\BOOKMARK [1][-]{section.Alph4.1}{Description}{appendix.Alph4}% 102
-\BOOKMARK [1][-]{section.Alph4.2}{API}{appendix.Alph4}% 103
-\BOOKMARK [1][-]{section.Alph4.3}{Links}{appendix.Alph4}% 104
-\BOOKMARK [0][-]{appendix.Alph5}{Related Applications}{}% 105
-\BOOKMARK [1][-]{section.Alph5.1}{The Eear - Enhanced DJ Assistant}{appendix.Alph5}% 106
-\BOOKMARK [1][-]{section.Alph5.2}{Atomix}{appendix.Alph5}% 107
-\BOOKMARK [0][-]{appendix.Alph6}{Glossary}{}% 108
-\BOOKMARK [1][-]{section.Alph6.1}{Acronyms}{appendix.Alph6}% 109
-\BOOKMARK [0][-]{section*.145}{Bibliography}{}% 110
+\BOOKMARK [1][-]{section.5.9}{Conclusion}{chapter.5}% 73
+\BOOKMARK [0][-]{chapter.6}{Implementing User-Tailored Concatenative Synthesis for Electronic Music}{}% 74
+\BOOKMARK [1][-]{section.6.1}{Introduction}{chapter.6}% 75
+\BOOKMARK [1][-]{section.6.2}{Visualising and Interacting with Sound}{chapter.6}% 76
+\BOOKMARK [2][-]{subsection.6.2.1}{Sound and Music Computing Interface Metaphors}{section.6.2}% 77
+\BOOKMARK [2][-]{subsection.6.2.2}{Timbre Spaces and Dimensionality Reduction Techniques}{section.6.2}% 78
+\BOOKMARK [2][-]{subsection.6.2.3}{A Prototypical Rhythmic Concatenative Synthesiser Interface}{section.6.2}% 79
+\BOOKMARK [1][-]{section.6.3}{RhythmCAT}{chapter.6}% 80
+\BOOKMARK [2][-]{subsection.6.3.1}{Developing the System}{section.6.3}% 81
+\BOOKMARK [1][-]{section.6.4}{Post-Processing and Transformation}{chapter.6}% 82
+\BOOKMARK [1][-]{section.6.5}{Conclusions}{chapter.6}% 83
+\BOOKMARK [0][-]{chapter.7}{Evaluation}{}% 84
+\BOOKMARK [1][-]{section.7.1}{Introduction}{chapter.7}% 85
+\BOOKMARK [1][-]{section.7.2}{System Evaluation}{chapter.7}% 86
+\BOOKMARK [2][-]{subsection.7.2.1}{Evaluation and Experimental Design}{section.7.2}% 87
+\BOOKMARK [1][-]{section.7.3}{User Experience Evaluation}{chapter.7}% 88
+\BOOKMARK [1][-]{section.7.4}{Conclusion}{chapter.7}% 89
+\BOOKMARK [0][-]{chapter.8}{Conclusions and Future Work}{}% 90
+\BOOKMARK [1][-]{section.8.1}{Contributions}{chapter.8}% 91
+\BOOKMARK [2][-]{subsection.8.1.1}{Tools for Symbolic Rhythmic Algorithmic Composition}{section.8.1}% 92
+\BOOKMARK [2][-]{subsection.8.1.2}{Evaluation and Expansion of Cepstrum-Based Timbre Analysis}{section.8.1}% 93
+\BOOKMARK [2][-]{subsection.8.1.3}{k-Best Unit Selection}{section.8.1}% 94
+\BOOKMARK [2][-]{subsection.8.1.4}{A New User-Focussed Tool for Rhythmic Concatenative Synthesis}{section.8.1}% 95
+\BOOKMARK [2][-]{subsection.8.1.5}{An Evaluation Methodology for Concatenative Synthesis}{section.8.1}% 96
+\BOOKMARK [1][-]{section.8.2}{Future Work}{chapter.8}% 97
+\BOOKMARK [2][-]{subsection.8.2.1}{Optimisation and Evaluation of k-Best Unit Selection}{section.8.2}% 98
+\BOOKMARK [2][-]{subsection.8.2.2}{Vertical Concatenative Synthesis}{section.8.2}% 99
+\BOOKMARK [2][-]{subsection.8.2.3}{Feature Implementation and Improvement of RhythmCAT}{section.8.2}% 100
+\BOOKMARK [2][-]{subsection.8.2.4}{A Final Reflection}{section.8.2}% 101
+\BOOKMARK [0][-]{appendix.Alph1}{Publications by the Author}{}% 102
+\BOOKMARK [0][-]{appendix.Alph2}{Listening Survey Web Tool}{}% 103
+\BOOKMARK [0][-]{appendix.Alph3}{Resources}{}% 104
+\BOOKMARK [0][-]{appendix.Alph4}{The PyConcat Library}{}% 105
+\BOOKMARK [1][-]{section.Alph4.1}{Description}{appendix.Alph4}% 106
+\BOOKMARK [1][-]{section.Alph4.2}{API}{appendix.Alph4}% 107
+\BOOKMARK [1][-]{section.Alph4.3}{Links}{appendix.Alph4}% 108
+\BOOKMARK [0][-]{appendix.Alph5}{Related Applications}{}% 109
+\BOOKMARK [1][-]{section.Alph5.1}{The Eear - Enhanced DJ Assistant}{appendix.Alph5}% 110
+\BOOKMARK [1][-]{section.Alph5.2}{Atomix}{appendix.Alph5}% 111
+\BOOKMARK [0][-]{appendix.Alph6}{Glossary}{}% 112
+\BOOKMARK [1][-]{section.Alph6.1}{Acronyms}{appendix.Alph6}% 113
+\BOOKMARK [0][-]{section*.146}{Bibliography}{}% 114
