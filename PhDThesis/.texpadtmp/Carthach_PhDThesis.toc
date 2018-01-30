@@ -15,7 +15,7 @@
 \contentsline {chapter}{List of Tables}{\es@scroman {xxv}}{section*.9}
 \contentsline {chapter}{\chapternumberline {1}Introduction}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}Motivations and The GiantSteps Project}{4}{section.1.1}
-\contentsline {section}{\numberline {1.2}Goals and Outline}{5}{section.1.2}
+\contentsline {section}{\numberline {1.2}Thesis Goals and Outline}{5}{section.1.2}
 \contentsline {chapter}{\chapternumberline {2}A Musicological Overview of Electronic Dance Music}{9}{chapter.2}
 \contentsline {section}{\numberline {2.1}House}{10}{section.2.1}
 \contentsline {section}{\numberline {2.2}Techno}{12}{section.2.2}
@@ -118,21 +118,21 @@
 \contentsline {section}{\numberline {5.5}Extensions to Hidden Markov Model-Based Unit Selection}{115}{section.5.5}
 \contentsline {subsection}{\numberline {5.5.1}Hidden Markov Models}{116}{subsection.5.5.1}
 \contentsline {subsection}{\numberline {5.5.2}The Viterbi Algorithm}{116}{subsection.5.5.2}
-\contentsline {subsection}{\numberline {5.5.3}HMMs in Musical Applications}{119}{subsection.5.5.3}
-\contentsline {subsection}{\numberline {5.5.4}Adjusting Viterbi to Handle Unit Selection in Concatenative Synthesis}{120}{subsection.5.5.4}
+\contentsline {subsection}{\numberline {5.5.3}HMMs in Musical Applications}{118}{subsection.5.5.3}
+\contentsline {subsection}{\numberline {5.5.4}Adjusting Viterbi to Handle Unit Selection in Concatenative Synthesis}{119}{subsection.5.5.4}
 \contentsline {subsection}{\numberline {5.5.5}Exploring Alternatives in HMMs}{120}{subsection.5.5.5}
 \contentsline {subsubsection}{\numberline {5.5.5.1}Parallel Decoder}{121}{subsubsection.5.5.5.1}
 \contentsline {subsubsection}{\numberline {5.5.5.2}Serial Decoder}{122}{subsubsection.5.5.5.2}
-\contentsline {subsubsection}{\numberline {5.5.5.3}\textit {k}-Shortest Paths}{123}{subsubsection.5.5.5.3}
-\contentsline {section}{\numberline {5.6}Developing a \textit {k}-Best Concatenative Synthesiser}{125}{section.5.6}
+\contentsline {subsubsection}{\numberline {5.5.5.3}\textit {k}-Shortest Paths}{122}{subsubsection.5.5.5.3}
+\contentsline {section}{\numberline {5.6}Developing a \textit {k}-Best Concatenative Synthesiser}{124}{section.5.6}
 \contentsline {section}{\numberline {5.7}PyConcat - Python Framework for Concatenative Synthesis}{125}{section.5.7}
 \contentsline {subsection}{\numberline {5.7.1}Onset Detection and Segmentation}{125}{subsection.5.7.1}
-\contentsline {subsection}{\numberline {5.7.2}Feature Extraction}{126}{subsection.5.7.2}
+\contentsline {subsection}{\numberline {5.7.2}Feature Extraction}{125}{subsection.5.7.2}
 \contentsline {subsection}{\numberline {5.7.3}Unit Selection}{126}{subsection.5.7.3}
-\contentsline {subsection}{\numberline {5.7.4}Transformation and Concatenation}{127}{subsection.5.7.4}
+\contentsline {subsection}{\numberline {5.7.4}Transformation and Concatenation}{126}{subsection.5.7.4}
 \contentsline {section}{\numberline {5.8}Analysis of the \textit {k}-Best Unit Selection}{127}{section.5.8}
 \contentsline {subsection}{\numberline {5.8.1}Algorithm Performance}{127}{subsection.5.8.1}
-\contentsline {subsection}{\numberline {5.8.2}Equivalence and Correctness}{128}{subsection.5.8.2}
+\contentsline {subsection}{\numberline {5.8.2}Equivalence and Correctness}{127}{subsection.5.8.2}
 \contentsline {subsection}{\numberline {5.8.3}Pitch and Timbre Preservation}{128}{subsection.5.8.3}
 \contentsline {section}{\numberline {5.9}Conclusion}{131}{section.5.9}
 \contentsline {chapter}{\chapternumberline {6}Implementing User-Tailored Concatenative Synthesis for Electronic Music}{133}{chapter.6}
@@ -156,13 +156,13 @@
 \contentsline {subsubsection}{\numberline {6.3.1.2}Onset Detection and Segmentation}{145}{subsubsection.6.3.1.2}
 \contentsline {subsubsection}{\numberline {6.3.1.3}Audio Feature Extraction}{147}{subsubsection.6.3.1.3}
 \contentsline {subsubsection}{\numberline {6.3.1.4}Pattern Synthesis and User Interaction}{147}{subsubsection.6.3.1.4}
-\contentsline {subsubsection}{\numberline {6.3.1.5}Pattern Synthesis}{147}{subsubsection.6.3.1.5}
-\contentsline {paragraph}{Workflow}{149}{section*.110}
-\contentsline {paragraph}{Sound Palette}{149}{section*.111}
-\contentsline {paragraph}{Seed Input}{149}{section*.112}
+\contentsline {subsubsection}{\numberline {6.3.1.5}Pattern Synthesis}{148}{subsubsection.6.3.1.5}
+\contentsline {paragraph}{Workflow}{148}{section*.110}
+\contentsline {paragraph}{Sound Palette}{148}{section*.111}
+\contentsline {paragraph}{Seed Input}{148}{section*.112}
 \contentsline {paragraph}{Sonic Parameters}{150}{section*.113}
 \contentsline {paragraph}{Unit Selection}{150}{section*.114}
-\contentsline {paragraph}{Pattern Generation and Interaction}{151}{section*.115}
+\contentsline {paragraph}{Pattern Generation and Interaction}{152}{section*.115}
 \contentsline {section}{\numberline {6.4}Post-Processing and Transformation}{153}{section.6.4}
 \contentsline {section}{\numberline {6.5}Conclusions}{155}{section.6.5}
 \contentsline {chapter}{\chapternumberline {7}Evaluation}{157}{chapter.7}
@@ -195,15 +195,15 @@
 \contentsline {subsection}{\numberline {8.2.3}Feature Implementation and Improvement of RhythmCAT}{175}{subsection.8.2.3}
 \contentsline {subsection}{\numberline {8.2.4}A Final Reflection}{175}{subsection.8.2.4}
 \contentsline {appendix}{\chapternumberline {A}Publications by the Author}{177}{appendix.Alph1}
-\contentsline {appendix}{\chapternumberline {B}Listening Survey Web Tool}{179}{appendix.Alph2}
-\contentsline {appendix}{\chapternumberline {C}Resources}{183}{appendix.Alph3}
-\contentsline {appendix}{\chapternumberline {D}The PyConcat Library}{185}{appendix.Alph4}
-\contentsline {section}{\numberline {D.1}Description}{185}{section.Alph4.1}
-\contentsline {section}{\numberline {D.2}API}{186}{section.Alph4.2}
-\contentsline {section}{\numberline {D.3}Links}{186}{section.Alph4.3}
-\contentsline {appendix}{\chapternumberline {E}Related Applications}{187}{appendix.Alph5}
-\contentsline {section}{\numberline {E.1}The Eear - Enhanced DJ Assistant}{187}{section.Alph5.1}
-\contentsline {section}{\numberline {E.2}Atomix}{187}{section.Alph5.2}
+\contentsline {appendix}{\chapternumberline {B}Resources}{179}{appendix.Alph2}
+\contentsline {appendix}{\chapternumberline {C}The PyConcat Library}{181}{appendix.Alph3}
+\contentsline {section}{\numberline {C.1}Description}{181}{section.Alph3.1}
+\contentsline {section}{\numberline {C.2}API}{182}{section.Alph3.2}
+\contentsline {section}{\numberline {C.3}Links}{182}{section.Alph3.3}
+\contentsline {appendix}{\chapternumberline {D}Related Applications}{183}{appendix.Alph4}
+\contentsline {section}{\numberline {D.1}The Eear - Enhanced DJ Assistant}{183}{section.Alph4.1}
+\contentsline {section}{\numberline {D.2}Atomix}{183}{section.Alph4.2}
+\contentsline {appendix}{\chapternumberline {E}Listening Survey Web Tool}{185}{appendix.Alph5}
 \contentsline {appendix}{\chapternumberline {F}Glossary}{189}{appendix.Alph6}
 \contentsline {section}{\numberline {F.1}Acronyms}{189}{section.Alph6.1}
 \contentsline {chapter}{Bibliography}{193}{section*.146}

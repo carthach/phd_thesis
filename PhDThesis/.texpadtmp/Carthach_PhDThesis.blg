@@ -16,19 +16,19 @@ A level-1 auxiliary file: ch99/appendix.aux
 The style file: ../apa_jserra2.bst
 Reallocated field_info (elt_size=4) to 16448 items from 5000.
 Database file #1: ../library.bib.bib
-Repeated entry---line 313 of file ../library.bib.bib
+Repeated entry---line 312 of file ../library.bib.bib
  : @article{Biles2001
  :                   ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1710 of file ../library.bib.bib
+Repeated entry---line 1699 of file ../library.bib.bib
  : @inproceedings{schwarz2005
  :                           ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2936 of file ../library.bib.bib
+Repeated entry---line 2925 of file ../library.bib.bib
  : @article{Boden1998
  :                   ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4427 of file ../library.bib.bib
+Repeated entry---line 4416 of file ../library.bib.bib
  : @book{Wang2006
  :               ,
 I'm skipping whatever remains of this entry

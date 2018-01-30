@@ -69,7 +69,7 @@ In CataRT \citep{Schwarz2006}, timbreID \citep{Brent2010} and earGram \citep{Ber
 	\begin{center}
 		\includegraphics[width=1.0\textwidth]{ch06_rhythmcat/figures/feature_axis_combos.pdf}
 	\end{center}
-	\caption[Visualisation of all temporal and spectral feature combinations for kick, snare and hat drum sounds]{Visualisation of all temporal and spectral (taking the mean only) 2-feature combinations for kick, snare and hat drum sounds}
+	\caption[Visualisation of all temporal and spectral feature combinations for kick, snare and hat drum sounds]{Visualisation of all temporal and spectral (taking the mean only) 2-feature combinations for kick, snare and hat drum sounds.}
 	\label{fig:temporal_and_spectral_features}
 \end{figure}
 
@@ -108,7 +108,7 @@ Most methods are quite capable of sorting the distinctive low frequency membrane
 	\begin{center}
 		\includegraphics[width=1.0\textwidth]{ch06_rhythmcat/figures/dimension_reductions.pdf}
 	\end{center}
-	\caption[MDS, PCA and t-SNE Dimension Reduction on kick,snare and hat sounds]{\acrshort{mds}, \acrshort{pca} and \acrshort{tsne} dimension reduction processes applied to kick, snare and hi-hat sounds}
+	\caption[MDS, PCA and t-SNE Dimension Reduction on kick,snare and hat sounds]{\acrshort{mds}, \acrshort{pca} and \acrshort{tsne} dimension reduction processes applied to kick, snare and hi-hat sounds.}
 	\label{fig:dimension_reductions}
 \end{figure}
 
@@ -153,7 +153,7 @@ Our first attempt at a prototype interface that was capable of performing rudime
 	\begin{center}
 		\includegraphics[width=1.0\textwidth]{ch06_rhythmcat/figures/rhythmcat_proto1.png}
 	\end{center}
-	\caption[RhythmCAT first prototype]{RhythmCAT First Prototype. Entire waveforms are represented in space using \acrshort{pca} reduction of the \acrshort{mfcc}. A small mouse radar scans the space and onsets are played at random from the files in proximity.}
+	\caption[RhythmCAT first prototype]{RhythmCAT first prototype. Entire waveforms are represented in space using \acrshort{pca} reduction of the \acrshort{mfcc}. A small mouse radar scans the space and onsets are played at random from the files in proximity.}
 	\label{fig:rhythmcat_proto1}
 \end{figure}
 
@@ -167,7 +167,7 @@ The next iteration was largely concerned with implementation. We reasoned that t
 	\begin{center}
 		\includegraphics[width=1.0\textwidth]{ch06_rhythmcat/figures/rhythmcat_proto2.png}
 	\end{center}
-	\caption[RhythmCAT second prototype]{RhythmCAT Second Prototype, implemented as a \acrshort{vst} plugin}
+	\caption[RhythmCAT second prototype]{RhythmCAT second prototype, implemented as a \acrshort{vst} plugin.}
 	\label{fig:rhythmcat_proto2}
 \end{figure}
 
@@ -180,7 +180,7 @@ Most critically, these prototypes did not yet integrate the possibility that an 
 
 \section{RhythmCAT}
 
-Building on all the topics we have been discussing in this dissertation, RhythmCAT was conceived as ``a user-friendly system for generating rhythmic loops that model the timbre and rhythm of an initial target loop'' \citep{Nuanain2017b}. This system was first introduced at \acrfull{nime} in 2016 \citep{Nuanain2016a}\footnote{Also received the Best Paper Award.}, subsequent papers dealt with its evaluation \citep{Nuanain2016b, Nuanain2016c} culminating in a summary journal article for the Computer Music Journal in 2017 \citep{Nuanain2017b}.
+Building on all the topics we have been discussing in this dissertation, RhythmCAT was conceived as ``a user-friendly system for generating rhythmic loops that model the timbre and rhythm of an initial target loop'' \citep{Nuanain2017b}. This system was first introduced at \acrfull{nime} in 2016 \citep{Nuanain2016a}\footnote{Also received the Best Paper Award.}, subsequent papers dealt with its evaluation \citep{Nuanain2016b, Nuanain2016c} culminating in a summary journal article for the Computer Music Journal in 2017 \citep{Nuanain2017b}\footnote{A demo video is available at \url{https://www.youtube.com/watch?v=hByhgF_fzto}}.
 
 %\subsection{Identifying our Users}
 %
@@ -207,7 +207,7 @@ In this section, we will describe our implementation of the RhythmCAT system, be
 	\begin{center}
 		\includegraphics[width=0.75\textwidth]{ch06_rhythmcat/figures/rhythmcat_flowchart.pdf}
 	\end{center}
-	\caption[Block diagram of functionality in RhythmCAT system]{Block diagram of functionality in RhythmCAT system}
+	\caption[Block diagram of functionality in RhythmCAT system]{Block diagram of functionality in RhythmCAT system.}
 	\label{fig:rhythmcat_flowchart}
 \end{figure}
 
@@ -231,7 +231,7 @@ The onset detection process produces a list of onset times for each audio file, 
 
 \subsubsection{Audio Feature Extraction}
 
-As stressed, successful feature extraction is a tradeoff between choosing the richest set of features capable of describing the signal succinctly at the expense of storage and computational complexity. This is more important than ever in the design of a real-time instrument such as here. Whereas the PyConcat environment offered powerful selection and combination of a wide set of descriptors, RhythmCAT has a smaller subset that is more manageable complexity-wise. These features are as follows, along with their intended perceptual label (\figref{fig:rhythmcat} - B).
+As stressed, successful feature extraction is a tradeoff between choosing the richest set of features capable of describing the signal succinctly at the expense of storage and computational complexity. This is more important than ever in the design of a real-time instrument such as here. Whereas the PyConcat environment offered powerful selection and combination of a wide set of descriptors, RhythmCAT has a smaller subset that is more manageable complexity-wise. These features are as follows, along with their intended perceptual label (\figref{fig:rhythmcat_interface} - B).
  
  \begin{itemize}
   \item \textbf{Power} - computed using Stevens' Law to estimate "Loudness".
@@ -254,7 +254,7 @@ This section details the visible, aural and interactive elements of the system a
 	\begin{center}
 		\includegraphics[scale=0.45]{ch06_rhythmcat/figures/rhythmcat.png}		
 		\end{center}
-		\caption[RhythmCAT user interface]{RhythmCAT \acrshort{gui} showing panels A-E with onset graph visualisation}
+		\caption[RhythmCAT user interface]{RhythmCAT \acrshort{gui} showing panels A-E with onset graph visualisation.}
 	\label{fig:rhythmcat_interface}
 \end{sidewaysfigure}
 
@@ -280,17 +280,17 @@ The icons (\figref{fig:rhythmcat_interface} - a) indicate the four main logical 
 
 \paragraph{Sound Palette}
 
-The user loads a selection of audio files, or folders containing audio files, which are analysed to create the sound palette as has previously been discussed. Next, dimensionality reduction is performed on each feature vector of the units in the sound palette using \acrfull{pca}. Two \acrshort{pca} components are retained and scaled to the visible area of the interface to serve as coordinates for placing a circular representation of the sound in two-dimensional space. These visual representations, along with their associated audio content, we term sound objects. They are clearly visible in main timbre space window in \figref{fig:rhythmcat_interface} (pane d).
+The user loads a selection of audio files, or folders containing audio files, which are analysed to create the sound palette as has previously been discussed. Next, dimensionality reduction is performed on each feature vector of the units in the sound palette using \acrfull{pca}. Two \acrshort{pca} components are retained and scaled to the visible area of the interface to serve as coordinates for placing a circular representation of the sound in two-dimensional space. These visual representations, along with their associated audio content, we term sound objects. They are clearly visible in main timbre space window in \figref{fig:rhythmcat_interface} (pane D).
 
 \paragraph{Seed Input}
 
-Seed audio is captured and analysed by recording directly from the input audio of the track on which the instrument resides in the audio host. Using the real-time tempo and bar/beat information provided by the host, the recorder will wait until the next bar starts to begin capture, and will only capture complete bars of audio. This audio is analysed as before but with one exception. Since the goal of the instrument is to integrate with an existing session and generate looped material, we make the assumption that the incoming audio is quantised and matches the tempo of the session. Thus, onset detection is not performed on the seed input; rather, segmentation takes place at the points in time determined by the grid size (\figref{fig:rhythmcat_interface} - c).
+Seed audio is captured and analysed by recording directly from the input audio of the track on which the instrument resides in the audio host. Using the real-time tempo and bar/beat information provided by the host, the recorder will wait until the next bar starts to begin capture, and will only capture complete bars of audio. This audio is analysed as before but with one exception. Since the goal of the instrument is to integrate with an existing session and generate looped material, we make the assumption that the incoming audio is quantised and matches the tempo of the session. Thus, onset detection is not performed on the seed input; rather, segmentation takes place at the points in time determined by the grid size (\figref{fig:rhythmcat_interface} - C).
 
 An important aspect to note: since the instrument is fundamentally real-time in its operation, we need to be careful about performing potentially time consuming operations such as feature extraction when the audio system is running. Thus, we perform the audio recording stage and feature extraction process on separate threads so the main audio playback thread is uninterrupted. This is separate to yet another thread that handles elements of the user interface.
 
 \paragraph{Sonic Parameters}
 
-Clicking on the square sonic icon in the centre of the workflow component opens up the set of sliders shown in (\figref{fig:rhythmcat_interface} -B) that allows us to adjust the weights of the features in the system. Adjusting these weightings has effects in terms of the pattern generation process but also in the visualisation. Presenting their technical names (centroid, flatness and \acrshort{mfcc}s) would be confusing for the general user, thus we have relabelled them with what we consider their most descriptive subjective labelling. With the pattern generation process, these weights directly affect the features when performing similarity computation and unit selection, as we will see in the next section. Depending on the source and target material, different combinations of feature weightings produce noticeably different results. Informally we have experienced good results using \acrshort{mfcc}s alone for example, as well as combinations of the flatness and centroid. In terms of visualisation, when the weights are changed, dimensionality reduction is re-initiated and hence positioning of the sound objects in the timbre space changes. Manipulating these parameters can help disperse and rearrange the sound objects for clearer interaction and exploration by the user in addition to affecting the pattern generation process.
+Clicking on the square sonic icon in the centre of the workflow component opens up the set of sliders shown in (\figref{fig:rhythmcat_interface} - B) that allows us to adjust the weights of the features in the system. Adjusting these weightings has effects in terms of the pattern generation process but also in the visualisation. Presenting their technical names (centroid, flatness and \acrshort{mfcc}s) would be confusing for the general user, thus we have relabelled them with what we consider their most descriptive subjective labelling. With the pattern generation process, these weights directly affect the features when performing similarity computation and unit selection, as we will see in the next section. Depending on the source and target material, different combinations of feature weightings produce noticeably different results. Informally we have experienced good results using \acrshort{mfcc}s alone for example, as well as combinations of the flatness and centroid. In terms of visualisation, when the weights are changed, dimensionality reduction is re-initiated and hence positioning of the sound objects in the timbre space changes. Manipulating these parameters can help disperse and rearrange the sound objects for clearer interaction and exploration by the user in addition to affecting the pattern generation process.
 
 Once the palette and seed matrices have been populated, a similarity matrix between the palette and seed matrix is created. Using the feature weightings from the parameter sliders, a sorted matrix of weighted Euclidean distances between each onset in the target matrix and each unit sound in the palette matrix is computed as per \eqnref{eq:linear_search} in \chapref{chap:pyconcat}.
 
@@ -346,13 +346,13 @@ On the audio side, every time there is a new beat, the linked list is traversed 
 
 One interesting recent addition to RhythmCAT is a stage of pitch quantisation of output units before playback. While RhythmCAT’s main goal is concatenative synthesis of rhythmic patterns matching a target (like a drum loop), part of its appeal is matching the target with non-rhythmic samples such as instrumental loops, vocals or found sounds. In these cases it is frequently desirable to tune the concatenated sequence to a particular key in order to match the tonality of the broader track. In fact, in electronic dance music styles, many low register drum components often contain tuned components such as sub oscillators that could benefit from pitch correction.
 
-Visually, this feature introduces a new `keyboard' icon to the menus on the top lift. Clicking this icon opens up the `Key Dialog' below it, revealing a coloured tone wheel corresponding to two cycles of fifths: the major cycle surrounding its relative minor equivalents. Clicking on any of these segments will select that key for pitch adjustment and quantisation on units in the database. It is important to stress that this quantisation is performed based on the detected fundamental frequency of the signal, which works well for monophonic sources, but is can obviously lead to unpredictable results in the case of polyphonic or noisy and complex sound sources.
+Visually, this feature introduces a new `keyboard' icon to the menus on the top lift. Clicking this icon opens up the `Key Dialog' below it, revealing a coloured tone wheel corresponding to two cycles of fifths: the major cycle surrounding its relative minor equivalents (\figref{fig:rhythmcat_pitch}). Clicking on any of these segments will select that key for pitch adjustment and quantisation on units in the database. It is important to stress that this quantisation is performed based on the detected fundamental frequency of the signal, which works well for monophonic sources, but is can obviously lead to unpredictable results in the case of polyphonic or noisy and complex sound sources.
 
 \begin{figure}
 	\begin{center}
-		\includegraphics[width=0.35\textwidth]{ch06_rhythmcat/figures/tonewheel.png}
+		\includegraphics[width=0.32\textwidth]{ch06_rhythmcat/figures/tonewheel.png}
 	\end{center}
-	\caption[Pitch Quantisation Component for RhythmCAT]{Pitch Quantisation Component for RhythmCAT}
+	\caption[Pitch quantisation component for RhythmCAT]{Pitch quantisation component for RhythmCAT.}
 	\label{fig:rhythmcat_pitch}
 \end{figure} 
 

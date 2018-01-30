@@ -47,33 +47,6 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\chapter{Listening Survey Web Tool}\label{app:listening_survey}
-
-Over the course of this doctoral thesis a need arose for a flexible system that could perform comparative listening surveys and evaluation with ease. As a consequence, a web platform was developed that is easy to setup, customise, configure and deploy etc. The main advantage of this is that surveys can be conducted remotely by the user without the requirement of supervision and physical presence. The tool and its source code is freely available online \footnote{\url{https://github.com/carthach/listener_survey_tool}}, and has since been used in other researchers' works \citep{Marti2015, Jade2016}.
-
-An initial landing page (\figref{fig:survey_landing}) provides instructions for the participants along with an estimation of the time and the number of questions. The participant then fills out personal details that are gathered anonymously - no names or contact details are recorded - followed by some descriptive questions pertinent to the survey being conducted. For instance, in the case of our rhythm surveys we were interested to know the musical training of each participant and whether that was concentrated in more percussive practice.  
-
-The questionnaire commences (\figref{fig:survey_page}) with a series of randomised questions consisting of a target sound to be listened to and several other generated sounds that necessitate scrutiny. Repeated listening is possible before making a final decision on the Likert score for each question.
-
-To make the tool as easy as possible to deploy, database dependency is avoided. Subsequent to each participant's concluded survey session, a CSV file of the completed questionnaire results are simply mailed to the researcher's email address.
-
-
-\begin{sidewaysfigure}
-	\begin{center}
-		\includegraphics[width=0.75\textwidth]{ch99/figures/survey_landing.png}
-	\end{center}
-	\caption[Web Survey Landing Page]{Web Survey Landing Page}
-	\label{fig:survey_landing}
-\end{sidewaysfigure}
-
-\begin{sidewaysfigure}
-	\begin{center}
-		\includegraphics[width=0.75\textwidth]{ch99/figures/survey_page.png}
-	\end{center}
-	\caption[Web Survey Question Page]{Web Survey Question Page}
-	\label{fig:survey_page}
-\end{sidewaysfigure}
-
 \chapter{Resources}\label{app:resources}
 
 %In this appendix, we provide the URLs to access the resources related to this thesis, which include the code and tools, the corpora and test datasets, and the applications and demos. An up-to-date links of all these resources is maintained on the companion web page of this thesis: \url{http://compmusic.upf.edu/node/304} (mirrored at \url{http://www.sankalpgulati.in/phd-thesis.html}).
@@ -284,7 +257,7 @@ While the team eventually devised their own tools and did not implement any sour
 	\begin{center}
 		\includegraphics[width=0.9\textwidth]{ch99/figures/combined.png}
 	\end{center}
-	\caption[The Snitch Enhanced DJ Assistant Mobile and Plugin Interface]{The Snitch, mobile app (left), plugin interface (right)}
+	\caption[The Snitch Enhanced DJ Assistant mobile and plugin interface]{The Snitch, mobile app (left), plugin interface (right)}
 	\label{fig:eear}
 \end{figure}
 
@@ -292,9 +265,38 @@ While the team eventually devised their own tools and did not implement any sour
 	\begin{center}
 		\includegraphics[width=0.9\textwidth]{ch99/figures/atomix.png}
 	\end{center}
-	\caption[Atomix User Interface]{Atomix User Interface. Image from Centre for Digital Music at Queen Mary.}
+	\caption[Atomix user interface]{Atomix user interface. Image from Centre for Digital Music at Queen Mary.}
 	\label{fig:atomix}
 \end{figure}
+
+\chapter{Listening Survey Web Tool}
+\label{app:listening_survey}
+
+Over the course of this doctoral thesis a need arose for a flexible system that could perform comparative listening surveys and evaluation with ease. As a consequence, a web platform was developed that is easy to setup, customise, configure and deploy etc. The main advantage of this is that surveys can be conducted remotely by the user without the requirement of supervision and physical presence. The tool and its source code is freely available online\footnote{\url{https://github.com/carthach/listener_survey_tool}}, and has since been used in other researchers' works \citep{Marti2015, Jade2016}.
+
+An initial landing page (\figref{fig:survey_landing}) provides instructions for the participants along with an estimation of the time and the number of questions. The participant then fills out personal details that are gathered anonymously - no names or contact details are recorded - followed by some descriptive questions pertinent to the survey being conducted. For instance, in the case of our rhythm surveys we were interested to know the musical training of each participant and whether that was concentrated in more percussive practice.  
+
+The questionnaire commences (\figref{fig:survey_page}) with a series of randomised questions consisting of a target sound to be listened to and several other generated sounds that necessitate scrutiny. Repeated listening is possible before making a final decision on the Likert score for each question.
+
+To make the tool as easy as possible to deploy, database dependency is avoided. Subsequent to each participant's concluded survey session, a \acrfull{csv} file of the completed questionnaire results are simply mailed to the researcher's email address.
+
+\begin{sidewaysfigure}
+	\begin{center}
+		\includegraphics[width=0.75\textwidth]{ch99/figures/survey_landing.png}
+	\end{center}
+	\caption[Web survey landing page]{Web survey landing page}
+	\label{fig:survey_landing}
+\end{sidewaysfigure}
+
+\begin{sidewaysfigure}
+	\begin{center}
+		\includegraphics[width=0.75\textwidth]{ch99/figures/survey_page.png}
+	\end{center}
+	\caption[Web survey question page]{Web survey question page}
+	\label{fig:survey_page}
+\end{sidewaysfigure}
+
+
 
 %%%%%%%%%%%%%%%%%%%%%% Another appendix!  %%%%%%%%%%%%%%%%%%%
 

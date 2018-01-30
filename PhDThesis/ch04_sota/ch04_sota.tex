@@ -2,13 +2,13 @@
 \chapter{State of the Art in Sampling-Based Composition}
 \label{chap:sota}
 
-\blockquote{``\textit{It's not where you take things from, it's where you take them to}''}
+\blockquote{``\textit{It's not where you take things from, it's where you take them to.}''}
 
 \begin{flushright}
 (Jean-Luc Godard)
 \end{flushright}
 
-\blockquote{\textit{``Rip it up and start again.''\footnote{Also the title of another Simon Reynolds book on music culture, this time charting the rise of postpunk from 1978-1984 \citep{reynolds2009rip}}}}
+\blockquote{\textit{``Rip it up and start again.''\footnote{Also the title of another Simon Reynolds book on music culture, this time charting the rise of post-punk from 1978-1984 \citep{reynolds2009rip}.}}}
 
 \begin{flushright}
 (Edwyn Collins with Orange Juice)
@@ -28,7 +28,7 @@ In the visual arts, reusing or adapting existing material is most immediately un
 	\begin{center}
 		\includegraphics[width=0.9\textwidth]{ch04_sota/figures/picasso.png}
 	\end{center}
-	\caption[Cross-Referential Cubist Works by Picasso and Braque]{Cross-referential Cubist works by Picasso and Braque.}
+	\caption[Cross-referential Cubist works by Picasso and Braque]{Cross-referential Cubist works by Picasso and Braque.}
 	\label{fig:picasso}
 \end{figure}
 \subsection{Musique Concrète and Elektronische Musik}
@@ -53,7 +53,7 @@ I have used granular synthesis (\figref{fig:wolfcastle}) frequently in my own mu
 	\begin{center}
 		\includegraphics[width=1.0\textwidth]{ch04_sota/figures/wolfecastle.png}
 	\end{center}
-	\caption[Screenshot of My Four-Channel Granular Synthesiser for Max]{Screenshot of my four-channel granular synthesiser for Max\footnote{\url{https://github.com/carthach/Wolfcastle}}}
+	\caption[Screenshot of my four-channel granular synthesiser for Max]{Screenshot of my four-channel granular synthesiser for Max\footnote{\url{https://github.com/carthach/Wolfcastle}}}
 	\label{fig:wolfcastle}
 \end{figure}
 
@@ -108,7 +108,7 @@ Other authors have previously provided insightful summaries of research trends i
 
 Before music, concatenative synthesis has enjoyed successful application in the area of speech processing, specifically in the synthesis of \acrfull{tts}.
 
-\cite{Hunt1996} were the first to propose unit selection synthesis using \acrfull{hmm}s as a means for combining phoneme units extracted from existing audio recordings of speech. \cite{Conkie1999} remarks that ``for unit selection synthesis, typically phone-based, it is possible to produce sentences that sound surprisingly natural and intelligible from a large database'. Since then many researchers \citep{Conkie1999, balestri1999choose, schroder2001emotional, Tihelka2010, Lakkavalli2010} and software systems \citep{black1994chatr, beutnagel1999t, Young2002} have cemented the popularity of the technique.
+\cite{Hunt1996} were the first to propose unit selection synthesis using \acrfullpl{hmm} as a means for combining phoneme units extracted from existing audio recordings of speech. \cite{Conkie1999} remarks that ``for unit selection synthesis, typically phone-based, it is possible to produce sentences that sound surprisingly natural and intelligible from a large database'. Since then many researchers \citep{Conkie1999, balestri1999choose, schroder2001emotional, Tihelka2010, Lakkavalli2010} and software systems \citep{black1994chatr, beutnagel1999t, Young2002} have cemented the popularity of the technique.
 
 We will treat unit selection and \acrshort{hmm}s more thoroughly in \chapref{chap:pyconcat} but essentially \acrshort{hmm}s extend Markov chains (\secref{sec:markov_chains}) by assuming that the states in the state machine are now hidden but can output observable symbols. The Viterbi algorithm can return the most probable sequence of hidden states given a particular sequence of observed symbols. In concatenative synthesis, this maximum probabilistic model is inverted to facilitate minimal cost computations thereby encoding the dissimilarity of unit sounds.
 
@@ -118,7 +118,7 @@ Formulating the problem in terms of a \acrshort{hmm} enables us to capture two i
 	\begin{center}
 		\includegraphics[width=0.6\textwidth]{ch04_sota/figures/costs.png}
 	\end{center}
-	\caption[Target and Concatenation Costs in a Text-To-Speech HMM Compared]{Target ($C^{t}$) and concatenation ($C^{c}$) costs in a \acrshort{tts} \acrshort{hmm} compared.}
+	\caption[Target and concatenation Costs in a Text-To-Speech HMM compared]{Target ($C^{t}$) and concatenation ($C^{c}$) costs in a \acrshort{tts} \acrshort{hmm} compared.}
 	\label{fig:target_concat_costs}
 \end{figure}
 
@@ -149,7 +149,7 @@ As concatenative synthesis methods matured, user modalities of interaction and c
    \label{fig:eargram}
 \end{subfigure}
 
-\caption[CataRT and Eargram Interfaces]{(a) CataRT \acrshort{gui} (Image from IRCAM), (b) earGram User Interface (Image from  SMC INESCTEC), both showing a clear realisation of an explorable 2D timbre space.}
+\caption[CataRT and Eargram interfaces]{(a) CataRT \acrshort{gui}. Image from IRCAM. (b) earGram User Interface. Image from  SMC (INESCTEC). Both images show a clear realisation of an explorable 2D timbre space.}
 \end{figure}
 
 Bernardes takes inspiration from CataRT and also from Tristan Jehan’s Skeleton \citep{Jehan2005} to build his EarGram system for the Pure Data environment \citep{Bernardes2013}. Built on top of William Brent’s excellent feature extraction library timbreID \citep{Brent2010}, it adds a host of interesting features for visualisation and classification.  For instance, as well as the familiar waveform representation and previously described 2D timbre representation (\figref{fig:eargram}) (with various clustering modes and dimensionality reduction implementations), there are similarity matrices that show the temporal relations in the corpus over time. Some unique playback and sequencing modes also exist, such as the infiniteMode, which generates endless playback of sequences, and the soundscapeMap, which features an additional 2D control of parameters pertaining to sound scene design. Another system that adapts a 2D timbre space is Christian Frisson’s AudioGarden \citep{Frisson2010}, which offers two unique mapping procedures. The first of which, “Disc” mode, places units by assigning the length of the audio file to the radius of the unit from the centre, with the angle of rotation corresponding to a principal component of timbre (\acrshort{mfcc}s).  In the other Flower mode, a point of the sound is positioned in the space according to the average \acrshort{mfcc} coefficients of the entire sound file. Segments of the particular sound are arranged in chronological fashion around this centre point.
@@ -168,7 +168,7 @@ Bernardes takes inspiration from CataRT and also from Tristan Jehan’s Skeleton
    \label{fig:audioguide}
 \end{subfigure}
 
-\caption[AudioGarden and AudioGuide Interfaces]{Two different visualisation of timbre: (a) AudioGarden ``Disc'' Visualisation (Image from \cite{Frisson2010}), (b) AudioGuide Clustering Visualisation around Target (Image from \cite{Schwarz2012}).}
+\caption[AudioGarden and AudioGuide interfaces]{Two different visualisation of timbre: (a) AudioGarden ``Disc'' visualisation. Image from \cite{Frisson2010}. (b) AudioGuide clustering visualisation around target. Image from \cite{Schwarz2012}.}
 \end{figure}
 
 There have been some concatenative systems tailored specifically with rhythmic purposes in mind. Xiang proposes Granuloop \citep{Xiang2002} for automatically rearranging segments of 4 different drum loops into a 32 step sequence. Segmentation is done manually, without the aid of an automatic onset detector, using the Recycle sample editing software. Segmented sounds are compared using the inner product of the normalised frequency spectrum, supplemented with the weighted energy. These values become weights for a Markov-style probability transition matrix. Implemented in Pd, the user interacts by moving a joystick, in a 2D space, this then affects the overall probability weightings determining which loop segments are chosen. The system presents an interesting approach but is let down by its lack of online analysis. Ringomatic \citep{Aucouturier2005} is a real-time agent specifically tailored for combining drum tracks, expanding on many of the constraint-based ideas from their prior musaicing experiments. They applied the system to real-time performance following symbolic feature data extracted from a human \acrshort{midi} keyboard player. They cite, as an example, that a predominance of lower register notes in the keyboard performance applies an inverse constraint that creates complementary contrast by specifying that high-frequency heavy cymbal sounds should be concatenated.
@@ -199,7 +199,7 @@ Hackbarth \citep{Hackbarth2010} describes the derived ``Subtractive Spectral Alg
 	\begin{center}
 		\includegraphics[width=0.75\textwidth]{ch05_pyconcat/figures/spectrum_subtraction}
 	\end{center}
-	\caption[Spectral Subtraction Algorithm in AudioGuide]{Visual depiction of spectral subtraction algorithm in AudioGuide. Image from \cite{Hackbarth2010}.}
+	\caption[Spectral subtraction algorithm in AudioGuide]{Visual depiction of spectral subtraction algorithm in AudioGuide. Image from \cite{Hackbarth2010}.}
 	\label{fig:spectrum_subtraction}
 \end{figure} 
 
@@ -255,7 +255,7 @@ We envisage this as particularly useful in concatenative synthesis of drum rhyth
 			\small
 %			\item[] ABBREVIATIONS: NA=Not applicable; GD=Group Delay, PDE=Probability Density Estimate
 		\end{tablenotes}
-			\caption[Summary of Existing Concatenative Sound Synthesis Systems]{Summary of existing concatenative sound synthesis systems}
+			\caption[Summary of existing concatenative sound synthesis systems]{Summary of existing concatenative sound synthesis systems}
 			\label{tab:concat_system_summary}
 	\end{threeparttable}
 \end{sidewaystable}

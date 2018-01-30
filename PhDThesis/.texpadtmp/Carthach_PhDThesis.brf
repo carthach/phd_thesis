@@ -1,5 +1,4 @@
 \backcite {Ellis2005}{{\es@scroman {xxv}}{(document)}{Doc-Start}}
-\backcite {Ellis2005}{{\es@scroman {xxv}}{(document)}{Doc-Start}}
 \backcite {Varese1966}{{1}{1}{chapter.1}}
 \backcite {Levitin}{{1}{1}{chapter.1}}
 \backcite {Campbell1997}{{1}{1}{chapter.1}}
@@ -171,8 +170,8 @@
 \backcite {Post2011}{{40}{3.4.2.1}{figure.caption.37}}
 \backcite {Sethares2007}{{40}{36}{Hfootnote.36}}
 \backcite {Diaz-Banez2004}{{41}{3.4.2.1}{equation.3.4.4}}
+\backcite {Colannino2005}{{41}{3.4.2.1}{figure.caption.38}}
 \backcite {Colannino2005}{{42}{3.16}{figure.caption.38}}
-\backcite {Colannino2005}{{42}{3.4.2.1}{figure.caption.38}}
 \backcite {Siek2002}{{42}{3.4.2.1}{figure.caption.38}}
 \backcite {Colannino2005}{{42}{3.4.2.1}{figure.caption.38}}
 \backcite {Boone2012}{{45}{39}{Hfootnote.39}}
@@ -396,12 +395,12 @@
 \backcite {Puckette2006}{{88}{5.3.1.1}{equation.5.3.7}}
 \backcite {Lerch2012}{{88}{5.3.1.1}{figure.caption.70}}
 \backcite {Stevens1955}{{88}{5.3.1.1}{figure.caption.70}}
-\backcite {Fletcher1933}{{88}{5.3.1.1}{figure.caption.70}}
+\backcite {Fletcher1933}{{89}{5.3.1.1}{figure.caption.70}}
 \backcite {countours}{{89}{5.3.1.1}{figure.caption.70}}
 \backcite {ebu}{{89}{5.3.1.1}{figure.caption.70}}
 \backcite {Lerch2012}{{89}{5.3.1.1}{figure.caption.70}}
-\backcite {Stevens1975}{{89}{5.3.1.1}{figure.caption.70}}
-\backcite {Reiss2001}{{89}{5.3.1.1}{figure.caption.70}}
+\backcite {Stevens1975}{{90}{5.3.1.1}{figure.caption.70}}
+\backcite {Reiss2001}{{90}{5.3.1.1}{figure.caption.70}}
 \backcite {Stevens1975}{{90}{5.3.1.1}{equation.5.3.9}}
 \backcite {Peeters2004b}{{90}{5.3.1.2}{subsubsection.5.3.1.2}}
 \backcite {Kim2006}{{90}{5.3.1.2}{subsubsection.5.3.1.2}}
@@ -517,7 +516,7 @@
 \backcite {Deng2008}{{108}{5.3.4.1}{section*.86}}
 \backcite {Russell2002}{{108}{5.3.4.1}{section*.87}}
 \backcite {Gurney1996}{{108}{5.3.4.1}{section*.87}}
-\backcite {Schwarz2006b}{{112}{5.4}{section.5.4}}
+\backcite {Schwarz2006b}{{111}{5.4}{section.5.4}}
 \backcite {Schwarz2011}{{112}{5.4.1}{subsection.5.4.1}}
 \backcite {Dannenberg2006}{{112}{5.4.1}{equation.5.4.22}}
 \backcite {Maestre2006}{{112}{5.4.1}{equation.5.4.22}}
@@ -532,7 +531,7 @@
 \backcite {Einbond2010}{{113}{5.4.1.1}{subsubsection.5.4.1.1}}
 \backcite {Stoll2013}{{113}{5.4.1.1}{subsubsection.5.4.1.1}}
 \backcite {Klugel2014}{{113}{5.4.1.1}{subsubsection.5.4.1.1}}
-\backcite {Russell2002}{{114}{5.4.1.1}{figure.caption.92}}
+\backcite {Russell2002}{{113}{5.4.1.1}{figure.caption.92}}
 \backcite {kaehler2016learning}{{114}{5.4.1.1}{figure.caption.92}}
 \backcite {Scipy2014}{{114}{5.4.1.1}{figure.caption.92}}
 \backcite {Hunt1996}{{114}{5.4.2}{subsection.5.4.2}}
@@ -549,7 +548,7 @@
 \backcite {Viterbi1967}{{118}{5.5.2}{equation.5.5.30}}
 \backcite {Bird2016}{{118}{5.5.2}{equation.5.5.30}}
 \backcite {Gueguen2005}{{118}{5.5.2}{equation.5.5.30}}
-\backcite {Orio2003}{{119}{5.5.3}{figure.caption.94}}
+\backcite {Orio2003}{{118}{5.5.3}{figure.caption.94}}
 \backcite {Papadopoulos2007}{{119}{5.5.3}{figure.caption.94}}
 \backcite {Cho2010}{{119}{5.5.3}{figure.caption.94}}
 \backcite {Sheh2003}{{119}{5.5.3}{figure.caption.94}}
@@ -558,14 +557,14 @@
 \backcite {Nuanain2017}{{120}{5.5.5}{subsection.5.5.5}}
 \backcite {Schwarz2003}{{120}{5.5.5}{subsection.5.5.5}}
 \backcite {Brown2010}{{120}{5.5.5}{subsection.5.5.5}}
-\backcite {Rabiner1993}{{121}{5.5.5}{subsection.5.5.5}}
-\backcite {Seshadri1994}{{121}{5.5.5}{subsection.5.5.5}}
+\backcite {Rabiner1993}{{120}{5.5.5}{subsection.5.5.5}}
+\backcite {Seshadri1994}{{120}{5.5.5}{subsection.5.5.5}}
 \backcite {Seshadri1994}{{121}{5.5.5.1}{subsubsection.5.5.5.1}}
 \backcite {Seshadri1994}{{122}{5.5.5.2}{subsubsection.5.5.5.2}}
 \backcite {Seshadri1994}{{122}{5.5.5.2}{subsubsection.5.5.5.2}}
-\backcite {Seshadri1994}{{123}{5.5.5.2}{subsubsection.5.5.5.2}}
-\backcite {Rabiner1993}{{123}{5.5.5.2}{subsubsection.5.5.5.2}}
-\backcite {Nill1995}{{123}{5.5.5.2}{subsubsection.5.5.5.2}}
+\backcite {Seshadri1994}{{122}{5.5.5.2}{subsubsection.5.5.5.2}}
+\backcite {Rabiner1993}{{122}{5.5.5.2}{subsubsection.5.5.5.2}}
+\backcite {Nill1995}{{122}{5.5.5.2}{subsubsection.5.5.5.2}}
 \backcite {dijkstra1959note}{{123}{5.5.5.3}{subsubsection.5.5.5.3}}
 \backcite {bellman1958routing}{{123}{5.5.5.3}{subsubsection.5.5.5.3}}
 \backcite {ford1956network}{{123}{5.5.5.3}{subsubsection.5.5.5.3}}
@@ -639,10 +638,10 @@
 \backcite {Schluter2013}{{145}{6.3.1.2}{subsubsection.6.3.1.2}}
 \backcite {Masri1996}{{147}{6.3.1.2}{subsubsection.6.3.1.2}}
 \backcite {Bello2005}{{147}{6.3.1.2}{subsubsection.6.3.1.2}}
-\backcite {Coleman2015}{{150}{6.3.1.5}{section*.114}}
+\backcite {Coleman2015}{{151}{6.3.1.5}{section*.114}}
 \backcite {Schwarz2006b}{{151}{6.3.1.5}{section*.114}}
-\backcite {mandel2005song}{{151}{92}{Hfootnote.92}}
-\backcite {kim2006towards}{{151}{92}{Hfootnote.92}}
+\backcite {mandel2005song}{{151}{93}{Hfootnote.93}}
+\backcite {kim2006towards}{{151}{93}{Hfootnote.93}}
 \backcite {Roma2010}{{152}{6.3.1.5}{section*.115}}
 \backcite {Font2017}{{152}{6.3.1.5}{section*.115}}
 \backcite {Faraldo2017a}{{155}{6.4}{equation.6.4.1}}
@@ -670,9 +669,9 @@
 \backcite {Thompson2014}{{159}{7.2.1.1}{subsubsection.7.2.1.1}}
 \backcite {Nuanain2016b}{{164}{7.3}{section.7.3}}
 \backcite {Knees2015}{{164}{7.3}{section.7.3}}
-\backcite {Marti2015}{{179}{B}{appendix.Alph2}}
-\backcite {Jade2016}{{179}{B}{appendix.Alph2}}
-\backcite {Gillet2006}{{184}{C}{section*.141}}
-\backcite {Glover2011}{{184}{C}{section*.141}}
-\backcite {Bock2013}{{184}{C}{section*.141}}
-\backcite {ONuanain2015}{{187}{E.1}{section.Alph5.1}}
+\backcite {Gillet2006}{{180}{B}{section*.139}}
+\backcite {Glover2011}{{180}{B}{section*.139}}
+\backcite {Bock2013}{{180}{B}{section*.139}}
+\backcite {ONuanain2015}{{183}{D.1}{section.Alph4.1}}
+\backcite {Marti2015}{{185}{E}{appendix.Alph5}}
+\backcite {Jade2016}{{185}{E}{appendix.Alph5}}
