@@ -48,7 +48,7 @@
 \contentsline {subsubsection}{\numberline {3.4.1.1}Generative Rhythmic Systems using Similarity Measures}{37}{subsubsection.3.4.1.1}
 \contentsline {subsubsection}{\numberline {3.4.1.2}Generative Rhythmic Systems using Genetic Algorithms}{37}{subsubsection.3.4.1.2}
 \contentsline {subsection}{\numberline {3.4.2}Developing a Genetic Algorithm that can Generate Rhythm}{38}{subsection.3.4.2}
-\contentsline {subsubsection}{\numberline {3.4.2.1}Software Implementation}{38}{subsubsection.3.4.2.1}
+\contentsline {subsubsection}{\numberline {3.4.2.1}Software Implementation}{39}{subsubsection.3.4.2.1}
 \contentsline {subsubsection}{\numberline {3.4.2.2}Operation and Performance}{42}{subsubsection.3.4.2.2}
 \contentsline {subsection}{\numberline {3.4.3}Listener Evaluation \& Discussion}{43}{subsection.3.4.3}
 \contentsline {subsection}{\numberline {3.4.4}Results}{45}{subsection.3.4.4}

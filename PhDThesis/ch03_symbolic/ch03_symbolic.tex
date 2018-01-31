@@ -333,6 +333,14 @@ A short paper by \cite{Horowitz2004a} suggests a multi-dimensional objective fit
 
 \cite{Kaliakatsos-Papakostas2013} also use the notion of a a target pattern in their evoDrummer software, and define their fitness function by determining what they refer to as divergence in terms of “mean relative distance” to a base rhythm. The distance is computed based on a set of 40 features extracted from patterns, including descriptions of density, syncopation and loudness intensity. Indeed this is perhaps the most related work to our proposed system. 
 
+\begin{figure}
+	\begin{center}
+		\includegraphics[width=\figSizeHundred]{ch03_symbolic/figures/simpleGA.png}
+	\end{center}
+	\caption[SimpleGA Pure Data help patch]{SimpleGA Pure Data help patch}
+	\label{fig:simplega}
+\end{figure}
+
 \subsection{Developing a Genetic Algorithm that can Generate Rhythm}
 
 We set out to design a rhythmically motivated genetic algorithm that was capable of self-evaluation based on the similarity of the patterns it outputs compared to a user-provided seed target pattern. One can envisage this concept being extended to a system that can perform self-evaluation against a previously analysed dataset of patterns that conform to some notion of \textit{style}. 
@@ -342,14 +350,6 @@ This section introduces the tools we created in our research: SimpleGA, the gene
 We continue with a detailed discussion of the implementation of the distance measures and representational issues. Finally there is a description of the design of the experiment for evaluating the research.
 
 \subsubsection{Software Implementation}
-
-\begin{figure}
-	\begin{center}
-		\includegraphics[width=\figSizeHundred]{ch03_symbolic/figures/simpleGA.png}
-	\end{center}
-	\caption[SimpleGA Pure Data help patch]{SimpleGA Pure Data help patch}
-	\label{fig:simplega}
-\end{figure}
 
 SimpleGA is a basic, general purpose genetic algorithm external object we developed for the Pure Data \citep{Puckette1997} and Max/MSP environments in C++ using the cross-platform Flext framework \citep{Grill} . It can handle binary, numerical and alphanumerical strings. A target string is supplied to the object and fitness is determined by measuring its distance to the generated strings using the Hamming or directed-swap distance as was introduced in \secref{sec:distance_measures}. Bang\footnote{The ``bang'' is a fundamental message in \acrshort{pd} and Max that basically means ``do your thing!'' \citep{winkler2001composing}} messages to the leftmost ``hot'' inlet causes the genetic algorithm to undergo a generational stage of evolution, then to output its fittest individual from the pool. \figref{fig:simplega} shows the help patch for the object with this functionality explained visually.
 
@@ -363,7 +363,7 @@ The instrument also attempts to provide some visual feedback on the evolutionary
 	\end{center}
 	\caption[GenDrum main user interface]{GenDrum main user interface}
 	\label{fig:gendrum}
-\end{figure}
+\end{figure} 
 
 \subsubsection*{Algorithm Details}
 
@@ -589,7 +589,7 @@ Despite the apparent issues with our method of evaluation, the data and informal
 
 \begin{figure}
 	\begin{center}
-		\includegraphics[width=0.85\textwidth]{ch03_symbolic/figures/interestingness.png}
+		\includegraphics[width=0.75\textwidth]{ch03_symbolic/figures/interestingness.png}
 	\end{center}
 	\caption[Distribution of responses for `interestingness' in symbolic evaluation]{Distribution of responses for `interestingness'.}
 	\label{fig:interesting_distribution}
@@ -697,4 +697,4 @@ But most of all, based on an overall critique of the myriad approaches to genera
 \item The timbral qualities - or the sounds and processing used to derive the patterns - we contend have a profound impact on the perceptual response and aesthetic impression of the loop. Simply assembling rhythms according to perceptual similarity measures using arbitrary sounds (all too frequently coarse \acrshort{midi} approximations) does not always produce the desired results, at least in generative attempts at dance music.
 \end{itemize}
 
-All these factors were carefully considered and it became more apparent that perhaps the symbolic domain was not sufficient for our goals. The focus of the thesis turns to investigating whether these methods can be refined, adapted and extended to systems that generate rhythms using signals and thus connecting time with timbre.or 
+All these factors were carefully considered and it became more apparent that perhaps the symbolic domain was not sufficient for our goals. The focus of the thesis turns to investigating whether these methods can be refined, adapted and extended to systems that generate rhythms using signals and thus connecting time with timbre.
