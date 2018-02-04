@@ -39,14 +39,14 @@ The final contribution of our thesis concerned the evaluation of concatenative s
 
 \section{Future Work}
 
-Throughout the thesis we have alluded to a myriad avenues that constitute valuable work, but here we summarise three of the most outstanding areas as we see them at the present.
+Throughout the thesis we have alluded to a myriad avenues that constitute valuable further work, but here we summarise four of the most outstanding areas as we see them at the present.
 
 \subsection{Optimisation and Evaluation of \textit{k}-Best Unit Selection}
 
 We are really excited with the novelty and possibilities presented with \textit{k}-Best strategies for unit selection in concatenative synthesis. It is an area of speech and music processing that is under-explored and seldom reported in the literature. Of course the major issue we identified is poor performance and scalability for large corpora. We propose two strategies for resolving this that can qualify future work:
 
 \begin{enumerate}
-  \item Implementation of the Serial Decoder, which is purported to be more efficient than the Parallel Decoder.
+  \item Implementation of the serial decoder, which is purported to be more efficient than the parallel decoder.
   \item Pre-pruning of units to eliminate unrelated units to the current context of the target sequence. 
 \end{enumerate}
 
@@ -63,6 +63,14 @@ The qualitative evaluation of RhythmCAT provided in the previous chapter raised 
   \item Envelope editing and effects processing to transform selected units sonically.
   \item High-level visualisation and interpolation of \textit{patterns} rather than the lower-level visualisation of individual units and onsets.
 \end{itemize}
+
+\subsection{Enhanced Groove Integration}
+
+In \chapref{chap:symbolic} we criticised the deficiency of symbolic methods in capturing the very subtle human musical facets of groove and swing. By extension, and depending on the timescale in operation, the combined use of onset detection and quantised placement of units in time that occurs in rhythmic concatenative synthesis systems can also remove these latent characteristics from the final signal.
+
+Early hardware production devices such as the \acrshort{mpc} used various `groove templates' to apply systematic delay to note events in an attempt to emulate the triplet feel implicit in typical jazz swing \citep{Frane2017}. Software \acrshort{daw}s such as Ableton and Logic offer the ability to apply similar preset groove templates or even new templates extracted from an audio or \acrshort{midi} loop. 
+
+Much research has questioned the importance of microtiming deviations by human performers in the perception of natural sounding music that illicits the sensation of groove \citep{progler1995searching, davies2013effect, fruhauf2013music}. \cite{Hennig2014} provides experimental data that suggests the microtiming fluctuations of human percussive performances actually correlates over long-range with that of a $1/f$ noise generator, and electronic musician James Holden has developed a Max for Live device that can apply this mathematical model of delayed shifting to real-time \acrshort{midi} and audio information\footnote{\url{https://www.ableton.com/en/blog/james-holden-human-timing/}}. Continuing on this line of work, a Master's student under our supervision has devoted effort to capturing the microtiming deviations of real drummer performances, in order to build a generative model that can apply humanistic groove and `feel' based on learned data \citep{Troes2017}. Results are promising, and we also intend to integrate these models as a post-processing stage in our concatenative synthesis workflow, restoring elements of such a crucial quality present in natural recordings. 
 
 \subsection{A Final Reflection} 
 

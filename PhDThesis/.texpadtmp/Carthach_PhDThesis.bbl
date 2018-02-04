@@ -1,4 +1,4 @@
-\begin{thebibliography}{476}
+\begin{thebibliography}{481}
 \providecommand{\natexlab}[1]{#1}
 
 \bibitem[{Abdulla(2002)}]{Abdulla2002}
@@ -167,11 +167,12 @@ Bellman, R. (1958).
 \newblock {On a routing problem}.
 \newblock \emph{Quarterly of applied mathematics}, \emph{16}(1), 87--90.
 
-\bibitem[{Bello \& Daudet(2005)}]{Bello2005}
-Bello, J. \& Daudet, L. (2005).
-\newblock {A tutorial on onset detection in music signals}.
-\newblock \emph{IEEE Transactions on Audio, Speech, and Language Processing},
-  \emph{13}(5), 1035--1047.
+\bibitem[{Bello et~al.(2005)Bello, Daudet, Abdallah, Duxbury, Davies, Sandler,
+  \& Member}]{Bello2005}
+Bello, J.~P., Daudet, L., Abdallah, S., Duxbury, C., Davies, M., Sandler,
+  M.~B., \& Member, S. (2005).
+\newblock {A Tutorial on Onset Detection in Music Signals}.
+\newblock \emph{13}(5), 1035--1047.
 
 \bibitem[{Bello et~al.(2004)Bello, Duxbury, Davies, \& Sandler}]{Bello2004}
 Bello, J.~P., Duxbury, C., Davies, M., \& Sandler, M. (2004).
@@ -289,13 +290,13 @@ B{\"{o}}ck, S., Krebs, F., \& Schedl, M. (2012).
 \bibitem[{B{\"{o}}ck \& Widmer(2013)}]{Bock2013}
 B{\"{o}}ck, S. \& Widmer, G. (2013).
 \newblock {Maximum filter vibrato suppression for onset detection}.
-\newblock \emph{Proc. of the 16th Int. Conference on Digital Audio Effects},
-  pp. 1--7.
+\newblock \emph{Proc. of the 16th Int. Conf. on Digital Audio {\ldots}}, pp.
+  1--7.
 
 \bibitem[{Boden(1998)}]{Boden1998}
 Boden, M.~A. (1998).
 \newblock {Creativity and artificial intelligence}.
-\newblock \emph{Artificial Intelligence}, \emph{103}(1-2), 347--356.
+\newblock \emph{Artificial Intelligence}, \emph{103}(1), 347--356.
 
 \bibitem[{Boden(2009)}]{Boden2009}
 Boden, M.~A. (2009).
@@ -379,9 +380,7 @@ Brooks, F., Hopkins, A., Neumann, P., \& Wright, W. (1993).
 
 \bibitem[{Brossier(2006)}]{Brossier2006}
 Brossier, P. (2006).
-\newblock \emph{{Automatic annotation of musical audio for interactive
-  applications}}.
-\newblock Ph.D. thesis, Queen Mary, University of London.
+\newblock {Automatic annotation of musical audio for interactive applications}.
 
 \bibitem[{Brossier et~al.(2004)Brossier, Bello, \& Plumbley}]{Brossier2004a}
 Brossier, P., Bello, J.~P., \& Plumbley, M.~D. (2004).
@@ -635,6 +634,14 @@ Dannenberg, R.~B. (2006).
   Analysis and Segmentation}.
 \newblock \emph{International Computer Music Conference}, pp. 352--355.
 
+\bibitem[{Davies et~al.(2013{\natexlab{a}})Davies, Madison, Silva, \&
+  Gouyon}]{davies2013effect}
+Davies, M., Madison, G., Silva, P., \& Gouyon, F. (2013{\natexlab{a}}).
+\newblock {The effect of microtiming deviations on the perception of groove in
+  short rhythms}.
+\newblock \emph{Music Perception: An Interdisciplinary Journal}, \emph{30}(5),
+  497--510.
+
 \bibitem[{Davies et~al.(2014{\natexlab{a}})Davies, Stark, Gouyon, \&
   Goto}]{Davies2014a}
 Davies, M., Stark, A., Gouyon, F., \& Goto, M. (2014{\natexlab{a}}).
@@ -642,8 +649,9 @@ Davies, M., Stark, A., Gouyon, F., \& Goto, M. (2014{\natexlab{a}}).
 \newblock \emph{Proceedings of the International Conference on New Interfaces
   for Musical Expression}, pp. 541--544.
 
-\bibitem[{Davies et~al.(2013)Davies, Hamel, Yoshii, \& Goto}]{Davies2013}
-Davies, M. E.~P., Hamel, P., Yoshii, K., \& Goto, M. (2013).
+\bibitem[{Davies et~al.(2013{\natexlab{b}})Davies, Hamel, Yoshii, \&
+  Goto}]{Davies2013}
+Davies, M. E.~P., Hamel, P., Yoshii, K., \& Goto, M. (2013{\natexlab{b}}).
 \newblock {AutoMashUpper: An Automatic Multi-Song Mashup System.}
 \newblock \emph{Proceedings of the 14th International Society for Music
   Information Retrieval Conference, ISMIR 2013}, pp. 575----580.
@@ -744,8 +752,7 @@ Dupont, S., Ravet, T., Picard-Limpens, C., \& Frisson, C. (2013).
 \bibitem[{Duxbury et~al.(2002)Duxbury, Sandler, \& Davies}]{Duxbury2002}
 Duxbury, C., Sandler, M., \& Davies, M. (2002).
 \newblock {A hybrid approach to musical note onset detection}.
-\newblock \emph{5th Int. Conference on Digital Audio Effects (DAFx-02),
-  Hamburg, Germany}, (November 2002), 33--38.
+\newblock In \emph{Computer}, pp. 33--38.
 
 \bibitem[{Eigenfeldt(2006)}]{Eigenfeldt2006a}
 Eigenfeldt, A. (2006).
@@ -812,12 +819,11 @@ Ellis, D. P.~W. (2009).
 Essl, K. (1992).
 \newblock {Real Time Composition Library (RTC-lib)}.
 
-\bibitem[{Eyben et~al.(2010)Eyben, B{\"{o}}ck, Schuller, \& Graves}]{Eyben2010}
-Eyben, F., B{\"{o}}ck, S., Schuller, B., \& Graves, A. (2010).
-\newblock {Universal Onset Detection with Bidirectional Long-Short Term Memory
-  Neural Networks}.
-\newblock In \emph{International Society for Music Information Retrieval
-  Conference}, pp. 589--594. Utrecht, Netherlands.
+\bibitem[{Eyben et~al.(2010)Eyben, Sebastian, \& Graves}]{Eyben2010}
+Eyben, F., Sebastian, B., \& Graves, A. (2010).
+\newblock {UNIVERSAL ONSET DETECTION WITH BIDIRECTIONAL LONG SHORT-TERM MEMORY
+  NEURAL NETWORKS}.
+\newblock (Ismir), 589--594.
 
 \bibitem[{Faraldo et~al.(2016)Faraldo, G{\'{o}}mez, Jord{\`{a}}, \&
   Herrera}]{Faraldo2016}
@@ -938,6 +944,13 @@ Frisson, C., Yvart, W., Riche, N., Siebert, X., \& Dutoit, T.
   Sound Design}.
 \newblock \emph{15th International Society for Music Information Retrieval
   Conference ( ISMIR 2014 )}, (Ismir), 349--354.
+
+\bibitem[{Fr{\"{u}}hauf et~al.(2013)Fr{\"{u}}hauf, Kopiez, \&
+  Platz}]{fruhauf2013music}
+Fr{\"{u}}hauf, J., Kopiez, R., \& Platz, F. (2013).
+\newblock {Music on the timing grid: The influence of microtiming on the
+  perceived groove quality of a simple drum pattern performance}.
+\newblock \emph{Musicae Scientiae}, \emph{17}(2), 246--260.
 
 \bibitem[{Fujishima(1999)}]{Fujishima1999}
 Fujishima, T. (1999).
@@ -1194,6 +1207,13 @@ Helander, M.~G. (2014).
 \newblock \emph{{Handbook of human-computer interaction}}.
 \newblock Elsevier.
 
+\bibitem[{Hennig(2014)}]{Hennig2014}
+Hennig, H. (2014).
+\newblock {Synchronization in human musical rhythms and mutually interacting
+  complex systems.}
+\newblock \emph{Proceedings of the National Academy of Sciences of the United
+  States of America}, \emph{2014}, 1--6.
+
 \bibitem[{Herman \& Sloop(1998)}]{herman1998politics}
 Herman, A. \& Sloop, J.~M. (1998).
 \newblock {The politics of authenticity in postmodern rock culture: The case of
@@ -1298,11 +1318,10 @@ Hoskinson, R. \& Pai, D.~K. (2007).
   \emph{16}(1), 84--99.
 
 \bibitem[{Hove et~al.(2014)Hove, Marie, Bruce, \& Trainor}]{Hove2014}
-Hove, M.~J., Marie, C., Bruce, I.~C., \& Trainor, L.~J. (2014).
+Hove, M., Marie, C., Bruce, I., \& Trainor, L. (2014).
 \newblock {Superior time perception for lower musical pitch explains why
-  bass-ranged instruments lay down musical rhythms}.
-\newblock \emph{Proceedings of the National Academy of Sciences},
-  \emph{111}(28), 10383--10388.
+  bass-ranged instruments lay down musical rhythms.}
+\newblock \emph{Proc Natl Acad Sci U S A}, \emph{111}, 10383 -- 8.
 
 \bibitem[{Hsu \& Sosnick(2009)}]{Hsu2009}
 Hsu, W. \& Sosnick, M. (2009).
@@ -2134,6 +2153,12 @@ Post, O. \& Toussaint, G. (2011).
 \newblock {The Edit Distance as a Measure of Perceived Rhythmic Similarity}.
 \newblock \emph{Empirical Musicology Review}, \emph{6}(3), 164--179.
 
+\bibitem[{Pr{\"{o}}gler(1995)}]{progler1995searching}
+Pr{\"{o}}gler, J.~A. (1995).
+\newblock {Searching for swing: Participatory discrepancies in the jazz rhythm
+  section}.
+\newblock \emph{Ethnomusicology}, \emph{39}(1), 21--54.
+
 \bibitem[{Puckette(1997)}]{Puckette1997}
 Puckette, M. (1997).
 \newblock {Pure Data : another integrated computer music environment}.
@@ -2631,6 +2656,12 @@ Toussaint, G.~T. \& Oh, S.~M. (2016).
   Minimum-Weight Many-to-Many Matchings}.
 \newblock In \emph{Proceedings of the International Conference on Artificial
   Intelligence}, pp. 186--. Athens, Greece.
+
+\bibitem[{Troes(2017)}]{Troes2017}
+Troes, T. (2017).
+\newblock \emph{{Measuring groove : A Computational Analysis of Timing and
+  Dynamics in Drum Recordings}}.
+\newblock Ph.D. thesis, Universitat Pompeu Fabra.
 
 \bibitem[{Truax(1988)}]{Truax1998}
 Truax, B. (1988).

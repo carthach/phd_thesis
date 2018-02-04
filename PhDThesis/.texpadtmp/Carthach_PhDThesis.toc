@@ -193,7 +193,8 @@
 \contentsline {subsection}{\numberline {8.2.1}Optimisation and Evaluation of \textit {k}-Best Unit Selection}{175}{subsection.8.2.1}
 \contentsline {subsection}{\numberline {8.2.2}Vertical Concatenative Synthesis}{175}{subsection.8.2.2}
 \contentsline {subsection}{\numberline {8.2.3}Feature Implementation and Improvement of RhythmCAT}{175}{subsection.8.2.3}
-\contentsline {subsection}{\numberline {8.2.4}A Final Reflection}{175}{subsection.8.2.4}
+\contentsline {subsection}{\numberline {8.2.4}Enhanced Groove Integration}{175}{subsection.8.2.4}
+\contentsline {subsection}{\numberline {8.2.5}A Final Reflection}{176}{subsection.8.2.5}
 \contentsline {appendix}{\chapternumberline {A}Publications by the Author}{177}{appendix.Alph1}
 \contentsline {appendix}{\chapternumberline {B}Resources}{179}{appendix.Alph2}
 \contentsline {appendix}{\chapternumberline {C}The PyConcat Library}{181}{appendix.Alph3}
