@@ -69,7 +69,7 @@
 \contentsline {figure}{\numberline {5.20}{\ignorespaces Running time comparisons for both \textit {k}-Best algorithms}}{128}{figure.caption.97}
 \contentsline {figure}{\numberline {5.21}{\ignorespaces Equivalency of unit selection algorithms}}{129}{figure.caption.98}
 \contentsline {figure}{\numberline {5.22}{\ignorespaces Fundamental frequency of 3 different \textit {k}-Best Sequences}}{130}{figure.caption.99}
-\contentsline {figure}{\numberline {5.23}{\ignorespaces MFCC plots of 3 different \textit {k}-Best Sequences}}{130}{figure.caption.100}
+\contentsline {figure}{\numberline {5.23}{\ignorespaces MFCC plots of 3 different \textit {k}-Best Sequences}}{131}{figure.caption.100}
 \addvspace {10pt}
 \contentsline {figure}{\numberline {6.1}{\ignorespaces Visualisation of all temporal and spectral feature combinations for kick, snare and hat drum sounds}}{137}{figure.caption.104}
 \contentsline {figure}{\numberline {6.2}{\ignorespaces MDS, PCA and t-SNE Dimension Reduction on kick,snare and hat sounds}}{140}{figure.caption.105}

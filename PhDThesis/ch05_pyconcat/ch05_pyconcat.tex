@@ -614,7 +614,7 @@ Our final warped cepstrum feature is the \acrshort{gfcc} (or \acrshort{gtcc} to 
 g(t)=at^{n-1}e^{-2\pi bt}cos(2\pi ft + \phi)
 \end{equation}
 
-Here what we are seeing is basically a cosine waveform at a frequency $f$ with initial phase $\phi$ and amplitude $a$ modulated by the gamma function (the exponential component) at order $n$ with a bandwidth $b$. Practically speaking, they are implemented using as set of \acrshort{erb} rectangular filters tuned to the gammatone properties. The computation is slightly more involved than the Mel or Bark approaches but in  Essentia, just like our port of the \acrshort{bfcc} algorithm, these filters are  modelled on a Matlab version made available in by \cite{Ellis2009}. who in turn formulated his solution as a response to the more computationally expensive routines available in Slaney's Auditory Toolbox \citep{Slaney1998}. 
+Here what we are seeing is basically a cosine waveform at a frequency $f$ with initial phase $\phi$ and amplitude $a$ modulated by the gamma function (the exponential component) at order $n$ with a bandwidth $b$. Practically speaking, they are implemented using as set of \acrshort{erb} rectangular filters tuned to the gammatone properties. The computation is slightly more involved than the Mel or Bark approaches but in  Essentia, just like our port of the \acrshort{bfcc} algorithm, these filters are  modelled on a Matlab version made available in by \cite{Ellis2009}, who in turn formulated his solution as a response to the more computationally expensive routines available in Slaney's Auditory Toolbox \citep{Slaney1998}. 
 
  As \cite{Zhao2013} note, the \acrshort{erb} scale has finer resolution at lower frequencies (where pitch information is more compressed perceptually) than the Mel scale used in \acrshort{mfcc} computation. The other difference is the addition of a cubic root rectifier in place of the typical log. They posit that these adjustments over usual \acrshort{mfcc} approaches provide more robustness in the case of speaker identification in speech processing tasks. Indeed, \acrshort{gfcc} analysis has proved fruitful in many works dealing with speech \citep{Abdulla2002, Schl2007}, but has yet to prove widespread in musical or non-speech experiments. Recently however we have seen the introduction of \acrshort{gfcc} feature extraction in singer identification \citep{Cai2011}, structural segmentation \citep{Tian2016}, genre classification \citep{Johnson-Roberson2017, Grekow2017}, environmental sounds \citep{Valero2012} with improvements over classical Mel-based scaling approaches in many cases. 
 
@@ -1137,9 +1137,9 @@ Suffice it to say that step 6 and 7 are not required in unit selection for conca
  
 \begin{figure}
 	\begin{center}
-		\includegraphics[width=0.65\textwidth]{ch05_pyconcat/figures/wiki_hmm.png}
+		\includegraphics[width=0.75\textwidth]{ch05_pyconcat/figures/kBestGraph.pdf}
 	\end{center}
-	\caption[Shortest paths applied to the Wikipedia Viterbi example]{Shortest Paths applied to the Wikipedia Viterbi example.}
+	\caption[Shortest paths applied to the Wikipedia Viterbi example]{Shortest Paths applied to the Wikipedia Viterbi example. The source node $-1$ begins on the bottom left of the graph, with 2 shortest paths computed to the sink at node $6$. The second best path diverges from the best path for edges $\{0,3\}$ and $\{3,5\}$.}
 	\label{fig:graph_hmm}
 \end{figure}
 
@@ -1243,7 +1243,7 @@ To study the \acrshort{hmm}’s acoustical output, we selected energy, fundament
 
 \begin{figure}
 	\begin{center}
-		\includegraphics[width=0.9\textwidth]{ch05_pyconcat/figures/mfccs.png}
+		\includegraphics[width=1.0\textwidth]{ch05_pyconcat/figures/mfccs.png}
 	\end{center}
 	\caption[MFCC plots of 3 different \textit{k}-Best Sequences]{\acrshort{mfcc} plots of 3 different \textit{k}-Best Sequences.}
 	\label{fig:mfcc_kbest}
