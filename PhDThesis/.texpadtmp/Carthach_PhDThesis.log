@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.11.21)  6 FEB 2018 23:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.11.21)  14 JUL 2018 23:54
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1406,33 +1406,33 @@ Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'spanish'.
- (/Users/carthach/Google Drive/Code/phd_thesis/PhDThesis/.texpadtmp/Carthach_PhDThesis.aux (/Users/carthach/Google Drive/Code/phd_thesis/PhDThesis/.texpadtmp/ch00/1_titlePage.aux)
+ (/Users/carthach/Desktop/tmp/phd_thesis/PhDThesis/.texpadtmp/Carthach_PhDThesis.aux (/Users/carthach/Desktop/tmp/phd_thesis/PhDThesis/.texpadtmp/ch00/1_titlePage.aux)
 LaTeX Info: Redefining \. on input line 37.
 LaTeX Info: Redefining \% on input line 37.
 LaTeX Info: Redefining \. on input line 41.
 LaTeX Info: Redefining \% on input line 41.
- (/Users/carthach/Google Drive/Code/phd_thesis/PhDThesis/.texpadtmp/ch00/preliminarystuff.aux
+ (/Users/carthach/Desktop/tmp/phd_thesis/PhDThesis/.texpadtmp/ch00/preliminarystuff.aux
 LaTeX Info: Redefining \. on input line 17.
 LaTeX Info: Redefining \% on input line 17.
-) (/Users/carthach/Google Drive/Code/phd_thesis/PhDThesis/.texpadtmp/ch00/mathSymbols.aux) (/Users/carthach/Google Drive/Code/phd_thesis/PhDThesis/.texpadtmp/ch01_introduction/ch01_introduction.aux) (/Users/carthach/Google Drive/Code/phd_thesis/PhDThesis/.texpadtmp/ch02_dancemusic/ch02_dancemusic.aux
+) (/Users/carthach/Desktop/tmp/phd_thesis/PhDThesis/.texpadtmp/ch00/mathSymbols.aux) (/Users/carthach/Desktop/tmp/phd_thesis/PhDThesis/.texpadtmp/ch01_introduction/ch01_introduction.aux) (/Users/carthach/Desktop/tmp/phd_thesis/PhDThesis/.texpadtmp/ch02_dancemusic/ch02_dancemusic.aux
 
 LaTeX Warning: Label `fig:roland' multiply defined.
 
 
 LaTeX Warning: Label `fig:roland' multiply defined.
 
-) (/Users/carthach/Google Drive/Code/phd_thesis/PhDThesis/.texpadtmp/ch03_symbolic/ch03_symbolic.aux
+) (/Users/carthach/Desktop/tmp/phd_thesis/PhDThesis/.texpadtmp/ch03_symbolic/ch03_symbolic.aux
 
 LaTeX Warning: Label `fig:genetic' multiply defined.
 
-) (/Users/carthach/Google Drive/Code/phd_thesis/PhDThesis/.texpadtmp/ch04_sota/ch04_sota.aux
+) (/Users/carthach/Desktop/tmp/phd_thesis/PhDThesis/.texpadtmp/ch04_sota/ch04_sota.aux
 
 LaTeX Warning: Label `fig:Ng1' multiply defined.
 
 
 LaTeX Warning: Label `sub@fig:Ng1' multiply defined.
 
-) (/Users/carthach/Google Drive/Code/phd_thesis/PhDThesis/.texpadtmp/ch05_pyconcat/ch05_pyconcat.aux
+) (/Users/carthach/Desktop/tmp/phd_thesis/PhDThesis/.texpadtmp/ch05_pyconcat/ch05_pyconcat.aux
 
 LaTeX Warning: Label `eq:Precision' multiply defined.
 
@@ -1445,11 +1445,11 @@ LaTeX Warning: Label `eq:High Frequency Content' multiply defined.
 
 LaTeX Warning: Label `eq:Precision' multiply defined.
 
-) (/Users/carthach/Google Drive/Code/phd_thesis/PhDThesis/.texpadtmp/ch06_rhythmcat/ch06_rhythmcat.aux
+) (/Users/carthach/Desktop/tmp/phd_thesis/PhDThesis/.texpadtmp/ch06_rhythmcat/ch06_rhythmcat.aux
 
 LaTeX Warning: Label `eq:mel' multiply defined.
 
-) (/Users/carthach/Google Drive/Code/phd_thesis/PhDThesis/.texpadtmp/ch07_evaluation/ch07_evaluation.aux) (/Users/carthach/Google Drive/Code/phd_thesis/PhDThesis/.texpadtmp/ch08_conclusions/ch08_conclusions.aux) (/Users/carthach/Google Drive/Code/phd_thesis/PhDThesis/.texpadtmp/ch99/appendix.aux))
+) (/Users/carthach/Desktop/tmp/phd_thesis/PhDThesis/.texpadtmp/ch07_evaluation/ch07_evaluation.aux) (/Users/carthach/Desktop/tmp/phd_thesis/PhDThesis/.texpadtmp/ch08_conclusions/ch08_conclusions.aux) (/Users/carthach/Desktop/tmp/phd_thesis/PhDThesis/.texpadtmp/ch99/appendix.aux))
 \openout1 = `Carthach_PhDThesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 465.
@@ -1522,7 +1522,7 @@ LaTeX Info: Redefining \nameref on input line 465.
 LaTeX Info: Redefining \ref on input line 465.
 LaTeX Info: Redefining \pageref on input line 465.
 LaTeX Info: Redefining \nameref on input line 465.
-(/Users/carthach/Google Drive/Code/phd_thesis/PhDThesis/.texpadtmp/Carthach_PhDThesis.out) (/Users/carthach/Google Drive/Code/phd_thesis/PhDThesis/.texpadtmp/Carthach_PhDThesis.out)
+(/Users/carthach/Desktop/tmp/phd_thesis/PhDThesis/.texpadtmp/Carthach_PhDThesis.out) (/Users/carthach/Desktop/tmp/phd_thesis/PhDThesis/.texpadtmp/Carthach_PhDThesis.out)
 \@outlinefile=\write11
 \openout11 = `Carthach_PhDThesis.out'.
 
@@ -1701,7 +1701,7 @@ Package babel Info: Redefining spanish shorthand "?
 ]))
 LaTeX Info: Redefining \. on input line 481.
 LaTeX Info: Redefining \% on input line 481.
- [14] (/Users/carthach/Google Drive/Code/phd_thesis/PhDThesis/.texpadtmp/Carthach_PhDThesis.toc
+ [14] (/Users/carthach/Desktop/tmp/phd_thesis/PhDThesis/.texpadtmp/Carthach_PhDThesis.toc
 LaTeX Info: Redefining \. on input line 2.
 LaTeX Info: Redefining \% on input line 2.
 LaTeX Info: Redefining \. on input line 3.
@@ -1754,7 +1754,7 @@ Overfull \hbox (6.73463pt too wide) in paragraph at lines 138--138
 ] [20
 
 
-] (/Users/carthach/Google Drive/Code/phd_thesis/PhDThesis/.texpadtmp/Carthach_PhDThesis.lof
+] (/Users/carthach/Desktop/tmp/phd_thesis/PhDThesis/.texpadtmp/Carthach_PhDThesis.lof
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 LaTeX Info: Redefining \. on input line 2.
@@ -1768,7 +1768,7 @@ Overfull \hbox (0.58186pt too wide) in paragraph at lines 50--50
 
 [21] [22]) [23] [24
 
-] (/Users/carthach/Google Drive/Code/phd_thesis/PhDThesis/.texpadtmp/Carthach_PhDThesis.lot
+] (/Users/carthach/Desktop/tmp/phd_thesis/PhDThesis/.texpadtmp/Carthach_PhDThesis.lot
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 LaTeX Info: Redefining \. on input line 2.
@@ -2614,7 +2614,7 @@ Package pdftex.def Info: Requested size: 436.65019pt x 335.49324pt on input line
 ] [186 <./ch99/figures/survey_landing.png>] [187 <./ch99/figures/survey_page.png>] [188
 
 
-] (/Users/carthach/Google Drive/Code/phd_thesis/PhDThesis/.texpadtmp/Carthach_PhDThesis.acr
+] (/Users/carthach/Desktop/tmp/phd_thesis/PhDThesis/.texpadtmp/Carthach_PhDThesis.acr
 Overfull \hbox (8.73302pt too wide) in alignment at lines 2--69
 [] [] 
  []
@@ -2649,9 +2649,9 @@ Overfull \hbox (8.73302pt too wide) has occurred while \output is active
 [] [] 
  []
 
-) (/Users/carthach/Google Drive/Code/phd_thesis/PhDThesis/.texpadtmp/Carthach_PhDThesis.gim) [191] [192
+) (/Users/carthach/Desktop/tmp/phd_thesis/PhDThesis/.texpadtmp/Carthach_PhDThesis.gim) [191] [192
 
-] (/Users/carthach/Google Drive/Code/phd_thesis/PhDThesis/.texpadtmp/Carthach_PhDThesis.bbl (/Users/carthach/Google Drive/Code/phd_thesis/PhDThesis/.texpadtmp/Carthach_PhDThesis.brf)
+] (/Users/carthach/Desktop/tmp/phd_thesis/PhDThesis/.texpadtmp/Carthach_PhDThesis.bbl (/Users/carthach/Desktop/tmp/phd_thesis/PhDThesis/.texpadtmp/Carthach_PhDThesis.brf)
 \tf@brf=\write12
 \openout12 = `Carthach_PhDThesis.brf'.
 
@@ -2683,15 +2683,15 @@ Package natbib Warning: There were undefined citations.
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 543.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 543.
- (/Users/carthach/Google Drive/Code/phd_thesis/PhDThesis/.texpadtmp/Carthach_PhDThesis.aux (/Users/carthach/Google Drive/Code/phd_thesis/PhDThesis/.texpadtmp/ch00/1_titlePage.aux)
+ (/Users/carthach/Desktop/tmp/phd_thesis/PhDThesis/.texpadtmp/Carthach_PhDThesis.aux (/Users/carthach/Desktop/tmp/phd_thesis/PhDThesis/.texpadtmp/ch00/1_titlePage.aux)
 LaTeX Info: Redefining \. on input line 37.
 LaTeX Info: Redefining \% on input line 37.
 LaTeX Info: Redefining \. on input line 41.
 LaTeX Info: Redefining \% on input line 41.
- (/Users/carthach/Google Drive/Code/phd_thesis/PhDThesis/.texpadtmp/ch00/preliminarystuff.aux
+ (/Users/carthach/Desktop/tmp/phd_thesis/PhDThesis/.texpadtmp/ch00/preliminarystuff.aux
 LaTeX Info: Redefining \. on input line 17.
 LaTeX Info: Redefining \% on input line 17.
-) (/Users/carthach/Google Drive/Code/phd_thesis/PhDThesis/.texpadtmp/ch00/mathSymbols.aux) (/Users/carthach/Google Drive/Code/phd_thesis/PhDThesis/.texpadtmp/ch01_introduction/ch01_introduction.aux) (/Users/carthach/Google Drive/Code/phd_thesis/PhDThesis/.texpadtmp/ch02_dancemusic/ch02_dancemusic.aux) (/Users/carthach/Google Drive/Code/phd_thesis/PhDThesis/.texpadtmp/ch03_symbolic/ch03_symbolic.aux) (/Users/carthach/Google Drive/Code/phd_thesis/PhDThesis/.texpadtmp/ch04_sota/ch04_sota.aux) (/Users/carthach/Google Drive/Code/phd_thesis/PhDThesis/.texpadtmp/ch05_pyconcat/ch05_pyconcat.aux) (/Users/carthach/Google Drive/Code/phd_thesis/PhDThesis/.texpadtmp/ch06_rhythmcat/ch06_rhythmcat.aux) (/Users/carthach/Google Drive/Code/phd_thesis/PhDThesis/.texpadtmp/ch07_evaluation/ch07_evaluation.aux) (/Users/carthach/Google Drive/Code/phd_thesis/PhDThesis/.texpadtmp/ch08_conclusions/ch08_conclusions.aux) (/Users/carthach/Google Drive/Code/phd_thesis/PhDThesis/.texpadtmp/ch99/appendix.aux))
+) (/Users/carthach/Desktop/tmp/phd_thesis/PhDThesis/.texpadtmp/ch00/mathSymbols.aux) (/Users/carthach/Desktop/tmp/phd_thesis/PhDThesis/.texpadtmp/ch01_introduction/ch01_introduction.aux) (/Users/carthach/Desktop/tmp/phd_thesis/PhDThesis/.texpadtmp/ch02_dancemusic/ch02_dancemusic.aux) (/Users/carthach/Desktop/tmp/phd_thesis/PhDThesis/.texpadtmp/ch03_symbolic/ch03_symbolic.aux) (/Users/carthach/Desktop/tmp/phd_thesis/PhDThesis/.texpadtmp/ch04_sota/ch04_sota.aux) (/Users/carthach/Desktop/tmp/phd_thesis/PhDThesis/.texpadtmp/ch05_pyconcat/ch05_pyconcat.aux) (/Users/carthach/Desktop/tmp/phd_thesis/PhDThesis/.texpadtmp/ch06_rhythmcat/ch06_rhythmcat.aux) (/Users/carthach/Desktop/tmp/phd_thesis/PhDThesis/.texpadtmp/ch07_evaluation/ch07_evaluation.aux) (/Users/carthach/Desktop/tmp/phd_thesis/PhDThesis/.texpadtmp/ch08_conclusions/ch08_conclusions.aux) (/Users/carthach/Desktop/tmp/phd_thesis/PhDThesis/.texpadtmp/ch99/appendix.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 543.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 543.
 Package rerunfilecheck Info: File `Carthach_PhDThesis.out' has not changed.
@@ -2719,7 +2719,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 543.
 ### bottom level 
 Here is how much of TeX's memory you used:
  43750 strings out of 492985
- 726658 string characters out of 6132585
+ 726138 string characters out of 6132585
  970239 words of memory out of 5000000
  45152 multiletter control sequences out of 15000+600000
  126627 words of font info for 188 fonts, out of 8000000 for 9000
@@ -2736,7 +2736,7 @@ pdfTeX warning (dest): name{Hfootnote.28} has been referenced but does not exist
 pdfTeX warning (dest): name{Hfootnote.26} has been referenced but does not exist, replaced by a fixed one
 
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on "/Users/carthach/Google Drive/Code/phd_thesis/PhDThesis/.texpadtmp/Carthach_PhDThesis.pdf" (257 pages, 10324453 bytes).
+Output written on /Users/carthach/Desktop/tmp/phd_thesis/PhDThesis/.texpadtmp/Carthach_PhDThesis.pdf (257 pages, 10324453 bytes).
 PDF statistics:
  7050 PDF objects out of 7423 (max. 8388607)
  5934 compressed objects within 60 object streams
