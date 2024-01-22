@@ -1,0 +1,29 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1503955811790.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "CE4DFD16",
+    "lastKnownWriteTime" : 8589934591,
+    "last_content_update" : 1503955811790,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "A1FF026F",
+        "caption" : "sim_swap_matrix",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=sim_swap_matrix&cache_key=A1FF026F",
+        "displayedObservations" : 3,
+        "environment" : "",
+        "object" : "sim_swap_matrix",
+        "preview" : 0,
+        "totalObservations" : 3,
+        "variables" : 3
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}

@@ -1,0 +1,7 @@
+{
+    "installOptions" : {
+        "installDependencies" : true,
+        "installFromRepository" : true,
+        "libraryPath" : "/usr/local/Cellar/r/3.1.3/R.framework/Versions/3.1/Resources/library"
+    }
+}
